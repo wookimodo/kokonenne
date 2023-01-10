@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import env_info
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,12 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qxxuc+cqy8zt)*4sn+stz=mq%vk^es^j5e&5ph28x-m!2bmxre'
+SECRET_KEY = env_info.SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env_info.DEBUG
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = env_info.ALLOWED_HOSTS
 
 
 # Application definition
@@ -37,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # add app
+
+    # app
     'course',
 ]
 
@@ -56,7 +59,7 @@ ROOT_URLCONF = 'ofcourse.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,12 +78,7 @@ WSGI_APPLICATION = 'ofcourse.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+DATABASES = env_info.DATABASES
 
 
 # Password validation
@@ -111,6 +109,7 @@ TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
+# USE_TZ = True
 USE_TZ = False
 
 
