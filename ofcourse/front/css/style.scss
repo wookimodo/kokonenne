@@ -1,0 +1,172 @@
+/* 폰트 import*/
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+    --font-color: #333;
+    --font-color2: #666;
+    --font-color3: #999;
+    --bg-color: #fff;
+    --bg-color2: #fbfbfb;
+
+    --main-color: #ff7474;
+    --main-color2: #ffdede;
+
+    --eng-font: "Archivo", sans-serif;
+    --kor-font: "IBM Plex Sans", sans-serif;
+    --bd-color: #ddd;
+}
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    letter-spacing: -0.03em;
+    word-break: keep-all;
+}
+
+body {
+    h2,
+    h3,
+    p,
+    span {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    color: var(--font-color2);
+    background-color: var(--bg-color2);
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+header {
+    position: fixed;
+    box-shadow: rgb(146 153 184 / 6%) 0px 2px 30px;
+    z-index: 999;
+    background-color: var(--bg-color);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > h1 {
+        font-family: var(--eng-font);
+        font-weight: 400;
+        font-size: 1.8rem;
+        color: var(--main-color);
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.list-page {
+    .point {
+        color: var(--main-color);
+        font-size: inherit;
+        background-color: var(--main-color2);
+        padding: 0 6px;
+    }
+    .search-area {
+        margin: 100px auto 0;
+        max-width: 1500px;
+        text-align: center;
+        border-bottom: 2px solid var(--main-color);
+        font-size: 2.2rem;
+
+        h2 {
+            font-size: 2.2rem;
+            display: inline-block;
+        }
+
+        .del-btn {
+            all: unset;
+            font-size: 0;
+            display: inline-block;
+            color: var(--font-color3);
+            cursor: pointer;
+
+            > i {
+                font-size: 22px;
+                margin-left: 6px;
+            }
+        }
+    }
+
+    .content {
+        > .list-area {
+            max-width: 1500px;
+            width: 100%;
+            margin: 30px auto 0;
+
+            > ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .list-card {
+                width: calc(100% / 4 - 12px);
+                margin-left: calc(48px / 3);
+                margin-top: 1.6rem;
+                background-color: var(--bg-color);
+                border: 1px solid var(--bd-color);
+                border-radius: 1rem;
+                list-style: none;
+                box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
+                    rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
+
+                &:nth-child(4n - 3) {
+                    margin-left: 0;
+                }
+                .img-box {
+                    border-radius: 1rem 1rem 0 0;
+                    overflow: hidden;
+                    max-width: 100%;
+                    height: 0;
+                    padding-bottom: 65%;
+                    border-bottom: 1px solid var(--bd-color);
+
+                    > img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+
+                .info-box {
+                    padding: 0.2rem 2.2rem 1.8rem;
+
+                    h3 {
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        color: var(--font-color);
+                        height: 54px;
+                        overflow: hidden;
+
+                        > .point {
+                            font-weight: inherit;
+                        }
+                    }
+
+                    .teacher {
+                        margin-top: -10px;
+                    }
+                    .rate {
+                        margin-top: -15px;
+                    }
+                    .price {
+                        &::before {
+                            content: '₩';
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
