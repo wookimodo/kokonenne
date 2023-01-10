@@ -1,0 +1,12 @@
+/* 폰트 import*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 1.4rem;
+}
