@@ -1,12 +1,185 @@
+@charset "UTF-8";
 /* 폰트 import*/
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+  --font-color: #333;
+  --font-color2: #666;
+  --font-color3: #999;
+  --bg-color: #fff;
+  --bg-color2: #fbfbfb;
+  --main-color: #ff7474;
+  --main-color2: #ffdede;
+  --eng-font: "Archivo", sans-serif;
+  --kor-font: "IBM Plex Sans", sans-serif;
+  --bd-color: #ddd;
+}
 
 * {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 10px;
-    line-height: 1.5;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
 }
 
 body {
-    font-size: 1.4rem;
+  color: var(--font-color2);
+  background-color: var(--bg-color2);
 }
+body a,
+body h2,
+body h3,
+body p,
+body span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+body ul {
+  padding: 0;
+  margin: 0;
+}
+body a {
+  color: var(--font-color2);
+}
+
+header {
+  position: fixed;
+  box-shadow: rgba(146, 153, 184, 0.06) 0px 2px 30px;
+  z-index: 999;
+  background-color: var(--bg-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > h1 {
+  font-family: var(--eng-font);
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+footer {
+  box-shadow: rgba(146, 153, 184, 0.05) 0px -5px 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+footer p {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.list-page .point {
+  color: var(--main-color);
+  font-size: inherit;
+  background-color: var(--main-color2);
+  padding: 0 6px;
+}
+.list-page .search-area {
+  margin: 100px auto 0;
+  max-width: 1500px;
+  text-align: center;
+  border-bottom: 2px solid var(--main-color);
+  font-size: 2.2rem;
+}
+.list-page .search-area h2 {
+  font-size: 2.2rem;
+  display: inline-block;
+}
+.list-page .search-area .del-btn {
+  all: unset;
+  font-size: 0;
+  display: inline-block;
+  color: var(--font-color3);
+  cursor: pointer;
+}
+.list-page .search-area .del-btn > i {
+  font-size: 22px;
+  margin-left: 6px;
+}
+.list-page .content {
+  min-width: 1200px;
+}
+.list-page .content > .list-area {
+  max-width: 1500px;
+  width: 100%;
+  margin: 30px auto 0;
+}
+.list-page .content > .list-area > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-page .content > .list-area .list-card {
+  width: calc(25% - 12px);
+  margin-left: 16px;
+  margin-top: 1.6rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  border-radius: 1rem;
+  list-style: none;
+  box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+}
+.list-page .content > .list-area .list-card:nth-child(4n-3) {
+  margin-left: 0;
+}
+.list-page .content > .list-area .list-card .img-box {
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 65%;
+  border-bottom: 1px solid var(--bd-color);
+}
+.list-page .content > .list-area .list-card .img-box > img {
+  display: block;
+  width: 100%;
+}
+.list-page .content > .list-area .list-card .info-box {
+  padding: 0.2rem 2.2rem 1.8rem;
+}
+.list-page .content > .list-area .list-card .info-box h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--font-color);
+  height: 54px;
+  overflow: hidden;
+}
+.list-page .content > .list-area .list-card .info-box h3 > a {
+  all: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+.list-page .content > .list-area .list-card .info-box h3 > .point {
+  font-weight: inherit;
+}
+.list-page .content > .list-area .list-card .info-box .teacher {
+  margin-top: -10px;
+}
+.list-page .content > .list-area .list-card .info-box .rate {
+  margin-top: -15px;
+}
+.list-page .content > .list-area .list-card .info-box .rate::before {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 3px;
+  vertical-align: top;
+  color: #ffcb30;
+}
+.list-page .content > .list-area .list-card .info-box .price::before {
+  content: "₩";
+  margin-right: 3px;
+}/*# sourceMappingURL=style.css.map */
