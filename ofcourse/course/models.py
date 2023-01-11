@@ -25,4 +25,4 @@ class Course(models.Model):
 
 class Stacks(models.Model):
     urlid = models.ForeignKey('Course',null=True,on_delete=models.SET_NULL)
-    stacks = models.CharField(max_length=15, default='') 
+    stacks = models.CharField(max_length=15, default='')
