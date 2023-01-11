@@ -8,6 +8,8 @@ from course.models import Course, Stacks
 f = open(f'modify.json', encoding='UTF-8')
 data = json.loads(f.read())  
 
+print(data)
+
 # Course 테이블 저장
 # for i in data:
 #     urlid = data[i]['pwdurl']
@@ -49,7 +51,6 @@ for i in data:
     stack_lst = data[i]['stacks']
     for j in stack_lst:
         stack = j
-    
         try:
             Stacks(urlid=Course.objects.get(pk=urlid), stacks=stack).save()
         except Exception as e:

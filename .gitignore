@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 env_info.py
+migrations/
 
 # 은향 가상환경
 koko_venv/
