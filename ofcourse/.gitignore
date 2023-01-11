@@ -132,3 +132,4 @@ env_info.py
 
 # 은향 가상환경
 koko_venv/
+migrations/
