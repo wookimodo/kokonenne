@@ -6,7 +6,7 @@ django.setup()
 from course.models import Course, Stacks
 
 f = open(f'modify.json', encoding='UTF-8')
-data = json.loads(f.read())
+data = json.loads(f.read())  
 
 # Course 테이블 저장
 # for i in data:
