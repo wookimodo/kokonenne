@@ -31,6 +31,7 @@ body a,
 body h2,
 body h3,
 body p,
+body li,
 body span {
   font-size: 1.5rem;
   font-weight: 400;
@@ -43,6 +44,11 @@ body a {
   color: var(--font-color2);
 }
 
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 header {
   position: fixed;
   box-shadow: rgba(146, 153, 184, 0.06) 0px 2px 30px;
@@ -52,15 +58,50 @@ header {
   left: 0;
   width: 100%;
   height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-header > h1 {
+header .container {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+header h1 {
   font-family: var(--eng-font);
   font-weight: 400;
   font-size: 1.8rem;
   color: var(--main-color);
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  margin-left: 5rem;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 5rem;
+  position: relative;
+}
+header nav ul li > a {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul li > a:hover {
+  color: var(--main-color);
+  transition: ease-in-out 0.15s;
+}
+header nav ul li::after {
+  content: "";
+  display: block;
+  background-color: var(--font-color3);
+  width: 1px;
+  height: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -2.5rem;
+}
+header nav ul li:first-child::after {
+  display: none;
 }
 
 footer {
@@ -112,11 +153,54 @@ footer p {
 }
 .list-page .content {
   min-width: 1200px;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 30px;
+}
+.list-page .content.col-2 {
+  display: flex;
+}
+.list-page .content.col-2 > aside {
+  width: 22%;
+  padding: 0 10px;
+}
+.list-page .content.col-2 > main {
+  width: 78%;
+  padding: 0 10px;
+}
+.list-page .content .skill-info-area {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  border-radius: 1rem;
+  box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+  padding: 1.8rem 2.2rem;
+}
+.list-page .content .skill-info-area .skill-icon {
+  width: 12rem;
+  height: 12rem;
+  overflow: hidden;
+  margin: auto;
+}
+.list-page .content .skill-info-area .skill-icon > img {
+  width: 100%;
+}
+.list-page .content .skill-info-area h3 {
+  font-size: 2.2rem;
+  color: var(--font-color);
+  font-weight: 600;
+}
+.list-page .content .skill-info-area .skill-category {
+  margin-top: -2rem;
+  color: var(--font-color3);
+}
+.list-page .content .skill-info-area .skill-info li {
+  list-style: none;
+  font-size: 1.4rem;
+  margin: 1rem 0;
 }
 .list-page .content > .list-area {
-  max-width: 1500px;
-  width: 100%;
-  margin: 30px auto 0;
+  width: 80%;
+  margin-top: -1.6rem;
 }
 .list-page .content > .list-area > ul {
   display: flex;
@@ -151,11 +235,17 @@ footer p {
   padding: 0.2rem 2.2rem 1.8rem;
 }
 .list-page .content > .list-area .list-card .info-box h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: var(--font-color);
-  height: 54px;
   overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.5rem;
+  height: 4rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
 }
 .list-page .content > .list-area .list-card .info-box h3 > a {
   all: inherit;
