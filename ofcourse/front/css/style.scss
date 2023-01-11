@@ -26,6 +26,7 @@
 }
 
 body {
+    a,
     h2,
     h3,
     p,
@@ -38,6 +39,10 @@ body {
     ul {
         padding: 0;
         margin: 0;
+    }
+
+    a {
+        color: var(--font-color2);
     }
 }
 
@@ -59,6 +64,20 @@ header {
         font-weight: 400;
         font-size: 1.8rem;
         color: var(--main-color);
+    }
+}
+
+footer {
+        box-shadow: rgb(146 153 184 / 5%) 0px -5px 10px;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: var(--main-color);
+        color: var(--bg-color);
+
+    p {
+        text-align: center;
     }
 }
 
@@ -100,6 +119,8 @@ header {
     }
 
     .content {
+        min-width: 1200px;
+
         > .list-area {
             max-width: 1500px;
             width: 100%;
@@ -148,6 +169,12 @@ header {
                         height: 54px;
                         overflow: hidden;
 
+                        > a{
+                            all: inherit;
+                            margin: 0;
+                            cursor: pointer;
+                        }
+
                         > .point {
                             font-weight: inherit;
                         }
@@ -158,6 +185,15 @@ header {
                     }
                     .rate {
                         margin-top: -15px;
+
+                        &::before {
+                            content: '\f005';
+                            font-family: "Font Awesome 5 Free";
+                            font-weight: 900;
+                            margin-right: 3px;
+                            vertical-align: top;
+                            color: #ffcb30;
+                        }
                     }
                     .price {
                         &::before {

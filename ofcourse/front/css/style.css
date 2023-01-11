@@ -27,6 +27,7 @@ body {
   color: var(--font-color2);
   background-color: var(--bg-color2);
 }
+body a,
 body h2,
 body h3,
 body p,
@@ -37,6 +38,9 @@ body span {
 body ul {
   padding: 0;
   margin: 0;
+}
+body a {
+  color: var(--font-color2);
 }
 
 header {
@@ -57,6 +61,21 @@ header > h1 {
   font-weight: 400;
   font-size: 1.8rem;
   color: var(--main-color);
+}
+
+footer {
+  box-shadow: rgba(146, 153, 184, 0.05) 0px -5px 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+footer p {
+  text-align: center;
 }
 
 .hide {
@@ -90,6 +109,9 @@ header > h1 {
 .list-page .search-area .del-btn > i {
   font-size: 22px;
   margin-left: 6px;
+}
+.list-page .content {
+  min-width: 1200px;
 }
 .list-page .content > .list-area {
   max-width: 1500px;
@@ -135,6 +157,11 @@ header > h1 {
   height: 54px;
   overflow: hidden;
 }
+.list-page .content > .list-area .list-card .info-box h3 > a {
+  all: inherit;
+  margin: 0;
+  cursor: pointer;
+}
 .list-page .content > .list-area .list-card .info-box h3 > .point {
   font-weight: inherit;
 }
@@ -143,6 +170,14 @@ header > h1 {
 }
 .list-page .content > .list-area .list-card .info-box .rate {
   margin-top: -15px;
+}
+.list-page .content > .list-area .list-card .info-box .rate::before {
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 3px;
+  vertical-align: top;
+  color: #ffcb30;
 }
 .list-page .content > .list-area .list-card .info-box .price::before {
   content: "₩";
