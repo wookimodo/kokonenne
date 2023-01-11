@@ -67,10 +67,14 @@
                         <img src="{{ c.img_url }}" alt="강의 예시 이미지">
                     </div>
                     <div class="info-box">
-                        <h3><a href="#">{{c.title}} <span class="point">{{ c.stacks }}</span> {{ c.level }}</a></h3>
+                        <h3><a href="#">{{c.title}} <span class="point"></span> {{ c.level }}</a></h3>
                         <p class="teacher">{{ c.teacher }}</p>
                         <p class="rate">{{ c.score }}</p>
                         <p class="price">{{ c.price }}</p>
+                        <!-- STACK 잘나오는지 테스트 -->
+                        {%for s in stacks%}
+                        <p>{{s.stacks}}</p>
+                        {%endfor%}
                     </div>
                 </li>
                 {% endfor %}
