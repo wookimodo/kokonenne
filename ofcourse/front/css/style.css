@@ -135,10 +135,32 @@ footer p {
   text-align: center;
   border-bottom: 2px solid var(--main-color);
   font-size: 2.2rem;
+  width: 80%;
 }
 .list-page .search-area h2 {
   font-size: 2.2rem;
   display: inline-block;
+}
+.list-page .search-area .search-bar input {
+  all: unset;
+  text-align: left;
+  width: calc(100% - 60px);
+  font-size: 1.8rem;
+  display: inline-block;
+}
+.list-page .search-area .search-btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+  font-size: 0;
+}
+.list-page .search-area .search-btn::after {
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--main-color);
 }
 .list-page .search-area .del-btn {
   all: unset;
