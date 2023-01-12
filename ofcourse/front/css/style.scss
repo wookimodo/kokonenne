@@ -16,6 +16,7 @@
     --bd-color: #ddd;
 
     --motion: ease-in-out 0.15s;
+    --icon-font: "Font Awesome 5 Free";
 }
 
 * {
@@ -181,6 +182,15 @@ footer {
     display: none;
 }
 
+.title-area {
+    width: 80%;
+    margin: 0 auto;
+    
+    h2 {
+        font-size: 2.6rem;
+    }
+}
+
 .list-page {
     min-width: 1500px;
 
@@ -190,8 +200,14 @@ footer {
         background-color: var(--main-color2);
         padding: 0 6px;
     }
+
+    .page-title {
+        display: inline-block;
+        margin-top: 100px;
+    }
+
     .search-area {
-        margin: 100px auto 0;
+        margin: 0 auto;
         max-width: 1500px;
         text-align: center;
         border-bottom: 2px solid var(--main-color);
@@ -208,8 +224,9 @@ footer {
                 all: unset;
                 text-align: left;
                 width: calc(100% - 60px);
-                font-size: 1.8rem;
+                font-size: 2rem;
                 display: inline-block;
+                height: 70px;
             }
         }
 
@@ -221,7 +238,7 @@ footer {
             font-size: 0;
             &::after {
                 content: "\f002";
-                font-family: "Font Awesome 5 Free";
+                font-family: var( --icon-font);
                 font-weight: 900;
                 font-size: 2.5rem;
                 color: var(--main-color);
@@ -245,11 +262,13 @@ footer {
     .content {
         min-width: 1200px;
         max-width: 1500px;
-        margin: auto;
-        margin-top: 30px;
+        margin: 30px auto 0;
+        width: 80%;
 
         &.col-2 {
             display: flex;
+            justify-content: space-between;
+            width: 100%;
 
             > aside {
                 width: 22%;
@@ -301,8 +320,7 @@ footer {
         }
 
         > .list-area {
-            width: 80%;
-            margin-top: -1.6rem;
+            margin: -1.6rem 0;
 
             > ul {
                 display: flex;
@@ -310,8 +328,8 @@ footer {
             }
 
             .list-card {
-                width: calc(100% / 4 - 12px);
-                margin-left: calc(48px / 3);
+                width: calc(100% / 4 - 1.2rem);
+                margin-left: calc(4.8rem / 3);
                 margin-top: 1.6rem;
                 background-color: var(--bg-color);
                 border: 1px solid var(--bd-color);
@@ -374,7 +392,7 @@ footer {
 
                         &::before {
                             content: "\f005";
-                            font-family: "Font Awesome 5 Free";
+                            font-family: var( --icon-font);
                             font-weight: 900;
                             margin-right: 3px;
                             vertical-align: top;
@@ -385,6 +403,107 @@ footer {
                         &::before {
                             content: "₩";
                             margin-right: 3px;
+                        }
+                    }
+                }
+            }
+
+            &.skill {
+                
+                .list-card {
+                    width: calc(100% / 3 - 2.4rem / 3);
+                    margin-left: 1.2rem;
+                    padding: 1.8rem 2.2rem;
+
+                    &:nth-child(3n-2) {
+                        margin-left: 0;
+                    }
+
+                    .company-icon {
+                        width: 7rem;
+                        height: 7rem;
+                        overflow: hidden;
+                        display: inline-block;
+                        vertical-align: middle;
+
+                        > img {
+                            width: 100%;
+                        }
+                    }
+
+                    .info-box {
+                        display: inline-block;
+                        padding: 0;
+                        margin-left: 10px;
+                        width: calc(100% - 9rem);
+                        vertical-align: middle;
+
+                        > h3 {
+                            margin: 0;
+                            height: auto;
+                        }
+                    }
+
+                    .location {
+                        margin: 0;
+                        font-size: 1.3rem;
+                        margin-top: 0.2rem;
+                    }
+
+                    .skill-info {
+                        color: var(--font-color3);
+                        font-size: 1.2rem;
+                        margin: 1rem 0;
+                        padding: 0 0 0.4rem 0.4rem;
+                        border-bottom: 1px solid var(--bd-color);
+                    }
+
+                    .skill-list {
+                        overflow-x: scroll;
+                        overflow-y: hidden;
+                        margin-top: 1.2rem;
+                        
+                        ul {
+                            display: flex;
+
+                            li {
+                                list-style: none;
+                                margin: 0 .2rem;
+                                // border: 1px solid #000;
+
+                                > .skill-icon{
+                                    font-size: 0;
+                                    display: block;
+                                    width: fit-content;
+                                    width: 5rem;
+                                    height: 5rem;
+                                    overflow: hidden;
+
+                                    > img {
+                                        display: block;
+                                        width: 100%;
+                                    }
+                                }
+
+                                .see-more {
+                                    margin-left: 1.4rem;
+                                    display: block;
+                                    width: 5rem;
+                                    height: 5rem;
+                                    text-align: center;
+                                    line-height: 5rem;
+                                    color: var(--main-color);
+                                    font-weight: 600;
+                                    text-decoration: none;
+                                    font-size: 1.2rem;
+
+                                    &::after {
+                                        content: '\f061';
+                                        font-family: var( --icon-font);
+                                        margin: 0 0.4rem;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
