@@ -12,6 +12,7 @@
   --eng-font: "Archivo", sans-serif;
   --kor-font: "IBM Plex Sans", sans-serif;
   --bd-color: #ddd;
+  --motion: ease-in-out 0.15s;
 }
 
 * {
@@ -87,7 +88,7 @@ header nav ul li > a {
 }
 header nav ul li > a:hover {
   color: var(--main-color);
-  transition: ease-in-out 0.15s;
+  transition: var(--motion);
 }
 header nav ul li::after {
   content: "";
@@ -117,6 +118,43 @@ footer {
 }
 footer p {
   text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+}
+.pagination > ul {
+  display: flex;
+}
+.pagination > ul li {
+  list-style: none;
+}
+.pagination > ul .center {
+  padding: 0 1rem;
+  color: var(--font-color3);
+}
+.pagination .btn {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  text-decoration: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.5rem;
+  margin: 0 0.2rem;
+  color: var(--font-color3);
+}
+.pagination .btn.on {
+  background-color: var(--main-color);
+  color: var(--bg-color2);
+}
+.pagination .btn.on:hover {
+  background-color: var(--main-color);
+  transition: var(--motion);
+}
+.pagination .btn:hover {
+  background-color: var(--bg-color2);
 }
 
 .hide {
@@ -198,7 +236,7 @@ footer p {
   border: 1px solid var(--bd-color);
   border-radius: 1rem;
   box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
-  padding: 1.8rem 2.2rem;
+  padding: 4rem 2.2rem;
 }
 .list-page .content .skill-info-area .skill-icon {
   width: 12rem;
