@@ -5,4 +5,6 @@ app_name = 'course'
 urlpatterns = [
     # '/course/'
     path('', views.Courselist.as_view(), name='course'),
+    #'/search'
+    path('search/', views.SearchFormView.as_view(), name = 'search'),
 ]

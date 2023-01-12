@@ -30,6 +30,28 @@
         </div>
     </header>
     <div class="search-area">
+        <!-- 검색 폼 -->
+        <h1>Blog Search</h1>
+<br>
+
+<form action="." method="post"> {% csrf_token %}
+    {{ form.as_table }} <!-- form을 테이블 형식으로 표시, 여기서 form은 views에서 넘겨준 CourseSearchForm 객체임-->
+    <input type="submit" value="Submit" class="btn btn-primary btn-sm">
+</form>
+
+<br/><br/>
+
+{% if object_list %}
+    {% for course in object_list %}
+        <h2><a href='{{ course.get_absolute_url }}'>{{ course.title }}</a></h2>
+        <p>{{course.stacks}}</p>
+        <p>{{ course.teacher }}</p>
+    {% endfor %}
+{% elif search %}<!-- 검색란이 공란인지 확인-->
+    <b><i>Search Word({{ search }}) Not Found</i></b>
+{% endif %}
+
+
         <form action="">
             <!-- 검색 결과 표시 -->
             <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
@@ -67,15 +89,12 @@
                         <img src="{{ c.img_url }}" alt="강의 예시 이미지">
                     </div>
                     <div class="info-box">
-                        <h3><a href="{{c.url}}">{{c.title}} 
-                            {% for stack in s %}
-                            <span class="point">{{stack.stacks}}</span>
-                            {% endfor %}
-                            {{ c.level }}</a></h3>
+                        <h3><a href="#">{{c.title}} 
+                        {% for stack in s %}
+                        <span class="point">{{stack.stacks}}</span>
+                        {% endfor %}
+                        {{ c.level }}</a></h3>
                         <p class="teacher">{{ c.teacher }}</p>
-                        <!-- {% for rank in r %}
-                        <p class="rank">{{ rank.rank }}</p>
-                        {% endfor %} -->
                         <p class="rate">{{ c.score }}</p>
                         <p class="price">{{ c.price }}</p>
                     </div>
