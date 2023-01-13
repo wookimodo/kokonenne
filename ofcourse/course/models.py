@@ -19,9 +19,10 @@ class Course(models.Model):
     recommend = models.IntegerField(default=0,null=True)
     reviewCnt = models.IntegerField(default=0,null=True)
     price = models.IntegerField(default='',null=True)
+    rank = models.FloatField(default=None,null=True)
 
 # 기술스택 모델
 
 class Stacks(models.Model):
     urlid = models.ForeignKey('Course',null=True,on_delete=models.SET_NULL)
-    stacks = models.CharField(max_length=15, default='') 
+    stacks = models.CharField(max_length=15, default='',null=True) 

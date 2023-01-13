@@ -14,7 +14,8 @@
 			"HTML/CSS"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vellHf9BNfWQTvVFEyVcbafnowdPceDM6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vellHf9BNfWQTvVFEyVcbafnowdPceDM6",
+		"rank": 27.0
 	},
 	"[입문자를 위한 UE5] Part1. 언리얼 엔진 블루프린트": {
 		"url": "https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC5-%EA%B0%9C%EB%B0%9C%EC%9D%98%EC%A0%95%EC%84%9D-1",
@@ -32,7 +33,8 @@
 			"Unreal Engine"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevwVnuI3ITeVCKHaduRVeg8fe73FU64u"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevwVnuI3ITeVCKHaduRVeg8fe73FU64u",
+		"rank": 105.0
 	},
 	"[왕초보편] 앱 8개를 만들면서 배우는 안드로이드 코틀린(Android Kotlin)": {
 		"url": "https://www.inflearn.com/course/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BD%94%ED%8B%80%EB%A6%B0-%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1",
@@ -51,7 +53,8 @@
 			"Firebase"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS",
+		"rank": 57.0
 	},
 	"비전공자를 위한 개발자 취업 올인원 가이드 [통합편]": {
 		"url": "https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%B7%A8%EC%97%85-%ED%86%B5%ED%95%A9%ED%8E%B8",
@@ -69,7 +72,8 @@
 			"포트폴리오"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRGsqIX9VFL78cCJjdwCU/EOl2T2tVYK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRGsqIX9VFL78cCJjdwCU/EOl2T2tVYK",
+		"rank": 33.0
 	},
 	"비전공자를 위한 진짜 입문 올인원 개발 부트캠프": {
 		"url": "https://www.inflearn.com/course/%EC%98%AC%EC%9D%B8%EC%9B%90-%EA%B0%9C%EB%B0%9C%ED%81%B4%EB%9E%98%EC%8A%A4",
@@ -93,7 +97,8 @@
 			"Tensorflow"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veqbcggJBY5F4a9L9GD4JO35x8bh7EDNm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veqbcggJBY5F4a9L9GD4JO35x8bh7EDNm",
+		"rank": 81.0
 	},
 	"it 취업을 위한 알고리즘 문제풀이 입문 (with C/C++) : 코딩테스트 대비": {
 		"url": "https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",
@@ -111,7 +116,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.MROyvS7soEpnwd2SF0egjZTl3GrksO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.MROyvS7soEpnwd2SF0egjZTl3GrksO",
+		"rank": 42.0
 	},
 	"나도코딩의 자바 기본편 - 풀코스 (20시간)": {
 		"url": "https://www.inflearn.com/course/%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9-%EC%9E%90%EB%B0%94-%EA%B8%B0%EB%B3%B8",
@@ -129,7 +135,8 @@
 			"객체지향"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veoYFb2x.lIq1LprmNa8alSybSdYXZ2Dq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veoYFb2x.lIq1LprmNa8alSybSdYXZ2Dq",
+		"rank": 221.0
 	},
 	"[리뉴얼] 타입스크립트 올인원 : Part1. 기본 문법편": {
 		"url": "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-1",
@@ -146,7 +153,8 @@
 			"TypeScript"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S",
+		"rank": 151.0
 	},
 	"스프링 DB 2편 - 데이터 접근 활용 기술": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-2",
@@ -163,7 +171,8 @@
 			"Spring"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vePa9DHu8X7BQGi1VqRfxAghTy9T/ZsiS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vePa9DHu8X7BQGi1VqRfxAghTy9T/ZsiS",
+		"rank": 170.0
 	},
 	"Slack 클론 코딩[실시간 채팅 with React]": {
 		"url": "https://www.inflearn.com/course/%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-%EC%8B%A4%EC%8B%9C%EA%B0%84%EC%B1%84%ED%8C%85",
@@ -185,7 +194,8 @@
 			"Socket.io"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vedmqHjQDlYqf/W8VapGMD4Pf.kmIcueG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vedmqHjQDlYqf/W8VapGMD4Pf.kmIcueG",
+		"rank": 76.0
 	},
 	"모든 개발자를 위한 HTTP 웹 기본 지식": {
 		"url": "https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",
@@ -202,7 +212,8 @@
 			"네트워크"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veTL.udU5sNbOtmqq6/ddDHeCj9tmjo2W"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veTL.udU5sNbOtmqq6/ddDHeCj9tmjo2W",
+		"rank": 1.0
 	},
 	"실전 프로젝트로 배우는 타입스크립트": {
 		"url": "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%EC%A0%84",
@@ -220,7 +231,8 @@
 			"ES6"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S",
+		"rank": 162.0
 	},
 	"HTML+CSS+JS 포트폴리오 실전 퍼블리싱(시즌1)": {
 		"url": "https://www.inflearn.com/course/%EC%9B%B9-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EC%9D%B4%EB%A1%A0-%EC%8B%A4%EC%A0%84",
@@ -238,7 +250,8 @@
 			"jQuery"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veAe11SOo79SnZ2/04m8TSbSBROcUuZW6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veAe11SOo79SnZ2/04m8TSbSBROcUuZW6",
+		"rank": 32.0
 	},
 	"[개정판] 딥러닝 컴퓨터 비전 완벽 가이드": {
 		"url": "https://www.inflearn.com/course/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84-%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C",
@@ -260,7 +273,8 @@
 			"컴퓨터 비전"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.KYX4kweJSAF/3Vjz31dVoB/.PuOU1."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.KYX4kweJSAF/3Vjz31dVoB/.PuOU1.",
+		"rank": 37.0
 	},
 	"[C#과 유니티로 만드는 MMORPG 게임 개발 시리즈] Part1: C# 기초 프로그래밍 입문": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part1",
@@ -277,7 +291,8 @@
 			"C#"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veb/UAUndKhasDOHKtQw.Z9vYEhAaQ7T2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veb/UAUndKhasDOHKtQw.Z9vYEhAaQ7T2",
+		"rank": 16.0
 	},
 	"프로그래밍 시작하기 : 파이썬 입문 (Inflearn Original)": {
 		"url": "https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90",
@@ -294,7 +309,8 @@
 			"Python"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDR8iyOMHY4H34nL.jVvGX75nMxThYqy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDR8iyOMHY4H34nL.jVvGX75nMxThYqy",
+		"rank": 3.0
 	},
 	"실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1",
@@ -315,7 +331,8 @@
 			"JPA"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9zakfHM4a2GNrvRTD2wJqudGA3oHseW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9zakfHM4a2GNrvRTD2wJqudGA3oHseW",
+		"rank": 4.0
 	},
 	"자바 ORM 표준 JPA 프로그래밍 - 기본편": {
 		"url": "https://www.inflearn.com/course/ORM-JPA-Basic",
@@ -333,7 +350,8 @@
 			"JPA"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/jGAldvaj2W.i93914VQsEKBZwBNhuq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/jGAldvaj2W.i93914VQsEKBZwBNhuq",
+		"rank": 5.0
 	},
 	"따라하며 배우는 HTML, CSS": {
 		"url": "https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-html-css",
@@ -341,16 +359,17 @@
 		"level": "입문자",
 		"courseTime": "총56개8시간25분의수업",
 		"teacher": "John Ahn",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329946/cover/29659d88-4456-435c-a687-001797b74928/329946-eng.png",
 		"price": "27500",
 		"stacks": [
 			"HTML/CSS"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y."
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y.",
+		"rank": 167.5
 	},
 	"Java/Spring 주니어 개발자를 위한 오답노트": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%A3%BC%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%98%A4%EB%8B%B5%EB%85%B8%ED%8A%B8",
@@ -369,7 +388,8 @@
 			"객체지향"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetUOwnhwn84ilerVnbMtaw9P/9Nyj9DS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetUOwnhwn84ilerVnbMtaw9P/9Nyj9DS",
+		"rank": 225.0
 	},
 	"제대로 파는 자바스크립트(JavaScript) - by 얄코": {
 		"url": "https://www.inflearn.com/course/%EC%A0%9C%EB%8C%80%EB%A1%9C-%ED%8C%8C%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8",
@@ -386,7 +406,8 @@
 			"JavaScript"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi",
+		"rank": 169.0
 	},
 	"넓고 얕게 외워서 컴공 전공자 되기": {
 		"url": "https://www.inflearn.com/course/%EB%84%93%EA%B3%A0%EC%96%95%EA%B2%8C-%EC%BB%B4%EA%B3%B5-%EC%A0%84%EA%B3%B5%EC%9E%90",
@@ -403,7 +424,8 @@
 			"운영체제"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vey5nDp0HyU1NFjGiXR2VleA9dN41HGXa"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vey5nDp0HyU1NFjGiXR2VleA9dN41HGXa",
+		"rank": 139.0
 	},
 	"카프카 완벽 가이드 - 코어편": {
 		"url": "https://www.inflearn.com/course/%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%BD%94%EC%96%B4",
@@ -421,7 +443,8 @@
 			"데이터 엔지니어링"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWRpRUAIAPqA1Z1skYTXPuSRwUrhR4VS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWRpRUAIAPqA1Z1skYTXPuSRwUrhR4VS",
+		"rank": 73.0
 	},
 	"스프링 시큐리티 OAuth2 - Spring Boot 기반으로 개발하는 Spring Security OAuth2": {
 		"url": "https://www.inflearn.com/course/%EC%A0%95%EC%88%98%EC%9B%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0",
@@ -441,7 +464,8 @@
 			"OAuth"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRiLV/olkntAGpYeA.lVIT.I6LwwbWVG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRiLV/olkntAGpYeA.lVIT.I6LwwbWVG",
+		"rank": 220.0
 	},
 	"실전! 코틀린과 스프링 부트로 도서관리 애플리케이션 개발하기 (Java 프로젝트 리팩토링)": {
 		"url": "https://www.inflearn.com/course/java-to-kotlin-2",
@@ -462,7 +486,8 @@
 			"Spring"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.MN4gWpTXZ/wH2MG5.N.4tf9/ypN9V2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.MN4gWpTXZ/wH2MG5.N.4tf9/ypN9V2",
+		"rank": 143.0
 	},
 	"따라하며 배우는 리액트 A-Z": {
 		"url": "https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8",
@@ -483,7 +508,8 @@
 			"Redux"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/A.TLy5.IoiV20fDVgpzo093ZkuNO.q"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/A.TLy5.IoiV20fDVgpzo093ZkuNO.q",
+		"rank": 72.0
 	},
 	"앨런 iOS 아이폰 앱 개발 (15개의 앱을 만들면서 근본원리부터 배우는 UIKit)": {
 		"url": "https://www.inflearn.com/course/ios-uikit-15apps",
@@ -501,24 +527,8 @@
 			"Swift"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veVwWNpqn.ZDrbuM3Appu4kwbvTlKb6S2"
-	},
-	"입문자를 위한 게임 프로그래머 개론": {
-		"url": "https://www.inflearn.com/course/%EC%9E%85%EB%AC%B8%EC%9E%90-%EA%B2%8C%EC%9E%84-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EA%B0%9C%EB%A1%A0",
-		"headline": "게임 업계를 잘 모르는 입문자를 대상으로, 게임 프로그래머라는 직업에 대한 다양한 정보를 제공하는 강의입니다.",
-		"level": "입문자",
-		"courseTime": "총14개6시간12분의수업",
-		"teacher": "Rookiss",
-		"student": "917",
-		"recommend": "900",
-		"reviewCnt": "22",
-		"image": "https://cdn.inflearn.com/public/courses/328918/cover/4935a53d-ef09-47af-b799-a374d365d412/328918-eng.jpg",
-		"price": "11000",
-		"stacks": [
-			""
-		],
-		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vemqTv6pNwJbdYOUjcGNTeMsVncPvtQG."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veVwWNpqn.ZDrbuM3Appu4kwbvTlKb6S2",
+		"rank": 79.0
 	},
 	"Flutter 앱 개발 완성": {
 		"url": "https://www.inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%EC%95%B1%EA%B0%9C%EB%B0%9C-%EC%99%84%EC%84%B1",
@@ -535,7 +545,8 @@
 			"Flutter"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve5DuI1giEjobUV8r0ggIIBjACYsf9LCW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve5DuI1giEjobUV8r0ggIIBjACYsf9LCW",
+		"rank": 52.0
 	},
 	"풀스택 리액트 라이브코딩 - 간단한 쇼핑몰 만들기": {
 		"url": "https://www.inflearn.com/course/%ED%92%80%EC%8A%A4%ED%83%9D-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EC%BD%94%EB%94%A9-%EC%87%BC%ED%95%91%EB%AA%B0",
@@ -554,7 +565,8 @@
 			"Firebase"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veubjsmzZZ.W1DyD8M8oOiVuXs2rcP7F."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veubjsmzZZ.W1DyD8M8oOiVuXs2rcP7F.",
+		"rank": 24.0
 	},
 	"네트워크, 그림으로 이해하자": {
 		"url": "https://www.inflearn.com/course/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B7%B8%EB%A6%BC-%EC%9D%B4%ED%95%B4",
@@ -572,7 +584,8 @@
 			"프로토콜"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexuuNSmCTqnsp1vBzkaur5TF7NFj0CFa"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexuuNSmCTqnsp1vBzkaur5TF7NFj0CFa",
+		"rank": 217.0
 	},
 	"Three.js 3D 인터랙티브 바로 시작하기": {
 		"url": "https://www.inflearn.com/course/threejs-3d-%EC%9D%B8%ED%84%B0%EB%9E%99%ED%8B%B0%EB%B8%8C",
@@ -590,7 +603,8 @@
 			"Three.js"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vemlVpdQmouMUPG3At3GbRyMluNMDP77S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vemlVpdQmouMUPG3At3GbRyMluNMDP77S",
+		"rank": 215.0
 	},
 	"다양한 사례로 익히는 SQL 데이터 분석": {
 		"url": "https://www.inflearn.com/course/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-sql-%EC%82%AC%EB%A1%80%EC%A4%91%EC%8B%AC",
@@ -611,7 +625,8 @@
 			"데이터 엔지니어링"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve01z6vr6kkM5Bqpr1MOXZ0cPPMHpqw9q"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve01z6vr6kkM5Bqpr1MOXZ0cPPMHpqw9q",
+		"rank": 156.0
 	},
 	"Nuxt.js 시작하기": {
 		"url": "https://www.inflearn.com/course/%EB%84%89%EC%8A%A4%ED%8A%B8-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0",
@@ -629,7 +644,8 @@
 			"Vue.js"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZaxrk.4UVEyRWQj8GIP7UaMxMjvbPWW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZaxrk.4UVEyRWQj8GIP7UaMxMjvbPWW",
+		"rank": 105.0
 	},
 	"자바(Java) 알고리즘 문제풀이 입문: 코딩테스트 대비": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%B0%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%BD%94%ED%85%8C%EB%8C%80%EB%B9%84",
@@ -647,7 +663,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vep8KooqAMiwsiGMF574llEgoOrNNrroi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vep8KooqAMiwsiGMF574llEgoOrNNrroi",
+		"rank": 192.0
 	},
 	"스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1",
@@ -665,7 +682,8 @@
 			"Spring"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0tyHpHVMEM.G5KQ/SnxlY2i1kQbGE5y"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0tyHpHVMEM.G5KQ/SnxlY2i1kQbGE5y",
+		"rank": 22.0
 	},
 	"설계독학맛비's 실전 Verilog HDL Season 1 (Clock부터 Internal Memory까지)": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EB%B2%A0%EB%A6%B4%EB%A1%9C%EA%B7%B8",
@@ -684,7 +702,8 @@
 			"임베디드"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67verluiSQqK8ztZQEWkIjIAegyjkEdP/Tu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67verluiSQqK8ztZQEWkIjIAegyjkEdP/Tu",
+		"rank": 105.0
 	},
 	"파이썬 증권 데이터 수집과 분석으로 신호와 소음 찾기": {
 		"url": "https://www.inflearn.com/course/%EC%A6%9D%EA%B6%8C%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91-%EB%B6%84%EC%84%9D",
@@ -708,7 +727,8 @@
 			"웹 크롤링"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2D6a8JgcalrNM4buUNgl7Aptu.E8vaW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2D6a8JgcalrNM4buUNgl7Aptu.E8vaW",
+		"rank": 189.0
 	},
 	"도커 쓸 땐 필수! 도커 컴포즈": {
 		"url": "https://www.inflearn.com/course/%EB%8F%84%EC%BB%A4-%EC%BB%B4%ED%8F%AC%EC%A6%88",
@@ -725,7 +745,8 @@
 			"Docker"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veoGTkDXLKGnv1wkXtjPBIdUqzwyF0.e6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veoGTkDXLKGnv1wkXtjPBIdUqzwyF0.e6",
+		"rank": 216.0
 	},
 	"초보를 위한 쿠버네티스 안내서": {
 		"url": "https://www.inflearn.com/course/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EC%9E%85%EB%AC%B8",
@@ -743,7 +764,8 @@
 			"Docker"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2Lw06buY9npUbtxoGX.VagQUbUJemyy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2Lw06buY9npUbtxoGX.VagQUbUJemyy",
+		"rank": 74.0
 	},
 	"실전 인공지능으로 이어지는 딥러닝 개념 잡기": {
 		"url": "https://www.inflearn.com/course/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%9C%EB%85%90",
@@ -762,7 +784,8 @@
 			"머신러닝"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQYSmfXlfx6x8CucNYI0cHnGhp.mL15a"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQYSmfXlfx6x8CucNYI0cHnGhp.mL15a",
+		"rank": 41.0
 	},
 	"유니티 머신러닝 에이전트 완전정복 (기초편)": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EA%B8%B0%EC%B4%88",
@@ -782,7 +805,8 @@
 			"Unity ML-Agents"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXTxSiZgTi8U.YlPpb95VATRpMehszG."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXTxSiZgTi8U.YlPpb95VATRpMehszG.",
+		"rank": 105.0
 	},
 	"[리뉴얼] React로 NodeBird SNS 만들기": {
 		"url": "https://www.inflearn.com/course/%EB%85%B8%EB%93%9C%EB%B2%84%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A6%AC%EB%89%B4%EC%96%BC",
@@ -803,7 +827,8 @@
 			"Next.js"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veUcUVqY.XBfVGV1koyrn9QY6zbFvhfxO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veUcUVqY.XBfVGV1koyrn9QY6zbFvhfxO",
+		"rank": 12.0
 	},
 	"눈떠보니 코딩 테스트 전날": {
 		"url": "https://www.inflearn.com/course/%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A0%84%EB%82%A0",
@@ -820,7 +845,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetPi6h13A1EUlqlvD.fNahTvJDfdigZq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetPi6h13A1EUlqlvD.fNahTvJDfdigZq",
+		"rank": 163.0
 	},
 	"[C#과 유니티로 만드는 MMORPG 게임 개발 시리즈] Part4: 게임 서버": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part4",
@@ -839,7 +865,8 @@
 			"네트워크"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veb/UAUndKhasDOHKtQw.Z9vYEhAaQ7T2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veb/UAUndKhasDOHKtQw.Z9vYEhAaQ7T2",
+		"rank": 53.0
 	},
 	"Vue.js 끝장내기 - 실무에 필요한 모든 것": {
 		"url": "https://www.inflearn.com/course/vue-js-%EB%81%9D%EB%82%B4%EA%B8%B0-%EC%BA%A1%ED%8B%B4%ED%8C%90%EA%B5%90",
@@ -858,7 +885,8 @@
 			"Vuex"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesIq3jmr2wjgmbdsRT2vJskxUWa.glSy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesIq3jmr2wjgmbdsRT2vJskxUWa.glSy",
+		"rank": 77.0
 	},
 	"실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94",
@@ -878,7 +906,8 @@
 			"JPA"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9zakfHM4a2GNrvRTD2wJqudGA3oHseW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9zakfHM4a2GNrvRTD2wJqudGA3oHseW",
+		"rank": 7.0
 	},
 	"Vue.js 완벽 가이드 - 실습과 리팩토링으로 배우는 실전 개념": {
 		"url": "https://www.inflearn.com/course/vue-js",
@@ -896,7 +925,8 @@
 			"Vue.js"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vepjUQp90rVwm0EAsveMpNBY8KP3jUWUO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vepjUQp90rVwm0EAsveMpNBY8KP3jUWUO",
+		"rank": 23.0
 	},
 	"함수형 프로그래밍과 JavaScript ES6+": {
 		"url": "https://www.inflearn.com/course/functional-es6",
@@ -914,7 +944,8 @@
 			"함수형 프로그래밍"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vekJpjGq5oADsncodZGbGnpXuURvl4ajq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vekJpjGq5oADsncodZGbGnpXuURvl4ajq",
+		"rank": 26.0
 	},
 	"스프링 부트 개념과 활용": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8",
@@ -933,7 +964,8 @@
 			"Java"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9zakfHM4a2GNrvRTD2wJqudGA3oHseW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9zakfHM4a2GNrvRTD2wJqudGA3oHseW",
+		"rank": 212.0
 	},
 	"따라하며 배우는 리액트 네이티브 기초": {
 		"url": "https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C",
@@ -941,9 +973,9 @@
 		"level": "초급자",
 		"courseTime": "총70개11시간20분의수업",
 		"teacher": "John Ahn",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/330039/cover/a8cf3737-9ac0-437f-989a-8f6931dbcffe/330039-eng.png",
 		"price": "21560",
 		"stacks": [
@@ -951,8 +983,9 @@
 			"React",
 			"expo"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y."
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y.",
+		"rank": 166.0
 	},
 	"[인프런x코드캠프] 부트캠프에서 만든 고농축 백엔드 코스": {
 		"url": "https://www.inflearn.com/course/%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B3%A0%EB%86%8D%EC%B6%95-%EC%BD%94%EC%8A%A4",
@@ -975,7 +1008,8 @@
 			"REST API"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewsTsfZSBB9/8HMGKkP8jgC0gvtj66HK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewsTsfZSBB9/8HMGKkP8jgC0gvtj66HK",
+		"rank": 204.0
 	},
 	"[인프런x코드캠프] 부트캠프에서 만든 고농축 프론트엔드 코스": {
 		"url": "https://www.inflearn.com/course/%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B3%A0%EB%86%8D%EC%B6%95-%EC%BD%94%EC%8A%A4",
@@ -996,7 +1030,8 @@
 			"Node.js"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH8WSxRrxi1Um/.VpCE/tUYe6TBndNla"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH8WSxRrxi1Um/.VpCE/tUYe6TBndNla",
+		"rank": 30.0
 	},
 	"[중급편] 코인 가격 모니터링 앱 제작 (Android Kotlin)": {
 		"url": "https://www.inflearn.com/course/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BD%94%ED%8B%80%EB%A6%B0-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%EC%95%B1",
@@ -1005,7 +1040,7 @@
 		"courseTime": "총49개5시간20분의수업",
 		"teacher": "개복치개발자",
 		"student": "53",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/329934/cover/2780259b-9506-4160-844a-39c9bd90afc9/329934-eng.jpeg",
 		"price": "46200",
@@ -1014,7 +1049,8 @@
 			"Android"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS",
+		"rank": 64.0
 	},
 	"그림으로 쉽게 배우는 자료구조와 알고리즘 (심화편)": {
 		"url": "https://www.inflearn.com/course/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%89%BD%EA%B2%8C-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%AC%ED%99%94",
@@ -1022,16 +1058,17 @@
 		"level": "초급자",
 		"courseTime": "총48개9시간21분의수업",
 		"teacher": "감자",
-		"student": "",
+		"student": null,
 		"recommend": "100",
-		"reviewCnt": "",
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329927/cover/80919bc0-fa6c-47d9-b35e-7cd9d9e81c72/329927-eng.png",
 		"price": "38500",
 		"stacks": [
 			"알고리즘"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veyB1DI4ujTMCIKaphT3uag6ZkLs.1uM6"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veyB1DI4ujTMCIKaphT3uag6ZkLs.1uM6",
+		"rank": 188.0
 	},
 	"[인프런x코드캠프] 훈훈한 Javascript": {
 		"url": "https://www.inflearn.com/course/%ED%9B%88%ED%9B%88%ED%95%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%BD%94%EB%93%9C%EC%BA%A0%ED%94%84",
@@ -1048,7 +1085,8 @@
 			"JavaScript"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebeJ48tL61r1z28r/H7GB/OVaILdCJmK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebeJ48tL61r1z28r/H7GB/OVaILdCJmK",
+		"rank": 160.0
 	},
 	"[인프런x코드캠프] 시작은 프리캠프": {
 		"url": "https://www.inflearn.com/course/%EC%8B%9C%EC%9E%91-%ED%94%84%EB%A6%AC%EC%BA%A0%ED%94%84-%EC%BD%94%EB%93%9C%EC%BA%A0%ED%94%84",
@@ -1066,7 +1104,8 @@
 			"JavaScript"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veptKpPOLxL7eDeNjBkTUKZ1QnC0U7ce2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veptKpPOLxL7eDeNjBkTUKZ1QnC0U7ce2",
+		"rank": 54.0
 	},
 	"실리콘밸리 엔지니어가 가르치는 파이썬 기초부터 고급까지": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%B3%A0%EA%B8%89%EA%B9%8C%EC%A7%80",
@@ -1074,17 +1113,18 @@
 		"level": "입문자",
 		"courseTime": "총86개8시간12분의수업",
 		"teacher": "Seungjoon Lee",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329860/cover/ddb92c60-70ee-4c14-8af5-5924fae18700/cover.jpg",
 		"price": "60500",
 		"stacks": [
 			"Python",
 			"알고리즘"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vepOIGrN/TzfvX875gNPStSgPTc8Vb1v."
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vepOIGrN/TzfvX875gNPStSgPTc8Vb1v.",
+		"rank": 209.0
 	},
 	"성공적인 진짜 iOS 개발자 되기 [기초부터 실무까지]": {
 		"url": "https://www.inflearn.com/course/%EC%84%B1%EA%B3%B5-ios-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EC%B4%88-%EC%8B%A4%EB%AC%B4",
@@ -1092,9 +1132,9 @@
 		"level": "입문자",
 		"courseTime": "총98개41시간19분의수업",
 		"teacher": "iOS Developer",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329824/cover/da94c23b-67bc-4600-877c-9cb9c74758f1/329824-eng.jpg",
 		"price": "220000",
 		"stacks": [
@@ -1102,8 +1142,9 @@
 			"Swift",
 			"동시성"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve8UoH/JioB5rH9AbwFJruGu5YNfEggIq"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve8UoH/JioB5rH9AbwFJruGu5YNfEggIq",
+		"rank": 181.5
 	},
 	"DevOps의 정석 - DevOps의 시작부터 끝까지 모두 짚어 드립니다!": {
 		"url": "https://www.inflearn.com/course/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%EC%A0%95%EC%84%9D-%EC%8B%9C%EC%9E%91-%EB%81%9D",
@@ -1111,17 +1152,18 @@
 		"level": "중급자",
 		"courseTime": "총30개8시간28분의수업",
 		"teacher": "JeongSuk Lee",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329776/cover/5a8ce4e0-d792-4d8d-9f90-62926d2b9e58/329776-eng.jpg",
 		"price": "550000",
 		"stacks": [
 			"CI/CD",
 			"BDD"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve8FrILBIi3qCXXgPi/arpCjPTPl8Gq1O"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve8FrILBIi3qCXXgPi/arpCjPTPl8Gq1O",
+		"rank": 132.0
 	},
 	"[도서증정이벤트] 한국인이 좋아하는 속도로 때려넣는 파이썬": {
 		"url": "https://www.inflearn.com/course/%ED%95%9C%EA%B5%AD%EC%9D%B8%EC%9D%B4-%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94-%EC%86%8D%EB%8F%84-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -1130,7 +1172,7 @@
 		"courseTime": "총23개3시간17분의수업",
 		"teacher": "half_bottle",
 		"student": "48",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "4",
 		"image": "https://cdn.inflearn.com/public/courses/329762/cover/e3ade394-702a-4ed7-a558-3ec90aaefdc2/329762-original.png",
 		"price": "50600",
@@ -1138,7 +1180,8 @@
 			"Python"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4mvlM7wbsjJ/GMv8OtkNcoMMW13pI.."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4mvlM7wbsjJ/GMv8OtkNcoMMW13pI..",
+		"rank": 185.0
 	},
 	"곰책으로 쉽게 배우는 최소한의 운영체제론": {
 		"url": "https://www.inflearn.com/course/%EA%B3%B0%EC%B1%85-%EC%89%BD%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C",
@@ -1155,7 +1198,8 @@
 			"운영체제"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKXchmojQcyoi/tCz.RZozFwS3DA.utm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKXchmojQcyoi/tCz.RZozFwS3DA.utm",
+		"rank": 153.0
 	},
 	"왕초보를 위한 네트워크 기초": {
 		"url": "https://www.inflearn.com/course/%EC%99%95%EC%B4%88%EB%B3%B4-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%B4%88",
@@ -1163,16 +1207,17 @@
 		"level": "입문자",
 		"courseTime": "총40개7시간16분의수업",
 		"teacher": "계영수",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329554/cover/25cd557f-f4a4-403f-93f5-d1b60c8c3904/329554-eng.png",
 		"price": "55000",
 		"stacks": [
 			"네트워크"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZPSz.sN6Wlid2gIEgRLyQErjWznLJRy"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZPSz.sN6Wlid2gIEgRLyQErjWznLJRy",
+		"rank": 223.5
 	},
 	"외워서 끝내는 네트워크 핵심이론 - 기초": {
 		"url": "https://www.inflearn.com/course/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%95%B5%EC%8B%AC%EC%9D%B4%EB%A1%A0-%EA%B8%B0%EC%B4%88",
@@ -1190,7 +1235,8 @@
 			"프로토콜"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67verl96am3g.ptIlfWsUiiCDIB6O1ZCOYK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67verl96am3g.ptIlfWsUiiCDIB6O1ZCOYK",
+		"rank": 206.0
 	},
 	"CAN 통신 - 자동차 신입이 알아야 할 모든 것": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%8B%A0%EC%9E%85-can%ED%86%B5%EC%8B%A0",
@@ -1199,7 +1245,7 @@
 		"courseTime": "총23개3시간37분의수업",
 		"teacher": "존버매니아",
 		"student": "82",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/329480/cover/dc203b59-e468-4cda-9368-d72794c1213e/329480-eng.jpg",
 		"price": "55000",
@@ -1207,7 +1253,8 @@
 			"CAN"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67velN9WiCoc.VrEmlO5zHt3KdqW81jEk4S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67velN9WiCoc.VrEmlO5zHt3KdqW81jEk4S",
+		"rank": 84.0
 	},
 	"[입문자를 위한 UE5] Part3. 언리얼 엔진 3D 게임 개발 입문": {
 		"url": "https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC5-%EA%B0%9C%EB%B0%9C%EC%9D%98%EC%A0%95%EC%84%9D-3",
@@ -1225,7 +1272,8 @@
 			"UE Blueprint"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevwVnuI3ITeVCKHaduRVeg8fe73FU64u"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevwVnuI3ITeVCKHaduRVeg8fe73FU64u",
+		"rank": 138.0
 	},
 	"Jenkins를 이용한 CI/CD Pipeline 구축": {
 		"url": "https://www.inflearn.com/course/%EC%A0%A0%ED%82%A8%EC%8A%A4-ci-cd-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8",
@@ -1246,7 +1294,8 @@
 			"SonarQube"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZ/Kmej9Xh2WTpfzf.RkFdZ4RTf3cGpO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZ/Kmej9Xh2WTpfzf.RkFdZ4RTf3cGpO",
+		"rank": 105.0
 	},
 	"파이썬을 활용한 머신러닝 딥러닝 입문": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%9E%85%EB%AC%B8",
@@ -1255,7 +1304,7 @@
 		"courseTime": "총73개20시간18분의수업",
 		"teacher": "YoungJea Oh",
 		"student": "62",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/328933/cover/614d1842-bc07-4ada-994b-38da2185f1b2/328933-eng.png",
 		"price": "66000",
@@ -1272,7 +1321,8 @@
 			"CNN"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXbDqvZsbKTK3df/1LmG9NihC0Wi2Xzm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXbDqvZsbKTK3df/1LmG9NihC0Wi2Xzm",
+		"rank": 142.0
 	},
 	"스프링 DB 1편 - 데이터 접근 핵심 원리": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-db-1",
@@ -1289,7 +1339,8 @@
 			"Spring"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexArP1HgWvFV9MTn6LhKN.SGonKO41m2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexArP1HgWvFV9MTn6LhKN.SGonKO41m2",
+		"rank": 55.0
 	},
 	"장고 설계철학으로 시작하는 파이썬 장고 입문": {
 		"url": "https://www.inflearn.com/course/%EC%9E%A5%EA%B3%A0-%EC%84%A4%EA%B3%84%EC%B2%A0%ED%95%99-%EC%9E%85%EB%AC%B8",
@@ -1307,7 +1358,8 @@
 			"Python"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veEM8C/xsIIdfcuTOY.F50iMd2EU66lIC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veEM8C/xsIIdfcuTOY.F50iMd2EU66lIC",
+		"rank": 105.0
 	},
 	"코딩테스트 [입문] in Python": {
 		"url": "https://www.inflearn.com/course/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%85%EB%AC%B8-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -1316,7 +1368,7 @@
 		"courseTime": "총37개6시간37분의수업",
 		"teacher": "개발남노씨",
 		"student": "82",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "4",
 		"image": "https://cdn.inflearn.com/public/courses/328689/cover/9f61c0ec-a60f-45d6-8e15-cb91364d9ec5/328689-eng.png",
 		"price": "41250",
@@ -1325,7 +1377,8 @@
 			"알고리즘"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veNyMvUEBhdFHt/wxMauRH8hlfBY1/0lK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veNyMvUEBhdFHt/wxMauRH8hlfBY1/0lK",
+		"rank": 184.0
 	},
 	"[스프링 배치 입문] 예제로 배우는 핵심 Spring Batch": {
 		"url": "https://www.inflearn.com/course/%EC%98%88%EC%A0%9C%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%95%B5%EC%8B%AC-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98",
@@ -1342,7 +1395,8 @@
 			"Spring Batch"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve6r0ti9hDs5gPDp9iFKI7K69fX2hjwx6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve6r0ti9hDs5gPDp9iFKI7K69fX2hjwx6",
+		"rank": 105.0
 	},
 	"데이터 분석 SQL Fundamentals": {
 		"url": "https://www.inflearn.com/course/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-sql-%ED%8E%80%EB%8D%94%EB%A9%98%ED%83%88",
@@ -1361,7 +1415,8 @@
 			"DBMS/RDBMS"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve01z6vr6kkM5Bqpr1MOXZ0cPPMHpqw9q"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve01z6vr6kkM5Bqpr1MOXZ0cPPMHpqw9q",
+		"rank": 145.0
 	},
 	"자바 개발자를 위한 코틀린 입문(Java to Kotlin Starter Guide)": {
 		"url": "https://www.inflearn.com/course/java-to-kotlin",
@@ -1380,7 +1435,8 @@
 			"객체지향"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veLRDnwlPm4jC/c/qVFEUhGIFEiLfPqWG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veLRDnwlPm4jC/c/qVFEUhGIFEiLfPqWG",
+		"rank": 35.0
 	},
 	"따라하면서 배우는 고박사의 유니티 하이퍼캐주얼게임 시리즈 02": {
 		"url": "https://www.inflearn.com/course/%EA%B3%A0%EB%B0%95%EC%82%AC-%ED%95%98%EC%9D%B4%ED%8D%BC%EC%BA%90%EC%A5%AC%EC%96%BC-2",
@@ -1398,7 +1454,8 @@
 			"Unity"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veudKjxncbdSFWTLITQScZG/xa7Fb6bme"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veudKjxncbdSFWTLITQScZG/xa7Fb6bme",
+		"rank": 172.0
 	},
 	"비전공 기획자 및 관리자를 위한 IT 필수 지식": {
 		"url": "https://www.inflearn.com/course/%EB%B9%84%EC%A0%84%EA%B3%B5-%EA%B8%B0%ED%9A%8D%EC%9E%90-%ED%95%84%EC%88%98-%EC%A7%80%EC%8B%9D",
@@ -1415,7 +1472,8 @@
 			"커뮤니케이션"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vec7FwK1pX.G8c3AoxYDaOHf3dE0FOJnO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vec7FwK1pX.G8c3AoxYDaOHf3dE0FOJnO",
+		"rank": 105.0
 	},
 	"핵심만 쉽게, 모두의 SQL 비법 레시피": {
 		"url": "https://www.inflearn.com/course/sql-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EB%B9%84%EB%B2%95",
@@ -1424,7 +1482,7 @@
 		"courseTime": "총22개3시간49분의수업",
 		"teacher": "데이터셰프",
 		"student": "66",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/328433/cover/f172e831-0f6e-44d2-95a9-dc065e7890a0/328433-eng.png",
 		"price": "48400",
@@ -1432,7 +1490,8 @@
 			"SQL"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vejeZdRY8opTbr0ni.r2uethFpHFr1dLq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vejeZdRY8opTbr0ni.r2uethFpHFr1dLq",
+		"rank": 68.0
 	},
 	"실제 이력서 사례로 알아보는 [합격하는 이력서] 작성 가이드": {
 		"url": "https://www.inflearn.com/course/%ED%95%A9%EA%B2%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EB%A0%A5%EC%84%9C-%EC%9E%91%EC%84%B1-%EA%B0%80%EC%9D%B4%EB%93%9C",
@@ -1450,7 +1509,8 @@
 			"면접"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veymJMcMJkcFHmMszisAFJwGf//cE0Ty6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veymJMcMJkcFHmMszisAFJwGf//cE0Ty6",
+		"rank": 8.0
 	},
 	"만들면서 배우는 리액트 : 기초": {
 		"url": "https://www.inflearn.com/course/%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88",
@@ -1468,7 +1528,8 @@
 			"JavaScript"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehonsJNrhB3UBSW/WCb/MIiARY.fcF0G"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehonsJNrhB3UBSW/WCb/MIiARY.fcF0G",
+		"rank": 31.0
 	},
 	"금융데이터 분석을 위한 판다스 활용법": {
 		"url": "https://www.inflearn.com/course/%EA%B8%88%EC%9C%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%90%EB%8B%A4%EC%8A%A4-%ED%99%9C%EC%9A%A9",
@@ -1487,7 +1548,8 @@
 			"퀀트"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veN5moIf0aNJKc3CNraJ6MrlUbMS2bjxO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veN5moIf0aNJKc3CNraJ6MrlUbMS2bjxO",
+		"rank": 105.0
 	},
 	"[실전 게임 코드 리뷰] 유니티 클리커 게임": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84%EA%B2%8C%EC%9E%84-%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0-%EC%9C%A0%EB%8B%88%ED%8B%B0-%ED%81%B4%EB%A6%AC%EC%BB%A4",
@@ -1504,7 +1566,8 @@
 			"Unity"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veMturoDaOkCCifTQBDgiIg35nNo/iSgq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veMturoDaOkCCifTQBDgiIg35nNo/iSgq",
+		"rank": 28.0
 	},
 	"스파크 머신러닝 완벽 가이드 - Part 1": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%8C%8C%ED%81%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EA%B0%80%EC%9D%B4%EB%93%9C1",
@@ -1524,7 +1587,8 @@
 			"데이터 엔지니어링"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veTY74l8Gei3vsLfgGldA7dcMLTC7B9Xm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veTY74l8Gei3vsLfgGldA7dcMLTC7B9Xm",
+		"rank": 105.0
 	},
 	"모든 개발자의 실무를 위한 올인원 기본기 클래스": {
 		"url": "https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%8B%A4%EB%AC%B4-%EA%B8%B0%EB%B3%B8%EA%B8%B0",
@@ -1549,7 +1613,8 @@
 			"CI/CD"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve6.tB.lZGAopJPqfbAN3DorW.EmxPGWi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve6.tB.lZGAopJPqfbAN3DorW.EmxPGWi",
+		"rank": 105.0
 	},
 	"코딩으로 학습하는 GoF의 디자인 패턴": {
 		"url": "https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4",
@@ -1567,7 +1632,8 @@
 			"Java"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2I0XvbAnTOB.kMucU5E7362.GuX/vkq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2I0XvbAnTOB.kMucU5E7362.GuX/vkq",
+		"rank": 34.0
 	},
 	"SCSS(SASS)+GRID+FLEX 실전 포트폴리오 퍼블리싱": {
 		"url": "https://www.inflearn.com/course/%EC%82%AC%EC%8A%A4-%EA%B7%B8%EB%A6%AC%EB%93%9C-%ED%94%8C%EB%A0%89%EC%8A%A4-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4",
@@ -1586,7 +1652,8 @@
 			"HTML/CSS"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQE.zLmLdEK59PQwoaH2bA.ej/JxWD/y"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQE.zLmLdEK59PQwoaH2bA.ej/JxWD/y",
+		"rank": 105.0
 	},
 	"C++20 훑어보기": {
 		"url": "https://www.inflearn.com/course/%EC%94%A8%EC%81%A0%EC%81%A0-20-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0",
@@ -1603,7 +1670,8 @@
 			"C++"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veoT1Tdf.VV/U3ISgSRd25uKJM4wB8jF6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veoT1Tdf.VV/U3ISgSRd25uKJM4wB8jF6",
+		"rank": 152.0
 	},
 	"[비전공자 대환영] 제로베이스도 쉽게 입문하는 파이썬 데이터 분석 - 캐글입문기": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EC%BA%90%EA%B8%80%EC%9E%85%EB%AC%B8",
@@ -1626,7 +1694,8 @@
 			"Numpy"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWXGlJL8jlS2QeDUOrbwr7nwa3fupkRC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWXGlJL8jlS2QeDUOrbwr7nwa3fupkRC",
+		"rank": 226.0
 	},
 	"게임 프로그래머 취업 전략 가이드": {
 		"url": "https://www.inflearn.com/course/%EA%B2%8C%EC%9E%84-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8-%EC%B7%A8%EC%97%85",
@@ -1644,7 +1713,8 @@
 			"포트폴리오"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDSIZ/SYLvNKk4n1i0JfWgcCJY69GjCe"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDSIZ/SYLvNKk4n1i0JfWgcCJY69GjCe",
+		"rank": 105.0
 	},
 	"스프링 MVC 2편 - 백엔드 웹 개발 활용 기술": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-2",
@@ -1662,7 +1732,8 @@
 			"Spring"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67verVIDlRkgYQgPADnK3DzfWG1hzJUKF9y"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67verVIDlRkgYQgPADnK3DzfWG1hzJUKF9y",
+		"rank": 205.0
 	},
 	"Slack 클론 코딩[백엔드 with NestJS + TypeORM]": {
 		"url": "https://www.inflearn.com/course/%EC%8A%AC%EB%9E%99%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-%EB%B0%B1%EC%97%94%EB%93%9C",
@@ -1682,7 +1753,8 @@
 			"Node.js"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFkxH1SsxQHcoh5YqeFDbnL64FHOAgNu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFkxH1SsxQHcoh5YqeFDbnL64FHOAgNu",
+		"rank": 149.0
 	},
 	"Vuetify Admin Template 만들기 - 실전편 (Based Vue2)": {
 		"url": "https://www.inflearn.com/course/%EB%B7%B0%ED%8B%B0%ED%8C%8C%EC%9D%B4-%EC%96%B4%EB%93%9C%EB%AF%BC-%ED%85%9C%ED%94%8C%EB%A6%BF-2",
@@ -1700,7 +1772,8 @@
 			"Vuetify"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4wOTqNPJXC2kEGv4JaafvwiDDvjtbpe"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4wOTqNPJXC2kEGv4JaafvwiDDvjtbpe",
+		"rank": 20.0
 	},
 	"스프링 프레임워크는 내 손에 [스프1탄]": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84-spring-1",
@@ -1720,7 +1793,8 @@
 			"Spring Security"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veUV.HLtL3l.HMF6w2PrR3rZwEgDSVo8a"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veUV.HLtL3l.HMF6w2PrR3rZwEgDSVo8a",
+		"rank": 234.0
 	},
 	"[C++과 언리얼로 만드는 MMORPG 게임 개발 시리즈] Part4: 게임 서버": {
 		"url": "https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC-3d-mmorpg-4",
@@ -1739,7 +1813,8 @@
 			"MMORPG"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veVTBdK1MC.w8iedZywox2DiPvYkB81DO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veVTBdK1MC.w8iedZywox2DiPvYkB81DO",
+		"rank": 105.0
 	},
 	"만들고 비교하며 학습하는 리액트 (React)": {
 		"url": "https://www.inflearn.com/course/%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8",
@@ -1757,7 +1832,8 @@
 			"MVC"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veg3U0GMuDdqhgtcaPYVIe6sNq/8bCbFO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veg3U0GMuDdqhgtcaPYVIe6sNq/8bCbFO",
+		"rank": 70.0
 	},
 	"설계독학맛비's 실전 FPGA를 이용한 HW 가속기 설계 (LED 제어부터 Fully Connected Layer 가속기 설계까지)": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EA%B0%80%EC%86%8D%EA%B8%B0-%EC%84%A4%EA%B3%84",
@@ -1775,7 +1851,8 @@
 			"임베디드"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vev82bJlr4fSvdIfd2OSRVTtYXImylwYu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vev82bJlr4fSvdIfd2OSRVTtYXImylwYu",
+		"rank": 105.0
 	},
 	"패킷트레이서를 활용한 컴퓨터네트워크": {
 		"url": "https://www.inflearn.com/course/%ED%8C%A8%ED%82%B7%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%9C-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",
@@ -1793,7 +1870,8 @@
 			"프로토콜"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZqnlvsctTnqHIjlbwJuprqJJ425IVee"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZqnlvsctTnqHIjlbwJuprqJJ425IVee",
+		"rank": 228.0
 	},
 	"고수가 되는 파이썬 : 동시성과 병렬성 문법 배우기 Feat. 멀티스레딩 vs 멀티프로세싱 (Inflearn Original)": {
 		"url": "https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%99%84%EC%84%B1-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90",
@@ -1811,7 +1889,8 @@
 			"동시성"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDR8iyOMHY4H34nL.jVvGX75nMxThYqy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDR8iyOMHY4H34nL.jVvGX75nMxThYqy",
+		"rank": 201.0
 	},
 	"Do It! 장고+부트스트랩: 파이썬 웹개발의 정석": {
 		"url": "https://www.inflearn.com/course/%EB%91%90%EC%9E%87-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9B%B9%EA%B0%9C%EB%B0%9C",
@@ -1835,7 +1914,8 @@
 			"JavaScript"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veIMoF4JdlkiXfm00HsvywMpXJGs6hIxy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veIMoF4JdlkiXfm00HsvywMpXJGs6hIxy",
+		"rank": 213.0
 	},
 	"오라클 성능 분석과 인스턴스 튜닝 핵심 가이드": {
 		"url": "https://www.inflearn.com/course/%EC%98%A4%EB%9D%BC%ED%81%B4-%EC%84%B1%EB%8A%A5-%EB%B6%84%EC%84%9D",
@@ -1853,7 +1933,8 @@
 			"DBMS/RDBMS"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veJLmbYzHzVLaEi6HtgEoF1RtKkYg.qBy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veJLmbYzHzVLaEi6HtgEoF1RtKkYg.qBy",
+		"rank": 105.0
 	},
 	"타입스크립트 입문 - 기초부터 실전까지": {
 		"url": "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8",
@@ -1872,7 +1953,8 @@
 			"JavaScript"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S",
+		"rank": 13.0
 	},
 	"8명의 비전공자는 어떻게 개발자로 취업했을까": {
 		"url": "https://www.inflearn.com/course/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%B7%A8%EC%97%85",
@@ -1890,7 +1972,8 @@
 			"포트폴리오"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve58SJi8Gy7R8BD0.E8snORF0R4X7HoS2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve58SJi8Gy7R8BD0.E8snORF0R4X7HoS2",
+		"rank": 150.0
 	},
 	"스프링 핵심 원리 - 기본편": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8",
@@ -1908,7 +1991,8 @@
 			"객체지향"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesCPN8u/fKwO0vpsyMXVRpQt3iLjZOiC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesCPN8u/fKwO0vpsyMXVRpQt3iLjZOiC",
+		"rank": 2.0
 	},
 	"[리뉴얼] 스스로 구축하는 AWS 클라우드 인프라 - 기본편": {
 		"url": "https://www.inflearn.com/course/aws-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%9D%B8%ED%94%84%EB%9D%BC-%EA%B8%B0%EB%B3%B8",
@@ -1926,7 +2010,8 @@
 			"서버리스"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFx4jBiICL.HVRNaQ2Mx9KL2eQdOH/gS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFx4jBiICL.HVRNaQ2Mx9KL2eQdOH/gS",
+		"rank": 69.0
 	},
 	"초보를 위한 도커 안내서": {
 		"url": "https://www.inflearn.com/course/%EB%8F%84%EC%BB%A4-%EC%9E%85%EB%AC%B8",
@@ -1943,7 +2028,8 @@
 			"Docker"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veR6EACg3r53MvdFhIuENRU5LvLOTBsKS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veR6EACg3r53MvdFhIuENRU5LvLOTBsKS",
+		"rank": 147.0
 	},
 	"따라하며 배우는 노드, 리액트 시리즈 - 쇼핑몰 사이트 만들기": {
 		"url": "https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%85%B8%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%87%BC%ED%95%91%EB%AA%B0",
@@ -1964,7 +2050,8 @@
 			"MongoDB"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y.",
+		"rank": 29.0
 	},
 	"Spring Boot를 이용한 RESTful Web Services 개발": {
 		"url": "https://www.inflearn.com/course/spring-boot-restful-web-services",
@@ -1982,7 +2069,8 @@
 			"REST API"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veT5dgVrErwGFN3iCobeZ6IbrF4T5L55S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veT5dgVrErwGFN3iCobeZ6IbrF4T5L55S",
+		"rank": 43.0
 	},
 	"코딩테스트 실전 모의고사(with C++) : 대기업 대비": {
 		"url": "https://www.inflearn.com/course/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%8B%A4%EC%A0%84%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-%ED%8C%8C%ED%8A%B81",
@@ -2000,7 +2088,8 @@
 			"C++"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veNyMvUEBhdFHt/wxMauRH8hlfBY1/0lK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veNyMvUEBhdFHt/wxMauRH8hlfBY1/0lK",
+		"rank": 50.0
 	},
 	"15일간의 빅데이터 파일럿 프로젝트": {
 		"url": "https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8C%8C%EC%9D%BC%EB%9F%BF-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
@@ -2024,7 +2113,8 @@
 			"Redis"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXwBsW0TwNHEov4Ziz/QvFyiqtLpCxbS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXwBsW0TwNHEov4Ziz/QvFyiqtLpCxbS",
+		"rank": 105.0
 	},
 	"실전! Querydsl": {
 		"url": "https://www.inflearn.com/course/querydsl-%EC%8B%A4%EC%A0%84",
@@ -2042,7 +2132,8 @@
 			"JPA"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veeQD1nVdkWvPfHC.KZdEibxCZ.cTkezu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veeQD1nVdkWvPfHC.KZdEibxCZ.cTkezu",
+		"rank": 10.0
 	},
 	"[개정판] 파이썬 머신러닝 완벽 가이드": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C",
@@ -2061,7 +2152,8 @@
 			"통계"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXbDqvZsbKTK3df/1LmG9NihC0Wi2Xzm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXbDqvZsbKTK3df/1LmG9NihC0Wi2Xzm",
+		"rank": 15.0
 	},
 	"남박사의 파이썬 기초부터 실전 100% 활용": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%99%9C%EC%9A%A9",
@@ -2079,7 +2171,8 @@
 			"웹 크롤링"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve5P53HPJW3zTX5j1mAe3lNNvqezksw7e"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve5P53HPJW3zTX5j1mAe3lNNvqezksw7e",
+		"rank": 196.0
 	},
 	"함수형 프로그래밍과 JavaScript ES6+ 응용편": {
 		"url": "https://www.inflearn.com/course/%ED%95%A8%EC%88%98%ED%98%95_ES6_%EC%9D%91%EC%9A%A9%ED%8E%B8",
@@ -2097,7 +2190,8 @@
 			"함수형 프로그래밍"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0Rx6UdlHq0SBoIZLRnn01q0OPgWW8lC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0Rx6UdlHq0SBoIZLRnn01q0OPgWW8lC",
+		"rank": 48.0
 	},
 	"홍정모의 게임 만들기 연습 문제 패키지": {
 		"url": "https://www.inflearn.com/course/c-2",
@@ -2116,7 +2210,8 @@
 			"OpenGL"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veozhjetR2D7D7Dpae.qd02Y52qeRIgwu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veozhjetR2D7D7Dpae.qd02Y52qeRIgwu",
+		"rank": 219.0
 	},
 	"스프링 기반 REST API 개발": {
 		"url": "https://www.inflearn.com/course/spring_rest-api",
@@ -2135,7 +2230,8 @@
 			"Java"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venNUkSBpos//Y0D5tfU.hnd10WCzEc/."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venNUkSBpos//Y0D5tfU.hnd10WCzEc/.",
+		"rank": 230.0
 	},
 	"스프링 프레임워크 핵심 기술": {
 		"url": "https://www.inflearn.com/course/spring-framework_core",
@@ -2153,7 +2249,8 @@
 			"Spring"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve44tDdV2VPZFQRiz0geSmdLGsReZgkzW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve44tDdV2VPZFQRiz0geSmdLGsReZgkzW",
+		"rank": 203.0
 	},
 	"홍정모의 따라하며 배우는 C++": {
 		"url": "https://www.inflearn.com/course/following-c-plus",
@@ -2170,7 +2267,8 @@
 			"C++"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veevF8pQwj1w.7atp//93KR3.Fo8CdNyW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veevF8pQwj1w.7atp//93KR3.Fo8CdNyW",
+		"rank": 11.0
 	},
 	"수학 없이 시작하는 인공지능 첫걸음: 기초부터 최신 트렌드까지": {
 		"url": "https://www.inflearn.com/course/%EC%88%98%ED%95%99%EC%97%86%EC%9D%B4-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EC%B2%AB%EA%B1%B8%EC%9D%8C",
@@ -2179,7 +2277,7 @@
 		"courseTime": "총25개4시간42분의수업",
 		"teacher": "김지훈",
 		"student": "63",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "4",
 		"image": "https://cdn.inflearn.com/public/courses/330023/cover/968a4b46-1d64-4b61-a48b-81b741dd7a8e/330023-eng.png",
 		"price": "53900",
@@ -2188,7 +2286,8 @@
 			"딥러닝"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vedpkvCsgdIQRd8BprW9lApe1PlyUgkv."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vedpkvCsgdIQRd8BprW9lApe1PlyUgkv.",
+		"rank": 144.0
 	},
 	"아키텍처 패턴 with iOS - GUI Architecture Patterns(이론)": {
 		"url": "https://www.inflearn.com/course/ios-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%ED%8C%A8%ED%84%B4-%EC%9D%B4%EB%A1%A0",
@@ -2196,9 +2295,9 @@
 		"level": "중급자",
 		"courseTime": "총35개2시간14분의수업",
 		"teacher": "배언수",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/330022/cover/5bb028a7-e4c5-4044-82e9-5cafebbf3897/330022-eng.png",
 		"price": "89100",
 		"stacks": [
@@ -2208,8 +2307,9 @@
 			"mvp",
 			"iOS"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vele6SV9HROPSQSc7KA1FggzsQByRBYqm"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vele6SV9HROPSQSc7KA1FggzsQByRBYqm",
+		"rank": 132.0
 	},
 	"타입스크립트 기초부터 응용까지 진짜 모든 것 (feat. NestJS, Deno)": {
 		"url": "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EC%9D%91%EC%9A%A9%EA%B9%8C%EC%A7%80",
@@ -2217,9 +2317,9 @@
 		"level": "초급자",
 		"courseTime": "총64개6시간18분의수업",
 		"teacher": "yongsoocho",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329966/cover/7a3a8c9a-2a66-4114-abb2-f22105bedefd/329996-eng.png",
 		"price": "22280",
 		"stacks": [
@@ -2227,8 +2327,9 @@
 			"NestJS",
 			"Deno"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S",
+		"rank": 200.0
 	},
 	"웹 애니메이션을 위한 GSAP 가이드 Part.01": {
 		"url": "https://www.inflearn.com/course/%EC%9B%B9-%EC%95%A0%EB%8B%88%EB%A7%A4%EC%9D%B4%EC%85%98-gsap-1",
@@ -2237,7 +2338,7 @@
 		"courseTime": "총27개3시간55분의수업",
 		"teacher": "범쌤",
 		"student": "59",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/329957/cover/9967f772-33ff-4880-9b64-2a8b64186010/thumb.png",
 		"price": "30800",
@@ -2248,7 +2349,8 @@
 			"HTML/CSS"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH4cjKgj1qXfFW0LyDholVqR73qpQEU."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH4cjKgj1qXfFW0LyDholVqR73qpQEU.",
+		"rank": 105.0
 	},
 	"PHP 개발자의 최종 테크트리, 라라벨 강의": {
 		"url": "https://www.inflearn.com/course/php-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%9D%BC%EB%9D%BC%EB%B2%A8",
@@ -2256,17 +2358,18 @@
 		"level": "중급자",
 		"courseTime": "총25개5시간49분의수업",
 		"teacher": "백승철",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329889/cover/e8e160de-0b81-4361-9c54-cf420a8ba182/329889-eng-original.png",
 		"price": "28600",
 		"stacks": [
 			"PHP",
 			"Laravel"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2EcDlmxNMKnTojcypOcwFs6DEX9R7UO"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2EcDlmxNMKnTojcypOcwFs6DEX9R7UO",
+		"rank": 132.0
 	},
 	"초보자를 위한 IT 인프라의 이해": {
 		"url": "https://www.inflearn.com/course/it-%EC%9D%B8%ED%94%84%EB%9D%BC-%EC%9D%B4%ED%95%B4",
@@ -2274,17 +2377,18 @@
 		"level": "입문자",
 		"courseTime": "총68개11시간22분의수업",
 		"teacher": "계영수",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329767/cover/daa0cab1-368a-4c67-9d9a-f08a3d10e45c/329767-eng.png",
 		"price": "88000",
 		"stacks": [
 			"네트워크",
 			"컴퓨터 구조"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vessV9kTrsQfWhsa1EBfdae/LHxx5Au9i"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vessV9kTrsQfWhsa1EBfdae/LHxx5Au9i",
+		"rank": 223.5
 	},
 	"[2023] 쌩초보도 4시간 안에 마스터하는 자바스크립트 기초": {
 		"url": "https://www.inflearn.com/course/%EC%8C%A9%EC%B4%88%EB%B3%B4-4%EC%8B%9C%EA%B0%84-%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88",
@@ -2293,7 +2397,7 @@
 		"courseTime": "총54개4시간23분의수업",
 		"teacher": "Code with Dan",
 		"student": "48",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/329714/cover/6f6caf5c-0b81-41b0-8a7a-682f32e9d5c1/329714-original.jpg",
 		"price": "29700",
@@ -2301,7 +2405,8 @@
 			"JavaScript"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGVpZI9uIQ5p2jGhUaT57MouKnGdoXv6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGVpZI9uIQ5p2jGhUaT57MouKnGdoXv6",
+		"rank": 177.0
 	},
 	"이펙티브 자바 완벽 공략 2부": {
 		"url": "https://www.inflearn.com/course/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C-%EC%9E%90%EB%B0%94-2",
@@ -2318,7 +2423,8 @@
 			"Java"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vel4.W6Y.VRQecguhnIlj8rjOcCGPjr5e"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vel4.W6Y.VRQecguhnIlj8rjOcCGPjr5e",
+		"rank": 232.0
 	},
 	"스프링 프레임워크는 내 손에 [스프2탄]": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84-spring-2",
@@ -2339,7 +2445,8 @@
 			"jQuery"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWwLHhJTlGN6nAXj/ES8rErXOBkcCCje"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWwLHhJTlGN6nAXj/ES8rErXOBkcCCje",
+		"rank": 229.0
 	},
 	"파이썬/장고로 웹채팅 서비스 만들기 (Feat. Channels) - 기본편": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%A5%EA%B3%A0-%EC%9B%B9%EC%B1%84%ED%8C%85-%EC%B1%84%EB%84%90%EC%8A%A4-%EA%B8%B0%EB%B3%B8",
@@ -2347,9 +2454,9 @@
 		"level": "중급자",
 		"courseTime": "총23개2시간24분의수업",
 		"teacher": "이진석",
-		"student": "",
+		"student": null,
 		"recommend": "100",
-		"reviewCnt": "",
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329579/cover/191e3b8b-f75d-4c0a-8c13-430598a18290/329579-eng.png",
 		"price": "55000",
 		"stacks": [
@@ -2357,8 +2464,9 @@
 			"Django",
 			"django-channels"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetIlm9DRPz1Sg0olc3x1YWqZoaTEE2H."
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetIlm9DRPz1Sg0olc3x1YWqZoaTEE2H.",
+		"rank": 207.0
 	},
 	"머신러닝/딥러닝 소개 및 학습을 위한 파이썬 속성 과정": {
 		"url": "https://www.inflearn.com/course/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%86%8D%EC%84%B1",
@@ -2366,9 +2474,9 @@
 		"level": "입문자",
 		"courseTime": "총18개3시간24분의수업",
 		"teacher": "YoungJea Oh",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329538/cover/7036ff83-6bc7-47b1-9c20-a337e9896789/329538-eng.png",
 		"price": "11000",
 		"stacks": [
@@ -2379,8 +2487,9 @@
 			"Pandas",
 			"Matplotlib"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3uj/7P0SzYxWtwmGbppfWPZrmsL67q6"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3uj/7P0SzYxWtwmGbppfWPZrmsL67q6",
+		"rank": 186.0
 	},
 	"QML 프로그래밍 입문편": {
 		"url": "https://www.inflearn.com/course/qml-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8",
@@ -2388,17 +2497,18 @@
 		"level": "초급자",
 		"courseTime": "총99개17시간33분의수업",
 		"teacher": "김대진",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329512/cover/ee1c5df6-285e-48ad-9060-4de84c2c7a29/329512-eng.jpeg",
 		"price": "143000",
 		"stacks": [
 			"Qt",
 			"QML"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZlBKEwW1l8yprbyutVNUFEhxbmnSX9W"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZlBKEwW1l8yprbyutVNUFEhxbmnSX9W",
+		"rank": 47.0
 	},
 	"디자인 시스템 with 피그마": {
 		"url": "https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%8A%A4%ED%85%9C-with-%ED%94%BC%EA%B7%B8%EB%A7%88",
@@ -2418,7 +2528,8 @@
 			"아토믹 디자인"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veuPr9bJ/4.S1zqWMWC2BNnU/fQWFNwy6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veuPr9bJ/4.S1zqWMWC2BNnU/fQWFNwy6",
+		"rank": 105.0
 	},
 	"Flutter 초입문 왕초보편": {
 		"url": "https://www.inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%EC%B4%88%EC%9E%85%EB%AC%B8-%EC%99%95%EC%B4%88%EB%B3%B4",
@@ -2426,9 +2537,9 @@
 		"level": "입문자",
 		"courseTime": "총123개7시간13분의수업",
 		"teacher": "오준석",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329497/cover/ad92112c-9329-4ae1-a0f0-3901233b65f1/329497-eng.png",
 		"price": "69300",
 		"stacks": [
@@ -2437,8 +2548,9 @@
 			"dart",
 			"Android"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGGDlX7LmxVQjWWXYAV/QB5yJ76mm6PS"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGGDlX7LmxVQjWWXYAV/QB5yJ76mm6PS",
+		"rank": 164.0
 	},
 	"모바일 웹 퍼블리싱 포트폴리오 with Figma": {
 		"url": "https://www.inflearn.com/course/%EB%AA%A8%EB%B0%94%EC%9D%BC-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%ED%94%BC%EA%B7%B8%EB%A7%88",
@@ -2447,7 +2559,7 @@
 		"courseTime": "총80개24시간40분의수업",
 		"teacher": "코딩웍스(Coding Works)",
 		"student": "94",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "4",
 		"image": "https://cdn.inflearn.com/public/courses/329477/cover/80fb90fb-0212-4eec-8fb0-7875622b198e/329477-eng.png",
 		"price": "105600",
@@ -2459,7 +2571,8 @@
 			"jQuery"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vezbIS7VLUeNUG7VnCYONBtF.CrQwwtdO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vezbIS7VLUeNUG7VnCYONBtF.CrQwwtdO",
+		"rank": 60.0
 	},
 	"따라하며 배우는 노드, 리액트 시리즈 - 레딧 사이트 만들기(NextJS)": {
 		"url": "https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EB%A0%88%EB%94%A7",
@@ -2482,7 +2595,8 @@
 			"PostgreSQL"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/A.TLy5.IoiV20fDVgpzo093ZkuNO.q"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/A.TLy5.IoiV20fDVgpzo093ZkuNO.q",
+		"rank": 148.0
 	},
 	"따라하며 배우는 웹 게임": {
 		"url": "https://www.inflearn.com/course/%EB%94%B0%EB%9D%BC%ED%95%98%EB%8A%94-%EC%9B%B9%EA%B2%8C%EC%9E%84",
@@ -2491,7 +2605,7 @@
 		"courseTime": "총51개8시간5분의수업",
 		"teacher": "John Ahn",
 		"student": "85",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/329237/cover/cc3b9ef7-e83d-492f-993e-5580eb3c0159/329237-eng.png",
 		"price": "44000",
@@ -2499,7 +2613,8 @@
 			"React"
 		],
 		"score": "4.3",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebXg6MMaQfwvRH04vjDgV2T9sf5IGtw6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebXg6MMaQfwvRH04vjDgV2T9sf5IGtw6",
+		"rank": 231.0
 	},
 	"Flutter 실전 앱 개발 - 미국 주식 앱 (with 클린 아키텍처)": {
 		"url": "https://www.inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%EA%B3%A0%EA%B8%89-%EC%8B%A4%EC%A0%84-%EC%A3%BC%EC%8B%9D%EC%95%B1",
@@ -2518,24 +2633,8 @@
 			"Android"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veJGSd5XbqzneRSqUGFdr9qBBCnsCiSg."
-	},
-	"인프콘 2022 다시보기": {
-		"url": "https://www.inflearn.com/course/infcon2022",
-		"headline": "인프런의 첫 오프라인 콘퍼런스, 인프콘 2022에서 진행된 오프닝 및 발표 세션을 영상으로 다시 보실 수 있습니다.",
-		"level": "입문자",
-		"courseTime": "총32개16시간31분의수업",
-		"teacher": "인프런",
-		"student": "13976",
-		"recommend": "13900",
-		"reviewCnt": "28",
-		"image": "https://cdn.inflearn.com/public/courses/329211/cover/ea485515-6665-4e5c-acd7-157c2b8b08f3/infcon-apply-main.png",
-		"price": "무료",
-		"stacks": [
-			""
-		],
-		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vePCKdOne7R796u6Q3fa7kBc7sMOHmVha"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veJGSd5XbqzneRSqUGFdr9qBBCnsCiSg.",
+		"rank": 58.0
 	},
 	"만들면서 배우는 프론트엔드 DO IT 코딩 (Next.js, Typescript)": {
 		"url": "https://www.inflearn.com/course/%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C",
@@ -2552,7 +2651,8 @@
 			"Next.js"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehonsJNrhB3UBSW/WCb/MIiARY.fcF0G"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehonsJNrhB3UBSW/WCb/MIiARY.fcF0G",
+		"rank": 105.0
 	},
 	"홍드로이드의 To-Do 리스트 앱 만들기": {
 		"url": "https://www.inflearn.com/course/todo-list-app",
@@ -2560,17 +2660,18 @@
 		"level": "입문자",
 		"courseTime": "총38개9시간5분의수업",
 		"teacher": "홍드로이드",
-		"student": "",
-		"recommend": "없음",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329053/cover/892a22ce-b725-4d61-ba33-83469760042c/hongdroid_inflearn.png",
 		"price": "59400",
 		"stacks": [
 			"Android",
 			"Kotlin"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetzd3I6Xwz6GH2j.e2MCs9UAzSWgWn1y"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetzd3I6Xwz6GH2j.e2MCs9UAzSWgWn1y",
+		"rank": 75.0
 	},
 	"시스코 네트워킹 아카데미: 사물인터넷 기초": {
 		"url": "https://www.inflearn.com/course/%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7-%EA%B8%B0%EC%B4%88-%EC%8B%9C%EC%8A%A4%EC%BD%94",
@@ -2591,7 +2692,8 @@
 			"임베디드"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veiBzYqWH2N5bJmxCEmc6adimeKE/rSEe"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veiBzYqWH2N5bJmxCEmc6adimeKE/rSEe",
+		"rank": 105.0
 	},
 	"Vue3 완벽 마스터: 기초부터 실전까지 - \"실전편\"": {
 		"url": "https://www.inflearn.com/course/vue-%EC%99%84%EB%B2%BD-%EC%8B%A4%EC%A0%84",
@@ -2606,7 +2708,8 @@
 		"price": "88000",
 		"stacks": "",
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetlYQpjVxZrxA6WBIo89092wWpPSYr/q"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetlYQpjVxZrxA6WBIo89092wWpPSYr/q",
+		"rank": null
 	},
 	"그림으로 쉽게 배우는 자료구조와 알고리즘 (기본편)": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EB%B3%B8",
@@ -2623,7 +2726,8 @@
 			"알고리즘"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.Y.sCcczyAWZnnE9pbO9miPQH/Yyryu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve.Y.sCcczyAWZnnE9pbO9miPQH/Yyryu",
+		"rank": 71.0
 	},
 	"퀀트 투자를 위한 파이썬 트레이딩룸 만들기 - Part 2": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%A3%B8-%ED%8C%8C%ED%8A%B82",
@@ -2632,7 +2736,7 @@
 		"courseTime": "총105개24시간5분의수업",
 		"teacher": "인프런",
 		"student": "78",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/328953/cover/8dc85f9c-e924-45a8-a72d-71306d51f99b/328953-eng.png",
 		"price": "99000",
@@ -2644,7 +2748,8 @@
 			"Anaconda"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefi4K.wDOKexpxG8uQfFgwPszuavOTj6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefi4K.wDOKexpxG8uQfFgwPszuavOTj6",
+		"rank": 105.0
 	},
 	"핸즈온 리액트 네이티브": {
 		"url": "https://www.inflearn.com/course/%ED%95%B8%EC%A6%88%EC%98%A8-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C",
@@ -2653,7 +2758,7 @@
 		"courseTime": "총160개23시간50분의수업",
 		"teacher": "김범준",
 		"student": "53",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/328924/cover/c659807d-764a-4d14-bbf0-fc1fa0fb8e77/328924-eng.png",
 		"price": "99000",
@@ -2661,7 +2766,8 @@
 			"React Native"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevBV/SmwWLZ550z9WtE53uC86X5iUvv."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevBV/SmwWLZ550z9WtE53uC86X5iUvv.",
+		"rank": 63.0
 	},
 	"냉동코더의 알기 쉬운 Modern Android Development 입문": {
 		"url": "https://www.inflearn.com/course/%EC%95%8C%EA%B8%B0%EC%89%AC%EC%9A%B4-modern-android",
@@ -2681,7 +2787,8 @@
 			"Kotlin"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefuQ6wNpTxfh.ATX3GrzM8SJsLmG1DNq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefuQ6wNpTxfh.ATX3GrzM8SJsLmG1DNq",
+		"rank": 161.0
 	},
 	"호돌맨의 요절복통 개발쇼 (SpringBoot, Vue.JS, AWS)": {
 		"url": "https://www.inflearn.com/course/%ED%98%B8%EB%8F%8C%EB%A7%A8-%EC%9A%94%EC%A0%88%EB%B3%B5%ED%86%B5-%EA%B0%9C%EB%B0%9C%EC%87%BC",
@@ -2702,7 +2809,8 @@
 			"Spring Security"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9kiNJS8FpgYakniiuUc6FWvk38.TjQi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9kiNJS8FpgYakniiuUc6FWvk38.TjQi",
+		"rank": 65.0
 	},
 	"이펙티브 자바 완벽 공략 1부": {
 		"url": "https://www.inflearn.com/course/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C-%EC%9E%90%EB%B0%94-1",
@@ -2719,7 +2827,8 @@
 			"Java"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vel4.W6Y.VRQecguhnIlj8rjOcCGPjr5e"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vel4.W6Y.VRQecguhnIlj8rjOcCGPjr5e",
+		"rank": 214.0
 	},
 	"코알못도 이해하는 R프로그래밍": {
 		"url": "https://www.inflearn.com/course/r-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -2727,16 +2836,17 @@
 		"level": "입문자",
 		"courseTime": "총23개3시간51분의수업",
 		"teacher": "코코",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/328598/cover/8cdcfa7d-4088-46f3-b490-da7e56732840/328598-eng.png",
 		"price": "23100",
 		"stacks": [
 			"R"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH6zo7U2.7hPxqnR4.ZpGXI.KoNOa6gi"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH6zo7U2.7hPxqnR4.ZpGXI.KoNOa6gi",
+		"rank": 132.0
 	},
 	"제대로 파는 HTML & CSS - by 얄코": {
 		"url": "https://www.inflearn.com/course/%EC%A0%9C%EB%8C%80%EB%A1%9C-%ED%8C%8C%EB%8A%94-html-css",
@@ -2753,7 +2863,8 @@
 			"HTML/CSS"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi",
+		"rank": 83.0
 	},
 	"AWS Certified Advanced Networking - Specialty 자격증 준비하기": {
 		"url": "https://www.inflearn.com/course/aws-%EC%9E%90%EA%B2%A9%EC%A6%9D-%EC%8A%A4%ED%8E%98%EC%85%9C%ED%8B%B0",
@@ -2771,7 +2882,8 @@
 			"네트워크"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vey2M0UgUEabvB8k.PtpexjXo6UoQDpNy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vey2M0UgUEabvB8k.PtpexjXo6UoQDpNy",
+		"rank": 44.0
 	},
 	"직접 활용할 수 있는 SQL - 기초부터 실무 활용까지": {
 		"url": "https://www.inflearn.com/course/%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EC%8B%A4%EB%AC%B4%EA%B9%8C%EC%A7%80-sql",
@@ -2789,7 +2901,8 @@
 			"DBMS/RDBMS"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0tWypiSf2r4CjBXniAW/2lKjHGfyTNO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0tWypiSf2r4CjBXniAW/2lKjHGfyTNO",
+		"rank": 66.0
 	},
 	"윤재성의 자바 기반 안드로이드 앱개발 part1 - UI Programming": {
 		"url": "https://www.inflearn.com/course/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9E%90%EB%B0%94-%EC%95%B1%EA%B0%9C%EB%B0%9C-1",
@@ -2798,7 +2911,7 @@
 		"courseTime": "총50개16시간34분의수업",
 		"teacher": "소프트캠퍼스",
 		"student": "85",
-		"recommend": "없음",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/328440/cover/7a6d0604-2160-44de-87f7-c2732b8e7b2d/328440-eng.png",
 		"price": "77000",
@@ -2807,7 +2920,8 @@
 			"Android"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS",
+		"rank": 233.0
 	},
 	"배달앱 클론코딩 [with React Native]": {
 		"url": "https://www.inflearn.com/course/%EB%B0%B0%EB%8B%AC%EC%95%B1-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C",
@@ -2824,7 +2938,8 @@
 			"React Native"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veL3XPdsONgQD68z5q2bt1FdLl5eXo6HG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veL3XPdsONgQD68z5q2bt1FdLl5eXo6HG",
+		"rank": 40.0
 	},
 	"기출로 대비하는 개발자 전공면접 [CS 완전정복]": {
 		"url": "https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%A0%84%EA%B3%B5%EB%A9%B4%EC%A0%91-cs-%EC%99%84%EC%A0%84%EC%A0%95%EB%B3%B5",
@@ -2843,7 +2958,8 @@
 			"운영체제"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewMRlDh40/yubpwtun5QsmqHlhaGJrzm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewMRlDh40/yubpwtun5QsmqHlhaGJrzm",
+		"rank": 49.0
 	},
 	"코딩으로 학습하는 리팩토링": {
 		"url": "https://www.inflearn.com/course/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81",
@@ -2862,7 +2978,8 @@
 			"IntelliJ IDEA"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehnRI5sxPx0P1uQl4bbFuKcsJ1edCWw6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehnRI5sxPx0P1uQl4bbFuKcsJ1edCWw6",
+		"rank": 105.0
 	},
 	"최고의 프론트엔드 CSS Frameworks, UIkit": {
 		"url": "https://www.inflearn.com/course/css-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-uikit-%EC%BD%94%EB%94%A9%EC%9B%8D%EC%8A%A4",
@@ -2871,7 +2988,7 @@
 		"courseTime": "총46개16시간55분의수업",
 		"teacher": "코딩웍스(Coding Works)",
 		"student": "77",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/328132/cover/c9a31d84-9d9c-451d-bd47-58d20bd05b40/328132-eng.png",
 		"price": "49500",
@@ -2880,7 +2997,8 @@
 			"포트폴리오"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vee4HPi7.1SsoPkLYbdlwYalt30hQJJMS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vee4HPi7.1SsoPkLYbdlwYalt30hQJJMS",
+		"rank": 61.0
 	},
 	"[입문편] 안드로이드를 위한 코틀린(Kotlin) 문법": {
 		"url": "https://www.inflearn.com/course/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%9E%85%EB%AC%B8%ED%8E%B8",
@@ -2898,7 +3016,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS",
+		"rank": 191.0
 	},
 	"퀀트 투자를 위한 파이썬 트레이딩룸 만들기 - Part 1": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%A3%B8-%ED%8C%8C%ED%8A%B81",
@@ -2907,7 +3026,7 @@
 		"courseTime": "총55개8시간47분의수업",
 		"teacher": "인프런",
 		"student": "87",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/328011/cover/d8954060-4691-4f14-9be3-a05635a8effd/328011-eng.png",
 		"price": "77000",
@@ -2918,7 +3037,8 @@
 			"퀀트"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefi4K.wDOKexpxG8uQfFgwPszuavOTj6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefi4K.wDOKexpxG8uQfFgwPszuavOTj6",
+		"rank": 105.0
 	},
 	"오늘부터 개발자 - 개발자를 준비하기 전 꼭 알아야 할 것": {
 		"url": "https://www.inflearn.com/course/%EC%98%A4%EB%8A%98%EB%B6%80%ED%84%B0-%EB%82%98%EB%8F%84-%EA%B0%9C%EB%B0%9C%EC%9E%90",
@@ -2936,7 +3056,8 @@
 			"포트폴리오"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veOysvE4sIWb4EcHQLqn3Zpsy1f3Lqw9S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veOysvE4sIWb4EcHQLqn3Zpsy1f3Lqw9S",
+		"rank": 202.0
 	},
 	"[유니티 레벨 업!] 모듈식으로 개발하는 퀘스트&업적 시스템": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EB%AA%A8%EB%93%88%EC%8B%9D-%ED%80%98%EC%8A%A4%ED%8A%B8-%EC%97%85%EC%A0%81",
@@ -2953,7 +3074,8 @@
 			"Unity"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve6xG7ksGJFMc0YBHIVoqQiY.jL4gkvxW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve6xG7ksGJFMc0YBHIVoqQiY.jL4gkvxW",
+		"rank": 198.0
 	},
 	"중상급 퍼블리싱을 위한 CSS3의 모든 것": {
 		"url": "https://www.inflearn.com/course/%EC%A4%91%EC%83%81%EA%B8%89-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-css3-%EC%BD%94%EB%94%A9%EC%9B%8D%EC%8A%A4",
@@ -2970,7 +3092,8 @@
 			"HTML/CSS"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9MyXkXJ1rf9/LcvlXFVA4d7TNARau72"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9MyXkXJ1rf9/LcvlXFVA4d7TNARau72",
+		"rank": 158.0
 	},
 	"스프링 핵심 원리 - 고급편": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8",
@@ -2988,7 +3111,8 @@
 			"디자인 패턴"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesCPN8u/fKwO0vpsyMXVRpQt3iLjZOiC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesCPN8u/fKwO0vpsyMXVRpQt3iLjZOiC",
+		"rank": 17.0
 	},
 	"three.js로 시작하는 3D 인터랙티브 웹": {
 		"url": "https://www.inflearn.com/course/3d-%EC%9D%B8%ED%84%B0%EB%9E%99%ED%8B%B0%EB%B8%8C-%EC%9B%B9",
@@ -3007,7 +3131,8 @@
 			"Three.js"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXtpfXhhylAXUKNgSGfvNP7LrcirEmeW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXtpfXhhylAXUKNgSGfvNP7LrcirEmeW",
+		"rank": 59.0
 	},
 	"프로젝트로 배우는 React.js": {
 		"url": "https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8",
@@ -3026,7 +3151,8 @@
 			"ES6"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venm7V3JFudvxXOfEwDcXYsGjnYty56QC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venm7V3JFudvxXOfEwDcXYsGjnYty56QC",
+		"rank": 195.0
 	},
 	"파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%A5%EA%B3%A0-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4",
@@ -3046,7 +3172,8 @@
 			"Docker"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetIlm9DRPz1Sg0olc3x1YWqZoaTEE2H."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetIlm9DRPz1Sg0olc3x1YWqZoaTEE2H.",
+		"rank": 190.0
 	},
 	"[초중급편] 안드로이드 데이팅 앱 만들기(Android Kotlin)": {
 		"url": "https://www.inflearn.com/course/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BD%94%ED%8B%80%EB%A6%B0-%EB%8D%B0%EC%9D%B4%ED%8C%85%EC%95%B1",
@@ -3065,7 +3192,8 @@
 			"Firebase"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve36RSt2DVT0wYMCrtyggVPbUq7NJrMbS",
+		"rank": 56.0
 	},
 	"갖고노는 MySQL 데이터베이스 by 얄코": {
 		"url": "https://www.inflearn.com/course/%EC%96%84%EC%BD%94-%EB%A7%88%EC%9D%B4%EC%97%90%EC%8A%A4%ED%81%90%EC%97%98",
@@ -3085,7 +3213,8 @@
 			"데이터 엔지니어링"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQLkAJc1FmjDGwTq5lK.H0yrQhmFYJwK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQLkAJc1FmjDGwTq5lK.H0yrQhmFYJwK",
+		"rank": 105.0
 	},
 	"처음하는 파이썬 머신러닝 부트캠프 (쉽게! 실제 문제로 개념/활용 익히기) [데이터과학 Part2]": {
 		"url": "https://www.inflearn.com/course/%EC%B2%98%EC%9D%8C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9E%85%EB%AC%B8",
@@ -3105,7 +3234,8 @@
 			"Python"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vePAA0cjySMc5YWX4a32XYN0TzRjpRs5C"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vePAA0cjySMc5YWX4a32XYN0TzRjpRs5C",
+		"rank": 155.0
 	},
 	"언리얼 엔진4 입문 (C++ 기반)": {
 		"url": "https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%844-%EC%9E%85%EB%AC%B8",
@@ -3123,7 +3253,8 @@
 			"UE Blueprint"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vejoZWAE4T0HUr6NLWzI4E5SQgNazGyUu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vejoZWAE4T0HUr6NLWzI4E5SQgNazGyUu",
+		"rank": 126.0
 	},
 	"그림으로 배우는 쿠버네티스(v1.22-v1.24)": {
 		"url": "https://www.inflearn.com/course/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4",
@@ -3141,7 +3272,8 @@
 			"Docker"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKuw/AIMO0VsOf6B9xHHURvqNjHsbxOa"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKuw/AIMO0VsOf6B9xHHURvqNjHsbxOa",
+		"rank": 159.0
 	},
 	"C# 입문부터 안드로이드, 윈도우 앱(UWP) 동시에 만들기 Xamarin Forms(자마린 폼즈) + Maui(마우이)": {
 		"url": "https://www.inflearn.com/course/c-sharp-%EC%9E%90%EB%A7%88%EB%A6%B0-%ED%8F%BC%EC%A6%88",
@@ -3160,7 +3292,8 @@
 			"Xamarin"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vecC2PlABJkqzB4cQ6nRKfTESSGK.dmCy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vecC2PlABJkqzB4cQ6nRKfTESSGK.dmCy",
+		"rank": 173.0
 	},
 	"파이널 코딩 테스트 : 프론트엔드": {
 		"url": "https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%ED%8C%8C%EC%9D%B4%EB%84%90-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8",
@@ -3177,7 +3310,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQ2xA0RN4rBgD3BfOf4UflpYyUkeRaCC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQ2xA0RN4rBgD3BfOf4UflpYyUkeRaCC",
+		"rank": 208.0
 	},
 	"풀스택 리액트 토이프로젝트 - REST, GraphQL (for FE개발자)": {
 		"url": "https://www.inflearn.com/course/%ED%92%80%EC%8A%A4%ED%83%9D-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
@@ -3196,7 +3330,8 @@
 			"React"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veubjsmzZZ.W1DyD8M8oOiVuXs2rcP7F."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veubjsmzZZ.W1DyD8M8oOiVuXs2rcP7F.",
+		"rank": 105.0
 	},
 	"탄탄한 백엔드 NestJS, 기초부터 심화까지": {
 		"url": "https://www.inflearn.com/course/%ED%83%84%ED%83%84%ED%95%9C-%EB%B0%B1%EC%97%94%EB%93%9C-%EB%84%A4%EC%8A%A4%ED%8A%B8",
@@ -3216,7 +3351,8 @@
 			"MongoDB"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0bizltBsne3heJnIWfmzJdVyo.TQd/6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0bizltBsne3heJnIWfmzJdVyo.TQd/6",
+		"rank": 21.0
 	},
 	"ElasticSearch Essential": {
 		"url": "https://www.inflearn.com/course/elasticsearch-essential",
@@ -3233,7 +3369,8 @@
 			"Elasticsearch"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3zFo4Akqk/P4cR2lowqc/OypOWfN.WG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3zFo4Akqk/P4cR2lowqc/OypOWfN.WG",
+		"rank": 105.0
 	},
 	"코딩인터뷰를 저격하는 JS 스나이퍼 양성학교": {
 		"url": "https://www.inflearn.com/course/%EC%BD%94%EB%94%A9%EC%9D%B8%ED%84%B0%EB%B7%B0-js-%EC%96%91%EC%84%B1%ED%95%99%EA%B5%90",
@@ -3251,7 +3388,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veE5OBscZiJt3L3KUMq3HNHI2BUoTcZAy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veE5OBscZiJt3L3KUMq3HNHI2BUoTcZAy",
+		"rank": 211.0
 	},
 	"따라하면서 배우는 고박사의 유니티 하이퍼캐주얼게임 시리즈 01": {
 		"url": "https://www.inflearn.com/course/%EA%B3%A0%EB%B0%95%EC%82%AC-%ED%95%98%EC%9D%B4%ED%8D%BC%EC%BA%90%EC%A5%AC%EC%96%BC-1",
@@ -3269,7 +3407,8 @@
 			"Unity"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veudKjxncbdSFWTLITQScZG/xa7Fb6bme"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veudKjxncbdSFWTLITQScZG/xa7Fb6bme",
+		"rank": 199.0
 	},
 	"자바스크립트 제대로 배워볼래?": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EA%B8%B0",
@@ -3288,7 +3427,8 @@
 			"HTML/CSS"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDISckDDuYkNWRHfpu1QOoUgvzDXWux."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDISckDDuYkNWRHfpu1QOoUgvzDXWux.",
+		"rank": 193.0
 	},
 	"Qt 6 프로그래밍 1편": {
 		"url": "https://www.inflearn.com/course/qt6-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1",
@@ -3306,7 +3446,8 @@
 			"GUI"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve1xYn4mdIFx3yUC6A0oKIGfqpWpzNZS."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve1xYn4mdIFx3yUC6A0oKIGfqpWpzNZS.",
+		"rank": 78.0
 	},
 	"AWS 클라우드 서비스 인프라 구축 이해와 해킹, 보안": {
 		"url": "https://www.inflearn.com/course/aws-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%B3%B4%EC%95%88-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9",
@@ -3324,7 +3465,8 @@
 			"모의해킹"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFx4jBiICL.HVRNaQ2Mx9KL2eQdOH/gS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFx4jBiICL.HVRNaQ2Mx9KL2eQdOH/gS",
+		"rank": 176.0
 	},
 	"쉽게 시작하는 쿠버네티스(v1.25)": {
 		"url": "https://www.inflearn.com/course/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EC%89%BD%EA%B2%8C%EC%8B%9C%EC%9E%91",
@@ -3342,7 +3484,8 @@
 			"Docker"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2Lw06buY9npUbtxoGX.VagQUbUJemyy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2Lw06buY9npUbtxoGX.VagQUbUJemyy",
+		"rank": 62.0
 	},
 	"면접을 부르는 [개발자 이력서] 쓰기": {
 		"url": "https://www.inflearn.com/course/%EB%A9%B4%EC%A0%91-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9D%B4%EB%A0%A5%EC%84%9C",
@@ -3360,7 +3503,8 @@
 			"포트폴리오"
 		],
 		"score": "4.2",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vev.N57BKHnyZfdxDDfpAC4BMjLize056"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vev.N57BKHnyZfdxDDfpAC4BMjLize056",
+		"rank": 227.0
 	},
 	"Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4",
@@ -3382,24 +3526,8 @@
 			"JPA"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veefhm2icec0yyTlZnPqYpCoO3xLSdSD2"
-	},
-	"비전공자를 위한 넓고 얇은 IT 지식 & 나의 개발 유형 알아보기! <M.B.I.T>": {
-		"url": "https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C-%EC%9C%A0%ED%98%95-%ED%85%8C%EC%8A%A4%ED%8A%B8",
-		"headline": "나의 개발 유형을 테스트해보자! MBTI아닌 MBIT! My Best IT personalities! 개발에 대한 전반적인 내용을 살펴보고 나에게 가장 잘 맞는 개발 적성을 알아볼 수 있습니다.",
-		"level": "입문자",
-		"courseTime": "총57개3시간25분의수업",
-		"teacher": "제주코딩베이스캠프",
-		"student": "563",
-		"recommend": "500",
-		"reviewCnt": "15",
-		"image": "https://cdn.inflearn.com/public/courses/326514/cover/22caf762-a466-47fd-8d21-1f70ee2d91aa",
-		"price": "19800",
-		"stacks": [
-			""
-		],
-		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veiY/K2JT7avfWD2WOKtHowA8jRQ0V5dS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veefhm2icec0yyTlZnPqYpCoO3xLSdSD2",
+		"rank": 105.0
 	},
 	"처음 배우는 리액트 네이티브": {
 		"url": "https://www.inflearn.com/course/%EC%B2%98%EC%9D%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C",
@@ -3417,7 +3545,8 @@
 			"JavaScript"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3hHdvMEFzsT6czfIgoDXT1PnbqmO0Dm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3hHdvMEFzsT6czfIgoDXT1PnbqmO0Dm",
+		"rank": 179.0
 	},
 	"10주완성 C++ 코딩테스트 | 알고리즘 IT취업": {
 		"url": "https://www.inflearn.com/course/10%EC%A3%BC%EC%99%84%EC%84%B1-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%81%B0%EB%8F%8C",
@@ -3435,7 +3564,8 @@
 			"C++"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veaUBC57MoDFO8IOsp4GdBqJNZvfs7dzy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veaUBC57MoDFO8IOsp4GdBqJNZvfs7dzy",
+		"rank": 51.0
 	},
 	"자바스크립트 알고리즘 문제풀이 입문(코딩테스트 대비)": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4",
@@ -3453,7 +3583,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDISckDDuYkNWRHfpu1QOoUgvzDXWux."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDISckDDuYkNWRHfpu1QOoUgvzDXWux.",
+		"rank": 141.0
 	},
 	"mongoDB 기초부터 실무까지(feat. Node.js)": {
 		"url": "https://www.inflearn.com/course/%EB%AA%BD%EA%B3%A0%EB%94%94%EB%B9%84-%EA%B8%B0%EC%B4%88-%EC%8B%A4%EB%AC%B4",
@@ -3476,7 +3607,8 @@
 			"데이터 엔지니어링"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRbQMdee3Hwb.9Rli13znKquQtFGcGOi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRbQMdee3Hwb.9Rli13znKquQtFGcGOi",
+		"rank": 105.0
 	},
 	"[Pytorch] 실전 인공지능으로 이어지는 파이토치 딥러닝": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%ED%86%A0%EC%B9%98-%EB%94%A5%EB%9F%AC%EB%8B%9D",
@@ -3497,7 +3629,8 @@
 			"머신러닝"
 		],
 		"score": "4.5",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veVt6hx5QLITyt0sB4EWrC97esPg.P1Iu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veVt6hx5QLITyt0sB4EWrC97esPg.P1Iu",
+		"rank": 174.0
 	},
 	"PyGame 어드벤쳐 : 위니브 월드를 수복하라!": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EA%B2%8C%EC%9E%84-%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B3%90",
@@ -3515,7 +3648,8 @@
 			"GUI"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vemYEPQYIVpzCLqFuR95iOIILsyUFHaYu"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vemYEPQYIVpzCLqFuR95iOIILsyUFHaYu",
+		"rank": 105.0
 	},
 	"실전 자바스크립트": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8",
@@ -3533,7 +3667,8 @@
 			"ES6"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ves96MHNl/xXKIDPB.XoIXlp4KUEd5ppa"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ves96MHNl/xXKIDPB.XoIXlp4KUEd5ppa",
+		"rank": 222.0
 	},
 	"반응형 웹사이트 포트폴리오(Architecture Agency)": {
 		"url": "https://www.inflearn.com/course/%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%9B%B9%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1",
@@ -3553,7 +3688,8 @@
 			"반응형 웹"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2QHgYDf.6McC3yol3QUiFhHjRepJQC2"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2QHgYDf.6McC3yol3QUiFhHjRepJQC2",
+		"rank": 45.0
 	},
 	"유니티(Unity)로 시작하는 게임개발: Part 3. 슈팅게임 개발": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C-%ED%8C%8C%ED%8A%B83",
@@ -3571,7 +3707,8 @@
 			"Unity"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vejDnNwZRf40q2Amg/tL72cVDQHbAp4MG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vejDnNwZRf40q2Amg/tL72cVDQHbAp4MG",
+		"rank": 165.0
 	},
 	"프로그래밍 시작하기 : 웹 입문 (Inflearn Original)": {
 		"url": "https://www.inflearn.com/course/%EC%9B%B9%EA%B0%9C%EB%B0%9C-%EC%9E%85%EB%AC%B8-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90",
@@ -3589,7 +3726,8 @@
 			"JavaScript"
 		],
 		"score": "4.5",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venCRNq0lXVNNTNCfy6EmnmaimSg4G.pO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venCRNq0lXVNNTNCfy6EmnmaimSg4G.pO",
+		"rank": 218.0
 	},
 	"애플 웹사이트 인터랙션 클론!": {
 		"url": "https://www.inflearn.com/course/%EC%95%A0%ED%94%8C-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%9D%B8%ED%84%B0%EB%9E%99%EC%85%98-%ED%81%B4%EB%A1%A0",
@@ -3611,7 +3749,8 @@
 			"웹 디자인"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veeaOMZ0B1hBFDJsbrUscxB6dB8BgiicC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veeaOMZ0B1hBFDJsbrUscxB6dB8BgiicC",
+		"rank": 14.0
 	},
 	"퍼블리싱 핵심이론 PDF 교재 및 예제파일(HTML+CSS+FLEX+JQUERY)": {
 		"url": "https://www.inflearn.com/course/%EC%BD%94%EB%94%A9%EC%9B%8D%EC%8A%A4-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EA%B5%90%EC%9E%AC",
@@ -3630,7 +3769,8 @@
 			"Flex"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefRNg5jJPMC7F0Bx/KJTe9jHBtuoEjqO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vefRNg5jJPMC7F0Bx/KJTe9jHBtuoEjqO",
+		"rank": 80.0
 	},
 	"[C#과 유니티로 만드는 MMORPG 게임 개발 시리즈] Part3: 유니티 엔진": {
 		"url": "https://www.inflearn.com/course/mmorpg-%EC%9C%A0%EB%8B%88%ED%8B%B0",
@@ -3648,7 +3788,8 @@
 			"Unity"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vecpwjwYAnUi8ltw6RcYtostrhreqJY06"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vecpwjwYAnUi8ltw6RcYtostrhreqJY06",
+		"rank": 36.0
 	},
 	"프론트엔드 개발환경의 이해와 실습 (webpack, babel, eslint..)": {
 		"url": "https://www.inflearn.com/course/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD",
@@ -3668,7 +3809,8 @@
 			"ESLint"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQ2xA0RN4rBgD3BfOf4UflpYyUkeRaCC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQ2xA0RN4rBgD3BfOf4UflpYyUkeRaCC",
+		"rank": 105.0
 	},
 	"파이썬 알고리즘 문제풀이 입문 (코딩테스트 대비)": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8",
@@ -3686,7 +3828,8 @@
 			"코딩 테스트"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRzopAkwtnaZRvINuSxb5Ed9BgUBPOUq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRzopAkwtnaZRvINuSxb5Ed9BgUBPOUq",
+		"rank": 46.0
 	},
 	"대세는 쿠버네티스 [초급~중급]": {
 		"url": "https://www.inflearn.com/course/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EA%B8%B0%EC%B4%88",
@@ -3704,7 +3847,8 @@
 			"Kubernetes"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2Lw06buY9npUbtxoGX.VagQUbUJemyy"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve2Lw06buY9npUbtxoGX.VagQUbUJemyy",
+		"rank": 9.0
 	},
 	"Vue.js 시작하기 - Age of Vue.js": {
 		"url": "https://www.inflearn.com/course/age-of-vuejs",
@@ -3722,7 +3866,8 @@
 			"Vue.js"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veF/1SgmTAE2.XL0u0PKCZXtp/9pdFClG"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veF/1SgmTAE2.XL0u0PKCZXtp/9pdFClG",
+		"rank": 6.0
 	},
 	"파이썬입문과 크롤링기초 부트캠프 [쉽게! 견고한 자료까지!] (5차 업데이트)": {
 		"url": "https://www.inflearn.com/course/python-crawling-basic",
@@ -3740,7 +3885,8 @@
 			"웹 크롤링"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehm1S7k2iFu5N7.aYiZuAjrZFI6vIFh."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehm1S7k2iFu5N7.aYiZuAjrZFI6vIFh.",
+		"rank": 19.0
 	},
 	"단 두 장의 문서로 데이터 분석과 시각화 뽀개기": {
 		"url": "https://www.inflearn.com/course/%ED%8C%90%EB%8B%A4%EC%8A%A4-pandas",
@@ -3758,7 +3904,8 @@
 			"Pandas"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXnNLzICbu2o.I4u/opLnZKuDCOvanXW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXnNLzICbu2o.I4u/opLnZKuDCOvanXW",
+		"rank": 175.0
 	},
 	"Flutter 입문 - 안드로이드, iOS 개발을 한 번에": {
 		"url": "https://www.inflearn.com/course/flutter-%EC%9E%85%EB%AC%B8",
@@ -3777,7 +3924,8 @@
 			"Android"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZo8057fLpqlnLoqvrij7eQmi2QKV/dW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZo8057fLpqlnLoqvrij7eQmi2QKV/dW",
+		"rank": 194.0
 	},
 	"공공데이터로 파이썬 데이터 분석 시작하기": {
 		"url": "https://www.inflearn.com/course/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A1%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0",
@@ -3796,7 +3944,8 @@
 			"Numpy"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vert3xbN/tnWM9eHzaTUipD3TmpeUqpwS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vert3xbN/tnWM9eHzaTUipD3TmpeUqpwS",
+		"rank": 18.0
 	},
 	"쉽고 빠르게 끝내는 GO언어 프로그래밍 핵심 기초 입문 과정": {
 		"url": "https://www.inflearn.com/course/go%EC%96%B8%EC%96%B4",
@@ -3813,7 +3962,8 @@
 			"GO"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veF8FinXRw6HXeLQAtoDfOjeNMyEU//d."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veF8FinXRw6HXeLQAtoDfOjeNMyEU//d.",
+		"rank": 105.0
 	},
 	"PWA 시작하기 - 웹 기술로 앱을 만들자": {
 		"url": "https://www.inflearn.com/course/pwa",
@@ -3832,7 +3982,8 @@
 			"PWA"
 		],
 		"score": "4.5",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexl73aHQ0dU0/oEJKGrOsyKN7TfpvT22"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexl73aHQ0dU0/oEJKGrOsyKN7TfpvT22",
+		"rank": 210.0
 	},
 	"Softr를 활용한 노코드 프로토타이핑": {
 		"url": "https://www.inflearn.com/course/softr-%EB%85%B8%EC%BD%94%EB%93%9C-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9D%B4%ED%95%91",
@@ -3840,9 +3991,9 @@
 		"level": "초급자",
 		"courseTime": "총22개5시간26분의수업",
 		"teacher": "일잘러 장피엠",
-		"student": "",
-		"recommend": "새강의",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/330028/cover/529cfb93-cad9-42c9-b577-da8b9833db84/%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%91%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB_Softr.png",
 		"price": "50820",
 		"stacks": [
@@ -3850,8 +4001,9 @@
 			"No-code",
 			"프로토타이핑"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vegSQ6BUR9aiKJk/Yp3BF2.PxNRFdD8t2"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vegSQ6BUR9aiKJk/Yp3BF2.PxNRFdD8t2",
+		"rank": 132.0
 	},
 	"조코딩의 코딩 기초와 웹 풀스택 개발": {
 		"url": "https://www.inflearn.com/course/%EC%A1%B0%EC%BD%94%EB%94%A9-%EC%BD%94%EB%94%A9%EA%B8%B0%EC%B4%88-%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -3859,9 +4011,9 @@
 		"level": "입문자",
 		"courseTime": "총41개6시간30분의수업",
 		"teacher": "조코딩",
-		"student": "",
-		"recommend": "새강의",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/330024/cover/e0c50a08-c7c3-4002-9e20-9a8be326bdf6/thumb6.png",
 		"price": "90200",
 		"stacks": [
@@ -3870,8 +4022,9 @@
 			"Node.js",
 			"Web API"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKvsg3pagMor8zH9vQ5Gv2rKE.7QlQb."
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKvsg3pagMor8zH9vQ5Gv2rKE.7QlQb.",
+		"rank": 167.5
 	},
 	"카프카 완벽 가이드 - 커넥트(Connect) 편": {
 		"url": "https://www.inflearn.com/course/%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%99%84%EB%B2%BD%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%BB%A4%EB%84%A5%ED%8A%B8",
@@ -3879,17 +4032,18 @@
 		"level": "중급자",
 		"courseTime": "총133개22시간30분의수업",
 		"teacher": "권 철민",
-		"student": "",
+		"student": null,
 		"recommend": "100",
-		"reviewCnt": "",
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/330016/cover/e66621ef-45ed-48b5-9139-62e60246ab53/330016-eng.jpg",
 		"price": "99000",
 		"stacks": [
 			"Kafka",
 			"데이터 엔지니어링"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWRpRUAIAPqA1Z1skYTXPuSRwUrhR4VS"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWRpRUAIAPqA1Z1skYTXPuSRwUrhR4VS",
+		"rank": 187.0
 	},
 	"[퇴근후딴짓] 빅데이터 분석기사 실기": {
 		"url": "https://www.inflearn.com/course/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC-%EC%8B%A4%EA%B8%B0",
@@ -3897,9 +4051,9 @@
 		"level": "입문자",
 		"courseTime": "총35개10시간53분의수업",
 		"teacher": "퇴근후딴짓",
-		"student": "",
-		"recommend": "새강의",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329972/cover/dcfb28fd-48c1-4bb1-ab31-d59eac874194/329972-original.png",
 		"price": "69300",
 		"stacks": [
@@ -3909,8 +4063,9 @@
 			"Pandas",
 			"머신러닝"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWpilVivT665MUTHrZeqRbdnGB2GCep6"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veWpilVivT665MUTHrZeqRbdnGB2GCep6",
+		"rank": 132.0
 	},
 	"클릭만으로 웹페이지 만들기 - 한국인이 좋아하는 속도로 때려넣는 워드프레스": {
 		"url": "https://www.inflearn.com/course/%ED%81%B4%EB%A6%AD%EB%A7%8C%EC%9C%BC%EB%A1%9C-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4",
@@ -3918,16 +4073,17 @@
 		"level": "입문자",
 		"courseTime": "총13개1시간41분의수업",
 		"teacher": "half_bottle",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329857/cover/15f4047d-5f25-4fc2-8585-e13ea43d3aa9/329857-original.png",
 		"price": "33000",
 		"stacks": [
 			"Wordpress"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veJ3FG6nMcruCsfsfKG.fu2mUk2vWF6ni"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veJ3FG6nMcruCsfsfKG.fu2mUk2vWF6ni",
+		"rank": 132.0
 	},
 	"떠먹는 머신러닝/딥러닝": {
 		"url": "https://www.inflearn.com/course/%EB%96%A0%EB%A8%B9%EB%8A%94-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%9E%85%EB%AC%B8",
@@ -3936,7 +4092,7 @@
 		"courseTime": "총12개2시간45분의수업",
 		"teacher": "최기원",
 		"student": "47",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/329829/cover/b01ddf5c-053d-4e68-bc13-ac0b5b7909bc/73D683AA-C1EF-43CD-8315-FC9D96BAC156.jpeg",
 		"price": "7700",
@@ -3944,7 +4100,8 @@
 			"머신러닝"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vespMOMjoO8Ft0ByTTr90YmKcYHFeigte"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vespMOMjoO8Ft0ByTTr90YmKcYHFeigte",
+		"rank": 146.0
 	},
 	"퀘이사(Quasar) 완벽 마스터: Vue 프론트 웹을 빠르게 만들고 싶다면! (Based Vue3)": {
 		"url": "https://www.inflearn.com/course/%ED%80%98%EC%9D%B4%EC%82%AC-%EB%A7%88%EC%8A%A4%ED%84%B0-vue-%EC%9B%B9",
@@ -3953,7 +4110,7 @@
 		"courseTime": "총26개5시간50분의수업",
 		"teacher": "짐코딩 GYM CODING",
 		"student": "93",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "11",
 		"image": "https://cdn.inflearn.com/public/courses/329802/cover/6d5ce981-4c24-4356-89a9-8532787ad465/329802-eng-resize.png",
 		"price": "88000",
@@ -3962,7 +4119,8 @@
 			"Vue.js"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQEjNMSt6QeqvNdcX85guG8K6bUJ9qda"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQEjNMSt6QeqvNdcX85guG8K6bUJ9qda",
+		"rank": 105.0
 	},
 	"유니티 Addressable 을 이용한 패치 시스템 구현": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EC%96%B4%EB%93%9C%EB%A0%88%EC%84%9C%EB%B8%94-%ED%99%9C%EC%9A%A9",
@@ -3981,7 +4139,8 @@
 			"C#"
 		],
 		"score": "4.8",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCn7AzGYEcRUJbNBdx5ofoIHHWSliABq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCn7AzGYEcRUJbNBdx5ofoIHHWSliABq",
+		"rank": 171.0
 	},
 	"CUDA 프로그래밍 (1) - GPU 컴퓨팅 - C++/C 병렬처리 - 1부": {
 		"url": "https://www.inflearn.com/course/cuda-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1",
@@ -3989,9 +4148,9 @@
 		"level": "중급자",
 		"courseTime": "총48개3시간44분의수업",
 		"teacher": "출장중년",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329543/cover/40812dfc-92b3-4c8a-a9a7-6072e05e1792/329543-eng.png",
 		"price": "37130",
 		"stacks": [
@@ -4001,8 +4160,9 @@
 			"C",
 			"C++"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veyp709D5ckyZFUI8fc21sDBcHR3Dk5Su"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veyp709D5ckyZFUI8fc21sDBcHR3Dk5Su",
+		"rank": 132.0
 	},
 	"실무자가 알려주는 CANoe (For CAN 통신)": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EB%AC%B4%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-canoe",
@@ -4010,17 +4170,18 @@
 		"level": "초급자",
 		"courseTime": "총47개5시간52분의수업",
 		"teacher": "존버매니아",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329514/cover/de9b787a-453d-4199-a3af-71af47593145/329514-eng.jpeg",
 		"price": "59400",
 		"stacks": [
 			"CAN",
 			"CANoe"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veIB.36ScJUS7aqRfM5I3HqmnSaqeJsQe"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veIB.36ScJUS7aqRfM5I3HqmnSaqeJsQe",
+		"rank": 180.0
 	},
 	"은종쌤과 자바로 디자인 패턴 쉽게 시작하기": {
 		"url": "https://www.inflearn.com/course/%EC%9D%80%EC%A2%85%EC%8C%A4-%EC%9E%90%EB%B0%94-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4",
@@ -4028,9 +4189,9 @@
 		"level": "초급자",
 		"courseTime": "총20개6시간34분의수업",
 		"teacher": "박은종",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329492/cover/ae15927f-9b86-4c59-bbdc-16c60b913d39/329492-eng.png",
 		"price": "57750",
 		"stacks": [
@@ -4038,8 +4199,9 @@
 			"리팩토링",
 			"객체지향"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vep0a7wrEeApWWOvQHeA7jfT7kMnTC1oW"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vep0a7wrEeApWWOvQHeA7jfT7kMnTC1oW",
+		"rank": 154.0
 	},
 	"[실전 게임 코드 리뷰] 유니티 캐주얼 게임 (엘리스팡)": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84%EA%B2%8C%EC%9E%84-%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0-%EC%9C%A0%EB%8B%88%ED%8B%B0-%EC%BA%90%EC%A3%BC%EC%96%BC",
@@ -4058,7 +4220,8 @@
 			"Addressable Asset System"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veMturoDaOkCCifTQBDgiIg35nNo/iSgq"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veMturoDaOkCCifTQBDgiIg35nNo/iSgq",
+		"rank": 38.0
 	},
 	"[리뉴얼] 타입스크립트 올인원 : Part2. 실전 분석편": {
 		"url": "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2",
@@ -4075,7 +4238,8 @@
 			"TypeScript"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S",
+		"rank": 157.0
 	},
 	"모두의 깃 & 깃허브": {
 		"url": "https://www.inflearn.com/course/%EB%AA%A8%EB%91%90%EC%9D%98-%EA%B9%83-%EA%B9%83%ED%97%88%EB%B8%8C",
@@ -4093,7 +4257,8 @@
 			"Git"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGqsykXmCEAAebrfO4NAlK/ltG.KOb8W"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGqsykXmCEAAebrfO4NAlK/ltG.KOb8W",
+		"rank": 105.0
 	},
 	"[입문자를 위한 UE5] Part2. 언리얼 엔진 2D 게임 개발 입문": {
 		"url": "https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC5-%EA%B0%9C%EB%B0%9C%EC%9D%98%EC%A0%95%EC%84%9D-2",
@@ -4111,7 +4276,8 @@
 			"UE Blueprint"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevwVnuI3ITeVCKHaduRVeg8fe73FU64u"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vevwVnuI3ITeVCKHaduRVeg8fe73FU64u",
+		"rank": 82.0
 	},
 	"GraphQL 완전정복 (가상의 키오스크를 구현하며 배우는 풀스택 과정)": {
 		"url": "https://www.inflearn.com/course/graphql-%EC%99%84%EC%A0%84%EC%A0%95%EB%B3%B5",
@@ -4120,7 +4286,7 @@
 		"courseTime": "총70개10시간16분의수업",
 		"teacher": "Hollo Coding(홀로코딩)",
 		"student": "94",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "3",
 		"image": "https://cdn.inflearn.com/public/courses/329186/cover/a63c6c95-2318-4e7a-a4f0-34d4512b3ae6/329186-eng.png",
 		"price": "55000",
@@ -4131,7 +4297,8 @@
 			"Apollo"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve1og.B2kUXdvTTpMqAjx7sJJVk5cC0TW"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve1og.B2kUXdvTTpMqAjx7sJJVk5cC0TW",
+		"rank": 105.0
 	},
 	"MS Azure 애저 클라우드 서비스 구축 이해와 보안": {
 		"url": "https://www.inflearn.com/course/%EC%95%A0%EC%A0%80-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%B3%B4%EC%95%88",
@@ -4139,16 +4306,17 @@
 		"level": "초급자",
 		"courseTime": "총45개10시간43분의수업",
 		"teacher": "보안프로젝트",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/329072/cover/2d0f2054-ad1f-4fac-b6c0-eb7f2b093207/329072-eng.png",
 		"price": "198000",
 		"stacks": [
 			"Azure"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venEjx7Ba0WDSVECraRHRWx04EzIe8ihG"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venEjx7Ba0WDSVECraRHRWx04EzIe8ihG",
+		"rank": 132.0
 	},
 	"리액트 : 프론트엔드 개발자로 가는 마지막 단계": {
 		"url": "https://www.inflearn.com/course/%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%A7%88%EC%A7%80%EB%A7%89",
@@ -4167,24 +4335,8 @@
 			"Web API"
 		],
 		"score": "4.7",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve5MrX7COZAzsEjnPqeM7p9xSazaSMM9q"
-	},
-	"안전한 웹 사이트 제작을 위한, 웹 보안 원 포인트 레슨": {
-		"url": "https://www.inflearn.com/course/%EC%9B%B9%EB%B3%B4%EC%95%88-%EC%95%88%EC%A0%84-%EC%9B%90%ED%8F%AC%EC%9D%B8%ED%8A%B8",
-		"headline": "본 강의를 통해 안전한 웹 서비스를 제작하는 방법을 익힐 수 있습니다.",
-		"level": "초급자",
-		"courseTime": "총38개5시간25분의수업",
-		"teacher": "크리핵티브",
-		"student": "",
-		"recommend": "200",
-		"reviewCnt": "",
-		"image": "https://cdn.inflearn.com/public/courses/329033/cover/abbcf9ae-2de2-44ba-a21d-306042cf37eb/329033-eng.png",
-		"price": "33000",
-		"stacks": [
-			""
-		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veowFs6PH5e3t..y0sT1MjSTP6STX8daK"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve5MrX7COZAzsEjnPqeM7p9xSazaSMM9q",
+		"rank": 197.0
 	},
 	"Vue3 완벽 마스터: 기초부터 실전까지 - \"기본편\"": {
 		"url": "https://www.inflearn.com/course/vue-%EC%99%84%EB%B2%BD-%EA%B8%B0%EB%B3%B8",
@@ -4199,7 +4351,8 @@
 		"price": "66000",
 		"stacks": "",
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veaS3ov/CNaVj2e.1saYZa6oqp3F3lfw6"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veaS3ov/CNaVj2e.1saYZa6oqp3F3lfw6",
+		"rank": null
 	},
 	"지금 바로 D3.js 시작하기 : 웹 데이터 시각화": {
 		"url": "https://www.inflearn.com/course/%EC%A7%80%EA%B8%88%EB%B0%94%EB%A1%9C-d3",
@@ -4216,7 +4369,8 @@
 			"SVG"
 		],
 		"score": "4.6",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veu.9WKNuhqzUJlfGscQ8GGqCwLkdsaVC"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veu.9WKNuhqzUJlfGscQ8GGqCwLkdsaVC",
+		"rank": 105.0
 	},
 	"AWS Certified Cloud Practitioner 자격증 준비하기": {
 		"url": "https://www.inflearn.com/course/aws-%EC%9E%90%EA%B2%A9%EC%A6%9D-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B8%B0%EC%B4%88",
@@ -4234,7 +4388,8 @@
 			"네트워크"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vegGEe4zJ9QHcrkwYVkhbK4iHSJl8prWO"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vegGEe4zJ9QHcrkwYVkhbK4iHSJl8prWO",
+		"rank": 140.0
 	},
 	"[중급편] 친절한 JETPACK 개론 <상> (Android Kotlin)": {
 		"url": "https://www.inflearn.com/course/%EC%B9%9C%EC%A0%88%ED%95%9C-jetpack-1",
@@ -4253,7 +4408,8 @@
 			"Android"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexTlC6jGwjSRS583siUaS7dOPGFb3n1a"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexTlC6jGwjSRS583siUaS7dOPGFb3n1a",
+		"rank": 105.0
 	},
 	"자동차 SW - UDS 진단통신 정복하기": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%A7%84%EB%8B%A8%ED%86%B5%EC%8B%A0",
@@ -4271,7 +4427,8 @@
 			"네트워크"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewFvLD3PnTSmmbAc/uXLwhuq817exQ4W"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewFvLD3PnTSmmbAc/uXLwhuq817exQ4W",
+		"rank": 105.0
 	},
 	"떠먹는 알고리즘 코딩 테스트 with 파이썬": {
 		"url": "https://www.inflearn.com/course/%EB%96%A0%EB%A8%B9%EB%8A%94-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8",
@@ -4289,7 +4446,8 @@
 			"Python"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebviXsDyDeQQ9FZkbLMArMPi6n8/SBOS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebviXsDyDeQQ9FZkbLMArMPi6n8/SBOS",
+		"rank": 25.0
 	},
 	"[개념은 호옹~, 실습 빡] 스프링 부트, 입문!": {
 		"url": "https://www.inflearn.com/course/%EA%B0%9C%EB%85%90%EC%8B%A4%EC%8A%B5-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EC%9E%85%EB%AC%B8",
@@ -4306,7 +4464,8 @@
 			"Spring Boot"
 		],
 		"score": "4.9",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDQy5Cim4MKxpQqZ5gRKPXwCRwJnWZv."
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDQy5Cim4MKxpQqZ5gRKPXwCRwJnWZv.",
+		"rank": 183.0
 	},
 	"아이폰 앱 개발 기본편(해피스마일 iOS 개발 부트캠프)": {
 		"url": "https://www.inflearn.com/course/%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EB%B3%B8",
@@ -4314,17 +4473,18 @@
 		"level": "초급자",
 		"courseTime": "총46개6시간15분의수업",
 		"teacher": "최완택",
-		"student": "",
-		"recommend": "없음",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/328714/cover/c74cff54-6629-416f-8512-22ac1a4bf484/328714-eng.jpeg",
 		"price": "121000",
 		"stacks": [
 			"iOS",
 			"Swift"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve90ky4BhhAajuGfCVgduKbDrWF22tC.q"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve90ky4BhhAajuGfCVgduKbDrWF22tC.q",
+		"rank": 181.5
 	},
 	"[코드팩토리] [중급] Flutter 진짜 실전! 상태관리, 캐시관리, Code Generation, GoRouter, 인증로직 등 중수가 되기 위한 필수 스킬들!": {
 		"url": "https://www.inflearn.com/course/%ED%94%8C%EB%9F%AC%ED%84%B0-%EC%8B%A4%EC%A0%84",
@@ -4342,7 +4502,8 @@
 			"하이브리드 앱"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXAiMhIxzZQeBw.rX.Lni8UlVHNM0QRe"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXAiMhIxzZQeBw.rX.Lni8UlVHNM0QRe",
+		"rank": 39.0
 	},
 	"Express 튜토리얼 : 웹 서비스를 위한 핵심 API": {
 		"url": "https://www.inflearn.com/course/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-express",
@@ -4350,16 +4511,17 @@
 		"level": "초급자",
 		"courseTime": "총55개6시간50분의수업",
 		"teacher": "판다코딩",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/328506/cover/d154effd-0d15-4550-91b0-b8900f259b34/328506-eng.jpg",
 		"price": "38500",
 		"stacks": [
 			"Express"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veigSvGtuwY42XFTr8qgFI0Tv/H7obCCW"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veigSvGtuwY42XFTr8qgFI0Tv/H7obCCW",
+		"rank": 132.0
 	},
 	"Google Apps Script Uncharted - 구글 스프레드 시트 사무자동화 배우기": {
 		"url": "https://www.inflearn.com/course/%EA%B5%AC%EA%B8%80-%EC%8A%A4%ED%94%84%EB%A0%88%EB%93%9C-%EC%8B%9C%ED%8A%B8-%EC%82%AC%EB%AC%B4-%EC%9E%90%EB%8F%99%ED%99%94",
@@ -4367,17 +4529,18 @@
 		"level": "입문자",
 		"courseTime": "총56개4시간11분의수업",
 		"teacher": "Hansuk Kim",
-		"student": "",
-		"recommend": "",
-		"reviewCnt": "",
+		"student": null,
+		"recommend": null,
+		"reviewCnt": null,
 		"image": "https://cdn.inflearn.com/public/courses/328478/cover/8a13e721-358e-470c-bd20-91e9ee67ab03/main-1.jpg",
 		"price": "44000",
 		"stacks": [
 			"Google Sheets",
 			"Google Apps Script"
 		],
-		"score": "정보없음",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4aGF9detRoKM0Fg91oXgHEvuAvbw2VO"
+		"score": null,
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4aGF9detRoKM0Fg91oXgHEvuAvbw2VO",
+		"rank": 132.0
 	},
 	"도메인 주도 설계(DDD) 기반 마이크로서비스(MSA) 모델링": {
 		"url": "https://www.inflearn.com/course/%EB%8F%84%EB%A9%94%EC%9D%B8%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4",
@@ -4396,7 +4559,8 @@
 			"아키텍처"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veslaXeN9vYYStezH1dpP654BsVtKtg1W"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veslaXeN9vYYStezH1dpP654BsVtKtg1W",
+		"rank": 105.0
 	},
 	"실무에서 전하는 따끈한 마이크로서비스 아키텍처(MSA) 이야기": {
 		"url": "https://www.inflearn.com/course/%EC%8B%A4%EB%AC%B4-msa-%EC%9D%B4%EC%95%BC%EA%B8%B0",
@@ -4414,7 +4578,8 @@
 			"아키텍처"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vegVnWHQHv9dHWJGHfrUUKCdg73eVicPm"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vegVnWHQHv9dHWJGHfrUUKCdg73eVicPm",
+		"rank": 105.0
 	},
 	"입문자를 위한, ES6+ 최신 자바스크립트 입문": {
 		"url": "https://www.inflearn.com/course/%EC%99%95%EC%B4%88%EB%B3%B4-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%85%EB%AC%B8",
@@ -4423,7 +4588,7 @@
 		"courseTime": "총34개8시간53분의수업",
 		"teacher": "짐코딩 GYM CODING",
 		"student": "43",
-		"recommend": "",
+		"recommend": null,
 		"reviewCnt": "5",
 		"image": "https://cdn.inflearn.com/public/courses/328343/cover/c27fff21-8d12-4c15-aaa1-9ac3fc4a5729/%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%91%E1%85%B3%E1%84%85%E1%85%A5%E1%86%AB-%E1%84%8F%E1%85%A5%E1%84%87%E1%85%A5-%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5-009.png",
 		"price": "88000",
@@ -4432,7 +4597,8 @@
 			"ES6"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vew36X0xzPF0wtzv89sKWWCHZt8HQOh5K"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vew36X0xzPF0wtzv89sKWWCHZt8HQOh5K",
+		"rank": 178.0
 	},
 	"제대로 파는 Git & GitHub - by 얄코": {
 		"url": "https://www.inflearn.com/course/%EC%A0%9C%EB%8C%80%EB%A1%9C-%ED%8C%8C%EB%8A%94-%EA%B9%83",
@@ -4450,7 +4616,8 @@
 			"Github"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi",
+		"rank": 105.0
 	},
 	"그림으로 쉽게 배우는 운영체제": {
 		"url": "https://www.inflearn.com/course/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C",
@@ -4467,6 +4634,7 @@
 			"운영체제"
 		],
 		"score": "5.0",
-		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venFeCJZk0eLH1tY3n/FuZQncleebZuNS"
+		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venFeCJZk0eLH1tY3n/FuZQncleebZuNS",
+		"rank": 67.0
 	}
 }

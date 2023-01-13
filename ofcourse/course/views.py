@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from .models import Course, Stacks
-from django.views.generic import ListView
+from django.views.generic import ListView, FormView
+from .forms import CourseSearchForm
+from django.db.models import Q
 
 # def list(requests):
 #     # db에서 data query해서 오기
@@ -16,7 +18,44 @@ class Courselist(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(Courselist, self).get_context_data()
-        context['course'] = Course.objects.all()
-        context["stacks"] = Stacks.objects.filter(urlid_id=Course.urlid)
-        # context["stacks"] = Stacks.objects.all()
+        context['course_list'] = Course.objects.all().order_by('rank')
+        context['stacks'] = [Stacks.objects.filter(urlid_id=i.urlid).values('stacks') for i in context['course_list']]
+        context['course'] = [(i,j) for i,j in zip(context['course_list'],context['stacks'])]
+        print(context['course'])
         return context
+
+
+
+
+
+# searchFormView
+class SearchFormView(FormView):
+    form_class = CourseSearchForm
+    template_name = 'course/course_search.html'
+
+    def form_valid(self, form):
+        searchCourse = form.cleaned_data['search_course']
+        c = Course.objects.all()
+        # stack = Stacks.objects.values('stacks')
+        # stack = [Stacks.objects.filter(urlid_id=i.urlid).values('urlid_id') for i in c ]
+        # join =Course.objects.filter(urlid=Stacks.objects.values('urlid_id')).prefetch_related ('price')
+        # cc = Course.objects.values()
+        course_lst = Course.objects.filter(Q(title__icontains=searchCourse)  | Q(teacher__icontains=searchCourse) | Q(headline__icontains=searchCourse)).distinct()
+        # co = Course.objects.values('stacks')
+        # print(join.values())
+        # Course.objects.filter(urlid=)
+        a = Stacks.objects.values('urlid_id')
+        for i in a:
+            join =Course.objects.filter(urlid=i.values()).prefetch_related ('price')
+            print(join.values())
+
+        # a =Course.objects.filter(urlid=Stacks.objects.values('urlid_id')[2]).count()
+
+        context  = {}
+        context['form'] = form
+        context['search'] = searchCourse
+        context['object_list'] = course_lst
+        return render(self.request, self.template_name, context)
+
+
+    
