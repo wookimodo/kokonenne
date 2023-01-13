@@ -231,6 +231,7 @@ footer p {
 .list-page .content {
   min-width: 1200px;
   max-width: 1500px;
+  min-height: calc(100vh - 180px);
   margin: 30px auto 0;
   width: 80%;
 }
@@ -246,6 +247,9 @@ footer p {
 .list-page .content.col-2 > main {
   width: 78%;
   padding: 0 10px;
+}
+.list-page .content.view {
+  margin-top: 10rem;
 }
 .list-page .content .skill-info-area {
   background-color: var(--bg-color);
@@ -278,7 +282,7 @@ footer p {
   margin: 1rem 0;
 }
 .list-page .content > .list-area {
-  margin: -1.6rem 0;
+  margin-top: -1.6rem;
 }
 .list-page .content > .list-area > ul {
   display: flex;
@@ -437,4 +441,11 @@ footer p {
   content: "\f061";
   font-family: var(--icon-font);
   margin: 0 0.4rem;
+}
+.list-page .content > .view-area {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  border-radius: 1rem;
+  box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+  padding: 4rem 2.2rem;
 }/*# sourceMappingURL=style.css.map */

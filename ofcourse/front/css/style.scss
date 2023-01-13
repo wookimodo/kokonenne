@@ -152,7 +152,7 @@ footer {
             color: var(--font-color3);
         }
     }
-    
+
     .btn {
         background-color: var(--bg-color);
         border: 1px solid var(--bd-color);
@@ -185,7 +185,7 @@ footer {
 .title-area {
     width: 80%;
     margin: 0 auto;
-    
+
     h2 {
         font-size: 2.6rem;
     }
@@ -238,7 +238,7 @@ footer {
             font-size: 0;
             &::after {
                 content: "\f002";
-                font-family: var( --icon-font);
+                font-family: var(--icon-font);
                 font-weight: 900;
                 font-size: 2.5rem;
                 color: var(--main-color);
@@ -262,6 +262,7 @@ footer {
     .content {
         min-width: 1200px;
         max-width: 1500px;
+        min-height: calc(100vh - 180px);
         margin: 30px auto 0;
         width: 80%;
 
@@ -278,6 +279,10 @@ footer {
                 width: 78%;
                 padding: 0 10px;
             }
+        }
+
+        &.view {
+            margin-top: 10rem;
         }
 
         .skill-info-area {
@@ -320,7 +325,7 @@ footer {
         }
 
         > .list-area {
-            margin: -1.6rem 0;
+            margin-top: -1.6rem;
 
             > ul {
                 display: flex;
@@ -392,7 +397,7 @@ footer {
 
                         &::before {
                             content: "\f005";
-                            font-family: var( --icon-font);
+                            font-family: var(--icon-font);
                             font-weight: 900;
                             margin-right: 3px;
                             vertical-align: top;
@@ -409,7 +414,6 @@ footer {
             }
 
             &.skill {
-                
                 .list-card {
                     width: calc(100% / 3 - 2.4rem / 3);
                     margin-left: 1.2rem;
@@ -462,16 +466,16 @@ footer {
                         overflow-x: scroll;
                         overflow-y: hidden;
                         margin-top: 1.2rem;
-                        
+
                         ul {
                             display: flex;
 
                             li {
                                 list-style: none;
-                                margin: 0 .2rem;
+                                margin: 0 0.2rem;
                                 // border: 1px solid #000;
 
-                                > .skill-icon{
+                                > .skill-icon {
                                     font-size: 0;
                                     display: block;
                                     width: fit-content;
@@ -498,8 +502,8 @@ footer {
                                     font-size: 1.2rem;
 
                                     &::after {
-                                        content: '\f061';
-                                        font-family: var( --icon-font);
+                                        content: "\f061";
+                                        font-family: var(--icon-font);
                                         margin: 0 0.4rem;
                                     }
                                 }
@@ -508,6 +512,15 @@ footer {
                     }
                 }
             }
+        }
+
+        > .view-area {
+            background-color: var(--bg-color);
+            border: 1px solid var(--bd-color);
+            border-radius: 1rem;
+            box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
+                rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
+            padding: 4rem 2.2rem;
         }
     }
 }
