@@ -202,8 +202,8 @@ footer {
     }
 
     .page-title {
-        display: inline-block;
         margin-top: 100px;
+        width: 100%;
     }
 
     .search-area {
@@ -515,12 +515,65 @@ footer {
         }
 
         > .view-area {
-            background-color: var(--bg-color);
-            border: 1px solid var(--bd-color);
-            border-radius: 1rem;
-            box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
-                rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
-            padding: 4rem 2.2rem;
+            margin-top: -2rem;
+
+            .info-box {
+                background-color: var(--bg-color);
+                border: 1px solid var(--bd-color);
+                border-radius: 1rem;
+                box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
+                    rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
+                padding: 3rem 2.2rem;
+                margin-top: 2rem;
+
+                > .skill-title {
+                    font-size: 1.8rem;
+                    color: var(--font-color2);
+                    margin: 0;
+                    font-weight: 600;
+                }
+
+                > .skill-count {
+                    font-size: 1.3em;
+                    color: var(--font-color3);
+                }
+
+                .skill-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    margin-top: -1.5rem;
+
+                    > li {
+                        width: calc(100% / 10 - 3rem);
+                        list-style: none;
+                        margin: 2.5rem 1.5rem 0;
+
+                        > a {
+                            text-decoration: none;
+                        }
+
+                        .skill-icon {
+                            display: block;
+                            width: 7rem;
+                            height: 7rem;
+                            overflow: hidden;
+                            margin: 0 auto;
+
+                            > img {
+                                width: 100%;
+                            }
+                        }
+
+                        .skill-name {
+                            text-align: center;
+                            font-weight: 400;
+                            color: var(--font-color);
+                            margin: 0.8rem 0 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }

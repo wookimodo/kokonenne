@@ -123,9 +123,6 @@ footer p {
   display: none;
 }
 
-.list-page {
-  min-width: 1500px;
-}
 .list-page .point {
   color: var(--main-color);
   font-size: inherit;
@@ -138,32 +135,10 @@ footer p {
   text-align: center;
   border-bottom: 2px solid var(--main-color);
   font-size: 2.2rem;
-  width: 80%;
 }
 .list-page .search-area h2 {
   font-size: 2.2rem;
   display: inline-block;
-}
-.list-page .search-area .search-bar input {
-  all: unset;
-  text-align: left;
-  width: calc(100% - 60px);
-  font-size: 1.8rem;
-  display: inline-block;
-}
-.list-page .search-area .search-btn {
-  all: unset;
-  cursor: pointer;
-  display: inline-block;
-  width: 50px;
-  font-size: 0;
-}
-.list-page .search-area .search-btn::after {
-  content: "\f002";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 2.5rem;
-  color: var(--main-color);
 }
 .list-page .search-area .del-btn {
   all: unset;
@@ -269,19 +244,16 @@ footer p {
   -webkit-line-clamp: 2; /* 라인수 */
   -webkit-box-orient: vertical;
   word-wrap: break-word;
-  line-height: 1.8rem;
-  height: 3.8rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+  line-height: 1.5rem;
+  height: 4rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
 }
 .list-page .content > .list-area .list-card .info-box h3 > a {
   all: inherit;
   margin: 0;
   cursor: pointer;
-  margin-top: -0.2rem;
 }
-.list-page .content > .list-area .list-card .info-box h3 > a > .point {
+.list-page .content > .list-area .list-card .info-box h3 > .point {
   font-weight: inherit;
-  display: inline-block;
-  margin-top: -0.4rem;
 }
 .list-page .content > .list-area .list-card .info-box .teacher {
   margin-top: -10px;
