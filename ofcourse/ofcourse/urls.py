@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('list/', list),
     path('course/', include('course.urls')),
+
+    # company
+    path('company/', include('company.urls')),
 ]

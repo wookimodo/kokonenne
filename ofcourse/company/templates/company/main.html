@@ -1,0 +1,104 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- global css -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+
+<body class="list-page">
+    <header>
+        <div class="container">
+            <h1>Of Course</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">기업별 추천</a></li>
+                    <li><a href="#">기술별 추천</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="title-area">
+        <h2 class="page-title">기업별 스택</h2>
+    </div>
+    <div class="search-area">
+        <form action="">
+            <!-- 검색 결과 표시 -->
+            <div class="hide">
+                <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
+                <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
+            </div>
+            <!-- 삭제 버튼을 누르고 재검색 할 때! -->
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요">
+                <button type="submit" class="search-btn">검색</button>
+            </div>
+        </form>
+    </div>
+    <div class="content">
+        <main class="list-area skill">
+            <ul>
+                {% for c in company_list %}
+                <li class="list-card">
+                    <div class="company-icon">
+                        <img src="{{ c.logo }}" alt="강의 예시 이미지">
+                    </div>
+                    <div class="info-box">
+                        <h3><a href="#">{{ c.company }}</a></h3>
+                    </div>
+                    <p class="skill-info">
+                        {{ c.stack_info }}
+                    </p>
+                    <div class="skill-list">
+                        <ul>
+                            {% for stack in c.companydetail_set.iterator %}
+                            <li><a href="#" class="skill-icon">{{ stack.stack_name }} <img src="{{ stack.stack_img }}"
+                                        alt="아이콘"></a></li>
+                            {% endfor %}
+                            <li><a href="#" class="see-more">더보기</a></li>
+                        </ul>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            <div class="pagination">
+                <a href="#" class="btn"><i class="fa-solid fa-angle-left"></i></a>
+                <a href="#" class="btn"><i class="fa-solid fa-angles-left"></i></a>
+                {% for page_number in paginated_business_lists.paginator.page_range %}
+                    {{page.number}}
+                    {% if page_number == paginated_business_lists.number %}
+                <ul>
+                    <li class="page-item active" aria-current="page"><a href="?page={{ page_number }}" class="btn">{{ page_number }}</a></li>
+                    {% else %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                    </li>
+                    {% endif %}
+                    <li class="center">...</li>
+                </ul>
+                <a href="#" class="btn"><i class="fa-solid fa-angle-right"></i></a>
+                <a href="#" class="btn"><i class="fa-solid fa-angles-right"></i></a>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
