@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import ListView,DetailView
-from .models import Company, CompanyDetail
+from course.models import Company, Course_Stacks, Stacks
 from django.shortcuts import get_object_or_404
 
 # Create your views here.
