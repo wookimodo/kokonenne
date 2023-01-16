@@ -20,14 +20,14 @@ class CompanyList(ListView):
 
     
 
-class Companydetail(DetailView):
-    model = CompanyDetail
-    template_name = 'company/company_detail.html'
+# class Companydetail(DetailView):
+#     model = CompanyDetail
+#     template_name = 'company/company_detail.html'
 
-    def get_context_data(self, **kwargs):
-        context = super(Companydetail, self).get_context_data()
-        context['company_detail_list'] = CompanyDetail.objects.all()
+#     def get_context_data(self, **kwargs):
+#         context = super(Companydetail, self).get_context_data()
+#         context['company_detail_list'] = CompanyDetail.objects.all()
         
-        return context
+#         return context
 
 
