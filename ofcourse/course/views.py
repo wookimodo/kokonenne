@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Course, Stacks
+from .models import Course, Stacks, Course_Stacks
 from django.views.generic import ListView, FormView
 from .forms import CourseSearchForm
 from django.db.models import Q
@@ -18,11 +18,11 @@ class Courselist(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(Courselist, self).get_context_data()
-        context['course_list'] = Course.objects.all().order_by('rank')
-        context['stacks'] = [Stacks.objects.filter(urlid_id=i.urlid).values('stacks') for i in context['course_list']]
-        context['course'] = [(i,j) for i,j in zip(context['course_list'],context['stacks'])]
-        print(context['course'])
+        context['course'] = Course.objects.all().order_by('rank')
+        # context['stack'] = Stacks.objects.filter(name=Course.objects.get('stack'))
+        print(context['course'].values('stack'))
         return context
+
 
 
 

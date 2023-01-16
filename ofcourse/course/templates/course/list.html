@@ -61,15 +61,15 @@
         </aside>
         <main class="list-area">
             <ul>
-                {% for c,s in course %}
+                {% for c in course %}
                 <li class="list-card">
                     <div class="img-box">
                         <img src="{{ c.img_url }}" alt="강의 예시 이미지">
                     </div>
                     <div class="info-box">
                         <h3><a href="{{c.url}}">{{c.title}} 
-                            {% for stack in s %}
-                            <span class="point">{{stack.stacks}}</span>
+                            {% for s in c.stack.iterator %}
+                            <span class="point">{{s.name}}</span>
                             {% endfor %}
                             {{ c.level }}</a></h3>
                         <p class="teacher">{{ c.teacher }}</p>
