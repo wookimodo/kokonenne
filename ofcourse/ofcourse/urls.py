@@ -25,4 +25,7 @@ urlpatterns = [
 
     # company
     path('company/', include('company.urls')),
+
+    # stack
+    path('stack/', include('stack.urls'))
 ]
