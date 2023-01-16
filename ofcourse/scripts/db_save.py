@@ -83,13 +83,13 @@ data3 = json.loads(f.read())
 
 # company_stack 중간테이블 
 def run():
-       for i in data3:
+    for i in data3:
         for k,v in data3[i]['stacks'].items():
             if v != None and v != []:
                 for stack in data3[i]['stacks'][k]:
                     Company_Stacks(company_id=Company.objects.get(name=i).pk,stacks_id=Stacks.objects.get(name=stack[0]).pk).save()
 
-        print('DB저장완료')
+    print('DB저장완료')
 
 
 
