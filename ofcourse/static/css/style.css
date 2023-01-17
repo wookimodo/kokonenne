@@ -1,0 +1,518 @@
+@charset "UTF-8";
+/* 폰트 import*/
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+  --font-color: #333;
+  --font-color2: #666;
+  --font-color3: #999;
+  --bg-color: #fff;
+  --bg-color2: #fbfbfb;
+  --main-color: #ff7474;
+  --main-color2: #ffdede;
+  --eng-font: "Archivo", sans-serif;
+  --kor-font: "IBM Plex Sans", sans-serif;
+  --bd-color: #ddd;
+  --motion: ease-in-out 0.15s;
+  --icon-font: "Font Awesome 5 Free";
+}
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  letter-spacing: -0.03em;
+  word-break: keep-all;
+}
+
+body {
+  color: var(--font-color2);
+  background-color: var(--bg-color2);
+}
+body a,
+body h2,
+body h3,
+body p,
+body li,
+body span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+body ul {
+  padding: 0;
+  margin: 0;
+}
+body a {
+  color: var(--font-color2);
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  box-shadow: rgba(146, 153, 184, 0.06) 0px 2px 30px;
+  z-index: 999;
+  background-color: var(--bg-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+}
+header .container {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+header h1 {
+  font-family: var(--eng-font);
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--main-color);
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  margin-left: 5rem;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 5rem;
+  position: relative;
+}
+header nav ul li > a {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul li > a:hover {
+  color: var(--main-color);
+  transition: var(--motion);
+}
+header nav ul li::after {
+  content: "";
+  display: block;
+  background-color: var(--font-color3);
+  width: 1px;
+  height: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -2.5rem;
+}
+header nav ul li:first-child::after {
+  display: none;
+}
+
+footer {
+  box-shadow: rgba(146, 153, 184, 0.05) 0px -5px 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
+footer p {
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+}
+.pagination > ul {
+  display: flex;
+}
+.pagination > ul li {
+  list-style: none;
+}
+.pagination > ul .center {
+  padding: 0 1rem;
+  color: var(--font-color3);
+}
+.pagination .btn {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  text-decoration: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.5rem;
+  margin: 0 0.2rem;
+  color: var(--font-color3);
+}
+.pagination .btn.on {
+  background-color: var(--main-color);
+  color: var(--bg-color2);
+}
+.pagination .btn.on:hover {
+  background-color: var(--main-color);
+  transition: var(--motion);
+}
+.pagination .btn:hover {
+  background-color: var(--bg-color2);
+}
+
+.hide {
+  display: none;
+}
+
+.title-area {
+  width: 80%;
+  margin: 0 auto;
+}
+.title-area h2 {
+  font-size: 2.6rem;
+}
+
+.list-page {
+  min-width: 1500px;
+}
+.list-page .point {
+  color: var(--main-color);
+  font-size: inherit;
+  background-color: var(--main-color2);
+  padding: 0 6px;
+}
+.list-page .page-title {
+  margin-top: 100px;
+  width: 100%;
+}
+.list-page .search-area {
+  margin: 0 auto;
+  max-width: 1500px;
+  text-align: center;
+  border-bottom: 2px solid var(--main-color);
+  font-size: 2.2rem;
+  width: 80%;
+}
+.list-page .search-area h2 {
+  font-size: 2.2rem;
+  display: inline-block;
+}
+.list-page .search-area .search-bar input {
+  all: unset;
+  text-align: left;
+  width: calc(100% - 60px);
+  font-size: 2rem;
+  display: inline-block;
+  height: 70px;
+}
+.list-page .search-area .search-btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+  font-size: 0;
+}
+.list-page .search-area .search-btn::after {
+  content: "\f002";
+  font-family: var(--icon-font);
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+.list-page .search-area .del-btn {
+  all: unset;
+  font-size: 0;
+  display: inline-block;
+  color: var(--font-color3);
+  cursor: pointer;
+}
+.list-page .search-area .del-btn > i {
+  font-size: 22px;
+  margin-left: 6px;
+}
+
+.content {
+  min-width: 1200px;
+  max-width: 1500px;
+  min-height: calc(100vh - 180px);
+  margin: 30px auto 0;
+  width: 80%;
+}
+.content.col-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.content.col-2 > aside {
+  width: 22%;
+  padding: 0 10px;
+}
+.content.col-2 > main {
+  width: 78%;
+  padding: 0 10px;
+}
+.content.view {
+  margin-top: 10rem;
+}
+.content .skill-info-area {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  border-radius: 1rem;
+  box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+  padding: 4rem 2.2rem;
+}
+.content .skill-info-area .skill-icon {
+  width: 12rem;
+  height: 12rem;
+  overflow: hidden;
+  margin: auto;
+}
+.content .skill-info-area .skill-icon > img {
+  width: 100%;
+}
+.content .skill-info-area h3 {
+  font-size: 2.2rem;
+  color: var(--font-color);
+  font-weight: 600;
+}
+.content .skill-info-area .skill-category {
+  margin-top: -2rem;
+  color: var(--font-color3);
+}
+.content .skill-info-area .skill-info li {
+  list-style: none;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+.content .total-count {
+  color: var(--font-color3);
+  padding-left: 1rem;
+  margin: 1rem 0 0.4rem;
+}
+.content .total-count ::before {
+  content: "";
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--font-color3);
+  border-radius: 10rem;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+.content > .list-area {
+  margin-top: -1.6rem;
+}
+.content > .list-area > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content > .list-area .list-card {
+  width: calc(25% - 1.2rem);
+  margin-left: 1.6rem;
+  margin-top: 1.6rem;
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  border-radius: 1rem;
+  list-style: none;
+  box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+}
+.content > .list-area .list-card > a {
+  display: block;
+}
+.content > .list-area .list-card:nth-child(4n-3) {
+  margin-left: 0;
+}
+.content > .list-area .list-card .img-box { 
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+  max-width: 100%; 
+  height: 0;
+  padding-bottom: 65%;
+  border-bottom: 1px solid var(--bd-color);
+}
+.content > .list-area .list-card .img-box > img {
+  display: block;
+  width: 100%;
+}
+.content > .list-area .list-card .info-box {
+  padding: 0.2rem 2.2rem 1.8rem;
+}
+.content > .list-area .list-card .info-box h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--font-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.8rem;
+  height: 3.8rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+}
+.content > .list-area .list-card .info-box h3 > a {
+  all: inherit;
+  margin: 0;
+  cursor: pointer;
+  margin-top: -0.2rem;
+}
+.content > .list-area .list-card .info-box h3 > a > .point {
+  font-weight: inherit;
+  display: inline-block;
+  margin-top: -0.4rem;
+}
+.content > .list-area .list-card .info-box .teacher {
+  margin-top: -10px;
+}
+.content > .list-area .list-card .info-box .rate {
+  margin-top: -15px;
+}
+.content > .list-area .list-card .info-box .rate::before {
+  content: "\f005";
+  font-family: var(--icon-font);
+  font-weight: 900;
+  margin-right: 3px;
+  vertical-align: top;
+  color: #ffcb30;
+}
+.content > .list-area .list-card .info-box .price::before {
+  content: "₩";
+  margin-right: 3px;
+}
+.content > .list-area.skill .list-card {
+  width: calc(33.3333333333% - 0.8rem);
+  margin-left: 1.2rem;
+  padding: 1.8rem 2.2rem;
+}
+.content > .list-area.skill .list-card.type2 .skill-info {
+  border: 0;
+  text-align: right;
+}
+.content > .list-area.skill .list-card:nth-child(3n-2) {
+  margin-left: 0;
+}
+.content > .list-area.skill .list-card .company-icon {
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content > .list-area.skill .list-card .company-icon > img {
+  width: 100%;
+}
+.content > .list-area.skill .list-card .info-box {
+  display: inline-block;
+  padding: 0;
+  margin-left: 10px;
+  width: calc(100% - 9rem);
+  vertical-align: middle;
+}
+.content > .list-area.skill .list-card .info-box > h3 {
+  margin: 0;
+  height: auto;
+}
+.content > .list-area.skill .list-card .location {
+  margin: 0;
+  font-size: 1.3rem;
+  margin-top: 0.2rem;
+}
+.content > .list-area.skill .list-card .skill-info {
+  color: var(--font-color3);
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  padding: 0 0 0.4rem 0.4rem;
+  border-bottom: 1px solid var(--bd-color);
+}
+.content > .list-area.skill .list-card .skill-list {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-top: 1.2rem;
+}
+.content > .list-area.skill .list-card .skill-list ul {
+  display: flex;
+}
+.content > .list-area.skill .list-card .skill-list ul li {
+  list-style: none;
+  margin: 0 0.2rem;
+}
+.content > .list-area.skill .list-card .skill-list ul li > .skill-icon {
+  font-size: 0;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+}
+.content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
+  display: block;
+  width: 100%;
+}
+.content > .list-area.skill .list-card .skill-list ul li .see-more {
+  margin-left: 1.4rem;
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  color: var(--main-color);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.content > .list-area.skill .list-card .skill-list ul li .see-more::after {
+  content: "\f061";
+  font-family: var(--icon-font);
+  margin: 0 0.4rem;
+}
+.content > .view-area {
+  margin-top: -2rem;
+}
+.content > .view-area .info-box {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bd-color);
+  border-radius: 1rem;
+  box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+  padding: 3rem 2.2rem;
+  margin-top: 2rem;
+}
+.content > .view-area .info-box > .skill-title {
+  font-size: 1.8rem;
+  color: var(--font-color2);
+  margin: 0;
+  font-weight: 600;
+}
+.content > .view-area .info-box > .skill-count {
+  font-size: 1.3em;
+  color: var(--font-color3);
+}
+.content > .view-area .info-box .skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: -1.5rem;
+}
+.content > .view-area .info-box .skill-list > li {
+  width: calc(10% - 3rem);
+  list-style: none;
+  margin: 2.5rem 1.5rem 0;
+}
+.content > .view-area .info-box .skill-list > li > a {
+  text-decoration: none;
+}
+.content > .view-area .info-box .skill-list > li .skill-icon {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content > .view-area .info-box .skill-list > li .skill-icon > img {
+  width: 100%;
+}
+.content > .view-area .info-box .skill-list > li .skill-name {
+  text-align: center;
+  font-weight: 400;
+  color: var(--font-color);
+  margin: 0.8rem 0 0;
+}/*# sourceMappingURL=style.css.map */
