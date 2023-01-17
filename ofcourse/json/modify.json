@@ -94,7 +94,9 @@
 			"React Native",
 			"머신러닝",
 			"HTML/CSS",
-			"Tensorflow"
+			"Tensorflow",
+			"Javascript",
+			"NodeJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veqbcggJBY5F4a9L9GD4JO35x8bh7EDNm",
@@ -403,7 +405,8 @@
 		"image": "https://cdn.inflearn.com/public/courses/329755/cover/6fc3f9be-8cc1-42a3-8b6a-b34d91352df2/JavaScript--IFL.png",
 		"price": "55000",
 		"stacks": [
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veawAGPkQnlBiM8TWs0vb471ixvpfceWi",
@@ -505,7 +508,8 @@
 			"Next.js",
 			"TypeScript",
 			"TDD",
-			"Redux"
+			"Redux",
+			"NextJS"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/A.TLy5.IoiV20fDVgpzo093ZkuNO.q",
@@ -600,7 +604,8 @@
 		"price": "110000",
 		"stacks": [
 			"인터랙티브 웹",
-			"Three.js"
+			"Three.js",
+			"ThreeJS"
 		],
 		"score": "4.7",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vemlVpdQmouMUPG3At3GbRyMluNMDP77S",
@@ -641,7 +646,9 @@
 		"price": "41250",
 		"stacks": [
 			"Nuxt.js",
-			"Vue.js"
+			"Vue.js",
+			"NuxtJS",
+			"VueJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veZaxrk.4UVEyRWQj8GIP7UaMxMjvbPWW",
@@ -824,7 +831,9 @@
 			"Redux",
 			"Node.js",
 			"Express",
-			"Next.js"
+			"Next.js",
+			"NodeJS",
+			"NextJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veUcUVqY.XBfVGV1koyrn9QY6zbFvhfxO",
@@ -882,7 +891,9 @@
 		"stacks": [
 			"JavaScript",
 			"Vue.js",
-			"Vuex"
+			"Vuex",
+			"Javascript",
+			"VueJS"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vesIq3jmr2wjgmbdsRT2vJskxUWa.glSy",
@@ -922,7 +933,9 @@
 		"price": "57750",
 		"stacks": [
 			"JavaScript",
-			"Vue.js"
+			"Vue.js",
+			"Javascript",
+			"VueJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vepjUQp90rVwm0EAsveMpNBY8KP3jUWUO",
@@ -941,7 +954,8 @@
 		"price": "55000",
 		"stacks": [
 			"JavaScript",
-			"함수형 프로그래밍"
+			"함수형 프로그래밍",
+			"Javascript"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vekJpjGq5oADsncodZGbGnpXuURvl4ajq",
@@ -1005,7 +1019,9 @@
 			"Docker",
 			"TDD",
 			"Express",
-			"REST API"
+			"REST API",
+			"NodeJS",
+			"Javascript"
 		],
 		"score": "4.6",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vewsTsfZSBB9/8HMGKkP8jgC0gvtj66HK",
@@ -1027,7 +1043,9 @@
 			"Next.js",
 			"GraphQL",
 			"SEO",
-			"Node.js"
+			"Node.js",
+			"NextJS",
+			"NodeJS"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH8WSxRrxi1Um/.VpCE/tUYe6TBndNla",
@@ -1082,7 +1100,8 @@
 		"image": "https://cdn.inflearn.com/public/courses/329922/cover/364e7406-3569-437b-b719-7f146cad3d60/thumbnail-js.png",
 		"price": "22000",
 		"stacks": [
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vebeJ48tL61r1z28r/H7GB/OVaILdCJmK",
@@ -1101,7 +1120,8 @@
 		"price": "22000",
 		"stacks": [
 			"HTML/CSS",
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veptKpPOLxL7eDeNjBkTUKZ1QnC0U7ce2",
@@ -1525,7 +1545,8 @@
 		"price": "33000",
 		"stacks": [
 			"React",
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehonsJNrhB3UBSW/WCb/MIiARY.fcF0G",
@@ -1750,7 +1771,8 @@
 			"NestJS",
 			"TypeORM",
 			"Express",
-			"Node.js"
+			"Node.js",
+			"NodeJS"
 		],
 		"score": "4.7",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veFkxH1SsxQHcoh5YqeFDbnL64FHOAgNu",
@@ -1769,7 +1791,8 @@
 		"price": "55000",
 		"stacks": [
 			"Vue.js",
-			"Vuetify"
+			"Vuetify",
+			"VueJS"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve4wOTqNPJXC2kEGv4JaafvwiDDvjtbpe",
@@ -1911,7 +1934,8 @@
 			"Docker",
 			"TDD",
 			"HTML/CSS",
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veIMoF4JdlkiXfm00HsvywMpXJGs6hIxy",
@@ -1950,7 +1974,8 @@
 		"stacks": [
 			"TypeScript",
 			"ES6",
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve03iKAwzyp8SvE6OgKNeMarsQkz9.n2S",
@@ -2047,7 +2072,8 @@
 			"Redux",
 			"Node.js",
 			"웹앱",
-			"MongoDB"
+			"MongoDB",
+			"NodeJS"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veCQwj9cp16eorDLhJYsqE0r103i2P3y.",
@@ -2187,7 +2213,8 @@
 		"price": "44000",
 		"stacks": [
 			"JavaScript",
-			"함수형 프로그래밍"
+			"함수형 프로그래밍",
+			"Javascript"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0Rx6UdlHq0SBoIZLRnn01q0OPgWW8lC",
@@ -2346,7 +2373,8 @@
 			"gsap",
 			"인터랙티브 웹",
 			"JavaScript",
-			"HTML/CSS"
+			"HTML/CSS",
+			"Javascript"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veH4cjKgj1qXfFW0LyDholVqR73qpQEU.",
@@ -2402,7 +2430,8 @@
 		"image": "https://cdn.inflearn.com/public/courses/329714/cover/6f6caf5c-0b81-41b0-8a7a-682f32e9d5c1/329714-original.jpg",
 		"price": "29700",
 		"stacks": [
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veGVpZI9uIQ5p2jGhUaT57MouKnGdoXv6",
@@ -2592,7 +2621,9 @@
 			"Next.js",
 			"TypeScript",
 			"Docker",
-			"PostgreSQL"
+			"PostgreSQL",
+			"NodeJS",
+			"NextJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve/A.TLy5.IoiV20fDVgpzo093ZkuNO.q",
@@ -2648,7 +2679,8 @@
 		"image": "https://cdn.inflearn.com/public/courses/329080/cover/c7af9560-eced-48dd-af9e-66b2e8ee17bc/329080-eng.jpg",
 		"price": "74250",
 		"stacks": [
-			"Next.js"
+			"Next.js",
+			"NextJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vehonsJNrhB3UBSW/WCb/MIiARY.fcF0G",
@@ -2706,7 +2738,7 @@
 		"reviewCnt": "29",
 		"image": "https://cdn.inflearn.com/public/courses/329014/cover/433a0fd8-4a5f-4e08-b659-56966e1aed67/002.png",
 		"price": "88000",
-		"stacks": "",
+		"stacks": [],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vetlYQpjVxZrxA6WBIo89092wWpPSYr/q",
 		"rank": null
@@ -2806,7 +2838,8 @@
 			"JPA",
 			"AWS",
 			"Vue.js",
-			"Spring Security"
+			"Spring Security",
+			"VueJS"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve9kiNJS8FpgYakniiuUc6FWvk38.TjQi",
@@ -3128,7 +3161,8 @@
 		"stacks": [
 			"인터랙티브 웹",
 			"Blender",
-			"Three.js"
+			"Three.js",
+			"ThreeJS"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veXtpfXhhylAXUKNgSGfvNP7LrcirEmeW",
@@ -3348,7 +3382,8 @@
 			"NestJS",
 			"Node.js",
 			"Express",
-			"MongoDB"
+			"MongoDB",
+			"NodeJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve0bizltBsne3heJnIWfmzJdVyo.TQd/6",
@@ -3385,7 +3420,8 @@
 		"price": "38500",
 		"stacks": [
 			"JavaScript",
-			"코딩 테스트"
+			"코딩 테스트",
+			"Javascript"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veE5OBscZiJt3L3KUMq3HNHI2BUoTcZAy",
@@ -3424,7 +3460,8 @@
 		"stacks": [
 			"JavaScript",
 			"ES6",
-			"HTML/CSS"
+			"HTML/CSS",
+			"Javascript"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDISckDDuYkNWRHfpu1QOoUgvzDXWux.",
@@ -3542,7 +3579,8 @@
 		"price": "77000",
 		"stacks": [
 			"React Native",
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ve3hHdvMEFzsT6czfIgoDXT1PnbqmO0Dm",
@@ -3580,7 +3618,8 @@
 		"price": "66000",
 		"stacks": [
 			"JavaScript",
-			"코딩 테스트"
+			"코딩 테스트",
+			"Javascript"
 		],
 		"score": "4.8",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veDISckDDuYkNWRHfpu1QOoUgvzDXWux.",
@@ -3604,7 +3643,9 @@
 			"AWS",
 			"JavaScript",
 			"DBMS/RDBMS",
-			"데이터 엔지니어링"
+			"데이터 엔지니어링",
+			"NodeJS",
+			"Javascript"
 		],
 		"score": "4.7",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veRbQMdee3Hwb.9Rli13znKquQtFGcGOi",
@@ -3664,7 +3705,8 @@
 		"price": "35200",
 		"stacks": [
 			"JavaScript",
-			"ES6"
+			"ES6",
+			"Javascript"
 		],
 		"score": "4.6",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67ves96MHNl/xXKIDPB.XoIXlp4KUEd5ppa",
@@ -3723,7 +3765,8 @@
 		"price": "55000",
 		"stacks": [
 			"HTML/CSS",
-			"JavaScript"
+			"JavaScript",
+			"Javascript"
 		],
 		"score": "4.5",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67venCRNq0lXVNNTNCfy6EmnmaimSg4G.pO",
@@ -3746,7 +3789,8 @@
 			"JavaScript",
 			"SVG",
 			"HTML/CSS",
-			"웹 디자인"
+			"웹 디자인",
+			"Javascript"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veeaOMZ0B1hBFDJsbrUscxB6dB8BgiicC",
@@ -3806,7 +3850,8 @@
 			"Node.js",
 			"Webpack",
 			"Babel",
-			"ESLint"
+			"ESLint",
+			"NodeJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQ2xA0RN4rBgD3BfOf4UflpYyUkeRaCC",
@@ -3863,7 +3908,9 @@
 		"price": "33000",
 		"stacks": [
 			"JavaScript",
-			"Vue.js"
+			"Vue.js",
+			"Javascript",
+			"VueJS"
 		],
 		"score": "4.9",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veF/1SgmTAE2.XL0u0PKCZXtp/9pdFClG",
@@ -3979,7 +4026,8 @@
 		"stacks": [
 			"Vue.js",
 			"웹앱",
-			"PWA"
+			"PWA",
+			"VueJS"
 		],
 		"score": "4.5",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vexl73aHQ0dU0/oEJKGrOsyKN7TfpvT22",
@@ -4020,7 +4068,9 @@
 			"HTML/CSS",
 			"JavaScript",
 			"Node.js",
-			"Web API"
+			"Web API",
+			"Javascript",
+			"NodeJS"
 		],
 		"score": null,
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veKvsg3pagMor8zH9vQ5Gv2rKE.7QlQb.",
@@ -4116,7 +4166,8 @@
 		"price": "88000",
 		"stacks": [
 			"Quasar",
-			"Vue.js"
+			"Vue.js",
+			"VueJS"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veQEjNMSt6QeqvNdcX85guG8K6bUJ9qda",
@@ -4349,7 +4400,7 @@
 		"reviewCnt": "67",
 		"image": "https://cdn.inflearn.com/public/courses/329012/cover/3ad56c8b-291e-487e-9c2e-77a5eca630cd/003.png",
 		"price": "66000",
-		"stacks": "",
+		"stacks": [],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67veaS3ov/CNaVj2e.1saYZa6oqp3F3lfw6",
 		"rank": null
@@ -4594,7 +4645,8 @@
 		"price": "88000",
 		"stacks": [
 			"JavaScript",
-			"ES6"
+			"ES6",
+			"Javascript"
 		],
 		"score": "5.0",
 		"pwdurl": "$2b$12$JZlm2p77AKMIXOXGot67vew36X0xzPF0wtzv89sKWWCHZt8HQOh5K",
