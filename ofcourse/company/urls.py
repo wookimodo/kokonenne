@@ -9,6 +9,6 @@ urlpatterns = [
     path('', views.CompanyList.as_view(), name='company'),
 
     # # company_detail
-    path('<int:id>/',views.Companydetail.as_view(), name='detail'),
+    # path('<str:pk>/',views.Companydetail.as_view(), name='company_detail'),
     
 ]
