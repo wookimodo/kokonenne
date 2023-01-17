@@ -53,24 +53,26 @@
             <ul>
                 {% for c in company_list %}
                 <li class="list-card">
-                    <div class="company-icon">
-                        <img src="{{ c.logo }}" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#">{{ c.company }}</a></h3>
-                    </div>
-                    <p class="skill-info">
-                        {{ c.stack_info }}
-                    </p>
-                    <div class="skill-list">
-                        <ul>
-                            {% for stack in c.companydetail_set.iterator %}
-                            <li><a href="#" class="skill-icon">{{ stack.stack_name }} <img src="{{ stack.stack_img }}"
-                                        alt="아이콘"></a></li>
-                            {% endfor %}
-                            <li><a href="#" class="see-more">더보기</a></li>
-                        </ul>
-                    </div>
+                    <a href="company/{{c.id}}" class="company_detail" style="display: block; text-decoration-line: none;">
+                        <div class="company-icon">
+                            <img src="{{ c.logo }}" alt="강의 예시 이미지">
+                        </div>
+                        <div class="info-box">
+                            <h3>{{ c.name }}</h3>
+                        </div>
+                        <p class="skill-info">
+                            {{ c.stack_info }}
+                        </p>
+                        <div class="skill-list">
+                            <ul>
+                                {% for stacks in c.stack.iterator %}
+                                <li><a href="#" class="skill-icon"><img src="{{ stacks.logo }}"
+                                            alt="아이콘"></a></li>
+                                {% endfor %}
+                                <li><a href="#" class="see-more">자세히보기</a></li>
+                            </ul>
+                        </div>
+                    </a>
                 </li>
                 {% endfor %}
             </ul>
