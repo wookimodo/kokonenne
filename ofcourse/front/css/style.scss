@@ -259,318 +259,347 @@ footer {
         }
     }
 
-    .content {
-        min-width: 1200px;
-        max-width: 1500px;
-        min-height: calc(100vh - 180px);
-        margin: 30px auto 0;
-        width: 80%;
 
-        &.col-2 {
+}
+.content {
+    min-width: 1200px;
+    max-width: 1500px;
+    min-height: calc(100vh - 180px);
+    margin: 30px auto 0;
+    width: 80%;
+
+    &.col-2 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        > aside {
+            width: 22%;
+            padding: 0 10px;
+        }
+        > main {
+            width: 78%;
+            padding: 0 10px;
+        }
+    }
+
+    &.view {
+        margin-top: 10rem;
+    }
+
+    .skill-info-area {
+        background-color: var(--bg-color);
+        border: 1px solid var(--bd-color);
+        border-radius: 1rem;
+        box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
+            rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
+        padding: 4rem 2.2rem;
+
+        .skill-icon {
+            width: 12rem;
+            height: 12rem;
+            overflow: hidden;
+            margin: auto;
+
+            > img {
+                width: 100%;
+            }
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            color: var(--font-color);
+            font-weight: 600;
+        }
+
+        .skill-category {
+            margin-top: -2rem;
+            color: var(--font-color3);
+        }
+
+        .skill-info {
+            li {
+                list-style: none;
+                font-size: 1.4rem;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    .total-count {
+        color: var(--font-color3);
+        padding-left: 1rem;
+        margin: 1rem 0 0.4rem;
+
+        ::before {
+            content: "";
+            display: inline-block;
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: var(--font-color3);
+            border-radius: 10rem;
+            vertical-align: middle;
+            margin-right: 0.4rem;
+        }
+    }
+
+    > .list-area {
+        margin-top: -1.6rem;
+
+        > ul {
             display: flex;
-            justify-content: space-between;
-            width: 100%;
-
-            > aside {
-                width: 22%;
-                padding: 0 10px;
-            }
-            > main {
-                width: 78%;
-                padding: 0 10px;
-            }
+            flex-wrap: wrap;
         }
 
-        &.view {
-            margin-top: 10rem;
-        }
-
-        .skill-info-area {
+        .list-card {
+            width: calc(100% / 4 - 1.2rem);
+            margin-left: calc(4.8rem / 3);
+            margin-top: 1.6rem;
             background-color: var(--bg-color);
             border: 1px solid var(--bd-color);
             border-radius: 1rem;
+            list-style: none;
             box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
                 rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
-            padding: 4rem 2.2rem;
 
-            .skill-icon {
-                width: 12rem;
-                height: 12rem;
+            > a {
+                display: block;
+            }
+
+            &:nth-child(4n - 3) {
+                margin-left: 0;
+            }
+            .img-box {
+                border-radius: 1rem 1rem 0 0;
                 overflow: hidden;
-                margin: auto;
+                max-width: 100%;
+                height: 0;
+                padding-bottom: 65%;
+                border-bottom: 1px solid var(--bd-color);
 
                 > img {
+                    display: block;
                     width: 100%;
                 }
             }
 
-            h3 {
-                font-size: 2.2rem;
-                color: var(--font-color);
-                font-weight: 600;
-            }
+            .info-box {
+                padding: 0.2rem 2.2rem 1.8rem;
 
-            .skill-category {
-                margin-top: -2rem;
-                color: var(--font-color3);
-            }
+                h3 {
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    color: var(--font-color);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2; /* 라인수 */
+                    -webkit-box-orient: vertical;
+                    word-wrap: break-word;
+                    line-height: 1.8rem;
+                    height: 3.8rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
 
-            .skill-info {
-                li {
-                    list-style: none;
-                    font-size: 1.4rem;
-                    margin: 1rem 0;
+                    > a {
+                        all: inherit;
+                        margin: 0;
+                        cursor: pointer;
+                        margin-top: -0.2rem;
+                        > .point {
+                            font-weight: inherit;
+                            display: inline-block;
+                            margin-top: -0.4rem;
+                        }
+                    }
+                }
+
+                .teacher {
+                    margin-top: -10px;
+                }
+                .rate {
+                    margin-top: -15px;
+
+                    &::before {
+                        content: "\f005";
+                        font-family: var(--icon-font);
+                        font-weight: 900;
+                        margin-right: 3px;
+                        vertical-align: top;
+                        color: #ffcb30;
+                    }
+                }
+                .price {
+                    &::before {
+                        content: "₩";
+                        margin-right: 3px;
+                    }
                 }
             }
         }
 
-        > .list-area {
-            margin-top: -1.6rem;
-
-            > ul {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
+        &.skill {
             .list-card {
-                width: calc(100% / 4 - 1.2rem);
-                margin-left: calc(4.8rem / 3);
-                margin-top: 1.6rem;
-                background-color: var(--bg-color);
-                border: 1px solid var(--bd-color);
-                border-radius: 1rem;
-                list-style: none;
-                box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
-                    rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
+                &.type2 {
+                    .skill-info {
+                        border: 0;
+                        text-align: right;
+                    }
+                }
 
-                &:nth-child(4n - 3) {
+                width: calc(100% / 3 - 2.4rem / 3);
+                margin-left: 1.2rem;
+                padding: 1.8rem 2.2rem;
+
+                &:nth-child(3n-2) {
                     margin-left: 0;
                 }
-                .img-box {
-                    border-radius: 1rem 1rem 0 0;
+
+                .company-icon {
+                    width: 7rem;
+                    height: 7rem;
                     overflow: hidden;
-                    max-width: 100%;
-                    height: 0;
-                    padding-bottom: 65%;
-                    border-bottom: 1px solid var(--bd-color);
+                    display: inline-block;
+                    vertical-align: middle;
 
                     > img {
-                        display: block;
                         width: 100%;
                     }
                 }
 
                 .info-box {
-                    padding: 0.2rem 2.2rem 1.8rem;
+                    display: inline-block;
+                    padding: 0;
+                    margin-left: 10px;
+                    width: calc(100% - 9rem);
+                    vertical-align: middle;
 
-                    h3 {
-                        font-size: 1.6rem;
-                        font-weight: 600;
-                        color: var(--font-color);
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        display: -webkit-box;
-                        -webkit-line-clamp: 2; /* 라인수 */
-                        -webkit-box-orient: vertical;
-                        word-wrap: break-word;
-                        line-height: 1.8rem;
-                        height: 3.8rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+                    > h3 {
+                        margin: 0;
+                        height: auto;
+                    }
+                }
 
-                        > a {
-                            all: inherit;
-                            margin: 0;
-                            cursor: pointer;
-                            margin-top: -0.2rem;
-                            > .point {
-                                font-weight: inherit;
-                                display: inline-block;
-                                margin-top: -0.4rem;
+                .location {
+                    margin: 0;
+                    font-size: 1.3rem;
+                    margin-top: 0.2rem;
+                }
+
+                .skill-info {
+                    color: var(--font-color3);
+                    font-size: 1.2rem;
+                    margin: 1rem 0;
+                    padding: 0 0 0.4rem 0.4rem;
+                    border-bottom: 1px solid var(--bd-color);
+                }
+
+                .skill-list {
+                    overflow-x: scroll;
+                    overflow-y: hidden;
+                    margin-top: 1.2rem;
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            list-style: none;
+                            margin: 0 0.2rem;
+                            // border: 1px solid #000;
+
+                            > .skill-icon {
+                                font-size: 0;
+                                display: block;
+                                width: fit-content;
+                                width: 5rem;
+                                height: 5rem;
+                                overflow: hidden;
+
+                                > img {
+                                    display: block;
+                                    width: 100%;
+                                }
                             }
-                        }
-                    }
 
-                    .teacher {
-                        margin-top: -10px;
-                    }
-                    .rate {
-                        margin-top: -15px;
+                            .see-more {
+                                margin-left: 1.4rem;
+                                display: block;
+                                width: 5rem;
+                                height: 5rem;
+                                text-align: center;
+                                line-height: 5rem;
+                                color: var(--main-color);
+                                font-weight: 600;
+                                text-decoration: none;
+                                font-size: 1.2rem;
 
-                        &::before {
-                            content: "\f005";
-                            font-family: var(--icon-font);
-                            font-weight: 900;
-                            margin-right: 3px;
-                            vertical-align: top;
-                            color: #ffcb30;
-                        }
-                    }
-                    .price {
-                        &::before {
-                            content: "₩";
-                            margin-right: 3px;
+                                &::after {
+                                    content: "\f061";
+                                    font-family: var(--icon-font);
+                                    margin: 0 0.4rem;
+                                }
+                            }
                         }
                     }
                 }
             }
+        }
+    }
 
-            &.skill {
-                .list-card {
-                    width: calc(100% / 3 - 2.4rem / 3);
-                    margin-left: 1.2rem;
-                    padding: 1.8rem 2.2rem;
+    > .view-area {
+        margin-top: -2rem;
 
-                    &:nth-child(3n-2) {
-                        margin-left: 0;
+        .info-box {
+            background-color: var(--bg-color);
+            border: 1px solid var(--bd-color);
+            border-radius: 1rem;
+            box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
+                rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
+            padding: 3rem 2.2rem;
+            margin-top: 2rem;
+
+            > .skill-title {
+                font-size: 1.8rem;
+                color: var(--font-color2);
+                margin: 0;
+                font-weight: 600;
+            }
+
+            > .skill-count {
+                font-size: 1.3em;
+                color: var(--font-color3);
+            }
+
+            .skill-list {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                margin-top: -1.5rem;
+
+                > li {
+                    width: calc(100% / 10 - 3rem);
+                    list-style: none;
+                    margin: 2.5rem 1.5rem 0;
+
+                    > a {
+                        text-decoration: none;
                     }
 
-                    .company-icon {
+                    .skill-icon {
+                        display: block;
                         width: 7rem;
                         height: 7rem;
                         overflow: hidden;
-                        display: inline-block;
-                        vertical-align: middle;
+                        margin: 0 auto;
 
                         > img {
                             width: 100%;
                         }
                     }
 
-                    .info-box {
-                        display: inline-block;
-                        padding: 0;
-                        margin-left: 10px;
-                        width: calc(100% - 9rem);
-                        vertical-align: middle;
-
-                        > h3 {
-                            margin: 0;
-                            height: auto;
-                        }
-                    }
-
-                    .location {
-                        margin: 0;
-                        font-size: 1.3rem;
-                        margin-top: 0.2rem;
-                    }
-
-                    .skill-info {
-                        color: var(--font-color3);
-                        font-size: 1.2rem;
-                        margin: 1rem 0;
-                        padding: 0 0 0.4rem 0.4rem;
-                        border-bottom: 1px solid var(--bd-color);
-                    }
-
-                    .skill-list {
-                        overflow-x: scroll;
-                        overflow-y: hidden;
-                        margin-top: 1.2rem;
-
-                        ul {
-                            display: flex;
-
-                            li {
-                                list-style: none;
-                                margin: 0 0.2rem;
-                                // border: 1px solid #000;
-
-                                > .skill-icon {
-                                    font-size: 0;
-                                    display: block;
-                                    width: fit-content;
-                                    width: 5rem;
-                                    height: 5rem;
-                                    overflow: hidden;
-
-                                    > img {
-                                        display: block;
-                                        width: 100%;
-                                    }
-                                }
-
-                                .see-more {
-                                    margin-left: 1.4rem;
-                                    display: block;
-                                    width: 5rem;
-                                    height: 5rem;
-                                    text-align: center;
-                                    line-height: 5rem;
-                                    color: var(--main-color);
-                                    font-weight: 600;
-                                    text-decoration: none;
-                                    font-size: 1.2rem;
-
-                                    &::after {
-                                        content: "\f061";
-                                        font-family: var(--icon-font);
-                                        margin: 0 0.4rem;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        > .view-area {
-            margin-top: -2rem;
-
-            .info-box {
-                background-color: var(--bg-color);
-                border: 1px solid var(--bd-color);
-                border-radius: 1rem;
-                box-shadow: rgb(8 60 130 / 6%) 0px 0px 0px 0.05rem,
-                    rgb(30 34 40 / 4%) 0rem 0rem 1.25rem;
-                padding: 3rem 2.2rem;
-                margin-top: 2rem;
-
-                > .skill-title {
-                    font-size: 1.8rem;
-                    color: var(--font-color2);
-                    margin: 0;
-                    font-weight: 600;
-                }
-
-                > .skill-count {
-                    font-size: 1.3em;
-                    color: var(--font-color3);
-                }
-
-                .skill-list {
-                    display: flex;
-                    flex-wrap: wrap;
-                    width: 100%;
-                    margin-top: -1.5rem;
-
-                    > li {
-                        width: calc(100% / 10 - 3rem);
-                        list-style: none;
-                        margin: 2.5rem 1.5rem 0;
-
-                        > a {
-                            text-decoration: none;
-                        }
-
-                        .skill-icon {
-                            display: block;
-                            width: 7rem;
-                            height: 7rem;
-                            overflow: hidden;
-                            margin: 0 auto;
-
-                            > img {
-                                width: 100%;
-                            }
-                        }
-
-                        .skill-name {
-                            text-align: center;
-                            font-weight: 400;
-                            color: var(--font-color);
-                            margin: 0.8rem 0 0;
-                        }
+                    .skill-name {
+                        text-align: center;
+                        font-weight: 400;
+                        color: var(--font-color);
+                        margin: 0.8rem 0 0;
                     }
                 }
             }
