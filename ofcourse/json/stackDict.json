@@ -1,0 +1,1181 @@
+{
+	"Agit": [
+		"아지트",
+		"Agit"
+	],
+	"Airflow": [
+		"에어플로우",
+		"에어플로",
+		"Airflow"
+	],
+	"Alamofire": [
+		"알라모파이어",
+		"Alamofire"
+	],
+	"Angular": [
+		"엔귤러",
+		"앤귤러",
+		"앵귤러",
+		"Angular"
+	],
+	"Ansible": [
+		"앤서블",
+		"Ansible"
+	],
+	"Apollo": [
+		"아폴로",
+		"Apollo"
+	],
+	"Appium": [
+		"애피움",
+		"에피움",
+		"Appium"
+	],
+	"ArangoDB": [
+		"아란고db",
+		"아랑고db",
+		"아란고디비",
+		"ArangoDB"
+	],
+	"Arcus": [
+		"아쿠스",
+		"Arcus"
+	],
+	"Argo CD": [
+		"ArgoCD",
+		"Argo CD"
+	],
+	"Armeria": [
+		"알메리아",
+		"Armeria"
+	],
+	"Asana": [
+		"아사나",
+		"Asana"
+	],
+	"ASP.NET": [
+		"ASPNET",
+		".NET",
+		"ASP.NET"
+	],
+	"AWS Athena": [
+		"아테나",
+		"AWSAthena",
+		"AWS Athena"
+	],
+	"AWS AuroraDB": [
+		"오로라db",
+		"오로라",
+		"AWSAuroraDB",
+		"AWS AuroraDB"
+	],
+	"AWS CodeBuild": [
+		"코드빌드",
+		"AWSCodeBuild",
+		"AWS CodeBuild"
+	],
+	"AWS CodeDeploy": [
+		"코드디플로이",
+		"디플로이",
+		"AWSCodeDeploy",
+		"AWS CodeDeploy"
+	],
+	"AWS CodePipeline": [
+		"코드파이프라인",
+		"파이프라인",
+		"AWSCodePipeline",
+		"AWS CodePipeline"
+	],
+	"AWS DocumentDB": [
+		"도큐먼트db",
+		"AWSDocumentDB",
+		"AWS DocumentDB"
+	],
+	"AWS DynamoDB": [
+		"다이나모db",
+		"AWSDynamoDB",
+		"AWS DynamoDB"
+	],
+	"AWS Kinesis": [
+		"키네시스",
+		"AWSKinesis",
+		"AWS Kinesis"
+	],
+	"AWS MariaDB": [
+		"마리아db",
+		"AWSMariaDB",
+		"AWS MariaDB"
+	],
+	"AWS Redshift": [
+		"레드시프트",
+		"레드쉬프트",
+		"AWSRedshift",
+		"AWS Redshift"
+	],
+	"AWS SES": [
+		"AWSSES",
+		"AWS SES"
+	],
+	"AWS SNS": [
+		"AWSSNS",
+		"AWS SNS"
+	],
+	"AWS SQS": [
+		"AWSSQS",
+		"AWS SQS"
+	],
+	"Azure DevOps": [
+		"데브옵스",
+		"AzureDevOps",
+		"Azure DevOps"
+	],
+	"BackboneJS": [
+		"백본js",
+		"Backbone.JS",
+		"BackboneJS"
+	],
+	"Bazel": [
+		"베젤",
+		"Bazel"
+	],
+	"Bitbucket": [
+		"비트버켓",
+		"Bitbucket"
+	],
+	"Bitrise": [
+		"비트라이즈",
+		"Bitrise"
+	],
+	"Capistrano": [
+		"Capistrano"
+	],
+	"CassandraDB": [
+		"카산드라",
+		"카산드라db",
+		"데이터베이스",
+		"CassandraDB"
+	],
+	"Celery": [
+		"Celery"
+	],
+	"Central Dogma": [
+		"센트럴도그마",
+		"센트럴 도그마",
+		"CentralDogma",
+		"Central Dogma"
+	],
+	"Ceph": [
+		"Ceph"
+	],
+	"Circle CI": [
+		"서클ci",
+		"써클ci",
+		"CircleCI",
+		"Circle CI"
+	],
+	"Clickhouse": [
+		"클릭하우스",
+		"Clickhouse"
+	],
+	"Clojure": [
+		"클로저",
+		"Clojure"
+	],
+	"CockroachDB": [
+		"코크로치",
+		"코크로치db",
+		"콕로치",
+		"콕로치db",
+		"CockroachDB"
+	],
+	"CodeIgniter": [
+		"코드이그니터",
+		"CodeIgniter"
+	],
+	"Confluence": [
+		"콘플루언스",
+		"Confluence"
+	],
+	"Couchbase": [
+		"코치베이스",
+		"Couchbase"
+	],
+	"C++": [
+		"씨쁠쁠",
+		"씨",
+		"C++"
+	],
+	"C#": [
+		"씨",
+		"씨샵",
+		"씨샾",
+		"C#"
+	],
+	"Cubrid": [
+		"큐버드",
+		"쿠버드",
+		"Cubrid"
+	],
+	"Cucumber": [
+		"큐컴버",
+		"Cucumber"
+	],
+	"Cypress": [
+		"사이프레스",
+		"싸이프레스",
+		"시프레스",
+		"씨프레스",
+		"Cypress"
+	],
+	"Dagger": [
+		"대거",
+		"데거",
+		"Dagger"
+	],
+	"Dart": [
+		"다트",
+		"Dart"
+	],
+	"Discord": [
+		"디스코드",
+		"Discord"
+	],
+	"Django": [
+		"장고",
+		"Django"
+	],
+	"Docker": [
+		"독커",
+		"닥커",
+		"다커",
+		"도커",
+		"Docker"
+	],
+	"Docusaurus": [
+		"도큐사우르스",
+		"Docusaurus"
+	],
+	"Dooray": [
+		"두레이",
+		"두래이",
+		"Dooray"
+	],
+	"Drone": [
+		"드론",
+		"Drone"
+	],
+	"Dropwizard": [
+		"드롭위자드",
+		"Dropwizard"
+	],
+	"Druid": [
+		"드루이드",
+		"Druid"
+	],
+	"ElasticSearch": [
+		"엘라스틱서치",
+		"ElasticSearch"
+	],
+	"Electron": [
+		"일렉트론",
+		"Electron"
+	],
+	"Elixir": [
+		"엘릭서",
+		"Elixir"
+	],
+	"EmberJS": [
+		"엠버js",
+		"Ember.JS",
+		"EmberJS"
+	],
+	"Emotion": [
+		"이모션",
+		"Emotion"
+	],
+	"Envoy": [
+		"엔보이",
+		"Envoy"
+	],
+	"Enzyme": [
+		"Enzyme",
+		"엔짐"
+	],
+	"ExoPlayer": [
+		"엑소플레이어",
+		"ExoPlayer"
+	],
+	"ExpressJS": [
+		"익스프레스js",
+		"Express.JS",
+		"ExpressJS"
+	],
+	"Falcon": [
+		"팔콘",
+		"Falcon"
+	],
+	"FastAPI": [
+		"패스트api",
+		"페스트api",
+		"FastAPI"
+	],
+	"Fastify": [
+		"페스티파이",
+		"Fastify"
+	],
+	"Fastlane": [
+		"페스트레인",
+		"Fastlane"
+	],
+	"Fiber": [
+		"피버",
+		"파이버",
+		"Fiber"
+	],
+	"Flask": [
+		"플라스크",
+		"프라스크",
+		"Flask"
+	],
+	"Flink": [
+		"플린크",
+		"플링크",
+		"Flink"
+	],
+	"Flow": [
+		"플로우",
+		"Flow"
+	],
+	"Fluentd": [
+		"Fluentd"
+	],
+	"Flutter": [
+		"플루터",
+		"플러터",
+		"Flutter"
+	],
+	"Gatsby": [
+		"게츠비",
+		"갯츠비",
+		"Gatsby"
+	],
+	"Gin": [
+		"Gin"
+	],
+	"Github": [
+		"깃허브",
+		"깃헙",
+		"Github"
+	],
+	"Github Action": [
+		"깃허브 액션",
+		"GithubAction",
+		"Github Action"
+	],
+	"Gitlab": [
+		"깃랩",
+		"Gitlab"
+	],
+	"Glide": [
+		"글라이드",
+		"글리드",
+		"Glide"
+	],
+	"Go": [
+		"고",
+		"지오",
+		"Go"
+	],
+	"Go CD": [
+		"고씨디",
+		"GoCD",
+		"지오씨디",
+		"Go CD"
+	],
+	"Google BigQuery": [
+		"GoogleBigQuery",
+		"구글빅쿼리",
+		"Google BigQuery"
+	],
+	"Google Cloud Build": [
+		"GoogleCloudBuild",
+		"구글클라우드",
+		"Google Cloud Build"
+	],
+	"Google Data Studio": [
+		"GoogleDataStudio",
+		"구글데이터스튜디오",
+		"Google Data Studio"
+	],
+	"Google Firebase": [
+		"GoogleFirebase",
+		"구글파이어베이스",
+		"Google Firebase"
+	],
+	"Google Firestore": [
+		"GoogleFirestore",
+		"구글파이어스토어",
+		"Google Firestore"
+	],
+	"Grafana": [
+		"그라파나",
+		"Grafana"
+	],
+	"GraphQL": [
+		"그래프큐엘",
+		"GraphQL"
+	],
+	"Greenplum": [
+		"그린플럼",
+		"Greenplum"
+	],
+	"GRPC": [
+		"GRPC",
+		"지알피씨",
+		"지알피시"
+	],
+	"Gulp": [
+		"걸프",
+		"Gulp"
+	],
+	"Hadoop": [
+		"하둡",
+		"Hadoop"
+	],
+	"Harbor": [
+		"하버",
+		"Harbor"
+	],
+	"HBase": [
+		"에이치베이스",
+		"HBase"
+	],
+	"Helm": [
+		"Helm"
+	],
+	"Hibernate": [
+		"하이버네이트",
+		"Hibernate"
+	],
+	"Hive": [
+		"하이브",
+		"Hive"
+	],
+	"Hugo": [
+		"휴고",
+		"Hugo"
+	],
+	"Immer": [
+		"이머",
+		"임머",
+		"Immer"
+	],
+	"Impala": [
+		"임팔라",
+		"Impala"
+	],
+	"InfluxDB": [
+		"인플럭스디비",
+		"InfluxDB"
+	],
+	"Istio": [
+		"이스티오",
+		"Istio"
+	],
+	"Jaeger": [
+		"재거",
+		"제거",
+		"Jaeger"
+	],
+	"Jandi": [
+		"잔디",
+		"잰디",
+		"Jandi"
+	],
+	"Jasmine": [
+		"자스민",
+		"재스민",
+		"Jasmine"
+	],
+	"Java": [
+		"자바",
+		"Java"
+	],
+	"Javascript": [
+		"자바스크립트",
+		"js",
+		"Javascript"
+	],
+	"Jenkins": [
+		"잰킨스",
+		"젠킨스",
+		"Jenkins"
+	],
+	"Jest": [
+		"제스트",
+		"재스트",
+		"Jest"
+	],
+	"Jira": [
+		"지라",
+		"Jira"
+	],
+	"Jotai": [
+		"조타이",
+		"Jotai"
+	],
+	"JUnit": [
+		"제이유닛",
+		"JUnit"
+	],
+	"Kafka": [
+		"카프카",
+		"Kafka"
+	],
+	"Kakaotalk": [
+		"카카오톡",
+		"카톡",
+		"Kakaotalk"
+	],
+	"KakaoWork": [
+		"카카오워크",
+		"카카오웤",
+		"KakaoWork"
+	],
+	"Karma": [
+		"카르마",
+		"Karma"
+	],
+	"Karpenter": [
+		"카펜터",
+		"Karpenter"
+	],
+	"Keras": [
+		"케라스",
+		"Keras"
+	],
+	"Kibana": [
+		"키바나",
+		"Kibana"
+	],
+	"Koa": [
+		"코아",
+		"Koa"
+	],
+	"Kotlin": [
+		"코틀린",
+		"Kotlin"
+	],
+	"Ktor": [
+		"Ktor"
+	],
+	"Kube-Bench": [
+		"KubeBench",
+		"큐브벤치",
+		"Kube-Bench"
+	],
+	"Kubeflow": [
+		"큐브플로우",
+		"쿠브플로우",
+		"Kubeflow"
+	],
+	"Kubernetes": [
+		"쿠터네티스",
+		"Kubernetes"
+	],
+	"Kudu": [
+		"쿠두",
+		"Kudu"
+	],
+	"Laravel": [
+		"Laravel"
+	],
+	"Linkerd": [
+		"Linkerd",
+		"링커드"
+	],
+	"Liquibase": [
+		"Liquibase",
+		"리퀴베이스",
+		"리키베이스"
+	],
+	"Locust": [
+		"로커스트",
+		"Locust"
+	],
+	"Looker": [
+		"루커",
+		"룩커",
+		"Looker"
+	],
+	"Lottie": [
+		"로티",
+		"Lottie"
+	],
+	"Lua": [
+		"루아",
+		"Lua"
+	],
+	"Luigi": [
+		"Luigi"
+	],
+	"Memcached": [
+		"Memcached"
+	],
+	"Metabase": [
+		"메타버스",
+		"Metabase"
+	],
+	"Meteor": [
+		"메테오",
+		"Meteor"
+	],
+	"Microsoft-Teams": [
+		"MicrosoftTeams",
+		"마이크로소프트",
+		"팀즈",
+		"Microsoft-Teams"
+	],
+	"MLflow": [
+		"ml",
+		"엠엘플로우",
+		"MLflow"
+	],
+	"MobX": [
+		"몹엑스",
+		"MobX"
+	],
+	"Mocha": [
+		"모카",
+		"Mocha"
+	],
+	"Mockito": [
+		"모키토",
+		"Mockito"
+	],
+	"Monday": [
+		"먼데이",
+		"몬데이",
+		"Monday"
+	],
+	"MongoDB": [
+		"몽고디비",
+		"데이터베이스",
+		"MongoDB"
+	],
+	"Moya": [
+		"모야",
+		"Moya"
+	],
+	"MSSQL": [
+		"엠에스에스큐엘",
+		"MSSQL"
+	],
+	"MyBatis": [
+		"마이베티스",
+		"MyBatis"
+	],
+	"MySQL": [
+		"마이에스큐엘",
+		"MySQL"
+	],
+	"Naver Works": [
+		"NaverWorks",
+		"네이버웍스",
+		"Naver Works"
+	],
+	"Neo4j": [
+		"네오포제이",
+		"Neo4j"
+	],
+	"NestJS": [
+		"Nest.JS",
+		"네스트제이에스",
+		"NestJS"
+	],
+	"Netty": [
+		"네티",
+		"넷티",
+		"Netty"
+	],
+	"NextJS": [
+		"Next.JS",
+		"넥스트제이에스",
+		"NextJS"
+	],
+	"Nexus": [
+		"넥서스",
+		"Nexus"
+	],
+	"nGrinder": [
+		"엔그라인더",
+		"nGrinder"
+	],
+	"NIFI": [
+		"NIFI",
+		"ApacheNiFi",
+		"Apache NiFi"
+	],
+	"NodeJS": [
+		"Node.JS",
+		"노드제이에스",
+		"NodeJS"
+	],
+	"Notion": [
+		"노션",
+		"Notion"
+	],
+	"NuxtJS": [
+		"넉스트제이에스",
+		"넉스트",
+		"제이에스",
+		"넉스트 제이에스",
+		"nuxt.js",
+		"NuxtJS"
+	],
+	"Objective-C": [
+		"오브젝티브",
+		"오브젝티브씨",
+		"objective",
+		"Objective-C"
+	],
+	"OpenEBS": [
+		"오픈이비에스",
+		"오픈",
+		"이비에스",
+		"오픈 이비에스",
+		"OpenEBS"
+	],
+	"OpenGL": [
+		"오픈지엘",
+		"지엘",
+		"쥐엘",
+		"오픈 지엘",
+		"오픈",
+		"OpenGL"
+	],
+	"OracleDB": [
+		"오라클디비",
+		"오라클",
+		"디비",
+		"db",
+		"OracleDB"
+	],
+	"Packer": [
+		"패커",
+		"패컬",
+		"Packer"
+	],
+	"Perl": [
+		"펄",
+		"Perl"
+	],
+	"Phoenix": [
+		"피오닉스",
+		"피닉스",
+		"Phoenix"
+	],
+	"PHP": [
+		"피에이치피",
+		"PHP"
+	],
+	"Playwright": [
+		"플레이롸이트",
+		"플레이 라이트",
+		"플레이 롸이트",
+		"플레이라이트",
+		"플레이",
+		"Playwright"
+	],
+	"PostgreSQL": [
+		"포스트그리",
+		"포스트",
+		"PostgreSQL"
+	],
+	"Presto": [
+		"프레스토",
+		"Presto"
+	],
+	"Prometheus": [
+		"프로메테우스",
+		"Prometheus"
+	],
+	"Puppeteer": [
+		"퍼펫티어",
+		"푸피티어",
+		"Puppeteer"
+	],
+	"Python": [
+		"파이썬",
+		"파이선",
+		"Python"
+	],
+	"Pytorch": [
+		"파이토치",
+		"토치",
+		"Pytorch"
+	],
+	"R": [
+		"알",
+		"R"
+	],
+	"RabbitMQ": [
+		"래빗엠큐",
+		"래빗",
+		"엠큐",
+		"래빗 엠큐",
+		"RabbitMQ"
+	],
+	"Rancher": [
+		"랜처",
+		"랜쳐",
+		"Rancher"
+	],
+	"Ranger": [
+		"랜저",
+		"랜져",
+		"Ranger"
+	],
+	"Ray": [
+		"레이",
+		"뤠이",
+		"Ray"
+	],
+	"React Context": [
+		"리액트",
+		"리액트 컨텍스트",
+		"react",
+		"React Context"
+	],
+	"ReactiveX": [
+		"리액티브엑스",
+		"리액티브 엑스",
+		"리액티브",
+		"리액티브 엑스",
+		"react",
+		"ReactiveX"
+	],
+	"ReactJS": [
+		"리액트제이에스",
+		"리액트",
+		"리액트",
+		"제이에스",
+		"react.js",
+		"ReactJS"
+	],
+	"React Native": [
+		"리액트 네이티브",
+		"리액트",
+		"리액트네이티브",
+		"reactnative",
+		"react",
+		"React Native"
+	],
+	"ReactorKit": [
+		"리액트키트",
+		"리액트 키트",
+		"react",
+		"ReactorKit"
+	],
+	"React Query": [
+		"리액트 쿼리",
+		"리액트쿼리",
+		"react",
+		"React Query"
+	],
+	"Realm": [
+		"림",
+		"렘",
+		"Realm"
+	],
+	"Recoil": [
+		"리코일",
+		"레코일",
+		"Recoil"
+	],
+	"Redash": [
+		"리대시",
+		"리대쉬",
+		"리데시",
+		"리데쉬",
+		"Redash"
+	],
+	"Redis": [
+		"레디스",
+		"래디스",
+		"Redis"
+	],
+	"Redux": [
+		"리덕스",
+		"리독스",
+		"Redux"
+	],
+	"Relay": [
+		"릴레이",
+		"릴래이",
+		"Relay"
+	],
+	"ReScript": [
+		"리스크립트",
+		"스크립트",
+		"뤼스크립트",
+		"리스크립",
+		"ReScript"
+	],
+	"Rest-Assured": [
+		"레스트애슈얼드",
+		"레스트 어슈얼드",
+		"레스트어슈얼드",
+		"레스트 애슈얼드",
+		"rest",
+		"rest assured",
+		"assured",
+		"RestAssured",
+		"Rest-Assured"
+	],
+	"Retrofit": [
+		"레프로핏",
+		"리트로핏",
+		"레트로",
+		"Retrofit"
+	],
+	"RIBs": [
+		"립스",
+		"RIBs"
+	],
+	"RocksDB": [
+		"락스디비",
+		"락스 디비",
+		"RocksDB"
+	],
+	"Ruby": [
+		"루비",
+		"Ruby"
+	],
+	"Ruby on Rails": [
+		"루비 온 래일스",
+		"루비 온 레일스",
+		"루비 온 레일즈",
+		"루비온 래일즈",
+		"루비온래일스",
+		"루비온레일스",
+		"루비온래일즈",
+		"루비온레일즈",
+		"RubyonRails",
+		"Ruby on Rails"
+	],
+	"Rundeck": [
+		"런덕",
+		"런덱",
+		"Rundeck"
+	],
+	"Rust": [
+		"러스트",
+		"Rust"
+	],
+	"Saltstack": [
+		"솔트스택",
+		"솔트 스택",
+		"Saltstack"
+	],
+	"Sanic": [
+		"새닉",
+		"세닉",
+		"Sanic"
+	],
+	"Scala": [
+		"스칼라",
+		"Scala"
+	],
+	"Selenium": [
+		"셀레니움",
+		"셀리늄",
+		"셀레늄",
+		"Selenium"
+	],
+	"Sinon": [
+		"시논",
+		"Sinon"
+	],
+	"Slack": [
+		"슬랙",
+		"쓸랙",
+		"Slack"
+	],
+	"SnapKit": [
+		"스냅킷",
+		"스냅키트",
+		"SnapKit"
+	],
+	"Snowflake": [
+		"스노우플레이크",
+		"스노우플래이크",
+		"Snowflake"
+	],
+	"Solr": [
+		"솔",
+		"솔르",
+		"Solr"
+	],
+	"Sonarqube": [
+		"소나큐브",
+		"Sonarqube"
+	],
+	"Spark": [
+		"스파크",
+		"스팍",
+		"Spark"
+	],
+	"Spinnaker": [
+		"스피내커",
+		"스피나커",
+		"Spinnaker"
+	],
+	"Spring": [
+		"스프링",
+		"Spring"
+	],
+	"SpringBoot": [
+		"스프링부트",
+		"SpringBoot"
+	],
+	"Storybook": [
+		"스토리북",
+		"Storybook"
+	],
+	"Styled-Components": [
+		"스타일컴포넌트",
+		"스타일 컴포넌트",
+		"StyledComponents",
+		"Styled-Components"
+	],
+	"Superset": [
+		"수퍼셋",
+		"수퍼 셋",
+		"Superset"
+	],
+	"Svelte": [
+		"스벨트",
+		"Svelte"
+	],
+	"Swagger": [
+		"스웨거",
+		"Swagger"
+	],
+	"Swift": [
+		"스위프트",
+		"Swift"
+	],
+	"Tableau": [
+		"태블로",
+		"타블로",
+		"Tableau"
+	],
+	"Tailwind": [
+		"태일윈도",
+		"태일윈드",
+		"테일윈도",
+		"테일윈드",
+		"Tailwind"
+	],
+	"Telegram": [
+		"텔레그램",
+		"Telegram"
+	],
+	"Tensorflow": [
+		"텐서플로우",
+		"텐서플로",
+		"Tensorflow"
+	],
+	"Terraform": [
+		"테라폼",
+		"텔라폼",
+		"Terraform"
+	],
+	"Testing Library": [
+		"테스팅 라이브러리",
+		"테스팅라이브러리",
+		"Testing Library"
+	],
+	"Thrift": [
+		"스위프트",
+		"뜨리프트",
+		"스리프트",
+		"Thrift"
+	],
+	"Traefik": [
+		"트래픽",
+		"Traefik"
+	],
+	"Travis CI": [
+		"트래비스 씨아이",
+		"씨아이",
+		"트래비스씨아이",
+		"Travis CI"
+	],
+	"Trello": [
+		"트렐로",
+		"Trello"
+	],
+	"Trino": [
+		"트라이노",
+		"트리노",
+		"Trino"
+	],
+	"Tuist": [
+		"트위스트",
+		"Tuist"
+	],
+	"Typescript": [
+		"타입스크립트",
+		"Typescript"
+	],
+	"Unity": [
+		"유니티",
+		"Unity"
+	],
+	"Vault": [
+		"볼트",
+		"Vault"
+	],
+	"VueJS": [
+		"뷰제이에스",
+		"제이에스",
+		"뷰",
+		"VueJS",
+		"Vue.js",
+		"Vue"
+	],
+	"Vuex": [
+		"뷰엑스",
+		"뷰 엑스",
+		"Vuex"
+	],
+	"WebRTC": [
+		"웹알티씨",
+		"웹 알티씨",
+		"알티씨",
+		"WebRTC"
+	],
+	"Zabbix": [
+		"잽빅스",
+		"잽빅쓰",
+		"자빅스",
+		"Zabbix"
+	],
+	"Zeppelin": [
+		"제플린",
+		"제프린",
+		"재플린",
+		"Zeppelin"
+	],
+	"Zipkin": [
+		"집킨",
+		"Zipkin"
+	],
+	"Zustand": [
+		"저스탠드",
+		"즈스탠드",
+		"Zustand"
+	]
+}
