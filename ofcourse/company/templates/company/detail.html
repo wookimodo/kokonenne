@@ -3,20 +3,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ofcourse</title>
-    <!-- fontawesome css cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- normalize css cdn-->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <!-- global css -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ofcourse</title>
+        <!-- fontawesome css cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- normalize css cdn-->
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <!-- global css -->
+        <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    </head>
        
 <body class="list-page">
     <header>
@@ -34,9 +34,10 @@
         <aside>
             <div class="skill-info-area">
                 <div class="skill-icon">
-                    <img src="./asset/company-icon/kakao.png" alt="skill icon">
+                    <!-- 회사 이름, 로고 -->
+                    <img src="{{ company.logo }}" alt="skill icon">
                 </div>
-                <h3>카카오</h3>
+                <h3>{{ company.name }}</h3>
                 <p class="skill-category">종합</p>
                 <ul class="skill-info">
                     <li>
@@ -48,197 +49,146 @@
                 </ul>
             </div>
         </aside>
+        <!-- 스택별 리스트 -->
         <main class="view-area">
             <div class="info-box">
                 <h3 class="skill-title">언어</h3>
-                <p class="skill-count">총 7개</p>
                 <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "언어" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/js.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">자바스크립트</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/java.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Java</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/scala.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Scala</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/kotlin.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Kotlin</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/typescript.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Typescript</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/python.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Python</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/cplusplus.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">C++</p>
-                        </a>
-                    </li>
+                    {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
             <div class="info-box">
                 <h3 class="skill-title">프론트엔드</h3>
-                <p class="skill-count">총 11개</p>
                 <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "프론트엔드" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/reactjs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">ReactJS</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/reactquery.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">React Query</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/recoil.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Recoil</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/redux.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Redux</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/vuejs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">VueJS</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/vuex.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Vuex</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/nuxtjs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">NuxtJS</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/storybook.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Storybook</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/styledcomponents.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Styled-Components</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/graphql.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">GraphQL</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/nextjs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">NextJS</p>
-                        </a>
-                    </li>
+                    {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
             <div class="info-box">
                 <h3 class="skill-title">백엔드</h3>
-                <p class="skill-count">총 11개</p>
                 <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "백엔드" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/reactjs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">ReactJS</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% if company.stack.iterator.assort.exists %}
+            <div class="info-box">
+                <h3 class="skill-title">모바일</h3>
+                <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "모바일" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/reactquery.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">React Query</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            <div class="info-box">
+                <h3 class="skill-title">데브옵스</h3>
+                <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "데브옵스" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/recoil.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Recoil</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3 class="skill-title">데이터베이스</h3>
+                <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "데이터베이스" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/redux.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Redux</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% if company.stack.iterator.assort.exists %}
+            <div class="info-box">
+                <h3 class="skill-title">데이터</h3>
+                <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "데이터" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/vuejs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">VueJS</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+
+            <div class="info-box">
+                <h3 class="skill-title">테스팅툴</h3>
+                <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "테스팅툴" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/vuex.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Vuex</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="info-box">
+                <h3 class="skill-title">협업툴</h3>
+                <ul class="skill-list">
+                    {% for s in company.stack.iterator %}
+                    {% if s.assort == "협업툴" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/nuxtjs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">NuxtJS</p>
+                            <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ s.name }}</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/storybook.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Storybook</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/styledcomponents.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">Styled-Components</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/graphql.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">GraphQL</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="skill-icon"><img src="./asset/skill-icon/nextjs.png" alt="스킬 아이콘"></i>
-                            <p class="skill-name">NextJS</p>
-                        </a>
-                    </li>
+                    {% endif %}
+                    {% endfor %}
                 </ul>
             </div>
         </main>
