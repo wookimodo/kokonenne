@@ -62,12 +62,12 @@
             <div class="info-box">
                 <h3 class="skill-title"> 연관 강의 </h3>
                 <ul class="skill-list">
-                    {% for cor in stacks.company_set.iterator %}
+                    {% for cor in stacks.course_set.iterator %}
                     {% if cor.assort == "프론트엔드" %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="{{ cor.logo }}" alt="스킬 아이콘"></i>
-                            <p class="skill-name">{{ cor.name }}</p>
+                            <i class="skill-icon"><img src="{{ cor.img_url }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ cor.title }}</p>
                         </a>
                     </li>
                     {% endif %}
