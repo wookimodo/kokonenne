@@ -14,12 +14,12 @@
     <!-- normalize css cdn-->
     <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
     <!-- global css -->
-    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body class="list-page">
     <header>
-        <div class="container">
+        <div class="container" >
             <h1>Of Course</h1>
             <nav>
                 <ul>
@@ -30,15 +30,10 @@
         </div>
     </header>
     <div class="search-area">
-        <form action="">
-            <!-- 검색 결과 표시 -->
-            <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
-            <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
-            <!-- 삭제 버튼을 누르고 재검색 할 때 -->
-            <div class="hide">
+        <form action="{% url 'search' %}" method="GET">
+            {% csrf_token %}
                 <input type="text" name="search" id="search-bar">
                 <button type="submit">검색</button>
-            </div>
         </form>
     </div>
     <div class="content col-2">
@@ -51,7 +46,8 @@
                 <p class="skill-category">언어</p>
                 <ul class="skill-info">
                     <li>
-                        자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다 <a href="#">[위키백과]</a>
+                        자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고
+                        있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다 <a href="#">[위키백과]</a>
                     </li>
                     <li>
                         <a href="#">웹사이트</a>
@@ -61,26 +57,77 @@
         </aside>
         <main class="list-area">
             <ul>
-                {% for c in course %}
+                {% for c in course_list %}
                 <li class="list-card">
                     <div class="img-box">
                         <img src="{{ c.img_url }}" alt="강의 예시 이미지">
                     </div>
                     <div class="info-box">
-                        <h3><a href="{{c.url}}">{{c.title}} 
-                            {% for s in c.stack.iterator %}
-                            <span class="point">{{s.name}}</span>
-                            {% endfor %}
-                            {{ c.level }}</a></h3>
+                        <h3><a href="{{c.url}}">{{c.title}}
+                                {% for s in c.stack.iterator %}
+                                <span class="point">{{s.name}}</span>
+                                {% endfor %}
+                                {{ c.level }}</a></h3>
                         <p class="teacher">{{ c.teacher }}</p>
-                        <!-- {% for rank in r %}
-                        <p class="rank">{{ rank.rank }}</p>
-                        {% endfor %} -->
                         <p class="rate">{{ c.score }}</p>
                         <p class="price">{{ c.price }}</p>
                     </div>
                 </li>
                 {% endfor %}
+
+                <!-- Pagination-->
+
+
+                {% if is_paginated %}
+                <nav aria-label="Pagination">
+                    <hr class="my-0" />
+                    <ul class="pagination justify-content-center my-4">
+                        <!-- 이전 페이지로 돌아가기 -->
+                        {% if page_obj.has_previous %}
+                        <!-- 이전 페이지 객체가 있으면 [prev]버튼 활성화 -->
+                        <li class="page-item">
+                            <a class="page-link"
+                                href="{% url 'course:course' %}?page{{ page_obj.previous_page_number }}"
+                                tabindex="-1">Prev</a>
+                        </li>
+                        {% else %}
+                        <!-- 이전페이지 객체가 없으면 [prev]버튼 비활성화 -->
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Prev</a>
+                        </li>
+                        {% endif %}
+                        <!-- 페이지를 번호로 출력하기 -->
+                        {% for page in page_obj.paginator.page_range %}
+                        <!-- 현재 선택한 페이지 번호는 비활성화 시킴 -->
+                        {% if page_obj.number == forloop.counter %}
+                        {% if page_number >= page_obj.number|add:-5 and page_number <= page_obj.number|add:5 %}
+                        <li class="page-item disabled" aria-current="page">
+                            <a class="page-link" style="background-color: #7eacf6;"
+                                href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
+                        </li>
+                        {% else %}
+                        <!-- 현재 선택한 페이지 번호는 활성화 시킴 -->
+                        <li class="page-item" aria-current="page">
+                            <a class="page-link" href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter}}</a>
+                        </li>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                        <!-- 다음 페이지로 가기 -->
+                        {% if page_obj.has_next %}
+                        <!-- 이전페이지 객체가 있으면 [next]버튼 활성화 -->
+                        <li class="page-item">
+                            <a class="page-link"
+                                href="{% url 'course:course' %}?page={{ page_obj.next_page_number }}">Next</a>
+                        </li>
+                        {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+                {% endif %}
             </ul>
         </main>
     </div>

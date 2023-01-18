@@ -16,10 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from course import views
+from course.views import index
 
 
 urlpatterns = [
+    path('', index, name='index'),
+
     path('admin/', admin.site.urls),
+
     # path('list/', list),
     path('course/', include('course.urls')),
 
@@ -27,5 +31,8 @@ urlpatterns = [
     path('company/', include('company.urls')),
 
     # stack
-    path('stack/', include('stack.urls'))
+    path('stack/', include('stack.urls')),
+
+    # search 
+    path('search/', views.search, name='search'),
 ]
