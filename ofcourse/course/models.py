@@ -63,6 +63,8 @@ class Company_Stacks(models.Model):
 class Related_Stacks(models.Model):
     stack_name= models.ForeignKey('Stacks',on_delete=models.CASCADE)
     related_stacks = models.CharField(max_length=20)
+    related_stacks_logo = models.URLField(max_length=100,default='')
+    related_stacks_pk = models.IntegerField(default=0)
 
     class Meta:
         db_table = 'Related_Stacks'

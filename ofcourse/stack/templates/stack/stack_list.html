@@ -54,7 +54,7 @@
         <h1>검색하신  {{ search }}의 스택 확인하기 </h1>
         <main class="list-area skill">
             <ul>
-                {% for c in stacks %}
+                {% for c in stack_list %}
                 <li class="list-card">                
                     <div class="company-icon">
                             <img src="{{ c.logo }}" alt="강의 예시 이미지">
@@ -86,7 +86,7 @@
     <div class="content">
         <main class="list-area skill">
             <ul>
-                {% for sl in related_stacks.related_stackss.iterator %}
+                {% for sl in stack_list %}
                 <li class="list-card">                
                     <div class="company-icon">
                             <img src="{{ sl.logo }}" alt="강의 예시 이미지">
@@ -96,8 +96,18 @@
                         <h3>{{ sl.name }}</h3></a>
                     </div>
                 </li>
-                {% endfor %}
             </ul>
+            <div class="skill-list">
+                <ul>
+                    {% for stack in sl.related_stacks_set.iterator %}
+                    <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stack.related_stacks_pk}}"><img src="{{stack.related_stacks_logo}}"
+                        alt="아이콘"></a></li>
+                        <p>{{stack.related_stacks}}</p>
+                        {% endfor %}
+                        <li><a class="see-more">더보기</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
         </main>
     </div>
 
