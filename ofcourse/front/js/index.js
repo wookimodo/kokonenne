@@ -1,5 +1,3 @@
-// console.log("index.js used!")
-
 //* 가로 스크롤 구현
 
 //* 요소, 사이즈
@@ -29,7 +27,7 @@ const onScrollStart = (e) => {
 const onScrollMove = (e) => {
     console.log("scroll move");
     nowX = getClientX(e);
-    setTranslateX(listX - nowX - startX);
+    setTranslateX(listX + nowX - startX);
 };
 const onScrollEnd = (e) => {
     console.log("scroll ends");
@@ -44,18 +42,17 @@ const getClientX = (e) => {
     return isTouches ? e.touches[0].clientX : e.clientX;
 };
 const getTranslateX = () => {
-    console.log("get");
     return parseInt(getComputedStyle(list).transform.split(/[^\-0-9]+/g)[5]);
 };
 const setTranslateX = (x) => {
     console.log("setTranslate");
-    list.style.tranform = `translateX(${x}px)`;
+    list.style.transform = `translateX(${x}px)`;
 };
 
 // 이벤트 바인딩
 const bindEvents = () => {
-    list.addEventListener("mousedown", onScrollStart);
-    list.addEventListener("touchStart", onScrollStart);
-    list.addEventListener("click", onClick);
+    list.addEventListener('mousedown', onScrollStart);
+    list.addEventListener('touchstart', onScrollStart);
+    list.addEventListener('click', onClick);
 };
 bindEvents();
