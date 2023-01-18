@@ -57,20 +57,6 @@ def run():
             rank=rank
         ).save()
     # Stacks테이블 저장
-<<<<<<< HEAD
-    # for i in data2:
-    #     stack = i
-    #     logo = data2[i]['logo']
-    #     assort = data2[i]['assort']
-    #     described = data2[i]['described']
-        
-    #     Stacks(
-    #         name = stack,
-    #         logo = logo,
-    #         assort = assort,
-    #         described = described            ```
-    #     ).save()
-=======
     for i in data2:
         stack = i
         logo = data2[i]['logo']
@@ -83,7 +69,6 @@ def run():
             assort = assort,
             described = described            
         ).save()
->>>>>>> develop
 
     # Course_Stacks 중간테이블
     for i in data2:
@@ -91,8 +76,6 @@ def run():
             if i in data[j]['stacks']:
                 Course_Stacks(course_id=Course.objects.get(title=j).pk,stacks_id=Stacks.objects.get(name=i).pk).save()
 
-<<<<<<< HEAD
-=======
     # Company 테이블
     for i in data3:
         name = i
@@ -113,6 +96,5 @@ def run():
             if v != None:
                 for stack in data3[i]['stacks'][k]:
                     Company_Stacks(company_id=Company.objects.get(name=i).pk,stacks_id=Stacks.objects.get(name=stack[0]).pk).save()
->>>>>>> develop
 
     print('DB저장완료')
