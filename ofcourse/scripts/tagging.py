@@ -26,24 +26,29 @@ data3 = json.loads(f.read())
 # 기술 스택 이름 통일
 # def run():
 #   for i in data:
-#     for stack in data[i]['stacks']:
-#       if stack == 'JavaScript':
-#         data[i]['stacks'].append(stack.replace("JavaScript","Javascript"))
-#         print(stack)
-#       if ".js" in stack:
-#         data[i]['stacks'].append(stack.replace(".js","JS"))
-#         print(stack)
-#   toJson(data,"inflearn")
+#     if "JavaScript" in data[i]['stacks']:
+#       stacks = data[i]['stacks']
+#       stacks.remove("JavaScript")
+#       data[i]['stacks'] = stacks
+      # if ".js" in stack:
+      #   data[i]['stacks'].append(stack.replace(".js","JS"))
+      #   print(stack)
+  # toJson(data,"tmp")
 
 
 # 강의 타이틀이나 헤드라인에 기술 사전에 해당하는 기술이 있다면 강의 기술 스택리스트에 추가("R"과 "Go"는 제외)
 def run():
-  for i in data:
-    for k,v in data3.items():
-      if k not in ["Go","R"]:
-        for stack in v:
-          if stack.lower() in i.lower() or stack.lower() in data[i]['headline'].lower():
-            if k not in data[i]['stacks']:
-              data[i]['stacks'].append(k)
-              print(data[i]['stacks'])
-toJson(data,"result")
+  # for i in data:
+  #   new_stack = data[i]['stacks']
+  #   for k,v in data3.items():
+  #     if k not in ["Go","R","Java","Spring","Flow","Gin","Realm","Netty","Notion"]:
+  #       for stack in v:
+  #         if stack.lower() in i.lower() or stack.lower() in data[i]['headline'].lower():
+  #           if k not in data[i]['stacks']:
+  #             new_stack.append(k)
+  #             print(i, data[i]['stacks'])
+  #   data[i]['stacks'] = new_stack
+    for i in data3:
+      print(i)
+
+  # toJson(data,"result")

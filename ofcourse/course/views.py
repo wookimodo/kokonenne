@@ -42,7 +42,7 @@ def search(request):
     if s: # 체크박스에서 값이 넘어오면
         for i in s:
             course_list = course_list.filter(
-                Q(stack__name__icontains=i))
+                Q(stack__name__iexact=i))
             stacks.append(stack_list.get(
                 Q(name__iexact=i)
             ))
@@ -73,4 +73,4 @@ def search(request):
     # page = request.GET.get('page', '')
     # course = paginator.get_page(page)
 
-    return render(request, 'course/course_search.html',{'course':course_list, 'search':search,'stacks':stacks})
+    return render(request, 'course/course_search.html',{'course':course_list, 'stacks':stacks})

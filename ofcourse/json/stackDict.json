@@ -55,62 +55,70 @@
 	],
 	"ASP.NET": [
 		"ASPNET",
-		".NET",
 		"ASP.NET"
 	],
 	"AWS Athena": [
 		"아테나",
 		"AWSAthena",
-		"AWS Athena"
+		"AWS Athena",
+		"Athena"
 	],
 	"AWS AuroraDB": [
 		"오로라db",
 		"오로라",
 		"AWSAuroraDB",
-		"AWS AuroraDB"
+		"AWS AuroraDB",
+		"AuroraDB"
 	],
 	"AWS CodeBuild": [
 		"코드빌드",
 		"AWSCodeBuild",
-		"AWS CodeBuild"
+		"AWS CodeBuild",
+		"CodeBuild"
 	],
 	"AWS CodeDeploy": [
 		"코드디플로이",
 		"디플로이",
 		"AWSCodeDeploy",
-		"AWS CodeDeploy"
+		"AWS CodeDeploy",
+		"CodeDeploy"
 	],
 	"AWS CodePipeline": [
 		"코드파이프라인",
-		"파이프라인",
 		"AWSCodePipeline",
-		"AWS CodePipeline"
+		"AWS CodePipeline",
+		"CodePipeline"
 	],
 	"AWS DocumentDB": [
 		"도큐먼트db",
 		"AWSDocumentDB",
-		"AWS DocumentDB"
+		"AWS DocumentDB",
+		"DocumentDB"
 	],
 	"AWS DynamoDB": [
 		"다이나모db",
 		"AWSDynamoDB",
-		"AWS DynamoDB"
+		"AWS DynamoDB",
+		"DynamoDB"
 	],
 	"AWS Kinesis": [
 		"키네시스",
 		"AWSKinesis",
-		"AWS Kinesis"
+		"AWS Kinesis",
+		"Kinesis"
 	],
 	"AWS MariaDB": [
 		"마리아db",
 		"AWSMariaDB",
-		"AWS MariaDB"
+		"AWS MariaDB",
+		"MariaDB"
 	],
 	"AWS Redshift": [
 		"레드시프트",
 		"레드쉬프트",
 		"AWSRedshift",
-		"AWS Redshift"
+		"AWS Redshift",
+		"Redshift"
 	],
 	"AWS SES": [
 		"AWSSES",
@@ -122,12 +130,14 @@
 	],
 	"AWS SQS": [
 		"AWSSQS",
-		"AWS SQS"
+		"AWS SQS",
+		"SQS"
 	],
 	"Azure DevOps": [
 		"데브옵스",
 		"AzureDevOps",
-		"Azure DevOps"
+		"Azure DevOps",
+		"Azure"
 	],
 	"BackboneJS": [
 		"백본js",
@@ -152,7 +162,6 @@
 	"CassandraDB": [
 		"카산드라",
 		"카산드라db",
-		"데이터베이스",
 		"CassandraDB"
 	],
 	"Celery": [
@@ -400,7 +409,9 @@
 	"Google Cloud Build": [
 		"GoogleCloudBuild",
 		"구글클라우드",
-		"Google Cloud Build"
+		"Google Cloud Build",
+		"Cloud Build",
+		"CloudBuild"
 	],
 	"Google Data Studio": [
 		"GoogleDataStudio",
@@ -410,12 +421,14 @@
 	"Google Firebase": [
 		"GoogleFirebase",
 		"구글파이어베이스",
-		"Google Firebase"
+		"Google Firebase",
+		"Firebase"
 	],
 	"Google Firestore": [
 		"GoogleFirestore",
 		"구글파이어스토어",
-		"Google Firestore"
+		"Google Firestore",
+		"Firestore"
 	],
 	"Grafana": [
 		"그라파나",
@@ -458,7 +471,6 @@
 		"Hibernate"
 	],
 	"Hive": [
-		"하이브",
 		"Hive"
 	],
 	"Hugo": [
@@ -503,7 +515,6 @@
 	],
 	"Javascript": [
 		"자바스크립트",
-		"js",
 		"Javascript"
 	],
 	"Jenkins": [
@@ -572,7 +583,8 @@
 	"Kube-Bench": [
 		"KubeBench",
 		"큐브벤치",
-		"Kube-Bench"
+		"Kube-Bench",
+		"Kube Bench"
 	],
 	"Kubeflow": [
 		"큐브플로우",
@@ -634,12 +646,14 @@
 		"MicrosoftTeams",
 		"마이크로소프트",
 		"팀즈",
-		"Microsoft-Teams"
+		"Microsoft-Teams",
+		"Microsoft Teams"
 	],
 	"MLflow": [
-		"ml",
 		"엠엘플로우",
-		"MLflow"
+		"MLflow",
+		"ML flow",
+		"ML-flow"
 	],
 	"MobX": [
 		"몹엑스",
@@ -660,7 +674,6 @@
 	],
 	"MongoDB": [
 		"몽고디비",
-		"데이터베이스",
 		"MongoDB"
 	],
 	"Moya": [
@@ -727,8 +740,6 @@
 	],
 	"NuxtJS": [
 		"넉스트제이에스",
-		"넉스트",
-		"제이에스",
 		"넉스트 제이에스",
 		"nuxt.js",
 		"NuxtJS"
@@ -737,37 +748,29 @@
 		"오브젝티브",
 		"오브젝티브씨",
 		"objective",
-		"Objective-C"
+		"Objective-C",
+		"objectiveC"
 	],
 	"OpenEBS": [
 		"오픈이비에스",
-		"오픈",
-		"이비에스",
 		"오픈 이비에스",
-		"OpenEBS"
+		"OpenEBS",
+		"Open EBS"
 	],
 	"OpenGL": [
 		"오픈지엘",
-		"지엘",
-		"쥐엘",
 		"오픈 지엘",
-		"오픈",
 		"OpenGL"
 	],
 	"OracleDB": [
 		"오라클디비",
-		"오라클",
-		"디비",
-		"db",
 		"OracleDB"
 	],
 	"Packer": [
-		"패커",
 		"패컬",
 		"Packer"
 	],
 	"Perl": [
-		"펄",
 		"Perl"
 	],
 	"Phoenix": [
@@ -784,12 +787,10 @@
 		"플레이 라이트",
 		"플레이 롸이트",
 		"플레이라이트",
-		"플레이",
 		"Playwright"
 	],
 	"PostgreSQL": [
 		"포스트그리",
-		"포스트",
 		"PostgreSQL"
 	],
 	"Presto": [
@@ -821,8 +822,6 @@
 	],
 	"RabbitMQ": [
 		"래빗엠큐",
-		"래빗",
-		"엠큐",
 		"래빗 엠큐",
 		"RabbitMQ"
 	],
@@ -837,55 +836,45 @@
 		"Ranger"
 	],
 	"Ray": [
-		"레이",
-		"뤠이",
 		"Ray"
 	],
 	"React Context": [
-		"리액트",
 		"리액트 컨텍스트",
-		"react",
-		"React Context"
+		"React Context",
+		"ReactContext"
 	],
 	"ReactiveX": [
 		"리액티브엑스",
 		"리액티브 엑스",
-		"리액티브",
-		"리액티브 엑스",
-		"react",
 		"ReactiveX"
 	],
 	"ReactJS": [
 		"리액트제이에스",
 		"리액트",
-		"리액트",
-		"제이에스",
+		"리엑트",
 		"react.js",
-		"ReactJS"
+		"ReactJS",
+		"React"
 	],
 	"React Native": [
 		"리액트 네이티브",
-		"리액트",
 		"리액트네이티브",
+		"리액트내이티브",
 		"reactnative",
-		"react",
 		"React Native"
 	],
 	"ReactorKit": [
 		"리액트키트",
 		"리액트 키트",
-		"react",
 		"ReactorKit"
 	],
 	"React Query": [
 		"리액트 쿼리",
 		"리액트쿼리",
-		"react",
-		"React Query"
+		"React Query",
+		"ReactQuery"
 	],
 	"Realm": [
-		"림",
-		"렘",
 		"Realm"
 	],
 	"Recoil": [
@@ -917,7 +906,6 @@
 	],
 	"ReScript": [
 		"리스크립트",
-		"스크립트",
 		"뤼스크립트",
 		"리스크립",
 		"ReScript"
@@ -927,9 +915,7 @@
 		"레스트 어슈얼드",
 		"레스트어슈얼드",
 		"레스트 애슈얼드",
-		"rest",
 		"rest assured",
-		"assured",
 		"RestAssured",
 		"Rest-Assured"
 	],
@@ -1013,8 +999,6 @@
 		"Snowflake"
 	],
 	"Solr": [
-		"솔",
-		"솔르",
 		"Solr"
 	],
 	"Sonarqube": [
@@ -1048,7 +1032,8 @@
 		"스타일컴포넌트",
 		"스타일 컴포넌트",
 		"StyledComponents",
-		"Styled-Components"
+		"Styled-Components",
+		"Styled Components"
 	],
 	"Superset": [
 		"수퍼셋",
@@ -1112,7 +1097,8 @@
 		"트래비스 씨아이",
 		"씨아이",
 		"트래비스씨아이",
-		"Travis CI"
+		"Travis CI",
+		"TravisCI"
 	],
 	"Trello": [
 		"트렐로",

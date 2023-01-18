@@ -116,20 +116,20 @@ df['finalscore'] = [a+b+c+d for a,b,c,d in zip(df.loc[:,'diffstudent'],df.loc[:,
 df['rank'] = df['finalscore'].rank(ascending=False)
 
 # 기술 스택별로 랭킹반환하는 함수
-# def run():
-#   result = df.sort_values('finalscore',ascending=False)
-#   for title,rank in zip(result['title'],result['rank']):
-#     for i in data:
-#       if i == title:
-#         data[i]['rank'] = rank
-#   toJson(data,'modify')
-#   print(data)
-#   return result[['title','rank']]
+def run():
+  result = df.sort_values('finalscore',ascending=False)
+  for title,rank in zip(result['title'],result['rank']):
+    for i in data:
+      if i == title:
+        data[i]['rank'] = rank
+  toJson(data,'modify')
+  print(data)
+  return result[['title','rank']]
 
 
 # 스택별로 랭킹보여주기
-def stackrank(stack):
-  result = df.loc[df['cat1'].str.contains(stack)].sort_values('finalscore',ascending=False)
-  return result[['title','teacher']]
+# def stackrank(stack):
+#   result = df.loc[df['cat1'].str.contains(stack)].sort_values('finalscore',ascending=False)
+#   return result[['title','teacher']]
 
-print(stackrank('Java'))
+# print(stackrank('Java'))

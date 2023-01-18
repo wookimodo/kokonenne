@@ -87,13 +87,15 @@
             <ul>
                 {% for c in course %}
                 <li class="list-card">
-                    <div class="img-box">
-                        <img src="{{ c.img_url }}" alt="강의 예시 이미지">
-                    </div>
+                    <a href="{{c.url}}">
+                        <div class="img-box">
+                            <img src="{{ c.img_url }}" alt="강의 예시 이미지">
+                        </div>
+                    </a>
                     <div class="info-box">
-                        <h3><a href="#">{{c.title}} 
+                        <h3><a href="{{c.url}}">{{c.title}} 
                         {% for stack in c.stack.iterator %}
-                        <span class="point">{{stack.name}}</span>
+                        <a href="http://127.0.0.1:8000/search/?search=&s={{stack.name}}"><span class="point">{{stack.name}}</span></a>
                         {% endfor %}
                         {{ c.level }}</a></h3>
                         <p class="teacher">{{ c.teacher }}</p>
