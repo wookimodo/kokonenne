@@ -86,28 +86,30 @@
     <div class="content">
         <main class="list-area skill">
             <ul>
-                {% for sl in stack_list %}
+                {% for s in stack_list %}
                 <li class="list-card">                
+                    <a href="http://127.0.0.1:8000/stack/{{s.id}}">
                     <div class="company-icon">
-                            <img src="{{ sl.logo }}" alt="강의 예시 이미지">
-                        </div>
-                        <div class="info-box">
-                        <a href="http://127.0.0.1:8000/stack/{{sl.id}}" style="text-decoration: none;">
-                        <h3>{{ sl.name }}</h3></a>
+                        <img src="{{ s.logo }}" alt="스택 로고" style="width: 70px; height: 70px;">
+                    </a>
+                    </div>
+                    <div class="info-box">
+                            <a href="http://127.0.0.1:8000/stack/{{s.id}}" style="text-decoration: none;">
+                                <h3>{{ s.name }}</h3></a>
+                            </div>
+
+                    <div class="skill-list">
+                        <ul>
+                            {% for stacks in s.related_stacks_set.iterator %}
+                            <li><a class="stack-icon" href="http://127.0.0.1:8000/stack/{{stacks.related_stacks_pk}}"><img src="{{ stacks.related_stacks_logo }}" 
+                                style="width: 60px; height: 60px;"></a></li>
+                            {% endfor %}
+                            <li><a class="see-more">더보기</a></li>
+                        </ul>
                     </div>
                 </li>
+                {% endfor %}
             </ul>
-            <div class="skill-list">
-                <ul>
-                    {% for stack in sl.related_stacks_set.iterator %}
-                    <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stack.related_stacks_pk}}"><img src="{{stack.related_stacks_logo}}"
-                        alt="아이콘"></a></li>
-                        <p>{{stack.related_stacks}}</p>
-                        {% endfor %}
-                        <li><a class="see-more">더보기</a></li>
-                        {% endfor %}
-                    </ul>
-                </div>
         </main>
     </div>
 
