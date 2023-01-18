@@ -30,10 +30,15 @@
         </div>
     </header>
     <div class="search-area">
-        <form action="{% url 'search' %}" method="GET">
-            {% csrf_token %}
+        <form action="">
+            <!-- 검색 결과 표시 -->
+            <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
+            <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
+            <!-- 삭제 버튼을 누르고 재검색 할 때 -->
+            <div class="hide">
                 <input type="text" name="search" id="search-bar">
                 <button type="submit">검색</button>
+            </div>
         </form>
     </div>
     <div class="content col-2">
@@ -57,7 +62,7 @@
         </aside>
         <main class="list-area">
             <ul>
-                {% for c in course_list %}
+                {% for c in course %}
                 <li class="list-card">
                     <div class="img-box">
                         <img src="{{ c.img_url }}" alt="강의 예시 이미지">
@@ -100,7 +105,6 @@
                         {% for page in page_obj.paginator.page_range %}
                         <!-- 현재 선택한 페이지 번호는 비활성화 시킴 -->
                         {% if page_obj.number == forloop.counter %}
-                        {% if page_number >= page_obj.number|add:-5 and page_number <= page_obj.number|add:5 %}
                         <li class="page-item disabled" aria-current="page">
                             <a class="page-link" style="background-color: #7eacf6;"
                                 href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
@@ -110,7 +114,6 @@
                         <li class="page-item" aria-current="page">
                             <a class="page-link" href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter}}</a>
                         </li>
-                        {% endif %}
                         {% endif %}
                         {% endfor %}
                         <!-- 다음 페이지로 가기 -->
