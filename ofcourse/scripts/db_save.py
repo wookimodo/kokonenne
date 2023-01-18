@@ -12,7 +12,7 @@ data = json.loads(f.read())
 f = open(f'json/스택별.json', encoding='UTF-8')
 data2 = json.loads(f.read()) 
 # company data
-f = open(f'json/회사별.json', encoding='UTF-8')
+f = open(f'json/codenary.json', encoding='UTF-8')
 data3 = json.loads(f.read()) 
 
 # 제이슨 파일로 저장
