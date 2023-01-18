@@ -27,5 +27,8 @@ urlpatterns = [
     path('company/', include('company.urls')),
 
     # stack
-    path('stack/', include('stack.urls'))
+    path('stack/', include('stack.urls')),
+
+    # search 
+    path('search/', views.search, name='search'),
 ]
