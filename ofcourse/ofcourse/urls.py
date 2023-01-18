@@ -35,4 +35,7 @@ urlpatterns = [
 
     # search 
     path('search/', views.search, name='search'),
+
+    # filter 
+    path('filter/', views.filter, name='filter'),
 ]

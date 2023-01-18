@@ -14,12 +14,12 @@
     <!-- normalize css cdn-->
     <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
     <!-- global css -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
 </head>
 
 <body class="list-page">
     <header>
-        <div class="container" >
+        <div class="container">
             <h1>Of Course</h1>
             <nav>
                 <ul>
@@ -38,55 +38,31 @@
     </div>
     <div class="content col-2">
         <aside>
-            <form action="{% url 'search' %}" class="form-inline my-2 my-md-0" method="get">
-                <input class="form-control" type="text" placeholder="기술 스택을 입력하세요" aria-label="Search" name="search" value="{{search}}">
-                <br>
-                <div class="form-group">
-                    <a href="#" onclick="event.stopPropagation()"></a>
-                    <label for="customRange3" style="color:#CDCDCD">수준</label>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <select source="[name=level]">
-                        <option value="0">입문</option>
-                        <option value="1">초급</option>
-                        <option value="2">중급</option>
-                    </select>
-                </div>
-<<<<<<< HEAD
+            <form action="{% url 'filter' %}" class="form-inline my-2 my-md-0" method="get">
                 <div class="skill-info-area">
                     {% for s in stacks %}
+                    {% if s.course_stacks_set.exists %}
                     <div class="form-check form-check-inline">
                         &nbsp;&nbsp;&nbsp;
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="s", value="{{s.name}}">
-                        <class class="form-check-label" for="inlineCheckbox5" sytle="color:#CDCDCD">{{s.name}}</class>
+                        <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘" style="width:20px; height:20px;"></i>
+                        <class class="form-check-label" for="inlineCheckbox5" sytle="color:#CDCDCD;">({{s.name}})</class>
                     </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
                 <button type="submit" class="btn btn-warning">검색</button>
             </form>
-
-=======
-                <h3>자바스크립트</h3>
-                <p class="skill-category">언어</p>
-                <ul class="skill-info">
-                    <li>
-                        자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고
-                        있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다 <a href="#">[위키백과]</a>
-                    </li>
-                    <li>
-                        <a href="#">웹사이트</a>
-                    </li>
-                </ul>
-            </div>
->>>>>>> 0bff03263705e8ba219de9e3b725ff3936078970
         </aside>
-
         <main class="list-area">
             <ul>
                 {% for c in course_list %}
                 <li class="list-card">
-                    <div class="img-box">
-                        <img src="{{ c.img_url }}" alt="강의 예시 이미지">
-                    </div>
+                    <a href="{{c.url}}">
+                        <div class="img-box">
+                            <img src="{{ c.img_url }}" alt="강의 예시 이미지">
+                        </div>
+                    </a>
                     <div class="info-box">
                         <h3><a href="{{c.url}}">{{c.title}}
                                 {% for s in c.stack.iterator %}
