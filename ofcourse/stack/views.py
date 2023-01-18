@@ -12,6 +12,24 @@ class StackDetail(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(StackDetail, self).get_context_data()
-        # context['company_detail_list'] = aaa.objects.all() # =>  aaa라는 테이블의 행을 다 가져오겠다
-        print(context)
+        st =Stacks.objects.filter(id=2).prefetch_related('company_set')[0]
+        print(st)
+        context['companies'] = st.course_set.all()
+        print(context['companies'])
+        for i in context['companies']:
+            print("cours :", i)
+        # context = super(StackDetail, self).get_context_data()
+        # st =Stacks.objects.filter(id=2).prefetch_related('course_set')[0]
+        # print(st)
+        # context['courses'] = st.course_set.all()
+        # print(context['courses'])
+        # for i in context['courses']:
+        #     print("cours :", i)
+        
+        # context['companies'] = Stacks.objects.filter(id=1).prefetch_related('company_set')
         return context
+
+    # def get_context_data(self, **kwargs):
+    #     context = super(StackDetail, self).get_context_data()
+    #     context['test'] = Company.objects.all()
+    #     return context

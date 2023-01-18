@@ -1,22 +1,23 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ofcourse</title>
-    <!-- fontawesome css cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- normalize css cdn-->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <!-- global css -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ofcourse</title>
+        <!-- fontawesome css cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- normalize css cdn-->
+        <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+        <!-- global css -->
+        <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    </head>
+       
 <body class="list-page">
     <header>
         <div class="container">
@@ -29,112 +30,49 @@
             </nav>
         </div>
     </header>
-    <div class="title-area">
-        <h2 class="page-title">스택별 강의추천</h2>
-    </div>
-    <div class="search-area">
-        <form action="">
-            <!-- 검색 결과 표시 -->
-            <div class="">
-                <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
-                <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
-            </div>
-            <!-- 삭제 버튼을 누르고 재검색 할 때! -->
-            <div class="search-bar hide">
-                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요">
-                <button type="submit" class="search-btn">검색</button>
-            </div>
-        </form>
-    </div>
-    <div class="content col-2">
+    <div class="view content col-2">
         <aside>
             <div class="skill-info-area">
                 <div class="skill-icon">
-                    <img src="./asset/js.png" alt="skill icon">
+                    <!-- 스택 이름, 로고 -->
+                    <img src="{{ stacks.logo }}" alt="skill icon">
                 </div>
-                <h3>자바스크립트</h3>
-                <p class="skill-category">언어</p>
+                <h3>{{ stacks.name }}</h3>
+                <p>* {{stacks.assort}}</p>
+                <p class="skill-category">" {{ stacks.described }} "</p>
                 <ul class="skill-info">
-                    <li>
-                        자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고
-                        있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다 <a href="#">[위키백과]</a>
-                    </li>
-                    <li>
-                        <a href="#">웹사이트</a>
-                    </li>
                 </ul>
             </div>
         </aside>
-        <main class="list-area">
-            <ul>
-                <li class="list-card">
-                    <div class="img-box">
-                        <img src="./asset/lec_ex.png" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#">[2023] 쌩초보도 4시간 안에 마스터하는 <span class="point">자바스크립트</span> 기초</a></h3>
-                        <p class="teacher">코코낸내코딩</p>
-                        <p class="rate">4.4</p>
-                        <p class="price">99,999</p>
-                    </div>
-                </li>
-                <li class="list-card">
-                    <div class="img-box">
-                        <img src="./asset/lec_ex2.png" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#">제대로 파는 <span class="point">자바스크립트</span>(JavaScript) - by 얄코</a></h3>
-                        <p class="teacher">코코낸내스터디</p>
-                        <p class="rate">4.4</p>
-                        <p class="price">99,999</p>
-                    </div>
-                </li>
-                <li class="list-card">
-                    <div class="img-box">
-                        <img src="./asset/lec_ex3.png" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#"><span class="point">자바스크립트</span> : 기초부터 실전까지 올인원</a></h3>
-                        <p class="teacher">코딩킹</p>
-                        <p class="rate">4.4</p>
-                        <p class="price">99,999</p>
-                    </div>
-                </li>
-                <li class="list-card">
-                    <div class="img-box">
-                        <img src="./asset/lec_ex.png" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#">코어 <span class="point">자바스크립트</span></a></h3>
-                        <p class="teacher">코코낸내코딩</p>
-                        <p class="rate">3.4</p>
-                        <p class="price">99,999</p>
-                    </div>
-                </li>
-                <li class="list-card">
-                    <div class="img-box">
-                        <img src="./asset/lec_ex4.png" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#">[2023] 쌩초보도 4시간 안에 마스터하는 <span class="point">자바스크립트</span> 기초</a></h3>
-                        <p class="teacher">코코낸내 코딩스쿨</p>
-                        <p class="rate">4.4</p>
-                        <p class="price">99,999</p>
-                    </div>
-                </li>
-            </ul>
-            <div class="pagination">
-                <a href="#" class="btn"><i class="fa-solid fa-angle-left"></i></a>
-                <a href="#" class="btn"><i class="fa-solid fa-angles-left"></i></a>
-                <ul>
-                    <li><a href="#" class="btn">1</a></li>
-                    <li><a href="#" class="btn on">2</a></li>
-                    <li class="center">...</li>
-                    <li><a href="#" class="btn">4</a></li>
-                    <li><a href="#" class="btn">5</a></li>
+        <!-- 스택별 리스트 -->
+        <main class="view-area">
+            <div class="info-box">
+                <h3 class="skill-title">운용중인 기업</h3>
+                <ul class="skill-list">
+                    {% for com in stacks.company_set.iterator %}
+                    <li>
+                        <a href="#">
+                            <i class="skill-icon"><img src="{{ com.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ com.name }}</p>
+                        </a>
+                    </li>
+                    {% endfor %}
                 </ul>
-                <a href="#" class="btn"><i class="fa-solid fa-angle-right"></i></a>
-                <a href="#" class="btn"><i class="fa-solid fa-angles-right"></i></a>
+            </div>
+            <div class="info-box">
+                <h3 class="skill-title"> 연관 강의 </h3>
+                <ul class="skill-list">
+                    {% for cor in stacks.company_set.iterator %}
+                    {% if cor.assort == "프론트엔드" %}
+                    <li>
+                        <a href="#">
+                            <i class="skill-icon"><img src="{{ cor.logo }}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{ cor.name }}</p>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
             </div>
         </main>
     </div>
