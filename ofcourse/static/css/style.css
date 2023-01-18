@@ -252,6 +252,34 @@ footer p {
 .content.view {
   margin-top: 10rem;
 }
+.content.view .view-area.list-area .scroll-wrap {
+  overflow-x: scroll;
+}
+.content.view .view-area.list-area .scroll-wrap > ul {
+  flex-wrap: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.content.view .view-area.list-area .course-list .list-card:nth-child(4n-3) {
+  margin-left: 1.6rem;
+}
+.content.view .view-area.list-area .course-list .list-card:first-child {
+  margin-left: 0;
+}
+.content.view .view-area.list-area .skill-title {
+  margin-top: 5rem;
+  border-top: 1px solid var(--bd-color);
+  padding-top: 2rem;
+}
+.content.view .view-area.list-area .skill-title:first-child {
+  margin-top: 0;
+  border: 0;
+  padding-top: 0;
+}
+.content.view .view-area.list-area .course-list {
+  display: flex;
+}
 .content .skill-info-area {
   background-color: var(--bg-color);
   border: 1px solid var(--bd-color);
@@ -423,18 +451,23 @@ footer p {
   border-bottom: 1px solid var(--bd-color);
 }
 .content > .list-area.skill .list-card .skill-list {
-  overflow-x: scroll;
   overflow-y: hidden;
   margin-top: 1.2rem;
 }
 .content > .list-area.skill .list-card .skill-list ul {
   display: flex;
+  transform: translate(0, 0);
 }
 .content > .list-area.skill .list-card .skill-list ul li {
   list-style: none;
   margin: 0 0.2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon {
+  -webkit-user-drag: none;
   font-size: 0;
   display: block;
   width: -webkit-fit-content;
@@ -445,6 +478,7 @@ footer p {
   overflow: hidden;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
+  -webkit-user-drag: none;
   display: block;
   width: 100%;
 }
@@ -468,7 +502,7 @@ footer p {
 .content > .view-area {
   margin-top: -2rem;
 }
-.content > .view-area .info-box {
+.content > .view-area > .info-box {
   background-color: var(--bg-color);
   border: 1px solid var(--bd-color);
   border-radius: 1rem;
@@ -476,41 +510,41 @@ footer p {
   padding: 3rem 2.2rem;
   margin-top: 2rem;
 }
-.content > .view-area .info-box > .skill-title {
+.content > .view-area > .info-box > .skill-title {
   font-size: 1.8rem;
   color: var(--font-color2);
   margin: 0;
   font-weight: 600;
 }
-.content > .view-area .info-box > .skill-count {
+.content > .view-area > .info-box > .skill-count {
   font-size: 1.3em;
   color: var(--font-color3);
 }
-.content > .view-area .info-box .skill-list {
+.content > .view-area > .info-box .skill-list {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   margin-top: -1.5rem;
 }
-.content > .view-area .info-box .skill-list > li {
+.content > .view-area > .info-box .skill-list > li {
   width: calc(10% - 3rem);
   list-style: none;
   margin: 2.5rem 1.5rem 0;
 }
-.content > .view-area .info-box .skill-list > li > a {
+.content > .view-area > .info-box .skill-list > li > a {
   text-decoration: none;
 }
-.content > .view-area .info-box .skill-list > li .skill-icon {
+.content > .view-area > .info-box .skill-list > li .skill-icon {
   display: block;
   width: 7rem;
   height: 7rem;
   overflow: hidden;
   margin: 0 auto;
 }
-.content > .view-area .info-box .skill-list > li .skill-icon > img {
+.content > .view-area > .info-box .skill-list > li .skill-icon > img {
   width: 100%;
 }
-.content > .view-area .info-box .skill-list > li .skill-name {
+.content > .view-area > .info-box .skill-list > li .skill-name {
   text-align: center;
   font-weight: 400;
   color: var(--font-color);

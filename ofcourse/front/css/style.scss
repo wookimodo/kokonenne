@@ -527,27 +527,31 @@ footer {
                 }
 
                 .skill-list {
-                    overflow-x: scroll;
+                    // overflow-x: scroll;
                     overflow-y: hidden;
                     margin-top: 1.2rem;
-
+                    
                     ul {
                         display: flex;
+                        transform: translate(0, 0);
 
                         li {
                             list-style: none;
                             margin: 0 0.2rem;
-                            // border: 1px solid #000;
-
+                            user-select: none;
+                            // border: 1px so/ofcourse/front/stack-list.htmllid #000;
+                            
                             > .skill-icon {
+                                -webkit-user-drag: none;
                                 font-size: 0;
                                 display: block;
                                 width: fit-content;
                                 width: 5rem;
                                 height: 5rem;
                                 overflow: hidden;
-
+                                
                                 > img {
+                                    -webkit-user-drag: none;
                                     display: block;
                                     width: 100%;
                                 }

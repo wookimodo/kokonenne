@@ -451,18 +451,23 @@ footer p {
   border-bottom: 1px solid var(--bd-color);
 }
 .content > .list-area.skill .list-card .skill-list {
-  overflow-x: scroll;
   overflow-y: hidden;
   margin-top: 1.2rem;
 }
 .content > .list-area.skill .list-card .skill-list ul {
   display: flex;
+  transform: translate(0, 0);
 }
 .content > .list-area.skill .list-card .skill-list ul li {
   list-style: none;
   margin: 0 0.2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon {
+  -webkit-user-drag: none;
   font-size: 0;
   display: block;
   width: -webkit-fit-content;
@@ -473,6 +478,7 @@ footer p {
   overflow: hidden;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
+  -webkit-user-drag: none;
   display: block;
   width: 100%;
 }
