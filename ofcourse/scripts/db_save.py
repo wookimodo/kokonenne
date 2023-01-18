@@ -98,9 +98,3 @@ def run():
                     Company_Stacks(company_id=Company.objects.get(name=i).pk,stacks_id=Stacks.objects.get(name=stack[0]).pk).save()
 
     print('DB저장완료')
-            
-
-
-
-
-
