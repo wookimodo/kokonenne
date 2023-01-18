@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ofcourse</title>
     <!-- fontawesome css cdn-->
-    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
     <!-- normalize css cdn-->
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
     <!-- global css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body class="main-page">
@@ -20,9 +22,9 @@
             <h1>Of Course</h1>
             <nav>
                 <ul>
-                    <li><a href="#">기업별 추천</a></li>
-                    <li><a href="#">기술별 추천</a></li>
-                    <li><a href="#">강의 찾기</a></li>
+                    <li><a href="http://127.0.0.1:8000/company/">기업별 추천</a></li>
+                    <li><a href="http://127.0.0.1:8000/stack/">기술별 추천</a></li>
+                    <li><a href="http://127.0.0.1:8000/course/">강의 찾기</a></li>
                 </ul>
             </nav>
         </div>

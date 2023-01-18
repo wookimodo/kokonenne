@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- global css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="list-page">
+    <header>
+        <div class="container">
+            <h1>Of Course</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">기업별 추천</a></li>
+                    <li><a href="#">기술별 추천</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="title-area">
+        <h2 class="page-title">스택별 강의추천</h2>
+    </div>
+    <div class="search-area">
+        <form action="">
+            <!-- 검색 결과 표시 -->
+        </form>
+    </div>
+    <div class="content col-2">
+        <aside>
+            <div class="skill-info-area">
+                <div class="skill-icon">
+                    <img src={{stacks.logo}} alt="skill icon">
+                </div>
+                <h3>{{stacks.name}}</h3>
+                <p class="skill-category">{{stacks.assort}}</p>
+                <ul class="skill-info">
+                    <li>
+                        {{ stacks.described }}
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <main class="list-area">
+            <ul>
+                <li class="list-card">
+                    {% for cor in course_set %}
+                    <div class="info-box">
+                        <h3> 왜 안 뜨지? </h3>
+                        <h3><a> {{cor.title}}</a></h3>
+                        <div class="skill-icon">
+                            <img src={{cor.img_url}} alt="skill icon">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </li>
+                {% for com in company_set %}
+                <li class="list-card">
+                    <div class="info-box">
+                        <h3><a> {{com.name}}</a></h3>
+                        <div class="skill-icon">
+                            <img src={{com.logo}} alt="skill icon">
+                        </div>
+                    </div>
+                    {% endfor %}
+                </li>
+            </ul>
+            
+        </main>
+    </div>
+</body>
+
+</html>

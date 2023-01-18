@@ -6,6 +6,9 @@ from django.db.models import Q
 from django.core.paginator import Paginator
 
 # Create your views here.
+def index(request):
+    stack_list = Stacks.objects.all()
+    return render(request, 'index.html', {'stack_list': stack_list})
 
 class Courselist(ListView):
     model = Course

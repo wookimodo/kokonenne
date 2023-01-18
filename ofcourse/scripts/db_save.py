@@ -12,7 +12,7 @@ data = json.loads(f.read())
 f = open(f'json/스택별.json', encoding='UTF-8')
 data2 = json.loads(f.read()) 
 # company data
-f = open(f'json/회사별.json', encoding='UTF-8')
+f = open(f'json/codenary.json', encoding='UTF-8')
 data3 = json.loads(f.read()) 
 
 # 제이슨 파일로 저장
@@ -57,6 +57,7 @@ def run():
             rank=rank
         ).save()
     # Stacks테이블 저장
+<<<<<<< HEAD
     # for i in data2:
     #     stack = i
     #     logo = data2[i]['logo']
@@ -69,6 +70,20 @@ def run():
     #         assort = assort,
     #         described = described            ```
     #     ).save()
+=======
+    for i in data2:
+        stack = i
+        logo = data2[i]['logo']
+        assort = data2[i]['assort']
+        described = data2[i]['described']
+        
+        Stacks(
+            name = stack,
+            logo = logo,
+            assort = assort,
+            described = described            
+        ).save()
+>>>>>>> develop
 
     # Course_Stacks 중간테이블
     for i in data2:
@@ -76,5 +91,28 @@ def run():
             if i in data[j]['stacks']:
                 Course_Stacks(course_id=Course.objects.get(title=j).pk,stacks_id=Stacks.objects.get(name=i).pk).save()
 
+<<<<<<< HEAD
+=======
+    # Company 테이블
+    for i in data3:
+        name = i
+        logo = data3[i]['logo']
+        stack_info = data3[i]['stack_info']
+
+        Company(name=name, logo=logo, stack_info=stack_info).save()
+
+    # related_stack 테이블
+    for i in data2:
+        stack_name_id = Stacks.objects.get(name=i).pk
+        for j in data2[i]['related_stacks']:
+            Related_Stacks(stack_name_id=stack_name_id,related_stacks=j ).save()
+
+    # Company_Stacks 테이블
+    for i in data3:
+        for k,v in data3[i]['stacks'].items():
+            if v != None:
+                for stack in data3[i]['stacks'][k]:
+                    Company_Stacks(company_id=Company.objects.get(name=i).pk,stacks_id=Stacks.objects.get(name=stack[0]).pk).save()
+>>>>>>> develop
 
     print('DB저장완료')

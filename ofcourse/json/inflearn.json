@@ -165,7 +165,11 @@
 			"MongoDB",
 			"Socket.io",
 			"JWT",
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"NodeJS"
 		],
 		"score": null,
@@ -548,7 +552,11 @@
 			"Node.js",
 			"React",
 			"Next.js",
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"Docker",
 			"PostgreSQL",
 			"NodeJS",
@@ -610,7 +618,11 @@
 		"stacks": [
 			"React",
 			"Next.js",
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"TDD",
 			"Redux",
 			"NextJS"
@@ -2490,7 +2502,11 @@
 		"image": "https://cdn.inflearn.com/public/courses/329282/cover/08ece3d3-46fe-4a46-932b-8aca91135e8e/329282-eng2.png",
 		"price": "36300",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript"
+=======
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "5.0",
 		"rank": 328.0
@@ -3096,7 +3112,11 @@
 		"stacks": [
 			"클론코딩",
 			"React",
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"Webpack",
 			"Babel",
 			"Socket.io"
@@ -3254,7 +3274,11 @@
 		"image": "https://cdn.inflearn.com/public/courses/326082/cover/c6519e92-f334-46ac-8a31-6290db19b32a",
 		"price": "55000",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"ES6",
 			"JavaScript",
 			"Javascript"
@@ -4815,7 +4839,11 @@
 		"image": "https://cdn.inflearn.com/public/course-326260-cover/3d0feaee-493f-4295-9635-117d24a6f41f",
 		"price": "55000",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"ES6"
 		],
 		"score": "4.8",
@@ -5089,8 +5117,13 @@
 		"score": "4.8",
 		"rank": 1093.0
 	},
+<<<<<<< HEAD
 	"웹 게임을 만들며 배우는 React에 Typescript 적용하기": {
 		"url": "https://www.inflearn.com/course/react-Typescript-webgame",
+=======
+	"웹 게임을 만들며 배우는 React에 TypeScript 적용하기": {
+		"url": "https://www.inflearn.com/course/react-typescript-webgame",
+>>>>>>> develop
 		"headline": "리액트로 만든 웹 게임과 React Router, Redux, MobX에 타입스크립트를 붙여보면서 리액트와 타입스크립트를 같이 사용해봅시다.",
 		"level": "중급자",
 		"courseTime": "총36개7시간38분의수업",
@@ -5102,7 +5135,11 @@
 		"price": "38500",
 		"stacks": [
 			"React",
+<<<<<<< HEAD
 			"Typescript"
+=======
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "4.8",
 		"rank": 957.0
@@ -5448,7 +5485,11 @@
 	},
 	"타입스크립트 기초부터 응용까지 진짜 모든 것 (feat. NestJS, Deno)": {
 		"url": "https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EC%9D%91%EC%9A%A9%EA%B9%8C%EC%A7%80",
+<<<<<<< HEAD
 		"headline": "Node.js 진영의 표준, Typescript 어떻게 쓰고 계신가요? 타입 주석만 달고 계신다면 진짜 타입스크립트가 아닙니다. 무엇을 좋아할지 몰라서 다 준비했습니다. 타입스크립트 A to Z를 알아봅시다 :)",
+=======
+		"headline": "Node.js 진영의 표준, TypeScript 어떻게 쓰고 계신가요? 타입 주석만 달고 계신다면 진짜 타입스크립트가 아닙니다. 무엇을 좋아할지 몰라서 다 준비했습니다. 타입스크립트 A to Z를 알아봅시다 :)",
+>>>>>>> develop
 		"level": "초급자",
 		"courseTime": "총64개6시간18분의수업",
 		"teacher": "yongsoocho",
@@ -5458,7 +5499,11 @@
 		"image": "https://cdn.inflearn.com/public/courses/329966/cover/7a3a8c9a-2a66-4114-abb2-f22105bedefd/329996-eng.png",
 		"price": "22280",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"NestJS",
 			"Deno"
 		],
@@ -6064,7 +6109,11 @@
 		"image": "https://cdn.inflearn.com/public/courses/328374/cover/20610ffe-b5aa-4f2f-80b8-ad2ccaf67a0d/328374-eng.png",
 		"price": "38500",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"IONIC",
 			"하이브리드 앱"
 		],
@@ -8110,7 +8159,11 @@
 		"image": "https://cdn.inflearn.com/public/courses/329424/cover/5ae4e14d-c643-46be-9d4d-be3987a1f883/329424-eng.png",
 		"price": "40700",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript"
+=======
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "5.0",
 		"rank": 375.0
@@ -8738,7 +8791,11 @@
 		"score": "4.6",
 		"rank": 866.0
 	},
+<<<<<<< HEAD
 	"Vue.js + Typescript 완벽 가이드": {
+=======
+	"Vue.js + TypeScript 완벽 가이드": {
+>>>>>>> develop
 		"url": "https://www.inflearn.com/course/vue-ts",
 		"headline": "Vue.js에서 타입스크립트를 시작하는 분들을 위한 최고의 강의. 2개의 실습 프로젝트로 재밌게 배워보는 Vue.js + 타입스크립트 완전 정복. 배우면서 바로 실무에 적용해 보세요! 😄",
 		"level": "중급자",
@@ -8751,7 +8808,11 @@
 		"price": "88000",
 		"stacks": [
 			"Vue.js",
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"VueJS"
 		],
 		"score": "4.9",
@@ -9253,8 +9314,13 @@
 		"score": "4.9",
 		"rank": 471.0
 	},
+<<<<<<< HEAD
 	"Node.js에 Typescript 적용하기(feat. NodeBird)": {
 		"url": "https://www.inflearn.com/course/nodejs-Typescript-%EC%A0%81%EC%9A%A9",
+=======
+	"Node.js에 TypeScript 적용하기(feat. NodeBird)": {
+		"url": "https://www.inflearn.com/course/nodejs-typescript-%EC%A0%81%EC%9A%A9",
+>>>>>>> develop
 		"headline": "Node.js에 타입스크립트를 적용해보고, 기존 npm 패키지에 타이핑을 추가하거나, 직접 타입스크립트 라이브러리를 만들어봅시다.",
 		"level": "중급자",
 		"courseTime": "총26개5시간16분의수업",
@@ -9267,7 +9333,11 @@
 		"stacks": [
 			"Node.js",
 			"웹앱",
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"NodeJS"
 		],
 		"score": "4.6",
@@ -11390,7 +11460,11 @@
 		"image": "https://cdn.inflearn.com/public/course-325872-cover/dddce7f3-4a45-4c25-8d7f-7736874ea88c",
 		"price": "27500",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript"
+=======
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "4.8",
 		"rank": 710.0
@@ -12992,7 +13066,11 @@
 		"image": "https://cdn.inflearn.com/public/courses/327754/cover/27bfd485-f840-4d41-8f8e-a30fcd39f2e2/327754-eng.png",
 		"price": "0",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript"
+=======
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "4.6",
 		"rank": 872.0
@@ -17763,8 +17841,13 @@
 		"score": "5.0",
 		"rank": 91.0
 	},
+<<<<<<< HEAD
 	"타입스크립트 코리아 : Electron with Typescript Hands-On Labs 세미나": {
 		"url": "https://www.inflearn.com/course/electron-Typescript-hands-labs",
+=======
+	"타입스크립트 코리아 : Electron with TypeScript Hands-On Labs 세미나": {
+		"url": "https://www.inflearn.com/course/electron-typescript-hands-labs",
+>>>>>>> develop
 		"headline": "타입스크립트와 일렉트론으로 간단한 채팅 앱을 만드는 강좌입니다.",
 		"level": "초급자",
 		"courseTime": "총24개4시간56분의수업",
@@ -17775,7 +17858,11 @@
 		"image": "https://cdn.inflearn.com/wp-content/uploads/et.png",
 		"price": "33000",
 		"stacks": [
+<<<<<<< HEAD
 			"Typescript",
+=======
+			"TypeScript",
+>>>>>>> develop
 			"Electron"
 		],
 		"score": null,
@@ -19201,11 +19288,19 @@
 		"student": "1774",
 		"recommend": "1700",
 		"reviewCnt": "26",
+<<<<<<< HEAD
 		"image": "https://cdn.inflearn.com/wp-content/uploads/Typescriptforang.jpg",
 		"price": "0",
 		"stacks": [
 			"IONIC",
 			"Typescript"
+=======
+		"image": "https://cdn.inflearn.com/wp-content/uploads/typescriptforang.jpg",
+		"price": "0",
+		"stacks": [
+			"IONIC",
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "4.3",
 		"rank": 760.0
@@ -20509,10 +20604,17 @@
 		"student": "4532",
 		"recommend": "4500",
 		"reviewCnt": "56",
+<<<<<<< HEAD
 		"image": "https://cdn.inflearn.com/wp-content/uploads/Typescript_inflearn.png",
 		"price": "0",
 		"stacks": [
 			"Typescript"
+=======
+		"image": "https://cdn.inflearn.com/wp-content/uploads/TypeScript_inflearn.png",
+		"price": "0",
+		"stacks": [
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "4.6",
 		"rank": 720.0
@@ -21438,8 +21540,13 @@
 		"score": "4.8",
 		"rank": 564.5
 	},
+<<<<<<< HEAD
 	"타입스크립트 코리아 : React with Typescript 세미나": {
 		"url": "https://www.inflearn.com/course/react-with-Typescript",
+=======
+	"타입스크립트 코리아 : React with TypeScript 세미나": {
+		"url": "https://www.inflearn.com/course/react-with-typescript",
+>>>>>>> develop
 		"headline": "타입스크립트와 리액트 관련 강좌입니다.",
 		"level": "중급자",
 		"courseTime": "총30개8시간49분의수업",
@@ -21447,11 +21554,19 @@
 		"student": "4576",
 		"recommend": "4500",
 		"reviewCnt": "27",
+<<<<<<< HEAD
 		"image": "https://cdn.inflearn.com/wp-content/uploads/React_with_Typescript_inflearn-1.png",
 		"price": "0",
 		"stacks": [
 			"React",
 			"Typescript"
+=======
+		"image": "https://cdn.inflearn.com/wp-content/uploads/React_with_TypeScript_inflearn-1.png",
+		"price": "0",
+		"stacks": [
+			"React",
+			"TypeScript"
+>>>>>>> develop
 		],
 		"score": "4.8",
 		"rank": 745.0
