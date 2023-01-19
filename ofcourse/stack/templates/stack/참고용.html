@@ -32,7 +32,7 @@
         </div>
     </header>
     <div class="title-area">
-        <h2 class="page-title">스택별 기업</h2>
+        <h2 class="page-title">기업별 스택</h2>
     </div>
     <div class="search-area">
         <form action="">
@@ -43,18 +43,18 @@
             </div>
             <!-- 삭제 버튼을 누르고 재검색 할 때! -->
             <div class="search-bar">
-                <input type="text" name="search" id="search-bar" placeholder="스택명을 입력해주세요!">
+                <input type="text" name="search" id="search-bar" placeholder="회사명을 입력해주세요!">
                 <button type="submit" class="search-btn">검색</button>
             </div>
         </form>
     </div>
-<!-- 검색을 했을 때 -->
+
     {% if search %}
     <div class="content">
         <h1>검색하신  {{ search }}의 스택 확인하기 </h1>
         <main class="list-area skill">
             <ul>
-                {% for c in stack_list %}
+                {% for c in company_list %}
                 <li class="list-card">                
                     <div class="company-icon">
                             <img src="{{ c.logo }}" alt="강의 예시 이미지">
@@ -72,7 +72,7 @@
                             <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stacks.id}}"><img src="{{ stacks.logo }}"
                                         alt="아이콘"></a></li>
                             {% endfor %}
-                            <li><a class="see-more"></a></li>
+                            <li><a class="see-more">더보기</a></li>
                         </ul>
                     </div>
                 </li>
@@ -82,29 +82,27 @@
     </div>
     {% endif %}
 
-    <!-- 검색 안 했을 때 완전 메인 -->
+
+    
     <div class="content">
         <main class="list-area skill">
             <ul>
                 {% for s in stack_list %}
                 <li class="list-card">                
-                    <a href="http://127.0.0.1:8000/stack/{{s.id}}">
                     <div class="company-icon">
-                        <img src="{{ s.logo }}" alt="스택 로고" style="width: 70px; height: 70px;">
-                    </a>
+                            <img src="{{ s.logo }}" alt="강의 예시 이미지">
+                        </div>
+                        <div class="info-box">
+                        <a href="http://127.0.0.1:8000/stack/{{s.id}}" style="text-decoration: none;">
+                        <h3>{{ s.name }}</h3></a>
                     </div>
-                    <div class="info-box">
-                            <a href="http://127.0.0.1:8000/stack/{{s.id}}" style="text-decoration: none;">
-                                <h3>{{ s.name }}</h3></a>
-                            </div>
-
                     <div class="skill-list">
                         <ul>
                             {% for stacks in s.related_stacks_set.iterator %}
-                            <li><a class="stack-icon" href="http://127.0.0.1:8000/stack/{{stacks.related_stacks_pk}}"><img src="{{ stacks.related_stacks_logo }}" 
-                                style="width: 60px; height: 60px;"></a></li>
+                            <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stacks.related_stacks_pk}}"><img src="{{ stack.related_stacks_logo }}"
+                                        alt="아이콘"></a></li>
                             {% endfor %}
-                            <li><a class=""></a></li>
+                            <li><a class="see-more">더보기</a></li>
                         </ul>
                     </div>
                 </li>
@@ -119,7 +117,7 @@
                 <a class="page-link" href="stack/?page={{ page_obj.previous_page_number }}" tabindex="-1">이전</a>
             </li>
         {% else %}
-            <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
+             <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
             <li class="page-item disabled">
                 <a class="page-link" href="#" tabindex="-1">이전</a>
             </li>

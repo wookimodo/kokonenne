@@ -422,7 +422,7 @@ footer p {
   padding: 0 0 0.4rem 0.4rem;
   border-bottom: 1px solid var(--bd-color);
 }
-.content > .list-area.skill .list-card .skill-list {
+.content > .list-area.skill .list-card {
   overflow-x: scroll;
   overflow-y: hidden;
   margin-top: 1.2rem;
