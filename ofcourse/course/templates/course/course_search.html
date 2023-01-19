@@ -36,9 +36,14 @@
         <form action="{% url 'search' %}" method="GET">
 
             <!-- 검색 -->
-            <div id="search">
-                <input name="search" type="text">
-                <button class="btn btn-primary" type="submit">검색</button>
+            <div class="search-area">
+                <form action="{% url 'search' %}" method="GET">
+                    {% csrf_token %}
+                    <div class="search-bar">
+                        <input type="text" name="search" id="search-bar">
+                        <button type="submit" class="search-btn">검색</button>
+                    </div>
+                </form>
             </div>
             <div class="content col-2">
                 <main class="list-area">
