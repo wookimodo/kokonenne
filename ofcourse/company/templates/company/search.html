@@ -29,18 +29,23 @@
             </nav>
         </div>
     </header>
+    
     <div class="search-area">
-        <!-- 검색 폼 -->
         <h1>기업별 검색</h1>
         <br>
-
+        
         <br /><br />
-        <form action="{% url 'company:search' %}" method="GET">
-            <!-- 검색 -->
-            <div id="search">
-                <input name="search" type="text">
-                <button class="btn btn-primary" type="submit">검색</button>
-            </div>
+
+        <!-- 검색 폼 -->
+            <form action="{% url 'company:search' %}" method="GET">
+                {% csrf_token %}
+                <!-- 검색 -->
+                <div class="search-bar">
+                    <input type="text" name="search" id="search-bar">
+                    <button type="submit" class="search-btn">검색</button>
+                </div>
+            </form>
+        </div>
 
             {% if search %}
             <h1>검색하신 <span class="point">{{ search }}</span>의 기술 정보입니다.</h1>
@@ -50,7 +55,7 @@
                         <!-- search 정보 -->
                             {% for c in company %}
                                 <li class="list-card">
-                                    <a href="/company/{{c.id}}/">
+                                    <a href="/company/{{c.id}}/" target="_blank">
                                         <div class="img-box">                                    
                                         <img src="{{ c.logo }}" alt="기업 로고">
                                     </div>
@@ -67,7 +72,7 @@
                 </main>
             {% endif %}
             </div>
-        </form>
+
 
         <footer>
             <p>
