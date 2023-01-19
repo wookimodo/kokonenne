@@ -41,12 +41,13 @@
                 <input name="search" type="text">
                 <button class="btn btn-primary" type="submit">검색</button>
             </div>
+
+            {% if search %}
+            <h1>검색하신 <span class="point">{{ search }}</span>의 기술 정보입니다.</h1>
             <div class="content col-2">
                 <main class="list-area">
                     <ul>
                         <!-- search 정보 -->
-                        {% if search %}
-                        <h1>검색하신 <span class="point">{{ search }}</span>의 기술 정보입니다.</h1>
                             {% for c in company %}
                                 <li class="list-card">
                                     <a href="/company/{{c.id}}/">
@@ -60,11 +61,11 @@
                                     </div>
                                 </li>
                                 {% endfor %}
-                            {% else %}
-                                <h1>찾고 있는 회사를 검색창에 입력해주세요.</h1>
-                        {% endif %}
-                    </ul>
+                            </ul>
+            {% else %}
+                <h1>검색창에 회사 이름을 입력해주세요.</h1>
                 </main>
+            {% endif %}
             </div>
         </form>
 
