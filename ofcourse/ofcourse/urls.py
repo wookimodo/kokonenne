@@ -26,6 +26,8 @@ urlpatterns = [
 
     # path('list/', list),
     path('course/', include('course.urls')),
+    # search 
+    path('search/', views.search, name='search'),
 
     # company
     path('company/', include('company.urls')),
