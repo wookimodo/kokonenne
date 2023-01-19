@@ -37,7 +37,7 @@
         <form action="{% url 'company:search' %}" method="GET">
             {% csrf_token %}
             <div class="search-bar">
-                <input type="text" name="search" id="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="회사명을 입력해주세요!">
                 <button type="submit" class="search-btn">검색</button>
             </div>
         </form>

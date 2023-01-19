@@ -41,7 +41,7 @@
                 {% csrf_token %}
                 <!-- 검색 -->
                 <div class="search-bar">
-                    <input type="text" name="search" id="search-bar">
+                    <input type="text" name="search" id="search-bar" placeholder="회사명을 입력해주세요!">
                     <button type="submit" class="search-btn">검색</button>
                 </div>
             </form>
@@ -68,7 +68,7 @@
                                 {% endfor %}
                             </ul>
             {% else %}
-                <h1>검색창에 회사 이름을 입력해주세요.</h1>
+                <h1>검색창에 회사명을 입력해주세요.</h1>
                 </main>
             {% endif %}
             </div>
