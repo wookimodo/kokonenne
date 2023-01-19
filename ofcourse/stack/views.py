@@ -6,9 +6,10 @@ from django.shortcuts import get_object_or_404
 # Create your views here.
 class StackList(ListView): 
     model = Stacks
-    template_name = "stack-list.html"
-    ordering = '-pk'
+    template_name = "stack/stack_list.html"
+    ordering = 'pk'
     paginate_by = 12
+
 
 class StackDetail(DetailView):
     model = Stacks
