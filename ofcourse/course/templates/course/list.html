@@ -63,7 +63,7 @@
                         <img src="{{ c.img_url }}" alt="강의 예시 이미지">
                     </div>
                     <div class="info-box">
-                        <h3><a href="{{c.url}}">{{c.title}}
+                        <h3><a href="{{c.url}}">{{c.title|truncatechars:20 }}
                                 {% for s in c.stack.iterator %}
                                 <span class="point">{{s.name}}</span>
                                 {% endfor %}
