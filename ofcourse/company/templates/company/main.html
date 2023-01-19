@@ -147,7 +147,11 @@
         {% if page_obj.has_next %}
             <!-- 이전페이지 객체가 있으면 [Next]버튼 활성화 -->
             <li class="page-item">
+<<<<<<< .merge_file_RV1760
                 <a class="page-link" href="#">다음</a>
+=======
+                <a class="page-link" href="company/?page={{ page_obj.previous_page_number }}">다음</a>
+>>>>>>> .merge_file_wwarxb
             </li>
         {% else %}
             <li class="page-item disabled"> <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
