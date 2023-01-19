@@ -112,49 +112,6 @@
             </ul>
         </main>
     </div>
-
-    <div class="pagination">
-        {% if page_obj.has_previous %}
-            <li class="page-item">
-                <a class="page-link" href="stack/?page={{ page_obj.previous_page_number }}" tabindex="-1">이전</a>
-            </li>
-        {% else %}
-            <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
-            <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1">이전</a>
-            </li>
-        {% endif %}
-        
-
-        <!-- 페이지를 번호로 출력하기-->
-        {% for page in page_obj.paginator.page_range %}	 <!-- 전체 페이지수를 가져옴-->
-        <!-- 현재 선택한 페이지 번호는 비활성화 시킴 -->
-        {% if page_obj.number == forloop.counter %}
-                    <!-- 위에 page_obj 대신 page 로도 되는지 테스트해보기-->
-        <li class="page-item disabled" aria-current="page"> 
-                        <!-- 비활성화 시켜주는 class, 회색처리되서 클릭되지 않게함.-->
-            <a class="page-link" style="background-color: #dee2e6;" href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
-        </li>
-        {% else %}
-        <!-- 현재 선택한 페이지 번호는 활성화 시킴 -->
-        <li class="page-item" aria-current="page">
-            <a class="page-link" href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
-        </li>
-        {% endif %}
-        {% endfor %}
-
-        {% if page_obj.has_next %}
-            <!-- 이전페이지 객체가 있으면 [Next]버튼 활성화 -->
-            <li class="page-item">
-                <a class="page-link" href="#">다음</a>
-            </li>
-        {% else %}
-            <li class="page-item disabled"> <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
-                <a class="page-link" href="#">Next</a>
-            </li>
-        {% endif %}
-        
-    </div>
     
     <footer>
         <p>

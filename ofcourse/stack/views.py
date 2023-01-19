@@ -8,8 +8,8 @@ from django.shortcuts import get_object_or_404
 class StackList(ListView):
     model = Stacks
     template_name = 'stack/stack_list.html'
-    ordering = 'pk'
-    paginate_by = 12
+    ordering = '-pk'    
+    paginate_by = 1
 
     def get_context_data(self, **kwargs):
         context = super(StackList, self).get_context_data()
