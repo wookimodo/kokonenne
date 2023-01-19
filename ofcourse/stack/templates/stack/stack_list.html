@@ -1,0 +1,123 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- global css -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+
+<body class="list-page">
+    <header>
+        <div class="container">
+            <h1>Of Course</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">기업별 추천</a></li>
+                    <li><a href="#">기술별 추천</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="title-area">
+        <h2 class="page-title">스택별 기업</h2>
+    </div>
+    <div class="search-area">
+        <form action="">
+            <!-- 검색 결과 표시 -->
+            <div class="hide">
+                <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
+                <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
+            </div>
+            <!-- 삭제 버튼을 누르고 재검색 할 때! -->
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="스택명을 입력해주세요!">
+                <button type="submit" class="search-btn">검색</button>
+            </div>
+        </form>
+    </div>
+<!-- 검색을 했을 때 -->
+    {% if search %}
+    <div class="content">
+        <h1>검색하신  {{ search }}의 스택 확인하기 </h1>
+        <main class="list-area skill">
+            <ul>
+                {% for c in stack_list %}
+                <li class="list-card">                
+                    <div class="company-icon">
+                            <img src="{{ c.logo }}" alt="강의 예시 이미지">
+                        </div>
+                        <div class="info-box">
+                        <a href="http://127.0.0.1:8000/company/{{c.id}}" style="text-decoration: none;">
+                        <h3>{{ c.name }}</h3></a>
+                    </div>
+                    <p class="skill-info">
+                        {{ c.stack_info }}
+                    </p>
+                    <div class="skill-list">
+                        <ul>
+                            {% for stacks in c.stack.iterator %}
+                            <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stacks.id}}"><img src="{{ stacks.logo }}"
+                                        alt="아이콘"></a></li>
+                            {% endfor %}
+                            <li><a class="see-more"></a></li>
+                        </ul>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </main>
+    </div>
+    {% endif %}
+
+    <!-- 검색 안 했을 때 완전 메인 -->
+    <div class="content">
+        <main class="list-area skill">
+            <ul>
+                {% for s in stack_list %}
+                <li class="list-card">                
+                    <a href="http://127.0.0.1:8000/stack/{{s.id}}">
+                    <div class="company-icon">
+                        <img src="{{ s.logo }}" alt="스택 로고" style="width: 70px; height: 70px;">
+                    </a>
+                    </div>
+                    <div class="info-box">
+                            <a href="http://127.0.0.1:8000/stack/{{s.id}}" style="text-decoration: none;">
+                                <h3>{{ s.name }}</h3></a>
+                            </div>
+
+                    <div class="skill-list">
+                        <ul>
+                            {% for stacks in s.related_stacks_set.iterator %}
+                            <li><a class="stack-icon" href="http://127.0.0.1:8000/stack/{{stacks.related_stacks_pk}}"><img src="{{ stacks.related_stacks_logo }}" 
+                                style="width: 60px; height: 60px;"></a></li>
+                            {% endfor %}
+                            <li><a class=""></a></li>
+                        </ul>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </main>
+    </div>
+    
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>

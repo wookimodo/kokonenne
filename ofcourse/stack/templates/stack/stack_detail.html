@@ -17,7 +17,7 @@
         <!-- global css -->
         <link rel="stylesheet" href="{%static 'css/style.css'%}">
     </head>
-       
+    
 <body class="list-page">
     <header>
         <div class="container">
@@ -65,11 +65,10 @@
                     {% for cor in stacks.course_set.iterator %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="{{ cor.img_url }}" alt="스킬 아이콘"></i>
-                            <p class="skill-name">{{ cor.title }}</p>
+                            <i class="skill-icon"><img src="{{cor.img_url}}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{cor.title}}</p>
                         </a>
                     </li>
-
                     {% endfor %}
                 </ul>
             </div>

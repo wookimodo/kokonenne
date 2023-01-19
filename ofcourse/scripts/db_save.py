@@ -104,7 +104,9 @@ def run():
     # Stacks_Dict 테이블
     for i in data2:
         stack_name_id = Stacks.objects.get(name=i).pk
-        for j in data4[i]:
-            Stacks_Dict(stack_name_id=stack_name_id,search_word=j).save()
+        for k in data2[i]['related_stacks']:
+            related_stacks_pk = Stacks.objects.get(name=k).pk
+            logo = Stacks.objects.get(name=k).logo
+            Related_Stacks(stack_name_id=stack_name_id, related_stacks=k, related_stacks_logo=logo, related_stacks_pk=related_stacks_pk).save()
 
     print('DB저장완료')

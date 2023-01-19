@@ -1,0 +1,512 @@
+{
+	"Agit": {
+		"assort": "협업툴",
+		"logo": "https://static.codenary.co.kr/framework_logo/agit.png",
+		"described": "카카오엔터프라이즈에서 편리한 팀 커뮤니케이션을 위하여 출시한 업무 툴",
+		"related_stacks": [
+			"Confluence"
+		],
+		"company_category": {
+			"금융/보험 기업": [
+				[
+					"카카오페이",
+					"https://static.codenary.co.kr/company-logo/1529.png"
+				],
+				[
+					"카카오뱅크",
+					"https://static.codenary.co.kr/company-logo/593.png"
+				]
+			],
+			"패션 기업": [
+				[
+					"카카오스타일",
+					"https://static.codenary.co.kr/company-logo/506.png"
+				]
+			],
+			"소셜/컨텐츠 기업": [
+				[
+					"카카오엔터테인먼트",
+					"https://static.codenary.co.kr/company-logo/187.png"
+				]
+			],
+			"모빌리티 기업": [
+				[
+					"카카오모빌리티",
+					"https://static.codenary.co.kr/company-logo/1682.png"
+				]
+			],
+			"종합 기업": [
+				[
+					"카카오",
+					"https://static.codenary.co.kr/company-logo/1376.png"
+				]
+			],
+			"직장 기업": [
+				[
+					"카카오엔터프라이즈",
+					"https://static.codenary.co.kr/company-logo/10537.png"
+				]
+			],
+			"헬스케어 기업": [
+				[
+					"카카오브이엑스",
+					"https://static.codenary.co.kr/company-logo/3689.png"
+				]
+			],
+			"8번 카테고리": null,
+			"9번 카테고리": null,
+			"10번 카테고리": null,
+			"11번 카테고리": null,
+			"12번 카테고리": null,
+			"13번 카테고리": null,
+			"14번 카테고리": null
+		}
+	},
+	"Airflow": {
+		"assort": "데이터",
+		"logo": "https://static.codenary.co.kr/framework_logo/airflow.png",
+		"described": "복잡한 계산을 요하는 작업흐름과 데이터 처리 파이프라인을 조율하기 위해 만든 오픈소스 도구",
+		"related_stacks": [
+			"Luigi"
+		],
+		"company_category": {
+			"금융/보험 기업": [
+				[
+					"핀다",
+					"https://static.codenary.co.kr/company-logo/413.png"
+				],
+				[
+					"비바리퍼블리카",
+					"https://static.codenary.co.kr/company-logo/113.png"
+				],
+				[
+					"뱅크샐러드",
+					"https://static.codenary.co.kr/company-logo/63.png"
+				],
+				[
+					"카카오뱅크",
+					"https://static.codenary.co.kr/company-logo/593.png"
+				],
+				[
+					"렌딧",
+					"https://static.codenary.co.kr/company-logo/406.png"
+				],
+				[
+					"차이코퍼레이션",
+					"https://static.codenary.co.kr/company-logo/13126.png"
+				],
+				[
+					"자비스앤빌런즈",
+					"https://static.codenary.co.kr/company-logo/403.png"
+				],
+				[
+					"피플펀드컴퍼니",
+					"https://static.codenary.co.kr/company-logo/157.png"
+				],
+				[
+					"디셈버앤컴퍼니",
+					"https://static.codenary.co.kr/company-logo/1800.png"
+				],
+				[
+					"파운트",
+					"https://static.codenary.co.kr/company-logo/3542.png"
+				]
+			],
+			"패션 기업": [
+				[
+					"딜리셔스",
+					"https://static.codenary.co.kr/company-logo/3059.png"
+				],
+				[
+					"에이블리",
+					"https://static.codenary.co.kr/company-logo/1209.png"
+				],
+				[
+					"카카오스타일",
+					"https://static.codenary.co.kr/company-logo/506.png"
+				],
+				[
+					"무신사",
+					"https://static.codenary.co.kr/company-logo/4248.png"
+				]
+			],
+			"교육 기업": [
+				[
+					"뤼이드",
+					"https://static.codenary.co.kr/company-logo/341.png"
+				],
+				[
+					"매스프레소",
+					"https://static.codenary.co.kr/company-logo/1628.png"
+				],
+				[
+					"클래스101",
+					"https://static.codenary.co.kr/company-logo/3257.png"
+				],
+				[
+					"클라썸",
+					"https://static.codenary.co.kr/company-logo/9416.png"
+				]
+			],
+			"직장 기업": [
+				[
+					"드라마앤컴퍼니",
+					"https://static.codenary.co.kr/company-logo/307.png"
+				],
+				[
+					"카카오엔터프라이즈",
+					"https://static.codenary.co.kr/company-logo/10537.png"
+				],
+				[
+					"원티드랩",
+					"https://static.codenary.co.kr/company-logo/79.png"
+				]
+			],
+			"부동산/인테리어 기업": [
+				[
+					"직방",
+					"https://static.codenary.co.kr/company-logo/80.png"
+				],
+				[
+					"버킷플레이스",
+					"https://static.codenary.co.kr/company-logo/179.png"
+				]
+			],
+			"소셜/컨텐츠 기업": [
+				[
+					"당근마켓",
+					"https://static.codenary.co.kr/company-logo/2826.png"
+				],
+				[
+					"카카오엔터테인먼트",
+					"https://static.codenary.co.kr/company-logo/187.png"
+				],
+				[
+					"하이퍼커넥트",
+					"https://static.codenary.co.kr/company-logo/136.png"
+				],
+				[
+					"라인",
+					"https://static.codenary.co.kr/company-logo/324.png"
+				],
+				[
+					"네이버웹툰",
+					"https://static.codenary.co.kr/company-logo/1674.png"
+				],
+				[
+					"브이씨앤씨",
+					"https://static.codenary.co.kr/company-logo/1053.png"
+				],
+				[
+					"라이너",
+					"https://static.codenary.co.kr/company-logo/1235.png"
+				],
+				[
+					"베이글코드",
+					"https://static.codenary.co.kr/company-logo/36.png"
+				],
+				[
+					"큐피스트",
+					"https://static.codenary.co.kr/company-logo/1251.png"
+				]
+			],
+			"여행 기업": [
+				[
+					"마이리얼트립",
+					"https://static.codenary.co.kr/company-logo/15.png"
+				],
+				[
+					"야놀자",
+					"https://static.codenary.co.kr/company-logo/4924.png"
+				],
+				[
+					"프립",
+					"https://static.codenary.co.kr/company-logo/138.png"
+				],
+				[
+					"온다",
+					"https://static.codenary.co.kr/company-logo/1584.png"
+				],
+				[
+					"하나투어",
+					"https://static.codenary.co.kr/company-logo/13639.png"
+				]
+			],
+			"기타 기업": [
+				[
+					"그린랩스",
+					"https://static.codenary.co.kr/company-logo/11250.png"
+				],
+				[
+					"버즈빌",
+					"https://static.codenary.co.kr/company-logo/99.png"
+				],
+				[
+					"에이비일팔공",
+					"https://static.codenary.co.kr/company-logo/476.png"
+				],
+				[
+					"오피지지",
+					"https://static.codenary.co.kr/company-logo/178.png"
+				],
+				[
+					"엔라이튼",
+					"https://static.codenary.co.kr/company-logo/1025.png"
+				],
+				[
+					"웍스메이트",
+					"https://static.codenary.co.kr/company-logo/100012.png"
+				]
+			],
+			"이커머스 기업": [
+				[
+					"와디즈",
+					"https://static.codenary.co.kr/company-logo/645.png"
+				],
+				[
+					"쿠팡",
+					"https://static.codenary.co.kr/company-logo/53.png"
+				],
+				[
+					"번개장터",
+					"https://static.codenary.co.kr/company-logo/90.png"
+				],
+				[
+					"아이디어스",
+					"https://static.codenary.co.kr/company-logo/282.png"
+				],
+				[
+					"11번가",
+					"https://static.codenary.co.kr/company-logo/5774.png"
+				],
+				[
+					"더기프팅컴퍼니",
+					"https://static.codenary.co.kr/company-logo/12411.png"
+				],
+				[
+					"중고나라",
+					"https://static.codenary.co.kr/company-logo/4857.png"
+				]
+			],
+			"푸드테크 기업": [
+				[
+					"마켓컬리",
+					"https://static.codenary.co.kr/company-logo/426.png"
+				],
+				[
+					"우아한형제들",
+					"https://static.codenary.co.kr/company-logo/102.png"
+				]
+			],
+			"모빌리티 기업": [
+				[
+					"쏘카",
+					"https://static.codenary.co.kr/company-logo/38.png"
+				],
+				[
+					"메쉬코리아",
+					"https://static.codenary.co.kr/company-logo/676.png"
+				],
+				[
+					"42dot",
+					"https://static.codenary.co.kr/company-logo/8794.png"
+				],
+				[
+					"바로고",
+					"https://static.codenary.co.kr/company-logo/436.png"
+				],
+				[
+					"스프링클라우드",
+					"https://static.codenary.co.kr/company-logo/11265.png"
+				]
+			],
+			"인공지능 기업": [
+				[
+					"마이셀럽스",
+					"https://static.codenary.co.kr/company-logo/614.png"
+				],
+				[
+					"스노우",
+					"https://static.codenary.co.kr/company-logo/550.png"
+				],
+				[
+					"네오사피엔스",
+					"https://static.codenary.co.kr/company-logo/4666.png"
+				],
+				[
+					"에이모",
+					"https://static.codenary.co.kr/company-logo/316.png"
+				],
+				[
+					"모토브",
+					"https://static.codenary.co.kr/company-logo/4997.png"
+				],
+				[
+					"매드업",
+					"https://static.codenary.co.kr/company-logo/332.png"
+				]
+			],
+			"종합 기업": [
+				[
+					"카카오",
+					"https://static.codenary.co.kr/company-logo/1376.png"
+				],
+				[
+					"네이버",
+					"https://static.codenary.co.kr/company-logo/1246.png"
+				],
+				[
+					"SK플래닛",
+					"https://static.codenary.co.kr/company-logo/857.png"
+				]
+			],
+			"헬스케어 기업": [
+				[
+					"엔라이즈",
+					"https://static.codenary.co.kr/company-logo/5005.png"
+				]
+			]
+		}
+	},
+	"Alamofire": {
+		"assort": "모바일",
+		"logo": "https://static.codenary.co.kr/framework_logo/alamofire.png",
+		"described": "iOS, macOS를 위한 스위프트 기반 HTTP 네트워킹 라이브러리로 Apple의 Foundation networking 기반으로 인터페이스를 제공하여 일반적인 네트워킹 작업을 단순화한다.",
+		"related_stacks": [],
+		"company_category": {
+			"패션 기업": [
+				[
+					"딜리셔스",
+					"https://static.codenary.co.kr/company-logo/3059.png"
+				],
+				[
+					"에이블리",
+					"https://static.codenary.co.kr/company-logo/1209.png"
+				],
+				[
+					"무신사",
+					"https://static.codenary.co.kr/company-logo/4248.png"
+				],
+				[
+					"브랜디",
+					"https://static.codenary.co.kr/company-logo/876.png"
+				]
+			],
+			"금융/보험 기업": [
+				[
+					"핀다",
+					"https://static.codenary.co.kr/company-logo/413.png"
+				],
+				[
+					"차이코퍼레이션",
+					"https://static.codenary.co.kr/company-logo/13126.png"
+				],
+				[
+					"카카오페이",
+					"https://static.codenary.co.kr/company-logo/1529.png"
+				],
+				[
+					"티웨이브",
+					"https://static.codenary.co.kr/company-logo/14580.png"
+				]
+			],
+			"소셜/컨텐츠 기업": [
+				[
+					"당근마켓",
+					"https://static.codenary.co.kr/company-logo/2826.png"
+				],
+				[
+					"채널코퍼레이션",
+					"https://static.codenary.co.kr/company-logo/8.png"
+				],
+				[
+					"카카오엔터테인먼트",
+					"https://static.codenary.co.kr/company-logo/187.png"
+				],
+				[
+					"하이퍼커넥트",
+					"https://static.codenary.co.kr/company-logo/136.png"
+				],
+				[
+					"미스터블루",
+					"https://static.codenary.co.kr/company-logo/17771.png"
+				]
+			],
+			"헬스케어 기업": [
+				[
+					"버드뷰",
+					"https://static.codenary.co.kr/company-logo/216.png"
+				],
+				[
+					"엔라이즈",
+					"https://static.codenary.co.kr/company-logo/5005.png"
+				],
+				[
+					"마이지놈박스",
+					"https://static.codenary.co.kr/company-logo/34035.png"
+				]
+			],
+			"이커머스 기업": [
+				[
+					"위메프",
+					"https://static.codenary.co.kr/company-logo/1362.png"
+				]
+			],
+			"종합 기업": [
+				[
+					"카카오",
+					"https://static.codenary.co.kr/company-logo/1376.png"
+				],
+				[
+					"SK플래닛",
+					"https://static.codenary.co.kr/company-logo/857.png"
+				]
+			],
+			"푸드테크 기업": [
+				[
+					"우아한형제들",
+					"https://static.codenary.co.kr/company-logo/102.png"
+				],
+				[
+					"마켓컬리",
+					"https://static.codenary.co.kr/company-logo/426.png"
+				]
+			],
+			"모빌리티 기업": [
+				[
+					"쏘카",
+					"https://static.codenary.co.kr/company-logo/38.png"
+				],
+				[
+					"더스윙",
+					"https://static.codenary.co.kr/company-logo/5252.png"
+				],
+				[
+					"카닥",
+					"https://static.codenary.co.kr/company-logo/6.png"
+				]
+			],
+			"여행 기업": [
+				[
+					"프립",
+					"https://static.codenary.co.kr/company-logo/138.png"
+				]
+			],
+			"교육 기업": [
+				[
+					"오누이",
+					"https://static.codenary.co.kr/company-logo/14464.png"
+				]
+			],
+			"직장 기업": [
+				[
+					"원티드랩",
+					"https://static.codenary.co.kr/company-logo/79.png"
+				]
+			],
+			"12번 카테고리": null,
+			"13번 카테고리": null,
+			"14번 카테고리": null
+		}
+	}
+}
