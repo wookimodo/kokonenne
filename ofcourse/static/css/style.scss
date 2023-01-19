@@ -191,6 +191,85 @@ footer {
     }
 }
 
+.main-page {
+    background-image: url(../asset/main_page.jpeg);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    header {
+        background-color: #ffffff30;
+
+        a {
+            color: var(--bd-color);
+        }
+    }
+
+    > .container {
+        padding-top: 10rem;
+        min-height: calc(100vh - 15rem);
+        text-align: center;
+        position: relative;
+
+        h1 {
+            color: var(--main-color);
+            background-color: #ff0030;
+            background-image: linear-gradient(62deg, #ff002f6a 0%, #ff7474 64%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 60%;
+            font-weight: 500;
+            font-size: 35rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            letter-spacing: -1.5rem;
+            width: max-content;
+            margin: 0;
+            user-select: none;
+        }
+
+        h2 {
+            margin-top: 50rem;
+            color: var(--main-color2);
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: .1rem;
+        }
+
+        .link-area {
+            
+            > a {
+                color: var(--bd-color);
+                text-decoration: none;
+                margin-left: 2rem;
+                position: relative;
+                
+                &::before {
+                    content: '';
+                    display: inline-block;
+                    background: var(--bd-color);
+                    width: 0.1rem;
+                    height: 1.4rem;
+                    position: absolute;
+                    left: -1rem;
+                    top: 55%;
+                    transform: translateY(-50%);
+                }
+                
+                &:first-child{
+                    margin-left: 0;
+
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .list-page {
     min-width: 1500px;
 
@@ -258,9 +337,8 @@ footer {
             }
         }
     }
-
-
 }
+
 .content {
     min-width: 1200px;
     max-width: 1500px;
@@ -285,6 +363,42 @@ footer {
 
     &.view {
         margin-top: 10rem;
+
+        .view-area.list-area {
+            .scroll-wrap {
+                overflow-x: scroll;
+
+                > ul {
+                    flex-wrap: nowrap;
+                    width: fit-content;
+                }
+            }
+
+            .course-list {
+                .list-card:nth-child(4n-3) {
+                    margin-left: 1.6rem;
+                }
+
+                .list-card:first-child {
+                    margin-left: 0;
+                }
+            }
+
+            .skill-title {
+                margin-top: 5rem;
+                border-top: 1px solid var(--bd-color);
+                padding-top: 2rem;
+
+                &:first-child {
+                    margin-top: 0;
+                    border: 0;
+                    padding-top: 0;
+                }
+            }
+            .course-list {
+                display: flex;
+            }
+        }
     }
 
     .skill-info-area {
@@ -493,19 +607,20 @@ footer {
                 }
 
                 .skill-list {
-                    overflow-x: scroll;
-                    overflow-y: hidden;
+                    overflow: hidden;
                     margin-top: 1.2rem;
 
                     ul {
                         display: flex;
+                        transform: translate(0, 0);
 
                         li {
                             list-style: none;
                             margin: 0 0.2rem;
-                            // border: 1px solid #000;
+                            user-select: none;
 
                             > .skill-icon {
+                                -webkit-user-drag: none;
                                 font-size: 0;
                                 display: block;
                                 width: fit-content;
@@ -514,6 +629,7 @@ footer {
                                 overflow: hidden;
 
                                 > img {
+                                    -webkit-user-drag: none;
                                     display: block;
                                     width: 100%;
                                 }
@@ -547,7 +663,7 @@ footer {
     > .view-area {
         margin-top: -2rem;
 
-        .info-box {
+        > .info-box {
             background-color: var(--bg-color);
             border: 1px solid var(--bd-color);
             border-radius: 1rem;

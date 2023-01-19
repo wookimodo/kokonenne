@@ -12,11 +12,11 @@ def toJson(res_dict,save_name):
         json.dump(res_dict, file, ensure_ascii=False, indent='\t')
 
 # 제이슨 파일 열기
-f = open(f'modify.json', encoding='UTF-8')
+f = open(f'json/inflearn.json', encoding='UTF-8')
 data = json.loads(f.read())  
 
 # 데이터 불러오기
-df = pd.read_json(f"modify.json")
+df = pd.read_json(f"json/inflearn.json")
 df = df.transpose().reset_index().rename(columns={'index':'title'})
 df = df.drop(['headline','url','image','level'],axis=1)
 
@@ -46,7 +46,7 @@ df = df.astype({'courseTime':'float','student':'int','recommend':'int','reviewCn
 df['pertime'] = [x/y for x,y in zip(df['courseTime'],df['courseCnt'])]
 
 # stack 없는 행 삭제
-idx = df.loc[df['stacks']==''].index
+idx = df.loc[df['stacks']==""].index
 df = df.drop(idx)
 
 # 대분류 추출
@@ -55,7 +55,7 @@ for i in df['stacks']:
   cat1.append(i[0])
 df['cat1'] = cat1
 # 컬럼 순서 재정의
-df = df[['title','teacher','cat1','pwdurl','courseTime','student','recommend','reviewCnt','score','courseCnt','pertime']]
+df = df[['title','teacher','cat1','courseTime','student','recommend','reviewCnt','score','courseCnt','pertime']]
 
 # 대분류별로 평균을 구해서 컬럼 추가
 agg_dict = {
@@ -107,9 +107,9 @@ df_ranking = pd.DataFrame(df_ranking)
 df_ranking.columns = df.iloc[:,4:].columns
 
 # 랭킹df에 title, teacher, cat1추가
-df_ranking[['title','teacher','pwdurl']] = df[['title','teacher','pwdurl']]
+df_ranking[['title','teacher']] = df[['title','teacher']]
 df_ranking['cat1'] = df['cat1']
-df = df_ranking[['title','teacher','cat1','pwdurl','diffstudent','diffrecommend','diffreviewCnt','diffscore']]
+df = df_ranking[['title','teacher','cat1','diffstudent','diffrecommend','diffreviewCnt','diffscore']]
 
 # finalscore 계산
 df['finalscore'] = [a+b+c+d for a,b,c,d in zip(df.loc[:,'diffstudent'],df.loc[:,'diffrecommend'],df.loc[:,'diffreviewCnt'],df.loc[:,'diffscore'])]
@@ -124,7 +124,7 @@ def run():
         data[i]['rank'] = rank
   toJson(data,'modify')
   print(data)
-  return result[['pwdurl','rank']]
+  return result[['title','rank']]
 
 
 # 스택별로 랭킹보여주기

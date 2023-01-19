@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- global css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="main-page">
+    <header>
+        <div class="container">
+            <h1>Of Course</h1>
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:8000/company/">기업별 추천</a></li>
+                    <li><a href="http://127.0.0.1:8000/stack/">기술별 추천</a></li>
+                    <li><a href="http://127.0.0.1:8000/course/">강의 찾기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Of Course</h1>
+        <h2>가고싶은 회사를 가려면 무엇을 공부해야 할까요?</h2>
+        <div class="link-area">
+            <a href="#">스택별 강의 보러가기</a>
+            <a href="#">회사별 기술스택 보러가기</a>
+            <a href="#">기술스택별 리스트 보러가기</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>

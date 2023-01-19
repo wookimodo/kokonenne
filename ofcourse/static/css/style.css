@@ -170,6 +170,78 @@ footer p {
   font-size: 2.6rem;
 }
 
+.main-page {
+  background-image: url(../img/main.jpeg);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-page header {
+  background-color: rgba(255, 255, 255, 0.1882352941);
+}
+.main-page header a {
+  color: var(--bd-color);
+}
+.main-page > .container {
+  padding-top: 10rem;
+  min-height: calc(100vh - 15rem);
+  text-align: center;
+  position: relative;
+}
+.main-page > .container h1 {
+  color: var(--main-color);
+  background-color: #ff0030;
+  background-image: linear-gradient(62deg, rgba(255, 0, 47, 0.4156862745) 0%, #ff7474 64%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 60%;
+  font-weight: 500;
+  font-size: 35rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: -1.5rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.main-page > .container h2 {
+  margin-top: 50rem;
+  color: var(--main-color2);
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+.main-page > .container .link-area > a {
+  color: var(--bd-color);
+  text-decoration: none;
+  margin-left: 2rem;
+  position: relative;
+}
+.main-page > .container .link-area > a::before {
+  content: "";
+  display: inline-block;
+  background: var(--bd-color);
+  width: 0.1rem;
+  height: 1.4rem;
+  position: absolute;
+  left: -1rem;
+  top: 55%;
+  transform: translateY(-50%);
+}
+.main-page > .container .link-area > a:first-child {
+  margin-left: 0;
+}
+.main-page > .container .link-area > a:first-child::before {
+  display: none;
+}
+
 .list-page {
   min-width: 1500px;
 }
@@ -184,7 +256,7 @@ footer p {
   width: 100%;
 }
 .list-page .search-area {
-  margin: 0 auto;
+  margin: 100px auto 0;
   max-width: 1500px;
   text-align: center;
   border-bottom: 2px solid var(--main-color);
@@ -251,6 +323,34 @@ footer p {
 }
 .content.view {
   margin-top: 10rem;
+}
+.content.view .view-area.list-area .scroll-wrap {
+  overflow-x: scroll;
+}
+.content.view .view-area.list-area .scroll-wrap > ul {
+  flex-wrap: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.content.view .view-area.list-area .course-list .list-card:nth-child(4n-3) {
+  margin-left: 1.6rem;
+}
+.content.view .view-area.list-area .course-list .list-card:first-child {
+  margin-left: 0;
+}
+.content.view .view-area.list-area .skill-title {
+  margin-top: 5rem;
+  border-top: 1px solid var(--bd-color);
+  padding-top: 2rem;
+}
+.content.view .view-area.list-area .skill-title:first-child {
+  margin-top: 0;
+  border: 0;
+  padding-top: 0;
+}
+.content.view .view-area.list-area .course-list {
+  display: flex;
 }
 .content .skill-info-area {
   background-color: var(--bg-color);
@@ -423,18 +523,23 @@ footer p {
   border-bottom: 1px solid var(--bd-color);
 }
 .content > .list-area.skill .list-card .skill-list {
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
   margin-top: 1.2rem;
 }
 .content > .list-area.skill .list-card .skill-list ul {
   display: flex;
+  transform: translate(0, 0);
 }
 .content > .list-area.skill .list-card .skill-list ul li {
   list-style: none;
   margin: 0 0.2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon {
+  -webkit-user-drag: none;
   font-size: 0;
   display: block;
   width: -webkit-fit-content;
@@ -445,6 +550,7 @@ footer p {
   overflow: hidden;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
+  -webkit-user-drag: none;
   display: block;
   width: 100%;
 }
@@ -468,7 +574,7 @@ footer p {
 .content > .view-area {
   margin-top: -2rem;
 }
-.content > .view-area .info-box {
+.content > .view-area > .info-box {
   background-color: var(--bg-color);
   border: 1px solid var(--bd-color);
   border-radius: 1rem;
@@ -476,41 +582,41 @@ footer p {
   padding: 3rem 2.2rem;
   margin-top: 2rem;
 }
-.content > .view-area .info-box > .skill-title {
+.content > .view-area > .info-box > .skill-title {
   font-size: 1.8rem;
   color: var(--font-color2);
   margin: 0;
   font-weight: 600;
 }
-.content > .view-area .info-box > .skill-count {
+.content > .view-area > .info-box > .skill-count {
   font-size: 1.3em;
   color: var(--font-color3);
 }
-.content > .view-area .info-box .skill-list {
+.content > .view-area > .info-box .skill-list {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   margin-top: -1.5rem;
 }
-.content > .view-area .info-box .skill-list > li {
+.content > .view-area > .info-box .skill-list > li {
   width: calc(10% - 3rem);
   list-style: none;
   margin: 2.5rem 1.5rem 0;
 }
-.content > .view-area .info-box .skill-list > li > a {
+.content > .view-area > .info-box .skill-list > li > a {
   text-decoration: none;
 }
-.content > .view-area .info-box .skill-list > li .skill-icon {
+.content > .view-area > .info-box .skill-list > li .skill-icon {
   display: block;
   width: 7rem;
   height: 7rem;
   overflow: hidden;
   margin: 0 auto;
 }
-.content > .view-area .info-box .skill-list > li .skill-icon > img {
+.content > .view-area > .info-box .skill-list > li .skill-icon > img {
   width: 100%;
 }
-.content > .view-area .info-box .skill-list > li .skill-name {
+.content > .view-area > .info-box .skill-list > li .skill-name {
   text-align: center;
   font-weight: 400;
   color: var(--font-color);

@@ -32,82 +32,73 @@
     <div class="search-area">
         <!-- 검색 폼 -->
         <h1>Blog Search</h1>
-<br>
+        <br>
 
-<form action="." method="post"> {% csrf_token %}
-    {{ form.as_table }} <!-- form을 테이블 형식으로 표시, 여기서 form은 views에서 넘겨준 CourseSearchForm 객체임-->
+        {% comment %}
+        <!-- <form action="." method="post"> {% csrf_token %}
     <input type="submit" value="Submit" class="btn btn-primary btn-sm">
-</form>
+</form> -->
+        {% endcomment %}
 
-<br/><br/>
+        <br /><br />
+        <form action="{% url 'search' %}" method="GET">
 
-{% if object_list %}
-    {% for course in object_list %}
-        <h2><a href='{{ course.get_absolute_url }}'>{{ course.title }}</a></h2>
-        <p>{{course.stacks}}</p>
-        <p>{{ course.teacher }}</p>
-    {% endfor %}
-{% elif search %}<!-- 검색란이 공란인지 확인-->
-    <b><i>Search Word({{ search }}) Not Found</i></b>
-{% endif %}
+            <!-- 검색 -->
+            <div id="search">
+                <input name="search" type="text">
+                <button class="btn btn-primary" type="submit">검색</button>
+            </div>
+            <div class="content col-2">
+                <main class="list-area">
+                    <ul>
+                        <!-- search 정보 -->
+                        {% if search %}
+                        <h1>검색하신 {{search}} 강의 정보입니다.</h1>
+                        {% for c in course %}
+                        <li class="list-card">
+                            <div class="img-box">
+                                <img src="{{ c.img_url }}" alt="강의 예시 이미지">
+                            </div>
+                            <div class="info-box">
+                                <h3><a href="{{ c.url }}">{{c.title}}
+                                        {% for stack in c.stack.iterator %}
+                                        <span class="point">{{stack.name}}</span>
+                                        {% endfor %}
+                                        {{ c.level }}</a></h3>
+                                <p class="teacher">{{ c.teacher }}</p>
+                                <p class="rate">{{ c.score }}</p>
+                                <p class="price">{{ c.price }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                        {% else %}
+                        <h1>찾고 있는 강의를 검색창에 입력해주세요.</h1>
+                        {% endif %}
+                    </ul>
 
+                    <div class="pagination">
+                        {% if course.has_previous %}
+                        <a href="?page=1&search={{search}}" class="btn"><i class="fa-solid fa-angle-left"></i>First</a>
+                        <a href="?page={{course.previous_page_number}}&search={{search}}" class="btn"><i
+                                class="fa-solid fa-angles-left"></i>Previous</a>
+                        {% endif %}
 
-        <form action="">
-            <!-- 검색 결과 표시 -->
-            <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
-            <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
-            <!-- 삭제 버튼을 누르고 재검색 할 때 -->
-            <div class="hide">
-                <input type="text" name="search" id="search-bar">
-                <button type="submit">검색</button>
+                        <span>{{course.number}} / {{course.paginator.num_pages}}</span>
+
+                        {% if course.has_next %}
+                        <a href="?page={{course.next_page_number}}&search={{search}}" class="btn"><i
+                                class="fa-solid fa-angle-right"></i>Next</a>
+                        <a href="?page={{course.paginator.num_pages}}&search={{search}}" class="btn"><i
+                                class="fa-solid fa-angles-right"></i>Last</a>
+                        {% endif %}
+                    </div>
             </div>
         </form>
-    </div>
-    <div class="content col-2">
-        <aside>
-            <div class="skill-info-area">
-                <div class="skill-icon">
-                    <img src="{% static 'asset/js.png' %}" alt="skill icon">
-                </div>
-                <h3>자바스크립트</h3>
-                <p class="skill-category">언어</p>
-                <ul class="skill-info">
-                    <li>
-                        자바스크립트는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다 <a href="#">[위키백과]</a>
-                    </li>
-                    <li>
-                        <a href="#">웹사이트</a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-        <main class="list-area">
-            <ul>
-                {% for c,s in course %}
-                <li class="list-card">
-                    <div class="img-box">
-                        <img src="{{ c.img_url }}" alt="강의 예시 이미지">
-                    </div>
-                    <div class="info-box">
-                        <h3><a href="#">{{c.title}} 
-                        {% for stack in s %}
-                        <span class="point">{{stack.stacks}}</span>
-                        {% endfor %}
-                        {{ c.level }}</a></h3>
-                        <p class="teacher">{{ c.teacher }}</p>
-                        <p class="rate">{{ c.score }}</p>
-                        <p class="price">{{ c.price }}</p>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </main>
-    </div>
-    <footer>
-        <p>
-            Copyright © 2023. Kokonenne All Rights Reserved.
-        </p>
-    </footer>
+        <footer>
+            <p>
+                Copyright © 2023. Kokonenne All Rights Reserved.
+            </p>
+        </footer>
 </body>
 
 </html>

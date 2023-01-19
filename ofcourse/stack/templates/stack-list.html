@@ -1,0 +1,110 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- global css -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+
+<body class="list-page">
+    <header>
+        <div class="container">
+            <h1>Of Course</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">기업별 추천</a></li>
+                    <li><a href="#">기술별 추천</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="title-area">
+        <h2 class="page-title">기술스택별 리스트</h2>
+    </div>
+    <div class="search-area">
+        <form action="">
+            <!-- 검색 결과 표시 -->
+            <div class="hide">
+                <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
+                <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
+            </div>
+            <!-- 삭제 버튼을 누르고 재검색 할 때! -->
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요">
+                <button type="submit" class="search-btn">검색</button>
+            </div>
+        </form>
+    </div>
+    <div class="content">
+        <div class="total-count">
+            <p class="count">총 100개</p>
+        </div>
+        <main class="list-area skill">
+            <ul>
+                {% for stack in stack_list %}
+                <li class="list-card type2">
+                    <a href="#">
+                        <div class="company-icon">
+                            <img src="{{ stack.logo }}" alt="스킬 이미지">
+                        </div>
+                        <div class="info-box">
+                            <h3>{{ stack.name }}</h3>
+                            <p class="location">{{ stack.assort }}</p>
+                        </div>
+                        <p class="skill-info">
+                            총 10개의 회사 / 99개의 강의
+                        </p>
+                    </a>
+                    <div class="skill-list">
+                        <ul>
+                            <li><a href="#" class="skill-icon">React <img src="./asset/skill-icon/reactjs.png" alt="아이콘"></a></li>
+                            <!-- <li><a href="#" class="skill-icon">React Query <img src="./asset/skill-icon/reactquery.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">VueJS <img src="./asset/skill-icon/vuejs.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">NuxtJS <img src="./asset/skill-icon/nuxtjs.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">Redux <img src="./asset/skill-icon/redux.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">GraphQL <img src="./asset/skill-icon/graphql.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">Styled-Components <img src="./asset/skill-icon/styledcomponents.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">Storybook<img src="./asset/skill-icon/storybook.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">Spring <img src="./asset/skill-icon/spring.png" alt=""></a></li>
+                            <li><a href="#" class="skill-icon">SpringBoot <img src="./asset/skill-icon/springboot.png" alt=""></a></li> -->
+                            <li><a href="#" class="see-more">더보기</a></li>
+                        </ul>
+                    </div>
+                </li>
+                {% endfor stack in stack_list %}
+            </ul>
+            <div class="pagination">
+                <a href="#" class="btn"><i class="fa-solid fa-angle-left"></i></a>
+                <a href="#" class="btn"><i class="fa-solid fa-angles-left"></i></a>
+                <ul>
+                    <li><a href="#" class="btn">1</a></li>
+                    <li><a href="#" class="btn on">2</a></li>
+                    <li class="center">...</li>
+                    <li><a href="#" class="btn">4</a></li>
+                    <li><a href="#" class="btn">5</a></li>
+                </ul>
+                <a href="#" class="btn"><i class="fa-solid fa-angle-right"></i></a>
+                <a href="#" class="btn"><i class="fa-solid fa-angles-right"></i></a>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
