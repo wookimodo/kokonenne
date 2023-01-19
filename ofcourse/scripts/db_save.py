@@ -106,7 +106,7 @@ def run():
     # Stacks_Dict테이블 
     for i in data2:
         stack_name_id = Stacks.objects.get(name=i).pk
-        for j in data4[i]['search_word']:
+        for j in data4[i]:
             Stacks_Dict(stack_name_id=stack_name_id, search_word=j).save()
 
     print('DB저장완료')
