@@ -31,7 +31,8 @@ def search(request):
             Q(title__icontains=search) |
             Q(teacher__icontains=search) |
             Q(headline__icontains=search) |
-            Q(stack__name__icontains=search) 
+            Q(stack__name__icontains=search) |
+            Q(stack__stacks_dict__search_word__icontains=search)
         ).distinct()
         # print(search_list.query)
 

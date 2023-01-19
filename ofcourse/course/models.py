@@ -66,3 +66,11 @@ class Related_Stacks(models.Model):
 
     class Meta:
         db_table = 'Related_Stacks'
+
+#stack_dict 테이블
+class Stacks_Dict(models.Model):
+    stack_name= models.ForeignKey('Stacks',on_delete=models.CASCADE)
+    search_word= models.CharField(max_length=20)
+
+    class Meta:
+        db_table = 'Stacks_Dict'
