@@ -107,11 +107,10 @@
 		"AWS Kinesis",
 		"Kinesis"
 	],
-	"AWS MariaDB": [
+	"MariaDB": [
 		"마리아db",
-		"AWSMariaDB",
-		"AWS MariaDB",
-		"MariaDB"
+		"MariaDB",
+		"마리아디비"
 	],
 	"AWS Redshift": [
 		"레드시프트",
@@ -393,7 +392,8 @@
 	"Go": [
 		"고",
 		"지오",
-		"Go"
+		"Go",
+		"golang"
 	],
 	"Go CD": [
 		"고씨디",
@@ -406,10 +406,10 @@
 		"구글빅쿼리",
 		"Google BigQuery"
 	],
-	"Google Cloud Build": [
+	"Google Cloud": [
 		"GoogleCloudBuild",
 		"구글클라우드",
-		"Google Cloud Build",
+		"Google Cloud",
 		"Cloud Build",
 		"CloudBuild"
 	],
@@ -1172,5 +1172,27 @@
 		"시에스에스",
 		"HTML",
 		"CSS"
+	],
+	"Linux":[
+		"리눅스",
+		"Linux"
+	],
+	"Datadog":[
+		"데이터독",
+		"데이터도그",
+		"Datadog"
+	],
+	"REST API":[
+		"레스트에이피아이",
+		"REST API",
+		"RESTAPI"
+	],
+	"jQuery":[
+		"제이쿼리",
+		"jQuery"
+	],
+	"Bootstrap":[
+		"부트스트랩",
+		"Bootstrap"
 	]
 }

@@ -12604,7 +12604,7 @@
 		"image": "https://cdn.inflearn.com/public/courses/329245/cover/d8bddf04-5cbd-409f-991a-b29740e53f9a/329245-eng.png",
 		"price": "88000",
 		"stacks": [
-			"Google Cloud Platform"
+			"Google Cloud"
 		],
 		"score": null,
 		"rank": 201.0
@@ -12781,8 +12781,8 @@
 		"image": "https://cdn.inflearn.com/public/courses/328263/cover/b2b1a237-370f-482c-a475-e5c73fc442d9/328263-eng.png",
 		"price": "27500",
 		"stacks": [
-			"Google Cloud Platform",
-			"Google Cloud Build"
+			"Google Cloud",
+			"Google Cloud"
 		],
 		"score": "4.7",
 		"rank": 221.0
@@ -12976,7 +12976,7 @@
 		"price": "11000",
 		"stacks": [
 			"SQL",
-			"AWS MariaDB"
+			"MariaDB"
 		],
 		"score": null,
 		"rank": 1042.5
@@ -15095,7 +15095,7 @@
 		"image": "https://cdn.inflearn.com/public/courses/329474/cover/2dab3fb4-72f4-4135-b584-62e43f924be0/329474-eng-resize.png",
 		"price": "0",
 		"stacks": [
-			"Google Cloud Platform"
+			"Google Cloud"
 		],
 		"score": "4.3",
 		"rank": 847.0
@@ -17075,7 +17075,7 @@
 		"price": "55000",
 		"stacks": [
 			"서버리스",
-			"Google Cloud Platform"
+			"Google Cloud"
 		],
 		"score": "5.0",
 		"rank": 537.5
@@ -21201,7 +21201,7 @@
 			"HeidiSQL",
 			"DBMS/RDBMS",
 			"데이터 엔지니어링",
-			"AWS MariaDB"
+			"MariaDB"
 		],
 		"score": "4.9",
 		"rank": 862.0
