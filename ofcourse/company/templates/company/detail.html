@@ -20,15 +20,7 @@
        
 <body class="list-page">
     <header>
-        <div class="container">
-            <h1>Of Course</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">기업별 추천</a></li>
-                    <li><a href="#">기술별 추천</a></li>
-                </ul>
-            </nav>
-        </div>
+        {% include 'partials/navbar.html' %}
     </header>
     <div class="view content col-2">
         <aside>
@@ -57,7 +49,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "언어" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -72,7 +64,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "프론트엔드" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -87,7 +79,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "백엔드" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -103,7 +95,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "모바일" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -119,7 +111,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "데브옵스" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -134,7 +126,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "데이터베이스" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -150,7 +142,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "데이터" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -167,7 +159,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "테스팅툴" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>
@@ -182,7 +174,7 @@
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "협업툴" %}
                     <li>
-                        <a href="#">
+                        <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
                         </a>

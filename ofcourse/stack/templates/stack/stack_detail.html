@@ -17,18 +17,10 @@
         <!-- global css -->
         <link rel="stylesheet" href="{%static 'css/style.css'%}">
     </head>
-       
+    
 <body class="list-page">
     <header>
-        <div class="container">
-            <h1>Of Course</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">기업별 추천</a></li>
-                    <li><a href="#">기술별 추천</a></li>
-                </ul>
-            </nav>
-        </div>
+        {% include 'partials/navbar.html' %}
     </header>
     <div class="view content col-2">
         <aside>
@@ -51,7 +43,7 @@
                 <ul class="skill-list">
                     {% for com in stacks.company_set.iterator %}
                     <li>
-                        <a href="#">
+                        <a href="/company/{{com.id}}">
                             <i class="skill-icon"><img src="{{ com.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ com.name }}</p>
                         </a>
@@ -65,11 +57,10 @@
                     {% for cor in stacks.course_set.iterator %}
                     <li>
                         <a href="#">
-                            <i class="skill-icon"><img src="{{ cor.img_url }}" alt="스킬 아이콘"></i>
-                            <p class="skill-name">{{ cor.title }}</p>
+                            <i class="skill-icon"><img src="{{cor.img_url}}" alt="스킬 아이콘"></i>
+                            <p class="skill-name">{{cor.title}}</p>
                         </a>
                     </li>
-
                     {% endfor %}
                 </ul>
             </div>

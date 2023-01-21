@@ -522,8 +522,14 @@ footer p {
   padding: 0 0 0.4rem 0.4rem;
   border-bottom: 1px solid var(--bd-color);
 }
+<<<<<<< HEAD
+.content > .list-area.skill .list-card {
+  overflow-x: scroll;
+  overflow-y: hidden;
+=======
 .content > .list-area.skill .list-card .skill-list {
   overflow: hidden;
+>>>>>>> 85a31966baca33fc63813501c2bcbd98798457de
   margin-top: 1.2rem;
 }
 .content > .list-area.skill .list-card .skill-list ul {

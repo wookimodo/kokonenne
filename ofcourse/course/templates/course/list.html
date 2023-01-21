@@ -19,21 +19,15 @@
 
 <body class="list-page">
     <header>
-        <div class="container">
-            <h1>Of Course</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">기업별 추천</a></li>
-                    <li><a href="#">기술별 추천</a></li>
-                </ul>
-            </nav>
-        </div>
+        {% include 'partials/navbar.html' %}
     </header>
     <div class="search-area">
         <form action="{% url 'search' %}" method="GET">
             {% csrf_token %}
+            <div class="search-bar">
                 <input type="text" name="search" id="search-bar">
-                <button type="submit">검색</button>
+                <button type="submit" class="search-btn">검색</button>
+            </div>
         </form>
     </div>
     <div class="content col-2">

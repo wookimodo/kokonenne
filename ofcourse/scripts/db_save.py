@@ -88,12 +88,6 @@ def run():
 
     #     Company(name=name, logo=logo, stack_info=stack_info).save()
 
-    # # related_stack 테이블
-    # for i in data2:
-    #     stack_name_id = Stacks.objects.get(name=i).pk
-    #     for j in data2[i]['related_stacks']:
-    #         Related_Stacks(stack_name_id=stack_name_id,related_stacks=j ).save()
-
     # # Company_Stacks 테이블
     # for i in data3:
     #     for k,v in data3[i]['stacks'].items():
@@ -101,10 +95,18 @@ def run():
     #             for stack in data3[i]['stacks'][k]:
     #                 Company_Stacks(company_id=Company.objects.get(name=i).pk,stacks_id=Stacks.objects.get(name=stack[0]).pk).save()
 
-    # Stacks_Dict 테이블
+    # related_stack 테이블
+    for i in data2:
+        stack_name_id = Stacks.objects.get(name=i).pk
+        for k in data2[i]['related_stacks']:
+            related_stacks_pk = Stacks.objects.get(name=k).pk
+            logo = Stacks.objects.get(name=k).logo
+            Related_Stacks(stack_name_id=stack_name_id, related_stacks=k, related_stacks_logo=logo, related_stacks_pk=related_stacks_pk).save()
+
+    # Stacks_Dict테이블 
     for i in data2:
         stack_name_id = Stacks.objects.get(name=i).pk
         for j in data4[i]:
-            Stacks_Dict(stack_name_id=stack_name_id,search_word=j).save()
+            Stacks_Dict(stack_name_id=stack_name_id, search_word=j).save()
 
     print('DB저장완료')
