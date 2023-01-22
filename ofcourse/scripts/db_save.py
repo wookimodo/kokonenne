@@ -6,7 +6,7 @@ import json
 from course.models import Course, Stacks, Course_Stacks, Company, Related_Stacks,Company_Stacks, Stacks_Dict
 
 # Course data
-f = open(f'json/inflearn.json', encoding='UTF-8')
+f = open(f'json/allcourse.json', encoding='UTF-8')
 data = json.loads(f.read())  
 # stack data
 f = open(f'json/스택별.json', encoding='UTF-8')
@@ -24,9 +24,6 @@ def toJson(res_dict,save_name):
     with open(f'{save_name}.json', 'w', encoding='utf-8') as file :
         json.dump(res_dict, file, ensure_ascii=False, indent='\t')
     
-# price 값 전처리 (,제거) - 완료됐음
-# for i in data:
-#     data[i]['price'] = data[i]['price'].replace(",","")
 
 # Course 테이블 저장
 def run():

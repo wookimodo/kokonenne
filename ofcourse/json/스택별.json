@@ -118,7 +118,7 @@
 		"logo": "https://static.codenary.co.kr/framework_logo/awsauroradb.png",
 		"described": "AWS Aurora는 클라우드용으로 구축된 MySQL 및 PostgreSQL 호환 관계형 데이터베이스로, 기존 엔터프라이즈 데이터베이스의 성능과 가용성에 오픈 소스 데이터베이스의 간편성과 비용 효율성을 결합하였습니다. Aurora는 표준 MySQL 데이터베이스보다 최대 5배 빠르고, 표준 PostgreSQL 데이터베이스보다 3배 빠름",
 		"related_stacks": [
-			"AWS MariaDB",
+			"MariaDB",
 			"CockroachDB",
 			"MySQL",
 			"OracleDB"
@@ -132,7 +132,7 @@
 			"AWS CodeDeploy",
 			"AWS CodePipeline",
 			"Azure DevOps",
-			"Google Cloud Build"
+			"Google Cloud"
 		]
 	},
 	"AWS CodeDeploy": {
@@ -143,7 +143,7 @@
 			"AWS CodeBuild",
 			"AWS CodePipeline",
 			"Azure DevOps",
-			"Google Cloud Build"
+			"Google Cloud"
 		]
 	},
 	"AWS CodePipeline": {
@@ -154,7 +154,7 @@
 			"AWS CodeBuild",
 			"AWS CodeDeploy",
 			"Azure DevOps",
-			"Google Cloud Build"
+			"Google Cloud"
 		]
 	},
 	"AWS DocumentDB": {
@@ -189,7 +189,7 @@
 			"Kafka"
 		]
 	},
-	"AWS MariaDB": {
+	"MariaDB": {
 		"assort": "데이터베이스",
 		"logo": "https://static.codenary.co.kr/framework_logo/awsmariadb.png",
 		"described": "AWS MariaDB는 MySQL을 개발한 개발자가 만든 인기 있는 오픈 소스 관계형 데이터베이스입니다. Amazon RDS를 사용하면 클라우드에서 MariaDB 서버 배포를 손쉽게 설정, 운영 및 확장이 가능하다",
@@ -346,7 +346,7 @@
 		"described": "Cockroach Labs에서 개발 한 오픈소스/상업용 분산 SQL 데이터베이스이며, 전 세계 어디에서나 20ms 이하로 데이터를 가지고 올 수 있음",
 		"related_stacks": [
 			"AWS AuroraDB",
-			"AWS MariaDB",
+			"MariaDB",
 			"MySQL",
 			"PostgreSQL"
 		]
@@ -738,7 +738,7 @@
 			"AWS Redshift"
 		]
 	},
-	"Google Cloud Build": {
+	"Google Cloud": {
 		"assort": "데브옵스",
 		"logo": "https://static.codenary.co.kr/framework_logo/googlecodebuild.png",
 		"described": "다양한 저장소 또는 클라우드 스토리지 공간에서 소스 코드를 가져오고, 사양에 맞게 빌드해주는 구글 클라우드 플랫폼 서비스",
@@ -1298,7 +1298,7 @@
 		"described": "정보 없음",
 		"related_stacks": [
 			"AWS AuroraDB",
-			"AWS MariaDB",
+			"MariaDB",
 			"OracleDB",
 			"PostgreSQL"
 		]
@@ -1421,7 +1421,7 @@
 		"described": "오라클 데이터베이스 제품은 고객에게 세계 최고의 컨버지드 다중 모델 데이터베이스 관리 시스템인 오라클 데이터베이스는 물론 인메모리, NoSQL 및 MySQL 데이터베이스의 비용 최적화된 고성능 버전을 제공",
 		"related_stacks": [
 			"AWS AuroraDB",
-			"AWS MariaDB",
+			"MariaDB",
 			"MySQL",
 			"PostgreSQL"
 		]
@@ -1469,7 +1469,7 @@
 		"described": "정보 없음",
 		"related_stacks": [
 			"AWS AuroraDB",
-			"AWS MariaDB",
+			"MariaDB",
 			"MySQL"
 		]
 	},
@@ -2079,9 +2079,38 @@
 	},
 	"HTML/CSS": {
 		"assort": "프론트엔드",
-		"logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fsearch%3Fq%3Dhtml&psig=AOvVaw1N7ydQS8_PyyCdq6dsqqTZ&ust=1673939719062000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLiIgMTFy_wCFQAAAAAdAAAAABAE",
+		"logo": "https://www.nicepng.com/png/detail/141-1415510_psd-to-html-and-css3-html-css.png",
 		"described": "HTML이 텍스트나 이미지, 표와 같은 구성 요소를 웹 문서에 넣어 뼈대를 만드는 것이라면 CSS는 색상이나 크기, 이미지 크기나 위치, 배치 방법 등 웹 문서의 디자인 요소를 담당 합니다.",
+		"related_stacks": ["Javascript"]
+	},
+	"Linux":{
+		"assort": "백엔드",
+		"logo": "https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/07/linux-image.jpg?fit=2000%2C1125&ssl=1",
+		"described": "컴퓨터 OS 커널의 일종인 리눅스 커널, 또는 리눅스 커널을 사용하는 운영체제를 가리키는 말이기도 하다. GNU 쪽 사람들은 리눅스는 커널일 뿐이고, 이 커널을 가져다가 GNU 프로그램들을 올려 만든 운영체제는 GNU/Linux라고 이야기하며 이런 명칭에 민감하게 반응하는 경우도 있다. 소스 코드가 공개되어 있는 대표적인 오픈 소스 소프트웨어다. 컴퓨터 역사상 가장 많은 참여자가 관여하고 있는 오픈 소스 프로젝트다. 모바일 운영체제로 유명한 안드로이드 역시 리눅스 커널을 가져다 쓰고 있다.",
+		"related_stacks": ["Python","Rust"]
+	},
+	"Datadog":{
+		"assort": "데이터",
+		"logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Datadog_logo.svg/800px-Datadog_logo.svg.png",
+		"described": "Datadog은 SaaS 기반 데이터 분석 플랫폼을 통해 서버, 데이터베이스, 도구 및 서비스에 대한 모니터링을 제공하는 클라우드 규모 애플리케이션을 위한 관찰 가능성 서비스입니다",
 		"related_stacks": []
+	},
+	"REST API":{
+		"assort": "데브옵스",
+		"logo": "https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/01/REST-API.png?fit=1280%2C844&ssl=1",
+		"described": "REST는 월드 와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍처의 한 형식이다.",
+		"related_stacks": []
+	},
+	"jQuery":{
+		"assort": "프론트엔드",
+		"logo": "https://t1.daumcdn.net/cfile/tistory/9992124D5B48CCC61E",
+		"described": "jQuery는 HTML의 클라이언트 사이드 조작을 단순화 하도록 설계된 크로스 플랫폼의 자바스크립트 라이브러리다.",
+		"related_stacks": ["Javascript"]	
+	},
+	"Bootstrap":{
+		"assort": "프론트엔드",
+		"logo": "https://getbootstrap.kr/docs/5.2/assets/brand/bootstrap-logo-shadow.png",
+		"described": "부트스트랩은 웹사이트를 쉽게 만들 수 있게 도와주는 CSS, JS 프레임워크이다. 하나의 코드로 휴대폰, 태블릿, 데스크탑까지 다양한 기기에서 작동하게 만들 수 있으며, 다양한 기능을 제공하여 사용자가 쉽게 웹사이트를 제작, 유지, 보수할 수 있도록 도와준다.",
+		"related_stacks": ["HTML/CSS","Javascript"]	
 	}
-	
 }

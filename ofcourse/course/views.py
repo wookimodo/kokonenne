@@ -24,7 +24,7 @@ class Courselist(ListView):
 
 # search FBV형
 def search(request):
-    course_list = Course.objects.all()
+    course_list = Course.objects.all().order_by('rank')
     search = request.GET.get('search','')
     if search:
         search_list = course_list.filter(
@@ -45,7 +45,7 @@ def search(request):
 
     # search FBV형2
 def filter(request):
-    course_list = Course.objects.all()
+    course_list = Course.objects.all().order_by('rank')
     stack_list = Stacks.objects.all()
     s = request.GET.getlist('s')
 
