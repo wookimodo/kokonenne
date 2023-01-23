@@ -55,8 +55,8 @@
                     </p>
                     <div class="skill-list">
                         <ul>
-                            {% for stacks in c.stack.iterator %}
-                            <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stacks.id}}"><img src="{{ stacks.logo }}"
+                            {% for stack in c.stack.iterator %}
+                            <li><a class="skill-icon" href="http://127.0.0.1:8000/stack/{{stack.id}}"><img src="{{ stack.logo }}"
                                         alt="아이콘"></a></li>
                             {% endfor %}
                             <li><a class="see-more"></a></li>
@@ -73,7 +73,7 @@
     <div class="content">
         <main class="list-area skill">
             <ul>
-                {% for s in stacks_list %}
+                {% for s in stack_list %}
                 <li class="list-card">                
                     <a href="http://127.0.0.1:8000/stack/{{s.id}}">
                     <div class="company-icon">
@@ -87,8 +87,8 @@
 
                     <div class="skill-list">
                         <ul>
-                            {% for stacks in s.related_stacks_set.iterator %}
-                            <li><a class="stack-icon" href="http://127.0.0.1:8000/stack/{{stacks.related_stacks_pk}}"><img src="{{ stacks.related_stacks_logo }}" 
+                            {% for stack in s.related_stack_set.iterator %}
+                            <li><a class="stack-icon" href="http://127.0.0.1:8000/stack/{{stack.related_stack_pk}}"><img src="{{ stack.related_stack_logo }}" 
                                 style="width: 60px; height: 60px;"></a></li>
                             {% endfor %}
                             <li><a class=""></a></li>

@@ -21,28 +21,33 @@
     <header>
         {% include 'partials/navbar.html' %}
     </header>
+    
     <div class="search-area">
-        <!-- 검색 폼 -->
         <h1>기업별 검색</h1>
         <br>
-
+        
         <br /><br />
-        <form action="{% url 'company:search' %}" method="GET">
-            <!-- 검색 -->
-            <div id="search">
-                <input name="search" type="text">
-                <button class="btn btn-primary" type="submit">검색</button>
-            </div>
+
+        <!-- 검색 폼 -->
+            <form action="{% url 'company:search' %}" method="GET">
+                {% csrf_token %}
+                <!-- 검색 -->
+                <div class="search-bar">
+                    <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
+                    <button type="submit" class="search-btn">검색</button>
+                </div>
+            </form>
+        </div>
 
             {% if search %}
-            <h1>검색하신 <span class="point">{{ search }}</span>의 기술 정보입니다.</h1>
+            <h1>검색하신 <span class="point">{{ search }}</span> 관련 정보입니다.</h1>
             <div class="content col-2">
                 <main class="list-area">
                     <ul>
                         <!-- search 정보 -->
                             {% for c in company %}
                                 <li class="list-card">
-                                    <a href="/company/{{c.id}}/">
+                                    <a href="/company/{{c.id}}/" target="_blank">
                                         <div class="img-box">                                    
                                         <img src="{{ c.logo }}" alt="기업 로고">
                                     </div>
@@ -52,14 +57,16 @@
                                         <p>{{ c.stack_info }}</p>
                                     </div>
                                 </li>
-                                {% endfor %}
-                            </ul>
+                            {% endfor %}
+
+                           
+                    </ul>
             {% else %}
-                <h1>검색창에 회사 이름을 입력해주세요.</h1>
+                <h1>검색창에 입력해주세요.</h1>
                 </main>
             {% endif %}
             </div>
-        </form>
+
 
         <footer>
             <p>
