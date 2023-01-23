@@ -48,6 +48,7 @@
                 <ul class="skill-list">
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "언어" %}
+                    <p>{{ forloop.counter }}</p>
                     <li>
                         <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
@@ -135,7 +136,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            {% if company.stack.iterator.assort.exists %}
+            
             <div class="info-box">
                 <h3 class="skill-title">데이터</h3>
                 <ul class="skill-list">
@@ -151,7 +152,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            {% endif %}
+            
 
             <div class="info-box">
                 <h3 class="skill-title">테스팅툴</h3>
