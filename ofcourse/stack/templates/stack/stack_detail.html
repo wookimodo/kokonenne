@@ -27,11 +27,11 @@
             <div class="skill-info-area">
                 <div class="skill-icon">
                     <!-- 스택 이름, 로고 -->
-                    <img src="{{ stacks.logo }}" alt="skill icon">
+                    <img src="{{ stack.logo }}" alt="skill icon">
                 </div>
-                <h3>{{ stacks.name }}</h3>
-                <p>* {{stacks.assort}}</p>
-                <p class="skill-category">" {{ stacks.described }} "</p>
+                <h3>{{ stack.name }}</h3>
+                <p>* {{stack.assort}}</p>
+                <p class="skill-category">" {{ stack.described }} "</p>
                 <ul class="skill-info">
                 </ul>
             </div>
@@ -41,7 +41,7 @@
             <div class="info-box">
                 <h3 class="skill-title">운용중인 기업</h3>
                 <ul class="skill-list">
-                    {% for com in stacks.company_set.iterator %}
+                    {% for com in stack.company_set.iterator %}
                     <li>
                         <a href="/company/{{com.id}}">
                             <i class="skill-icon"><img src="{{ com.logo }}" alt="스킬 아이콘"></i>
@@ -54,7 +54,7 @@
             <div class="info-box">
                 <h3 class="skill-title"> 연관 강의 </h3>
                 <ul class="skill-list">
-                    {% for cor in stacks.course_set.iterator %}
+                    {% for cor in stack.course_set.iterator %}
                     <li>
                         <a href="#">
                             <i class="skill-icon"><img src="{{cor.img_url}}" alt="스킬 아이콘"></i>

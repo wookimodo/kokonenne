@@ -58,8 +58,8 @@
             <form action="{% url 'filter' %}" class="form-inline my-2 my-md-0" method="get">
                 <div class="skill-info-area">
                     <div class="container">
-                        {% for s in stacks %}
-                        {% if s.course_stacks_set.exists %}
+                        {% for s in stack %}
+                        {% if s.course_stack_set.exists %}
                         <div class="filterDiv {{s.assort}}">
                             <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
                                     name="s" , value="{{s.name}}">
