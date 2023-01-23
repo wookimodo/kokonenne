@@ -3,7 +3,7 @@ import json
 # os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ofcourse.settings")
 # import django
 # django.setup()
-from course.models import Course, Stacks, Course_Stacks, Company, Related_Stacks,Company_Stacks, Stacks_Dict
+from course.models import Course, Stack, Course_Stack, Company, Related_Stack,Company_Stack, Stack_Dict
 
 # Course data
 f = open(f'json/allcourse.json', encoding='UTF-8')
@@ -57,25 +57,25 @@ def run():
             price=price,
             rank=rank
         ).save()
-    # Stacks테이블 저장
+    # Stack테이블 저장
     for i in data2:
         stack = i
         logo = data2[i]['logo']
         assort = data2[i]['assort']
         described = data2[i]['described']
         
-        Stacks(
+        Stack(
             name = stack,
             logo = logo,
             assort = assort,
             described = described            
         ).save()
 
-    # Course_Stacks 중간테이블
+    # Course_Stack 중간테이블
     for i in data2:
         for j in data:
-            if i in data[j]['stacks']:
-                Course_Stacks(course_id=Course.objects.get(title=j).pk,stacks_id=Stacks.objects.get(name=i).pk).save()
+            if i in data[j]['stack']:
+                Course_Stack(course_id=Course.objects.get(title=j).pk,stack_id=Stack.objects.get(name=i).pk).save()
 
     # Company 테이블
     for i in data3:
@@ -85,25 +85,25 @@ def run():
 
         Company(name=name, logo=logo, stack_info=stack_info).save()
 
-    # Company_Stacks 테이블
+    # Company_Stack 테이블
     for i in data3:
-        for k,v in data3[i]['stacks'].items():
+        for k,v in data3[i]['stack'].items():
             if v != None:
-                for stack in data3[i]['stacks'][k]:
-                    Company_Stacks(company_id=Company.objects.get(name=i).pk,stacks_id=Stacks.objects.get(name=stack[0]).pk).save()
+                for stack in data3[i]['stack'][k]:
+                    Company_Stack(company_id=Company.objects.get(name=i).pk,stack_id=Stack.objects.get(name=stack[0]).pk).save()
 
     # related_stack 테이블
     for i in data2:
-        stack_name_id = Stacks.objects.get(name=i).pk
-        for k in data2[i]['related_stacks']:
-            related_stacks_pk = Stacks.objects.get(name=k).pk
-            logo = Stacks.objects.get(name=k).logo
-            Related_Stacks(stack_name_id=stack_name_id, related_stacks=k, related_stacks_logo=logo, related_stacks_pk=related_stacks_pk).save()
+        stack_name_id = Stack.objects.get(name=i).pk
+        for k in data2[i]['related_stack']:
+            related_stack_pk = Stack.objects.get(name=k).pk
+            logo = Stack.objects.get(name=k).logo
+            Related_Stack(stack_name_id=stack_name_id, related_stack=k, related_stack_logo=logo, related_stack_pk=related_stack_pk).save()
 
-    # Stacks_Dict테이블 
+    # Stack_Dict테이블 
     for i in data2:
-        stack_name_id = Stacks.objects.get(name=i).pk
+        stack_name_id = Stack.objects.get(name=i).pk
         for j in data4[i]:
-            Stacks_Dict(stack_name_id=stack_name_id, search_word=j).save()
+            Stack_Dict(stack_name_id=stack_name_id, search_word=j).save()
 
     print('DB저장완료')
