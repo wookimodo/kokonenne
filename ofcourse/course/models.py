@@ -12,67 +12,67 @@ class Course(models.Model):
     level = models.CharField(max_length=10,default='')
     score = models.FloatField(default=0, null=True)
     courseTime = models.CharField(max_length=50,default='')
-    studentCnt = models.IntegerField(default=0, null=True)
+    student_cnt = models.IntegerField(default=0, null=True)
     recommend = models.IntegerField(default=0,null=True)
-    reviewCnt = models.IntegerField(default=0,null=True)
+    review_cnt = models.IntegerField(default=0,null=True)
     price = models.IntegerField(default='',null=True)
     rank = models.FloatField(default=None, null=True)
-    stack = models.ManyToManyField("Stacks",through='Course_Stacks')
+    stack = models.ManyToManyField("Stack",through='Course_Stack')
 
     class Meta:
         db_table='Course'
 
 # 스택테이블
-class Stacks(models.Model):  
+class Stack(models.Model):  
     name = models.CharField(max_length=30,unique=True)
     logo = models.URLField(max_length=100, default='')
     assort = models.URLField(max_length=15,default='')
     described = models.TextField()
 
     class Meta:
-        db_table ='Stacks'
+        db_table ='Stack'
 
 # Course_Stack 중간테이블
-class Course_Stacks(models.Model):
+class Course_Stack(models.Model):
     course =models.ForeignKey('Course',on_delete=models.CASCADE)
-    stacks =models.ForeignKey('Stacks',on_delete=models.CASCADE)
+    stack =models.ForeignKey('Stack',on_delete=models.CASCADE)
 
     class Meta:
-        db_table='Course_Stacks'
+        db_table='Course_Stack'
 
 # 회사테이블
 class Company(models.Model):
     name = models.CharField(max_length=30,unique=True)
     logo = models.URLField(max_length=100,default='')
     stack_info = models.CharField(max_length=100,default='')
-    stack = models.ManyToManyField("Stacks",through='Company_Stacks')
+    stack = models.ManyToManyField("Stack",through='Company_Stack')
 
     class Meta:
         db_table = 'Company'
 
 #Company_Stack 중간테이블
-class Company_Stacks(models.Model):
+class Company_Stack(models.Model):
     company =models.ForeignKey('Company',on_delete=models.CASCADE)
-    stacks =models.ForeignKey('Stacks',on_delete=models.CASCADE)
+    stack =models.ForeignKey('Stack',on_delete=models.CASCADE)
 
     class Meta:
-        db_table = 'Company_Stacks'
+        db_table = 'Company_Stack'
 
 
 #related_stack 테이블
-class Related_Stacks(models.Model):
-    stack_name= models.ForeignKey('Stacks',on_delete=models.CASCADE)
-    related_stacks = models.CharField(max_length=20)
-    related_stacks_logo = models.URLField(max_length=100,default='')
-    related_stacks_pk = models.IntegerField(default=0)
+class Related_Stack(models.Model):
+    stack_name= models.ForeignKey('Stack',on_delete=models.CASCADE)
+    related_stack = models.CharField(max_length=20)
+    related_stack_logo = models.URLField(max_length=100,default='')
+    related_stack_pk = models.IntegerField(default=0)
 
     class Meta:
-        db_table = 'Related_Stacks'
+        db_table = 'Related_Stack'
 
 #stack_dict 테이블 입니다.
-class Stacks_Dict(models.Model):
-    stack_name= models.ForeignKey('Stacks',on_delete=models.CASCADE)
+class Stack_Dict(models.Model):
+    stack_name= models.ForeignKey('Stack',on_delete=models.CASCADE)
     search_word= models.CharField(max_length=20)
 
     class Meta:
-        db_table = 'Stacks_Dict'
+        db_table = 'Stack_Dict'

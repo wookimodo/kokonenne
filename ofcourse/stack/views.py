@@ -1,23 +1,23 @@
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView
-from course.models import Stacks, Related_Stacks, Company, Course_Stacks
+from course.models import Stack, Related_Stack, Company, Course_Stack
 from django.shortcuts import get_object_or_404
 
 # Create your views here.
 class StackList(ListView): 
-    model = Stacks
+    model = Stack
     template_name = "stack/stack_list.html"
     ordering = 'pk'
     paginate_by = 12
 
 
 class StackDetail(DetailView):
-    model = Stacks
+    model = Stack
     template_name = 'stack/stack_detail.html'
 
     # def get_context_data(self, **kwargs):
     #     context = super(StackDetail, self).get_context_data()
-    #     st =Stacks.objects.filter(id=2).prefetch_related('company_set')[0]
+    #     st =Stack.objects.filter(id=2).prefetch_related('company_set')[0]
     #     print(st)
     #     context['companies'] = st.course_set.all()
     #     print(context['companies'])
@@ -25,14 +25,14 @@ class StackDetail(DetailView):
     #         print("cours :", i)
 
         # context = super(StackDetail, self).get_context_data()
-        # st =Stacks.objects.filter(id=2).prefetch_related('course_set')[0]
+        # st =Stack.objects.filter(id=2).prefetch_related('course_set')[0]
         # print(st)
         # context['courses'] = st.course_set.all()
         # print(context['courses'])
         # for i in context['courses']:
         #     print("cours :", i)
         
-        # context['companies'] = Stacks.objects.filter(id=1).prefetch_related('company_set')
+        # context['companies'] = Stack.objects.filter(id=1).prefetch_related('company_set')
         # return context
 
     # def get_context_data(self, **kwargs):
