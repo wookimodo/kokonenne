@@ -49,7 +49,6 @@
                 <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
                 <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
             </div>
-            <form action="{% url 'filter' %}" class="form-inline my-2 my-md-0" method="get">
                 <div class="skill-info-area">
                     <div class="container">
                         {% for s in stacks %}
@@ -57,19 +56,17 @@
                         <div class="filterDiv {{s.assort}}">
                             <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
                                     name="s" , value="{{s.name}}">
-                            <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
+                            <button class="btn btn-outline-primary" for="btncheck{{forloop.counter}}" onclick="filterSelection('{{s.name}}')">{{s.name}}</button>
                         </div>
                         {% endif %}
                         {% endfor %}
                     </div>
                 </div>
-                <button type="submit" class="btn btn-warning">검색</button>
-            </form>
         </aside>
         <main class="list-area">
             <ul>
                 {% for c in course_list %}
-                <li class="list-card">
+                <li class="list-card filterDiv {% for s in c.stack.iterator %}{{s.name}}{{s.assort}}{% endfor %}">
                     <a href="{{c.url}}">
                         <div class="img-box">
                             <img src="{{ c.img_url }}" alt="강의 예시 이미지">
@@ -89,8 +86,6 @@
                 {% endfor %}
 
                 <!-- Pagination-->
-
-
                 {% if is_paginated %}
                 <nav aria-label="Pagination">
                     <hr class="my-0" />

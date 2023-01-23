@@ -12,7 +12,7 @@ def index(request):
 
 class Courselist(ListView):
     model = Course
-    paginate_by = 20
+    paginate_by = 300
     template_name ='course/list.html'
     ordering ='rank'
 
