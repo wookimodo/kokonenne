@@ -37,9 +37,9 @@ def run():
         level = data[i]['level']
         score = data[i]['score']
         courseTime = data[i]['courseTime']
-        studentCnt = data[i]['student']
+        student_cnt = data[i]['student']
         recommend = data[i]['recommend']
-        reviewCnt = data[i]['reviewCnt']
+        review_cnt = data[i]['reviewCnt']
         price = data[i]['price']
         rank = data[i]['rank']
         Course(
@@ -51,9 +51,9 @@ def run():
             level=level,
             score=score,
             courseTime=courseTime,
-            studentCnt=studentCnt,
+            student_cnt=student_cnt,
             recommend=recommend,
-            reviewCnt=reviewCnt,
+            review_cnt=review_cnt,
             price=price,
             rank=rank
         ).save()
@@ -74,7 +74,7 @@ def run():
     # Course_Stack 중간테이블
     for i in data2:
         for j in data:
-            if i in data[j]['stack']:
+            if i in data[j]['stacks']:
                 Course_Stack(course_id=Course.objects.get(title=j).pk,stack_id=Stack.objects.get(name=i).pk).save()
 
     # Company 테이블
@@ -87,15 +87,15 @@ def run():
 
     # Company_Stack 테이블
     for i in data3:
-        for k,v in data3[i]['stack'].items():
+        for k,v in data3[i]['stacks'].items():
             if v != None:
-                for stack in data3[i]['stack'][k]:
+                for stack in data3[i]['stacks'][k]:
                     Company_Stack(company_id=Company.objects.get(name=i).pk,stack_id=Stack.objects.get(name=stack[0]).pk).save()
 
     # related_stack 테이블
     for i in data2:
         stack_name_id = Stack.objects.get(name=i).pk
-        for k in data2[i]['related_stack']:
+        for k in data2[i]['related_stacks']:
             related_stack_pk = Stack.objects.get(name=k).pk
             logo = Stack.objects.get(name=k).logo
             Related_Stack(stack_name_id=stack_name_id, related_stack=k, related_stack_logo=logo, related_stack_pk=related_stack_pk).save()
