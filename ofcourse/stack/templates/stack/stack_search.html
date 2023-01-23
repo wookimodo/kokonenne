@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- global css -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+
+<body class="list-page">
+    <header>
+        {% include 'partials/navbar.html' %}
+    </header>
+    <div class="search-area">
+        <!-- 검색 폼 -->
+        <h1>스택별 검색</h1>
+        <br>
+
+        <br /><br />
+        <form action="{% url 'stack:search' %}" method="GET">
+            <!-- 검색 -->
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요">
+                <button type="submit" class="search-btn">검색</button>
+            </div>
+
+            {% if search %}
+            <h1>검색하신 <span class="point">{{ search }}</span>의 기술 정보입니다.</h1>
+            <div class="content col-2">
+                <main class="list-area">
+                    <ul>
+                        <!-- search 정보 -->
+                            {% for c in stack %}
+                                <li class="list-card">
+                                    <a href="/stack/{{c.id}}/">
+                                        <div class="img-box">                                    
+                                        <img src="{{ c.logo }}" alt="스택 로고">
+                                    </div>
+                                    </a>
+                                    <div class="info-box">
+                                        <h3>{{ c.name }}</h3>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+            {% else %}
+                <h1>검색창에 스택 이름을 입력해주세요.</h1>
+                </main>
+            {% endif %}
+            </div>
+        </form>
+
+        <footer>
+            <p>
+                Copyright © 2023. Kokonenne All Rights Reserved.
+            </p>
+        </footer>
+</body>
+
+</html>

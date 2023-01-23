@@ -26,16 +26,12 @@
     <div class="title-area">
         <h2 class="page-title">스택별 기업</h2>
     </div>
+
     <div class="search-area">
-        <form action="">
-            <!-- 검색 결과 표시 -->
-            <div class="hide">
-                <h2><span class="point">자바스크립트</span> 검색 결과 (5개)</h2>
-                <button type="reset" class="del-btn">삭제<i class="fa-solid fa-circle-xmark"></i></button>
-            </div>
-            <!-- 삭제 버튼을 누르고 재검색 할 때! -->
+        <form action="{% url 'stack:search' %}" method="GET">
+            {% csrf_token %}
             <div class="search-bar">
-                <input type="text" name="search" id="search-bar" placeholder="스택명을 입력해주세요!">
+                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요">
                 <button type="submit" class="search-btn">검색</button>
             </div>
         </form>
@@ -43,7 +39,6 @@
 <!-- 검색을 했을 때 -->
     {% if search %}
     <div class="content">
-        <h1>검색하신  {{ search }}의 스택 확인하기 </h1>
         <main class="list-area skill">
             <ul>
                 {% for c in stack_list %}
@@ -52,7 +47,7 @@
                             <img src="{{ c.logo }}" alt="강의 예시 이미지">
                         </div>
                         <div class="info-box">
-                        <a href="http://127.0.0.1:8000/company/{{c.id}}" style="text-decoration: none;">
+                        <a href="http://127.0.0.1:8000/stack/{{c.id}}" style="text-decoration: none;">
                         <h3>{{ c.name }}</h3></a>
                     </div>
                     <p class="skill-info">
@@ -110,7 +105,7 @@
                 <a class="page-link" href="company/?page={{ page_obj.previous_page_number }}" tabindex="-1">이전</a>
             </li>
         {% else %}
-             <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
+            <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
             <li class="page-item disabled">
                 <a class="page-link" href="#" tabindex="-1">이전</a>
             </li>
