@@ -29,7 +29,7 @@
         <form action="{% url 'company:search' %}" method="GET">
             {% csrf_token %}
             <div class="search-bar">
-                <input type="text" name="search" id="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="회사명을 입력해주세요!">
                 <button type="submit" class="search-btn">검색</button>
             </div>
         </form>
@@ -68,7 +68,7 @@
     <div class="pagination">
         {% if page_obj.has_previous %}
             <li class="page-item">
-                <a class="page-link" href="company/?page={{ page_obj.previous_page_number }}" tabindex="-1">이전</a>
+                <a class="page-link" href="/company/?page={{ page_obj.previous_page_number }}" tabindex="-1">이전</a>
             </li>
         {% else %}
              <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
@@ -98,7 +98,7 @@
         {% if page_obj.has_next %}
             <!-- 이전페이지 객체가 있으면 [Next]버튼 활성화 -->
             <li class="page-item">
-                <a class="page-link" href="#">다음</a>
+                <a class="page-link" href="/company/?page={{ page_obj.next_page_number }}">다음</a>
             </li>
         {% else %}
             <li class="page-item disabled"> <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
