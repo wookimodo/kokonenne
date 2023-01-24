@@ -21,58 +21,68 @@
     <header>
         {% include 'partials/navbar.html' %}
     </header>
-    
+    <div class="title-area">
+        <h2 class="page-title">기업별 스택</h2>
+    </div>
     <div class="search-area">
-        <h1>기업별 검색</h1>
-        <br>
-        
-        <br /><br />
-
         <!-- 검색 폼 -->
-            <form action="{% url 'company:search' %}" method="GET">
-                {% csrf_token %}
-                <!-- 검색 -->
-                <div class="search-bar">
-                    <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
-                    <button type="submit" class="search-btn">검색</button>
-                </div>
-            </form>
-        </div>
-
-            {% if search %}
-            <h1>검색하신 <span class="point">{{ search }}</span> 관련 정보입니다.</h1>
-            <div class="content col-2">
-                <main class="list-area">
-                    <ul>
-                        <!-- search 정보 -->
-                            {% for c in company %}
-                                <li class="list-card">
-                                    <a href="/company/{{c.id}}/" target="_blank">
-                                        <div class="img-box">                                    
-                                        <img src="{{ c.logo }}" alt="기업 로고">
-                                    </div>
-                                    </a>
-                                    <div class="info-box">
-                                        <h3>{{ c.name }}</h3>
-                                        <p>{{ c.stack_info }}</p>
-                                    </div>
-                                </li>
-                            {% endfor %}
-
-                           
-                    </ul>
-            {% else %}
-                <h1>검색창에 입력해주세요.</h1>
-                </main>
-            {% endif %}
+        <form action="{% url 'company:search' %}" method="GET">
+            {% csrf_token %}
+            <!-- 검색 -->
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
+                <button type="submit" class="search-btn">검색</button>
             </div>
+        </form>
+    </div>
+
+    {% if search %}
+    <!-- <h1>검색하신 <span class="point">{{ search }}</span> 관련 정보입니다.</h1> -->
+    <div class="content">
+        <h3 class="search-result-area">검색하신 <span class="text-highlight">{{search}}</span>에 대한 정보입니다.</h3>
+        <main class="list-area skill">
+            <ul>
+                <!-- search 정보 -->
+                {% for c in company %}
+                <li class="list-card">
+                    <div class="company-icon">
+                        <img src="{{ c.logo }}" alt="기업 로고">
+                    </div>
+                    <div class="info-box">
+                        <a href="{{c.id}}" style="text-decoration: none;">
+                            <h3>{{ c.name }}</h3>
+                        </a>
+                    </div>
+                    <p class="skill-info">
+                        {{ c.stack_info }}
+                    </p>
+                    <div class="skill-list">
+                        <ul>
+                            {% for stack in c.stack.iterator %}
+                            <li><a class="skill-icon" href="/stack/{{stack.id}}"><img src="{{ stack.logo }}"
+                                        alt="아이콘"></a></li>
+                            {% endfor %}
+                            <li><a class="see-more" href="{{c.id}}" >더보기</a></li>
+                        </ul>
+                    </div>
+                </li>
+                {% endfor %}
 
 
-        <footer>
-            <p>
-                Copyright © 2023. Kokonenne All Rights Reserved.
-            </p>
-        </footer>
+            </ul>
+            {% else %}
+            <h1>검색창에 입력해주세요.</h1>
+        </main>
+        {% endif %}
+    </div>
+
+
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
+    <script src="{%static 'js/index.js'%}"></script>
 </body>
 
 </html>

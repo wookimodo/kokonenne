@@ -678,6 +678,17 @@
 			"Go"
 		]
 	},
+	"Git": {
+		"assort": "데브옵스",
+		"logo": "https://img.stackshare.io/service/1046/git.png",
+		"described": "깃은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 스냅샷 스트림 기반의 분산 버전 관리 시스템이다.",
+		"related_stacks": [
+			"Github",
+			"Github Action",
+			"Gitlab"
+
+		]
+	},
 	"Github": {
 		"assort": "데브옵스",
 		"logo": "https://static.codenary.co.kr/framework_logo/github.png",

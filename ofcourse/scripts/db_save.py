@@ -19,6 +19,14 @@ data3 = json.loads(f.read())
 f = open(f'json/stackDict.json', encoding='UTF-8')
 data4 = json.loads(f.read()) 
 
+# 외국기업
+f = open(f'json/foreign_company.json', encoding='UTF-8')
+foreign_company = json.loads(f.read())
+
+# 국내기업
+f = open(f'json/domestic_company.json', encoding='UTF-8')
+domestic_company = json.loads(f.read())
+
 # 제이슨 파일로 저장
 def toJson(res_dict,save_name):
     with open(f'{save_name}.json', 'w', encoding='utf-8') as file :
@@ -77,20 +85,38 @@ def run():
             if i in data[j]['stacks']:
                 Course_Stack(course_id=Course.objects.get(title=j).pk,stack_id=Stack.objects.get(name=i).pk).save()
 
-    # Company 테이블
-    for i in data3:
+
+    # 국내기업
+    for i in domestic_company:
         name = i
-        logo = data3[i]['logo']
-        stack_info = data3[i]['stack_info']
+        logo = domestic_company[i]['logo']
+        stack_info = domestic_company[i]['stack_info']
+
+        Company(name=name, logo=logo, stack_info=stack_info).save()
+    
+    # 해외기업
+    for i in foreign_company:
+        name = i
+        logo = foreign_company[i]['logo']
+        stack_info = foreign_company[i]['stack_info']
 
         Company(name=name, logo=logo, stack_info=stack_info).save()
 
-    # Company_Stack 테이블
-    for i in data3:
-        for k,v in data3[i]['stacks'].items():
+    # 국내 Company_Stack 테이블
+    for i in domestic_company:
+        for k,v in domestic_company[i]['stacks'].items():
             if v != None:
-                for stack in data3[i]['stacks'][k]:
+                for stack in domestic_company[i]['stacks'][k]:
                     Company_Stack(company_id=Company.objects.get(name=i).pk,stack_id=Stack.objects.get(name=stack[0]).pk).save()
+
+    # 해외 Company_Stack 테이블
+    for i in foreign_company:
+        for k,v in foreign_company[i]['stacks'].items():
+            if v != None:
+                for stack in foreign_company[i]['stacks'][k]:
+                    # print(stack[0])
+                    Company_Stack(company_id=Company.objects.get(name=i).pk,stack_id=Stack.objects.get(name=stack[0]).pk).save()
+
 
     # related_stack 테이블
     for i in data2:
@@ -107,3 +133,22 @@ def run():
             Stack_Dict(stack_name_id=stack_name_id, search_word=j).save()
 
     print('DB저장완료')
+
+
+
+
+
+#     # Company 테이블
+#     # for i in data3:
+#     #     name = i
+#     #     logo = data3[i]['logo']
+#     #     stack_info = data3[i]['stack_info']
+
+#     #     Company(name=name, logo=logo, stack_info=stack_info).save()
+
+#     # Company_Stack 테이블
+#     for i in data3:
+#         for k,v in data3[i]['stacks'].items():
+#             if v != None:
+#                 for stack in data3[i]['stacks'][k]:
+#                     Company_Stack(company_id=Company.objects.get(name=i).pk,stack_id=Stack.objects.get(name=stack[0]).pk).save()

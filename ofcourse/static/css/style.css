@@ -138,13 +138,10 @@ footer p {
   align-items: center;
   margin: 50px auto 0;
 }
-.pagination > ul {
-  display: flex;
-}
-.pagination > ul li {
+.pagination li {
   list-style: none;
 }
-.pagination > ul .center {
+.pagination .center {
   padding: 0 1rem;
   color: var(--font-color3);
 }
@@ -156,6 +153,14 @@ footer p {
   border-radius: 0.5rem;
   margin: 0 0.2rem;
   color: var(--font-color3);
+  list-style: none;
+}
+.pagination .btn.disabled {
+  background-color: var(--bd-color);
+  color: var(--bg-color);
+}
+.pagination .btn.disabled:hover {
+  background-color: var(--bd-color);
 }
 .pagination .btn.on {
   background-color: var(--main-color);
@@ -179,6 +184,14 @@ footer p {
 }
 .title-area h2 {
   font-size: 2.6rem;
+}
+
+.text-highlight {
+  background-color: var(--main-color2);
+  font-size: inherit;
+  font-weight: 600;
+  color: var(--main-color);
+  padding: 0 0.8rem;
 }
 
 .main-page {
@@ -269,8 +282,18 @@ footer p {
 .list-page .point {
   color: var(--main-color);
   font-size: inherit;
+  position: relative;
+}
+.list-page .point::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
   background-color: var(--main-color2);
-  padding: 0 6px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .list-page .page-title {
   margin-top: 100px;
@@ -328,6 +351,22 @@ footer p {
   min-height: calc(100vh - 180px);
   margin: 30px auto 0;
   width: 80%;
+}
+.content .search-result-area {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin: 0.5rem 0 1.6rem;
+  font-size: 1.8rem;
+}
+.content .search-result-area::before {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 1rem;
+  margin-top: -0.3rem;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: var(--main-color);
 }
 .content.col-2 {
   display: flex;
@@ -434,6 +473,7 @@ footer p {
   border-radius: 1rem;
   list-style: none;
   box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
+  z-index: -10;
 }
 .content > .list-area .list-card > a {
   display: block;
@@ -446,7 +486,7 @@ footer p {
   overflow: hidden;
   max-width: 100%;
   height: 0;
-  padding-bottom: 65%;
+  padding-bottom: 56.5%;
   border-bottom: 1px solid var(--bd-color);
 }
 .content > .list-area .list-card .img-box > img {
@@ -467,7 +507,7 @@ footer p {
   -webkit-box-orient: vertical;
   word-wrap: break-word;
   line-height: 1.8rem;
-  height: 3.8rem; /* line-height 가 1.2em 이고 3라인을 자르기 때문에 height는 1.2em * 3 = 3.6em */
+  height: 3.6rem; /* line-height 가 1.8rem 이고 2라인을 자르기 때문에 height는 1.8rem * 2 = 3.6rem */
 }
 .content > .list-area .list-card .info-box h3 > a {
   all: inherit;
@@ -527,9 +567,10 @@ footer p {
   width: calc(100% - 9rem);
   vertical-align: middle;
 }
-.content > .list-area.skill .list-card .info-box > h3 {
+.content > .list-area.skill .list-card .info-box h3 {
   margin: 0;
   height: auto;
+  padding: 2rem 0;
 }
 .content > .list-area.skill .list-card .location {
   margin: 0;
@@ -545,7 +586,7 @@ footer p {
 }
 .content > .list-area.skill .list-card .skill-list {
   overflow: hidden;
-  margin-top: 1.2rem;
+  margin-top: 1.6rem;
 }
 .content > .list-area.skill .list-card .skill-list ul {
   display: flex;
@@ -553,7 +594,7 @@ footer p {
 }
 .content > .list-area.skill .list-card .skill-list ul li {
   list-style: none;
-  margin: 0 0.2rem;
+  margin: 0 0.6rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -566,9 +607,10 @@ footer p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   overflow: hidden;
+  border-radius: 0.5rem;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
   -webkit-user-drag: none;
