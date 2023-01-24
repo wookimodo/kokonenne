@@ -39,20 +39,31 @@
     {% if search %}
     <!-- <h1>검색하신 <span class="point">{{ search }}</span> 관련 정보입니다.</h1> -->
     <div class="content">
-        <h3 class="search-result-area">검색하신 <span class="text-highlight">{{search}}</span> 강의 정보입니다.</h3>
+        <h3 class="search-result-area">검색하신 <span class="text-highlight">{{search}}</span>에 대한 정보입니다.</h3>
         <main class="list-area skill">
             <ul>
                 <!-- search 정보 -->
                 {% for c in company %}
                 <li class="list-card">
-                    <a href="/company/{{c.id}}/" target="_blank">
-                        <div class="img-box">
-                            <img src="{{ c.logo }}" alt="기업 로고">
-                        </div>
-                    </a>
+                    <div class="company-icon">
+                        <img src="{{ c.logo }}" alt="기업 로고">
+                    </div>
                     <div class="info-box">
-                        <h3>{{ c.name }}</h3>
-                        <p>{{ c.stack_info }}</p>
+                        <a href="{{c.id}}" style="text-decoration: none;">
+                            <h3>{{ c.name }}</h3>
+                        </a>
+                    </div>
+                    <p class="skill-info">
+                        {{ c.stack_info }}
+                    </p>
+                    <div class="skill-list">
+                        <ul>
+                            {% for stack in c.stack.iterator %}
+                            <li><a class="skill-icon" href="/stack/{{stack.id}}"><img src="{{ stack.logo }}"
+                                        alt="아이콘"></a></li>
+                            {% endfor %}
+                            <li><a class="see-more" href="{{c.id}}" >더보기</a></li>
+                        </ul>
                     </div>
                 </li>
                 {% endfor %}
