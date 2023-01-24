@@ -78,7 +78,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Uber": {
 		"logo": "https://img.stackshare.io/stack/5/default_e436fbdf25e5c8e89e2137cf2f1dd2cffa56d8e1.png",
@@ -137,7 +138,7 @@
 					"https://img.stackshare.io/service/1008/xcode.png"
 				],
 				[
-					"Backbone.js",
+					"BackboneJS",
 					"https://img.stackshare.io/service/1017/Screen_Shot_2012-04-28_at_8.52.15_PM.png"
 				],
 				[
@@ -163,10 +164,6 @@
 					"https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png"
 				],
 				[
-					"PayPal",
-					"https://img.stackshare.io/service/236/yy3lVE1y.jpeg"
-				],
-				[
 					"Tensorflow",
 					"https://static.codenary.co.kr/framework_logo/tensorflow.png"
 				]
@@ -189,13 +186,10 @@
 				[
 					"Asana",
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
-				],
-				[
-					"iDoneThis",
-					"https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Airbnb": {
 		"logo": "https://img.stackshare.io/stack/2/default_04dd469129d2bfe4f9fbe36583faac05993d6643.jpeg",
@@ -222,15 +216,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -255,7 +240,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"LaunchDarkly": {
 		"logo": "https://img.stackshare.io/stack/10104/default_60e37aa7ae4953ab7442e029e0cee4e73fae1d08.png",
@@ -282,15 +268,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -315,7 +292,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Instacart": {
 		"logo": "https://img.stackshare.io/stack/151/default_3ce09436992cc7acf205672544d986a3fc92f006.png",
@@ -342,15 +320,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -375,7 +344,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"OneSignal": {
 		"logo": "https://img.stackshare.io/stack/606/default_5d38bfa1854c065b3fb863d0f3b56a8100cc0011.png",
@@ -402,15 +372,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -435,7 +396,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Facebook": {
 		"logo": "https://img.stackshare.io/stack/117/default_9ce9a9baad059ffbdf29221612747b7c09a6db8b.png",
@@ -462,15 +424,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -495,7 +448,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Google": {
 		"logo": "https://img.stackshare.io/stack/397/default_31bd99f4b13d8ce36eb15d26b85e448c489ede81.png",
@@ -522,15 +476,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -555,7 +500,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Sentry": {
 		"logo": "https://img.stackshare.io/stack/246/default_78fb32a07c00426e06b7469a75a6a1365323e3ba.png",
@@ -582,15 +528,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -615,7 +552,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Postman": {
 		"logo": "https://img.stackshare.io/stack/27135/default_2fd9481b921d37ef1a59677c8fbed0ea0f725a6a.jpg",
@@ -642,15 +580,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -675,7 +604,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Segment": {
 		"logo": "https://img.stackshare.io/stack/243/default_789985cf92d00b23744362a504b9782e1c71ecb9.jpg",
@@ -702,15 +632,6 @@
 					"https://img.stackshare.io/service/386/amazon-redshift.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
-				]
-			],
 			"DevOps": [
 				[
 					"Circle CI",
@@ -735,7 +656,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Zulip": {
 		"logo": "https://img.stackshare.io/stack/209709/default_7e2cb33d105861303e2e178d3cb1491c184d34c8.png",
@@ -782,11 +704,6 @@
 					"https://img.stackshare.io/service/2699/KoK6gHzp.jpg"
 				]
 			],
-			"Utilities": [
-				[
-					"none"
-				]
-			],
 			"DevOps": [
 				[
 					"Github",
@@ -808,10 +725,9 @@
 					"Circle CI",
 					"https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg"
 				]
-			],
-			"Business Tools": [
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Circle CI": {
 		"logo": "https://img.stackshare.io/stack/76/default_106ed9d6a5a69879d9afc1d08d3544198d98a2d9.png",
@@ -888,7 +804,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Shopify": {
 		"logo": "https://img.stackshare.io/stack/249/default_dff21ad9772ed0ce51c82ca7641455988782024c.jpg",
@@ -965,7 +882,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Rent the Runway": {
 		"logo": "https://img.stackshare.io/stack/18294/default_695c740a515a0ad6c911d1ce27cc28199de77325.png",
@@ -1042,7 +960,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Mixmax for Web": {
 		"logo": "https://img.stackshare.io/stack/27589/default_f07e29c4fa1b9f2a5124284803229d8c639fea07.png",
@@ -1081,22 +1000,14 @@
 					"https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg"
 				],
 				[
-					"Backbone.js",
+					"BackboneJS",
 					"https://img.stackshare.io/service/1017/Screen_Shot_2012-04-28_at_8.52.15_PM.png"
-				],
-				[
-					"AWS Elastic Bean ...",
-					"https://img.stackshare.io/service/210/aws-elastic-beanstalk.png"
 				]
 			],
 			"Utilities": [
 				[
 					"ElasticSearch",
 					"https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png"
-				],
-				[
-					"Amplitude",
-					"https://img.stackshare.io/service/640/default_51e537c5ed098d3e9aba0eb94299e4575a556aec.jpg"
 				]
 			],
 			"DevOps": [
@@ -1123,7 +1034,8 @@
 					"https://img.stackshare.io/service/108/default_d91a59e7b4dde497605e10e1cf80eb445904a438.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"StackShare": {
 		"logo": "https://img.stackshare.io/stack/412/default_998724d5ce98adbb5763e6a84ea195f8991cc793.png",
@@ -1208,7 +1120,8 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Stitch Fix": {
 		"logo": "https://img.stackshare.io/stack/9572/default_e0fee219e5c707deeeb0abf7d81498653bd4a294.png",
@@ -1293,7 +1206,8 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"SparkPost": {
 		"logo": "https://img.stackshare.io/stack/22808/default_7beb9cbcae94c9f084846bbc9ea0b12921e3a264.png",
@@ -1378,7 +1292,8 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Uploadcare": {
 		"logo": "https://img.stackshare.io/stack/2183/default_18d1c9f7041f9c1b32095007f7f0055361e29ff1.png",
@@ -1463,7 +1378,8 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Kong": {
 		"logo": "https://img.stackshare.io/stack/5188/default_0b4d535332db345088deb91d380e5021b1c8bd45.png",
@@ -1548,7 +1464,8 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Lumosity": {
 		"logo": "https://img.stackshare.io/stack/5090/default_2ad49c123ef113780b7026bc6c38ab771e5ae917.png",
@@ -1633,7 +1550,8 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Hosted Redash": {
 		"logo": "https://img.stackshare.io/stack/23428/default_369571ccfd96a06e75d2c28df53d216b663f23a9.png",
@@ -1672,11 +1590,6 @@
 					"https://img.stackshare.io/service/1075/celery.png"
 				]
 			],
-			"Utilities": [
-				[
-					
-				]
-			],
 			"DevOps": [
 				[
 					"Github",
@@ -1691,7 +1604,8 @@
 					"https://img.stackshare.io/service/586/n4u37v9t_400x400.png"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Codecov": {
 		"logo": "https://img.stackshare.io/stack/2737/default_008a41bd697491fba8662e6e0f8cde7e3b6c043f.png",
@@ -1714,11 +1628,6 @@
 					"https://img.stackshare.io/service/1101/C9QJ7V3X.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				]
-			],
 			"DevOps": [
 				[
 					"Git",
@@ -1739,7 +1648,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Udemy": {
 		"logo": "https://img.stackshare.io/stack/367/default_b0af35e984fbd812b67c2c5e8b8aa1c0e293b74b.png",
@@ -1762,11 +1672,6 @@
 					"https://img.stackshare.io/service/1101/C9QJ7V3X.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				]
-			],
 			"DevOps": [
 				[
 					"Git",
@@ -1787,7 +1692,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Typeform": {
 		"logo": "https://img.stackshare.io/stack/1939/default_e3d9c0cd5072394c271c1433a0b8a45a942ca162.png",
@@ -1810,11 +1716,6 @@
 					"https://img.stackshare.io/service/1101/C9QJ7V3X.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				]
-			],
 			"DevOps": [
 				[
 					"Git",
@@ -1835,7 +1736,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"ReadMe.io": {
 		"logo": "https://img.stackshare.io/stack/1296/default_aa8ce464f8db99f62c6e1f32661bdb1ae725e8e2.png",
@@ -1858,11 +1760,6 @@
 					"https://img.stackshare.io/service/1101/C9QJ7V3X.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				]
-			],
 			"DevOps": [
 				[
 					"Git",
@@ -1883,7 +1780,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"The New York Times": {
 		"logo": "https://img.stackshare.io/stack/16459/default_5b3d15df32b0db59a64845bb29f9b58b11bc7b89.png",
@@ -1906,11 +1804,6 @@
 					"https://img.stackshare.io/service/1101/C9QJ7V3X.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				]
-			],
 			"DevOps": [
 				[
 					"Git",
@@ -1931,7 +1824,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Netbeast": {
 		"logo": "https://img.stackshare.io/stack/25603/default_6faa9a66cd807e0162476f2eb1b65e1a2f56495d.png",
@@ -1954,11 +1848,6 @@
 					"https://img.stackshare.io/service/1101/C9QJ7V3X.png"
 				]
 			],
-			"Utilities": [
-				[
-					"None"
-				]
-			],
 			"DevOps": [
 				[
 					"Git",
@@ -1979,7 +1868,8 @@
 					"https://img.stackshare.io/service/675/RNiSRYOF_400x400.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	},
 	"Delivery Hero": {
 		"logo": "https://img.stackshare.io/stack/353064/default_f430fe58ec1900a4ab6280a7daa92b199eede119.png",
@@ -2050,10 +1940,6 @@
 					"https://img.stackshare.io/service/2699/KoK6gHzp.jpg"
 				],
 				[
-					"AWS Lambda",
-					"https://img.stackshare.io/service/1909/aws-lambda.png"
-				],
-				[
 					"Azure DevOps",
 					"https://static.codenary.co.kr/framework_logo/azuredevops.png"
 				],
@@ -2086,7 +1972,7 @@
 					"https://static.codenary.co.kr/framework_logo/r.png"
 				],
 				[
-					"Apache Spark",
+					"Spark",
 					"https://img.stackshare.io/service/2220/ca72c4715da998b0bf5d1c857958bed3.png"
 				],
 				[
@@ -2106,19 +1992,11 @@
 					"https://img.stackshare.io/service/5983/AHcBc6EG_400x400.jpg"
 				],
 				[
-					"Akka",
-					"https://img.stackshare.io/service/1773/bxLhidly.png"
-				],
-				[
 					"Hive",
 					"https://img.stackshare.io/service/1911/27eb4217dfd5cb2d579cb56bbcc7b290_400x400.jpeg"
 				]
 			],
 			"Utilities": [
-				[
-					"PayPal",
-					"https://img.stackshare.io/service/236/yy3lVE1y.jpeg"
-				],
 				[
 					"Tensorflow",
 					"https://static.codenary.co.kr/framework_logo/tensorflow.png"
@@ -2158,10 +2036,6 @@
 					"https://img.stackshare.io/service/1517/sbUizSli_400x400.jpg"
 				],
 				[
-					"AWS Elastic Load ...",
-					"https://img.stackshare.io/service/2587/aws-elastic-load-balancing.png"
-				],
-				[
 					"Travis CI",
 					"https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png"
 				],
@@ -2188,6 +2062,7 @@
 					"https://img.stackshare.io/service/154/default_53605d3093005bd7853e04a258c0d4746e803e29.jpg"
 				]
 			]
-		}
+		},
+		"stack_info": "외국기업"
 	}
 }
