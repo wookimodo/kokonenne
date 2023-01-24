@@ -76,13 +76,13 @@
             <ul>
                 {% for c in course_list %}
                 <li class="list-card">
-                    <a href="{{c.url}}">
+                    <a href="{{c.url}}" target="_blank">
                         <div class="img-box">
                             <img src="{{ c.img_url }}" alt="강의 예시 이미지">
                         </div>
                     </a>
                     <div class="info-box">
-                        <h3><a href="{{c.url}}">{{c.title|truncatechars:20 }}
+                        <h3><a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }} 
                                 {% for s in c.stack.iterator %}
                                 <span class="point">{{s.name}}</span>
                                 {% endfor %}

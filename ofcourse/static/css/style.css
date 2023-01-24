@@ -181,6 +181,14 @@ footer p {
   font-size: 2.6rem;
 }
 
+.text-highlight {
+  background-color: var(--main-color2);
+  font-size: inherit;
+  font-weight: 600;
+  color: var(--main-color);
+  padding: 0 0.8rem;
+}
+
 .main-page {
   background-image: url(../img/sub.jpg);
   background-position: 0 50%;
@@ -329,6 +337,22 @@ footer p {
   margin: 30px auto 0;
   width: 80%;
 }
+.content .search-result-area {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin: 0.5rem 0 1.6rem;
+  font-size: 1.8rem;
+}
+.content .search-result-area::before {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 1rem;
+  margin-top: -0.3rem;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: var(--main-color);
+}
 .content.col-2 {
   display: flex;
   justify-content: space-between;
@@ -446,7 +470,7 @@ footer p {
   overflow: hidden;
   max-width: 100%;
   height: 0;
-  padding-bottom: 65%;
+  padding-bottom: 56.5%;
   border-bottom: 1px solid var(--bd-color);
 }
 .content > .list-area .list-card .img-box > img {
@@ -527,9 +551,10 @@ footer p {
   width: calc(100% - 9rem);
   vertical-align: middle;
 }
-.content > .list-area.skill .list-card .info-box > h3 {
+.content > .list-area.skill .list-card .info-box h3 {
   margin: 0;
   height: auto;
+  padding: 2rem 0;
 }
 .content > .list-area.skill .list-card .location {
   margin: 0;
@@ -545,7 +570,7 @@ footer p {
 }
 .content > .list-area.skill .list-card .skill-list {
   overflow: hidden;
-  margin-top: 1.2rem;
+  margin-top: 1.6rem;
 }
 .content > .list-area.skill .list-card .skill-list ul {
   display: flex;
@@ -553,7 +578,7 @@ footer p {
 }
 .content > .list-area.skill .list-card .skill-list ul li {
   list-style: none;
-  margin: 0 0.2rem;
+  margin: 0 0.6rem;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -566,9 +591,10 @@ footer p {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   overflow: hidden;
+  border-radius: 0.5rem;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
   -webkit-user-drag: none;

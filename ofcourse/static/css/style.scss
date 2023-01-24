@@ -202,6 +202,14 @@ footer {
     }
 }
 
+.text-highlight {
+    background-color: var(--main-color2);
+    font-size: inherit;
+    font-weight: 600;
+    color: var(--main-color);
+    padding: 0 .8rem;
+}
+
 .main-page {
     background-image: url(../img/sub.jpg);
     background-position: 0 50%;
@@ -366,6 +374,24 @@ footer {
     margin: 30px auto 0;
     width: 80%;
 
+    .search-result-area {
+        max-width: 1500px;
+        margin: 0 auto;
+        margin: .5rem 0 1.6rem;
+        font-size: 1.8rem;
+
+        &::before {
+            content: '';
+            width: .8rem;
+            height: .8rem;
+            margin-right: 1rem;
+            margin-top: -0.3rem;
+            display: inline-block;
+            border-radius: 100%;
+            background-color: var(--main-color);
+        }
+    }
+
     &.col-2 {
         display: flex;
         justify-content: space-between;
@@ -508,7 +534,7 @@ footer {
                 overflow: hidden;
                 max-width: 100%;
                 height: 0;
-                padding-bottom: 65%;
+                padding-bottom: 56.5%;
                 border-bottom: 1px solid var(--bd-color);
 
                 > img {
@@ -606,9 +632,10 @@ footer {
                     width: calc(100% - 9rem);
                     vertical-align: middle;
 
-                    > h3 {
+                    h3 {
                         margin: 0;
                         height: auto;
+                        padding: 2rem 0;
                     }
                 }
 
@@ -628,7 +655,7 @@ footer {
 
                 .skill-list {
                     overflow: hidden;
-                    margin-top: 1.2rem;
+                    margin-top: 1.6rem;
 
                     ul {
                         display: flex;
@@ -636,7 +663,7 @@ footer {
 
                         li {
                             list-style: none;
-                            margin: 0 0.2rem;
+                            margin: 0 0.6rem;
                             user-select: none;
 
                             > .skill-icon {
@@ -644,9 +671,10 @@ footer {
                                 font-size: 0;
                                 display: block;
                                 width: fit-content;
-                                width: 5rem;
-                                height: 5rem;
+                                width: 4rem;
+                                height: 4rem;
                                 overflow: hidden;
+                                border-radius: .5rem;
 
                                 > img {
                                     -webkit-user-drag: none;
