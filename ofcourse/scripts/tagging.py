@@ -37,6 +37,14 @@ goorm_sentiment = json.loads(f.read())
 f = open(f'json/inflearn_sentiment.json', encoding='UTF-8')
 inflearn_sentiment = json.loads(f.read()) 
 
+# goorm_sentiment data
+f = open(f'json/reviewData.json', encoding='UTF-8')
+reviewData = json.loads(f.read()) 
+
+# goorm_sentiment data
+f = open(f'json/goorm_review.json', encoding='UTF-8')
+goorm_review = json.loads(f.read()) 
+
 
 # 기술 스택 이름 통일(인프런)
 # def run():
@@ -52,10 +60,13 @@ inflearn_sentiment = json.loads(f.read())
 
 # 강의 데이터 합치기(중복 강의 제거)
 def run():
-  for i in allcourse:
-    allcourse[i] = allcourse[i]
+  for i in goorm_review:
+    if i not in reviewData.keys():
+      reviewData[i] = {}
+      reviewData[i]['review'] = goorm_review[i]['review']
 
-  toJson(allcourse,"allcourse")
+  toJson(reviewData,"reviewData")
+
 
 
 

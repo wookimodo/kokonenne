@@ -154,10 +154,3 @@ def run():
   print(data)
   return result[['title','rank']]
 
-
-# 스택별로 랭킹보여주기
-# def stackrank(stack):
-#   result = df.loc[df['cat1'].str.contains(stack)].sort_values('finalscore',ascending=False)
-#   return result[['title','teacher']]
-
-# print(stackrank('Java'))

@@ -2539,7 +2539,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3188.0
+		"rank": 3188.0,
+		"courseTime": ""
 	},
 	"안전한 웹 사이트 제작을 위한, 웹 보안 원 포인트 레슨": {
 		"url": "https://www.inflearn.com/course/%EC%9B%B9%EB%B3%B4%EC%95%88-%EC%95%88%EC%A0%84-%EC%9B%90%ED%8F%AC%EC%9D%B8%ED%8A%B8",
@@ -6084,7 +6085,8 @@
 			"MongoDB",
 			"ReactJS"
 		],
-		"rank": 99.0
+		"rank": 99.0,
+		"courseTime": ""
 	},
 	"만들면서 배우는 리액트 : 기초": {
 		"url": "https://www.inflearn.com/course/%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B8%B0%EC%B4%88",
@@ -7421,7 +7423,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3151.0
+		"rank": 3151.0,
+		"courseTime": ""
 	},
 	"Vue.js 시작하기 - Age of Vue.js": {
 		"url": "https://www.inflearn.com/course/age-of-vuejs",
@@ -8205,7 +8208,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3310.5
+		"rank": 3310.5,
+		"courseTime": ""
 	},
 	"AWS Certified Cloud Practitioner 자격증 준비하기": {
 		"url": "https://www.inflearn.com/course/aws-%EC%9E%90%EA%B2%A9%EC%A6%9D-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B8%B0%EC%B4%88",
@@ -8404,7 +8408,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 223.0
+		"rank": 223.0,
+		"courseTime": ""
 	},
 	"파이썬 입문": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8-%EB%A7%88%EC%86%8C%EC%BA%A0",
@@ -8703,7 +8708,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 531.0
+		"rank": 531.0,
+		"courseTime": ""
 	},
 	"정규표현식 : Python으로 톺아보기": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D",
@@ -9025,7 +9031,8 @@
 		"stacks": [
 			"Linux"
 		],
-		"rank": 214.0
+		"rank": 214.0,
+		"courseTime": ""
 	},
 	"플렉스(Flex) 반응형 웹사이트 포트폴리오(The World's Best Cities)": {
 		"url": "https://www.inflearn.com/course/%ED%94%8C%EB%A0%89%EC%8A%A4-%EB%B0%98%EC%9D%91%ED%98%95%EC%9B%B9-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4",
@@ -10064,7 +10071,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3344.0
+		"rank": 3344.0,
+		"courseTime": ""
 	},
 	"지금 당장 VueJS 프론트 개발 [사주 만세력]": {
 		"url": "https://www.inflearn.com/course/%EC%A7%80%EA%B8%88%EB%8B%B9%EC%9E%A5-vuejs-%ED%94%84%EB%9F%B0%ED%8A%B8-%EA%B0%9C%EB%B0%9C",
@@ -10365,7 +10373,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3310.5
+		"rank": 3310.5,
+		"courseTime": ""
 	},
 	"바쁜 현대인을 위한 파이썬 기초": {
 		"url": "https://www.inflearn.com/course/%EB%B0%94%EC%81%9C-%ED%98%84%EB%8C%80%EC%9D%B8-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88",
@@ -11840,7 +11849,8 @@
 		"stacks": [
 			"Redux"
 		],
-		"rank": 475.0
+		"rank": 475.0,
+		"courseTime": ""
 	},
 	"[C#과 유니티로 만드는 MMORPG 게임 개발 시리즈] Part2: 자료구조와 알고리즘": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-mmorpg-%EA%B0%9C%EB%B0%9C-part2",
@@ -12339,7 +12349,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 20.0
+		"rank": 20.0,
+		"courseTime": ""
 	},
 	"여러가지 개발자 도구 사용법": {
 		"url": "https://www.inflearn.com/course/%EC%97%AC%EB%9F%AC%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%8F%84%EA%B5%AC-%EC%82%AC%EC%9A%A9%EB%B2%95",
@@ -12781,7 +12792,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 834.0
+		"rank": 834.0,
+		"courseTime": ""
 	},
 	"[웹 퍼블리싱 실습] 반응형 사이트 만들기": {
 		"url": "https://www.inflearn.com/course/%EB%B0%98%EC%9D%91%ED%98%95-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%8B%A4%EC%8A%B5",
@@ -13045,7 +13057,8 @@
 			"Ruby",
 			"Ruby on Rails"
 		],
-		"rank": 3145.0
+		"rank": 3145.0,
+		"courseTime": ""
 	},
 	"SQL처럼 쓰는 PYTHON": {
 		"url": "https://www.inflearn.com/course/sql%EC%B2%98%EB%9F%BC-%EC%93%B0%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -13131,7 +13144,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 477.0
+		"rank": 477.0,
+		"courseTime": ""
 	},
 	"중급자를 위한 1 minute, 스낵 파이썬": {
 		"url": "https://www.inflearn.com/course/%EC%A4%91%EA%B8%89%EC%9E%90-%EC%8A%A4%EB%82%B5-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -13273,7 +13287,8 @@
 		"stacks": [
 			"Swift"
 		],
-		"rank": 977.0
+		"rank": 977.0,
+		"courseTime": ""
 	},
 	"쉽게 따라 배우는 파이썬 기초": {
 		"url": "https://www.inflearn.com/course/%EC%89%BD%EA%B2%8C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88",
@@ -13489,7 +13504,8 @@
 		"stacks": [
 			"C++"
 		],
-		"rank": 914.0
+		"rank": 914.0,
+		"courseTime": ""
 	},
 	"실전 데이터 사이언스 Part1. 파이썬 입문": {
 		"url": "https://www.inflearn.com/course/%ED%95%B5%EC%8B%AC-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -13525,7 +13541,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 2505.0
+		"rank": 2505.0,
+		"courseTime": ""
 	},
 	"Swift 언어로 만드는 고스톱 게임": {
 		"url": "https://www.inflearn.com/course/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EA%B3%A0%EC%8A%A4%ED%86%B1%EA%B2%8C%EC%9E%84",
@@ -13595,7 +13612,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 44.0
+		"rank": 44.0,
+		"courseTime": ""
 	},
 	"XD UI 디자인 + Clone Coding 인터렉티브 반응형웹 포트폴리오!": {
 		"url": "https://www.inflearn.com/course/xd-%EB%B0%98%EC%9D%91%ED%98%95%EC%9B%B9-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4",
@@ -14324,7 +14342,8 @@
 			"VueJS",
 			"Java"
 		],
-		"rank": 649.0
+		"rank": 649.0,
+		"courseTime": ""
 	},
 	"WEB5 - Express Passport.js": {
 		"url": "https://www.inflearn.com/course/WEB5-Express-Passport-js",
@@ -14736,7 +14755,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2958.0
+		"rank": 2958.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Linux": {
 		"url": "https://www.inflearn.com/course/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B0%95%EC%A2%8C",
@@ -14859,7 +14879,8 @@
 			"PHP",
 			"Java"
 		],
-		"rank": 3054.0
+		"rank": 3054.0,
+		"courseTime": ""
 	},
 	"생활코딩 - jQuery": {
 		"url": "https://www.inflearn.com/course/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-jquery-%EA%B0%95%EC%A2%8C",
@@ -15542,7 +15563,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3123.0
+		"rank": 3123.0,
+		"courseTime": ""
 	},
 	"[하루 10분|Web Project] HTML/JS/CSS로 나만의 심리테스트 사이트 만들기": {
 		"url": "https://www.inflearn.com/course/%EC%8B%AC%EB%A6%AC%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91",
@@ -15850,7 +15872,8 @@
 		"stacks": [
 			"R"
 		],
-		"rank": 3104.0
+		"rank": 3104.0,
+		"courseTime": ""
 	},
 	"웹 개발 슈퍼 기초 (HTML, CSS, Javascript)": {
 		"url": "https://www.inflearn.com/course/%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EC%B4%88-%EC%9E%85%EB%AC%B8",
@@ -15902,7 +15925,8 @@
 			"Flask",
 			"Python"
 		],
-		"rank": 3117.0
+		"rank": 3117.0,
+		"courseTime": ""
 	},
 	"언리얼 엔진4 (Unreal Engine) 3D 횡스크롤 게임 만들기": {
 		"url": "https://www.inflearn.com/course/%EC%96%B8%EB%A6%AC%EC%96%BC-%ED%9A%A1%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B2%8C%EC%9E%84%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -16095,7 +16119,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 2550.0
+		"rank": 2550.0,
+		"courseTime": ""
 	},
 	"공도리의 HTML5와 CSS3를 이용한 홈페이지 개발": {
 		"url": "https://www.inflearn.com/course/html5",
@@ -16128,7 +16153,8 @@
 		"stacks": [
 			"Unity"
 		],
-		"rank": 1961.0
+		"rank": 1961.0,
+		"courseTime": ""
 	},
 	"MATLAB으로 시작하는 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/3977/matlab%EC%9C%BC%EB%A1%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -16144,7 +16170,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 222.0
+		"rank": 222.0,
+		"courseTime": ""
 	},
 	"퍼블리셔 취업을 위해 제대로 배워보는 html과 css, 그리고 웹표준": {
 		"url": "https://www.inflearn.com/course/html-css-webazit",
@@ -16265,7 +16292,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3020.0
+		"rank": 3020.0,
+		"courseTime": ""
 	},
 	"Java로 배우는 자료구조": {
 		"url": "https://www.inflearn.com/course/java-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0",
@@ -17161,7 +17189,8 @@
 		"stacks": [
 			"Swift"
 		],
-		"rank": 2493.0
+		"rank": 2493.0,
+		"courseTime": ""
 	},
 	"[라즈베리파이] IoT 딥러닝 Computer Vision 실전 프로젝트": {
 		"url": "https://www.inflearn.com/course/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-iot-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%8B%A4%EC%A0%84",
@@ -17368,7 +17397,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 532.0
+		"rank": 532.0,
+		"courseTime": ""
 	},
 	"누구나 시작할 수 있는 네트워크 Step 1 (네트워크 모델)": {
 		"url": "https://www.inflearn.com/course/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-1-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EB%AA%A8%EB%8D%B8",
@@ -17550,7 +17580,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3271.0
+		"rank": 3271.0,
+		"courseTime": ""
 	},
 	"윤재성의 처음 시작하는 CSS & CSS3 Tutorials": {
 		"url": "https://www.inflearn.com/course/css-3",
@@ -17706,7 +17737,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 78.0
+		"rank": 78.0,
+		"courseTime": ""
 	},
 	"실무에 바로 적용하는 아이오닉 3 Tutorial": {
 		"url": "https://www.inflearn.com/course/ionic-%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89-%EA%B8%B0%EC%B4%88",
@@ -18163,7 +18195,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 177.0
+		"rank": 177.0,
+		"courseTime": ""
 	},
 	"노션(Notion) 데이터베이스 - 중급편": {
 		"url": "https://www.inflearn.com/course/%EB%85%B8%EC%85%98-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%A4%91%EA%B8%89",
@@ -18519,7 +18552,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 194.0
+		"rank": 194.0,
+		"courseTime": ""
 	},
 	"유니티 프로그래머 현업자의 기본 스킬들": {
 		"url": "https://www.inflearn.com/course/%EC%9C%A0%EB%8B%88%ED%8B%B0-%EA%B2%8C%EC%9E%84%EA%B0%9C%EB%B0%9C-%ED%98%84%EC%97%85-%EC%8A%A4%ED%82%AC",
@@ -18615,7 +18649,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 3286.0
+		"rank": 3286.0,
+		"courseTime": ""
 	},
 	"[김왼손의 왼손코딩] Vim 에디터는 처음입니다만: 개발자를 위한 Vim 에디터 기초": {
 		"url": "https://www.inflearn.com/course/%EC%99%BC%EC%86%90%EC%BD%94%EB%94%A9-vim-%EC%97%90%EB%94%94%ED%84%B0",
@@ -18774,7 +18809,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3296.0
+		"rank": 3296.0,
+		"courseTime": ""
 	},
 	"[OpenCV] 파이썬 딥러닝 영상처리 프로젝트 - 손흥민을 찾아라!": {
 		"url": "https://www.udemy.com/course/opencv-son/",
@@ -18829,7 +18865,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3125.0
+		"rank": 3125.0,
+		"courseTime": ""
 	},
 	"Ionic, 아이오닉 100분 핵심강의": {
 		"url": "https://www.inflearn.com/course/100%EB%B6%84%EA%B0%95%EC%9D%98-%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89",
@@ -18881,7 +18918,8 @@
 		"stacks": [
 			"R"
 		],
-		"rank": 2604.0
+		"rank": 2604.0,
+		"courseTime": ""
 	},
 	"공모전 사례로 풀어보는 앱 개발 프로젝트": {
 		"url": "https://www.inflearn.com/course/school-android-dev",
@@ -19519,7 +19557,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3219.0
+		"rank": 3219.0,
+		"courseTime": ""
 	},
 	"파이썬(Python) 기초부터 실무까지 part.6": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EC%8B%A4%EB%AC%B4%EA%B9%8C%EC%A7%80-6",
@@ -19693,7 +19732,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 517.0
+		"rank": 517.0,
+		"courseTime": ""
 	},
 	"[엔트리] 코딩능력마스터 2급 자격증 강의": {
 		"url": "https://www.inflearn.com/course/%EC%97%94%ED%8A%B8%EB%A6%AC-%EC%BD%94%EB%94%A9%EB%8A%A5%EB%A0%A5-2%EA%B8%89%EC%9E%90%EA%B2%A9%EC%A6%9D",
@@ -20235,7 +20275,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 2831.0
+		"rank": 2831.0,
+		"courseTime": ""
 	},
 	"Angular(2+) Front에서 Back까지 - Nest js를 알려면 Angular 모듈을 알아야한다!": {
 		"url": "https://www.inflearn.com/course/Angular",
@@ -20302,7 +20343,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2990.0
+		"rank": 2990.0,
+		"courseTime": ""
 	},
 	"[김왼손의 왼손코딩] 파이썬 예제 뽀개기: 파이썬 초중급자를 위한 파이썬 30제": {
 		"url": "https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%98%88%EC%A0%9C",
@@ -21074,7 +21116,8 @@
 		"stacks": [
 			"SQL"
 		],
-		"rank": 3087.0
+		"rank": 3087.0,
+		"courseTime": ""
 	},
 	"자바스크립트 머신러닝 TensorFlow.js": {
 		"url": "https://www.inflearn.com/course/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-tensorflow",
@@ -21149,7 +21192,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 272.0
+		"rank": 272.0,
+		"courseTime": ""
 	},
 	"자바스크립트 완전 끝내기: 비기너": {
 		"url": "https://edu.goorm.io/lecture/33866/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%99%84%EC%A0%84-%EB%81%9D%EB%82%B4%EA%B8%B0-%EB%B9%84%EA%B8%B0%EB%84%88",
@@ -21166,7 +21210,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3348.0
+		"rank": 3348.0,
+		"courseTime": ""
 	},
 	"웹퍼블리셔가 알려주는 실무 웹사이트 따라만들기 Season1": {
 		"url": "https://www.inflearn.com/course/%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%85%94-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%8C%EB%93%A4%EA%B8%B0-%EB%A6%AC%EB%B2%A0%ED%95%98%EC%96%80",
@@ -21199,7 +21244,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3346.0
+		"rank": 3346.0,
+		"courseTime": ""
 	},
 	"만들면서 배우는 HTML/CSS": {
 		"url": "https://www.inflearn.com/course/html-css-sucademy",
@@ -21356,7 +21402,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2695.0
+		"rank": 2695.0,
+		"courseTime": ""
 	},
 	"My Location - ionic3 와 Google Map Api 를 활용한 내 위치 정보 찾기": {
 		"url": "https://www.inflearn.com/course/my-location-ionic3",
@@ -21743,7 +21790,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3246.0
+		"rank": 3246.0,
+		"courseTime": ""
 	},
 	"2. 웹개발 코스 [JAVA 개발언어]": {
 		"url": "https://www.inflearn.com/course/%EC%9B%B9%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EC%B4%88-java",
@@ -21845,7 +21893,8 @@
 			"Kotlin",
 			"SpringBoot"
 		],
-		"rank": 3269.0
+		"rank": 3269.0,
+		"courseTime": ""
 	},
 	"Spring & Hibernate for Beginners (includes Spring Boot)": {
 		"url": "https://www.udemy.com/course/spring-hibernate-tutorial/",
@@ -49929,7 +49978,8 @@
 		"stacks": [
 			"MySQL"
 		],
-		"rank": 3165.0
+		"rank": 3165.0,
+		"courseTime": ""
 	},
 	"SQL - The Complete Developer's Guide (MySQL, PostgreSQL)": {
 		"url": "https://www.udemy.com/course/sql-the-complete-developers-guide-mysql-postgresql/",
@@ -56471,7 +56521,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 1872.0
+		"rank": 1872.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 파이썬3 기초": {
 		"url": "https://edu.goorm.io/lecture/3493/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-%EA%B8%B0%EC%B4%88",
@@ -56487,7 +56538,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 1544.0
+		"rank": 1544.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - 자바(JAVA)": {
 		"url": "https://edu.goorm.io/lecture/41/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EC%9E%90%EB%B0%94-java",
@@ -56503,7 +56555,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 2780.0
+		"rank": 2780.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 Node.js": {
 		"url": "https://edu.goorm.io/lecture/557/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-node-js",
@@ -56519,7 +56572,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 717.0
+		"rank": 717.0,
+		"courseTime": ""
 	},
 	"한 눈에 읽는 파이썬3 기초": {
 		"url": "https://edu.goorm.io/lecture/17902/%ED%95%9C-%EB%88%88%EC%97%90-%EC%9D%BD%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC3-%EA%B8%B0%EC%B4%88",
@@ -56535,7 +56589,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 1949.0
+		"rank": 1949.0,
+		"courseTime": ""
 	},
 	"COS PRO 2급 기출문제 - Python": {
 		"url": "https://edu.goorm.io/lecture/17033/cos-pro-2%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-python",
@@ -56551,7 +56606,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2893.0
+		"rank": 2893.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - 파이썬(Python)": {
 		"url": "https://edu.goorm.io/lecture/44/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%ED%8C%8C%EC%9D%B4%EC%8D%AC-python",
@@ -56567,7 +56623,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2802.0
+		"rank": 2802.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 고랭 기초": {
 		"url": "https://edu.goorm.io/lecture/2010/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-%EA%B3%A0%EB%9E%AD-%EA%B8%B0%EC%B4%88",
@@ -56583,7 +56640,8 @@
 		"stacks": [
 			"Go"
 		],
-		"rank": 1147.0
+		"rank": 1147.0,
+		"courseTime": ""
 	},
 	"COS PRO 1급 기출문제 - Python": {
 		"url": "https://edu.goorm.io/lecture/17299/cos-pro-1%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-python",
@@ -56599,7 +56657,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2004.0
+		"rank": 2004.0,
+		"courseTime": ""
 	},
 	"한 눈에 읽는 자바 기초": {
 		"url": "https://edu.goorm.io/lecture/19448/%ED%95%9C-%EB%88%88%EC%97%90-%EC%9D%BD%EB%8A%94-%EC%9E%90%EB%B0%94-%EA%B8%B0%EC%B4%88",
@@ -56615,7 +56674,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 1077.0
+		"rank": 1077.0,
+		"courseTime": ""
 	},
 	"무료 파이썬 기본편 - 6시간 뒤면 나도 개발자": {
 		"url": "https://edu.goorm.io/lecture/19917/%EB%AC%B4%EB%A3%8C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8-6%EC%8B%9C%EA%B0%84-%EB%92%A4%EB%A9%B4-%EB%82%98%EB%8F%84-%EA%B0%9C%EB%B0%9C%EC%9E%90",
@@ -56631,7 +56691,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 791.0
+		"rank": 791.0,
+		"courseTime": ""
 	},
 	"현직개발자가 알려주는 안드로이드 앱 개발": {
 		"url": "https://edu.goorm.io/lecture/15564/%ED%98%84%EC%A7%81%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C",
@@ -56647,7 +56708,8 @@
 		"stacks": [
 			"Android"
 		],
-		"rank": 534.0
+		"rank": 534.0,
+		"courseTime": ""
 	},
 	"웹 게임을 만들며 배우는 JavaScript(자바스크립트)": {
 		"url": "https://edu.goorm.io/lecture/10954/%EC%9B%B9-%EA%B2%8C%EC%9E%84%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-javascript-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8",
@@ -56664,7 +56726,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 2065.0
+		"rank": 2065.0,
+		"courseTime": ""
 	},
 	"처음 만난 React(리액트)": {
 		"url": "https://edu.goorm.io/lecture/12976/%EC%B2%98%EC%9D%8C-%EB%A7%8C%EB%82%9C-react-%EB%A6%AC%EC%95%A1%ED%8A%B8",
@@ -56680,7 +56743,8 @@
 		"stacks": [
 			"ReactJS"
 		],
-		"rank": 1347.0
+		"rank": 1347.0,
+		"courseTime": ""
 	},
 	"[3D Unity] 생존게임 만들기! - Basic": {
 		"url": "https://edu.goorm.io/lecture/5026/3d-unity-%EC%83%9D%EC%A1%B4%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-basic",
@@ -56696,7 +56760,8 @@
 		"stacks": [
 			"Unity"
 		],
-		"rank": 447.0
+		"rank": 447.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 아두이노 기초": {
 		"url": "https://edu.goorm.io/lecture/203/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8-%EA%B8%B0%EC%B4%88",
@@ -56712,7 +56777,8 @@
 		"stacks": [
 			"Arduino"
 		],
-		"rank": 2917.0
+		"rank": 2917.0,
+		"courseTime": ""
 	},
 	"안경잡이개발자가 알려주는 실전 알고리즘 강좌": {
 		"url": "https://edu.goorm.io/lecture/10710/%EC%95%88%EA%B2%BD%EC%9E%A1%EC%9D%B4%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EC%8B%A4%EC%A0%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C",
@@ -56728,7 +56794,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 1384.0
+		"rank": 1384.0,
+		"courseTime": ""
 	},
 	"화이트해커가 되기 위한 8가지 웹 해킹 기술": {
 		"url": "https://edu.goorm.io/lecture/4953/%ED%99%94%EC%9D%B4%ED%8A%B8%ED%95%B4%EC%BB%A4%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-8%EA%B0%80%EC%A7%80-%EC%9B%B9-%ED%95%B4%ED%82%B9-%EA%B8%B0%EC%88%A0",
@@ -56744,7 +56811,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 185.0
+		"rank": 185.0,
+		"courseTime": ""
 	},
 	"김버그의 HTML&CSS는 재밌다": {
 		"url": "https://edu.goorm.io/lecture/20583/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-html-css%EB%8A%94-%EC%9E%AC%EB%B0%8C%EB%8B%A4",
@@ -56760,7 +56828,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 407.0
+		"rank": 407.0,
+		"courseTime": ""
 	},
 	"2021 온라인 코딩 파티 - 텍스트 코딩 용사가 되자!!!": {
 		"url": "https://edu.goorm.io/lecture/24789/2021-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%BD%94%EB%94%A9-%ED%8C%8C%ED%8B%B0-%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%94%A9-%EC%9A%A9%EC%82%AC%EA%B0%80-%EB%90%98%EC%9E%90",
@@ -56776,7 +56845,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 660.0
+		"rank": 660.0,
+		"courseTime": ""
 	},
 	"김왼손의 미운코딩새끼: 4시간만에 끝내는 파이썬 기초": {
 		"url": "https://edu.goorm.io/lecture/1461/%EA%B9%80%EC%99%BC%EC%86%90%EC%9D%98-%EB%AF%B8%EC%9A%B4%EC%BD%94%EB%94%A9%EC%83%88%EB%81%BC-4%EC%8B%9C%EA%B0%84%EB%A7%8C%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88",
@@ -56792,7 +56862,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 665.0
+		"rank": 665.0,
+		"courseTime": ""
 	},
 	"COS PRO 1급 기출문제 - Java": {
 		"url": "https://edu.goorm.io/lecture/17301/cos-pro-1%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-java",
@@ -56808,7 +56879,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 2783.0
+		"rank": 2783.0,
+		"courseTime": ""
 	},
 	"처음 시작하는 C언어": {
 		"url": "https://edu.goorm.io/lecture/13352/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-c%EC%96%B8%EC%96%B4",
@@ -56824,7 +56896,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 2244.0
+		"rank": 2244.0,
+		"courseTime": ""
 	},
 	"[하루 10분|Web Project] HTML/JS/CSS로 나만의 MBTI 사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/25652/%ED%95%98%EB%A3%A8-10%EB%B6%84-web-project-html-js-css%EB%A1%9C-%EB%82%98%EB%A7%8C%EC%9D%98-mbti-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -56840,7 +56913,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 1969.0
+		"rank": 1969.0,
+		"courseTime": ""
 	},
 	"2021 온라인 코딩 파티 - 도전 틱택토!!!": {
 		"url": "https://edu.goorm.io/lecture/24793/2021-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%BD%94%EB%94%A9-%ED%8C%8C%ED%8B%B0-%EB%8F%84%EC%A0%84-%ED%8B%B1%ED%83%9D%ED%86%A0",
@@ -56856,7 +56930,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2903.0
+		"rank": 2903.0,
+		"courseTime": ""
 	},
 	"2021 온라인 코딩 파티 - 파이썬 데이터 분석 및 시각화!!!": {
 		"url": "https://edu.goorm.io/lecture/24790/2021-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%BD%94%EB%94%A9-%ED%8C%8C%ED%8B%B0-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EB%B0%8F-%EC%8B%9C%EA%B0%81%ED%99%94",
@@ -56872,7 +56947,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2160.0
+		"rank": 2160.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 HTML5/CSS3": {
 		"url": "https://edu.goorm.io/lecture/16322/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-html5-css3",
@@ -56888,7 +56964,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 921.0
+		"rank": 921.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB1: HTML & Internet": {
 		"url": "https://edu.goorm.io/lecture/12959/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web1-html-internet",
@@ -56904,7 +56981,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 2830.0
+		"rank": 2830.0,
+		"courseTime": ""
 	},
 	"하울의 안드로이드 인스타그램 앱 만들기": {
 		"url": "https://edu.goorm.io/lecture/16116/%ED%95%98%EC%9A%B8%EC%9D%98-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -56920,7 +56998,8 @@
 		"stacks": [
 			"Android"
 		],
-		"rank": 497.0
+		"rank": 497.0,
+		"courseTime": ""
 	},
 	"[웹퍼블리싱 실습] 웹 표준 사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/16941/%EC%9B%B9%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EC%8B%A4%EC%8A%B5-%EC%9B%B9-%ED%91%9C%EC%A4%80-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -56936,7 +57015,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 654.0
+		"rank": 654.0,
+		"courseTime": ""
 	},
 	"COS PRO 2급 기출문제 - C언어": {
 		"url": "https://edu.goorm.io/lecture/16921/cos-pro-2%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-c%EC%96%B8%EC%96%B4",
@@ -56952,7 +57032,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 2921.0
+		"rank": 2921.0,
+		"courseTime": ""
 	},
 	"TODO 앱을 직접 만들면서 배우는 node.js / express / bootstrap / jquery": {
 		"url": "https://edu.goorm.io/lecture/332/todo-%EC%95%B1%EC%9D%84-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-node-js-express-bootstrap-jquery",
@@ -56970,7 +57051,8 @@
 			"jQuery",
 			"Bootstrap"
 		],
-		"rank": 2855.0
+		"rank": 2855.0,
+		"courseTime": ""
 	},
 	"위클리 비타알고 시즌3 코딩테스트 체력 키우기": {
 		"url": "https://edu.goorm.io/lecture/18444/%EC%9C%84%ED%81%B4%EB%A6%AC-%EB%B9%84%ED%83%80%EC%95%8C%EA%B3%A0-%EC%8B%9C%EC%A6%8C3-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%B2%B4%EB%A0%A5-%ED%82%A4%EC%9A%B0%EA%B8%B0",
@@ -56986,7 +57068,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 2908.0
+		"rank": 2908.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 SQL": {
 		"url": "https://edu.goorm.io/lecture/15413/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-sql",
@@ -57002,7 +57085,8 @@
 		"stacks": [
 			"SQL"
 		],
-		"rank": 1939.0
+		"rank": 1939.0,
+		"courseTime": ""
 	},
 	"동시에 배우는 C와 C++": {
 		"url": "https://edu.goorm.io/lecture/21611/%EB%8F%99%EC%8B%9C%EC%97%90-%EB%B0%B0%EC%9A%B0%EB%8A%94-c%EC%99%80-c",
@@ -57018,7 +57102,8 @@
 		"stacks": [
 			"C++"
 		],
-		"rank": 764.0
+		"rank": 764.0,
+		"courseTime": ""
 	},
 	"10주 완성 알고리즘 코딩테스트": {
 		"url": "https://edu.goorm.io/lecture/554/10%EC%A3%BC-%EC%99%84%EC%84%B1-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8",
@@ -57034,7 +57119,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 2843.0
+		"rank": 2843.0,
+		"courseTime": ""
 	},
 	"무료 파이썬 활용편1 - 추억의 오락실 게임 만들기": {
 		"url": "https://edu.goorm.io/lecture/21001/%EB%AC%B4%EB%A3%8C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%99%9C%EC%9A%A9%ED%8E%B81-%EC%B6%94%EC%96%B5%EC%9D%98-%EC%98%A4%EB%9D%BD%EC%8B%A4-%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57050,7 +57136,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 975.0
+		"rank": 975.0,
+		"courseTime": ""
 	},
 	"Git & GitHub 입문 by 코드스쿼드": {
 		"url": "https://edu.goorm.io/lecture/4661/git-github-%EC%9E%85%EB%AC%B8-by-%EC%BD%94%EB%93%9C%EC%8A%A4%EC%BF%BC%EB%93%9C",
@@ -57066,7 +57153,8 @@
 		"stacks": [
 			"Github"
 		],
-		"rank": 406.0
+		"rank": 406.0,
+		"courseTime": ""
 	},
 	"2021 온라인 코딩 파티 - 둘이서 코딩, 거북선과 척후선!!!": {
 		"url": "https://edu.goorm.io/lecture/24791/2021-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%BD%94%EB%94%A9-%ED%8C%8C%ED%8B%B0-%EB%91%98%EC%9D%B4%EC%84%9C-%EC%BD%94%EB%94%A9-%EA%B1%B0%EB%B6%81%EC%84%A0%EA%B3%BC-%EC%B2%99%ED%9B%84%EC%84%A0",
@@ -57082,7 +57170,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 3112.0
+		"rank": 3112.0,
+		"courseTime": ""
 	},
 	"프레임워크를 위한 JavaScript ES6": {
 		"url": "https://edu.goorm.io/lecture/19879/%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A5%BC-%EC%9C%84%ED%95%9C-javascript-es6",
@@ -57099,7 +57188,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 423.0
+		"rank": 423.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - 자바스크립트(Javascript)": {
 		"url": "https://edu.goorm.io/lecture/2229/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-javascript",
@@ -57116,7 +57206,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 427.0
+		"rank": 427.0,
+		"courseTime": ""
 	},
 	"처음 만난 AWS": {
 		"url": "https://edu.goorm.io/lecture/12945/%EC%B2%98%EC%9D%8C-%EB%A7%8C%EB%82%9C-aws",
@@ -57132,7 +57223,8 @@
 		"stacks": [
 			"AWS"
 		],
-		"rank": 2912.0
+		"rank": 2912.0,
+		"courseTime": ""
 	},
 	"가장 핫한 FE 라이브러리🔥, React 가지고 놀아보기": {
 		"url": "https://edu.goorm.io/lecture/16422/%EA%B0%80%EC%9E%A5-%ED%95%AB%ED%95%9C-fe-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-react-%EA%B0%80%EC%A7%80%EA%B3%A0-%EB%86%80%EC%95%84%EB%B3%B4%EA%B8%B0",
@@ -57148,7 +57240,8 @@
 		"stacks": [
 			"ReactJS"
 		],
-		"rank": 1157.0
+		"rank": 1157.0,
+		"courseTime": ""
 	},
 	"안드로이드 + 파이어베이스 SNS앱 만들기": {
 		"url": "https://edu.goorm.io/lecture/13523/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%8A%A4-sns%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57164,7 +57257,8 @@
 		"stacks": [
 			"Google Firebase"
 		],
-		"rank": 422.0
+		"rank": 422.0,
+		"courseTime": ""
 	},
 	"따라하면서 배우는 리눅스 기초": {
 		"url": "https://edu.goorm.io/lecture/18808/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B8%B0%EC%B4%88",
@@ -57180,7 +57274,8 @@
 		"stacks": [
 			"Linux"
 		],
-		"rank": 1379.0
+		"rank": 1379.0,
+		"courseTime": ""
 	},
 	"안경잡이개발자가 알려주는 C언어 기초 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/10719/%EC%95%88%EA%B2%BD%EC%9E%A1%EC%9D%B4%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-c%EC%96%B8%EC%96%B4-%EA%B8%B0%EC%B4%88-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -57196,7 +57291,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 3067.0
+		"rank": 3067.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - JAVA1": {
 		"url": "https://edu.goorm.io/lecture/16448/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-java1",
@@ -57212,7 +57308,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 648.0
+		"rank": 648.0,
+		"courseTime": ""
 	},
 	"COS PRO 1급 기출문제 - C언어": {
 		"url": "https://edu.goorm.io/lecture/17298/cos-pro-1%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-c%EC%96%B8%EC%96%B4",
@@ -57228,7 +57325,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 1101.0
+		"rank": 1101.0,
+		"courseTime": ""
 	},
 	"[따라하며 배우는 노드&리액트] Boiler-Plate 만들기": {
 		"url": "https://edu.goorm.io/lecture/17855/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%85%B8%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-boiler-plate-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57244,7 +57342,8 @@
 		"stacks": [
 			"ReactJS"
 		],
-		"rank": 635.0
+		"rank": 635.0,
+		"courseTime": ""
 	},
 	"한 눈에 읽는 루비 온 레일즈": {
 		"url": "https://edu.goorm.io/lecture/16335/%ED%95%9C-%EB%88%88%EC%97%90-%EC%9D%BD%EB%8A%94-%EB%A3%A8%EB%B9%84-%EC%98%A8-%EB%A0%88%EC%9D%BC%EC%A6%88",
@@ -57261,7 +57360,8 @@
 			"Ruby",
 			"Ruby on Rails"
 		],
-		"rank": 468.0
+		"rank": 468.0,
+		"courseTime": ""
 	},
 	"[온라인 SW 아카데미] 컴린이도 화이트해커가 될 수 있다?!": {
 		"url": "https://edu.goorm.io/lecture/22341/%EC%98%A8%EB%9D%BC%EC%9D%B8-sw-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%BB%B4%EB%A6%B0%EC%9D%B4%EB%8F%84-%ED%99%94%EC%9D%B4%ED%8A%B8%ED%95%B4%EC%BB%A4%EA%B0%80-%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4",
@@ -57278,7 +57378,8 @@
 			"Python",
 			"Linux"
 		],
-		"rank": 623.0
+		"rank": 623.0,
+		"courseTime": ""
 	},
 	"파닥파닥 Flutter (빠르고 가볍게 Flutter 흔들기)": {
 		"url": "https://edu.goorm.io/lecture/17450/%ED%8C%8C%EB%8B%A5%ED%8C%8C%EB%8B%A5-flutter-%EB%B9%A0%EB%A5%B4%EA%B3%A0-%EA%B0%80%EB%B3%8D%EA%B2%8C-flutter-%ED%9D%94%EB%93%A4%EA%B8%B0",
@@ -57294,7 +57395,8 @@
 		"stacks": [
 			"Flutter"
 		],
-		"rank": 2684.0
+		"rank": 2684.0,
+		"courseTime": ""
 	},
 	"스크래치3 프로그래밍 - 기초부터 게임 만들기까지!": {
 		"url": "https://edu.goorm.io/lecture/1478/%EC%8A%A4%ED%81%AC%EB%9E%98%EC%B9%983-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0%EA%B9%8C%EC%A7%80",
@@ -57310,7 +57412,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 2490.0
+		"rank": 2490.0,
+		"courseTime": ""
 	},
 	"프로젝트를 통해 배우는 파이썬 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/14588/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%A5%BC-%ED%86%B5%ED%95%B4-%EB%B0%B0%EC%9A%B0%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -57326,7 +57429,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3083.0
+		"rank": 3083.0,
+		"courseTime": ""
 	},
 	"[무작정 플러터] Flutter + Firebase 넷플릭스UI 클론 코딩": {
 		"url": "https://edu.goorm.io/lecture/19172/%EB%AC%B4%EC%9E%91%EC%A0%95-%ED%94%8C%EB%9F%AC%ED%84%B0-flutter-firebase-%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4ui-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9",
@@ -57343,7 +57447,8 @@
 			"Flutter",
 			"Google Firebase"
 		],
-		"rank": 2962.0
+		"rank": 2962.0,
+		"courseTime": ""
 	},
 	"C 프로그래밍 - 입문에서 게임 개발까지": {
 		"url": "https://edu.goorm.io/lecture/1972/c-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9E%85%EB%AC%B8%EC%97%90%EC%84%9C-%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C%EA%B9%8C%EC%A7%80",
@@ -57359,7 +57464,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 197.0
+		"rank": 197.0,
+		"courseTime": ""
 	},
 	"2021 온라인 코딩 파티 - 코딩랜드를 구하라!!!": {
 		"url": "https://edu.goorm.io/lecture/24792/2021-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%BD%94%EB%94%A9-%ED%8C%8C%ED%8B%B0-%EC%BD%94%EB%94%A9%EB%9E%9C%EB%93%9C%EB%A5%BC-%EA%B5%AC%ED%95%98%EB%9D%BC",
@@ -57375,7 +57481,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 2870.0
+		"rank": 2870.0,
+		"courseTime": ""
 	},
 	"부담 없이 쉽고 편하게, 자바스크립트 기초 정리!": {
 		"url": "https://edu.goorm.io/lecture/14938/%EB%B6%80%EB%8B%B4-%EC%97%86%EC%9D%B4-%EC%89%BD%EA%B3%A0-%ED%8E%B8%ED%95%98%EA%B2%8C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC",
@@ -57392,7 +57499,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 747.0
+		"rank": 747.0,
+		"courseTime": ""
 	},
 	"[번역판] CLEAN CODE JAVASCRIPT": {
 		"url": "https://edu.goorm.io/lecture/20119/%EB%B2%88%EC%97%AD%ED%8C%90-clean-code-javascript",
@@ -57409,7 +57517,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 241.0
+		"rank": 241.0,
+		"courseTime": ""
 	},
 	"React와 Node.js를 활용한 고객 관리 시스템 개발": {
 		"url": "https://edu.goorm.io/lecture/11817/react%EC%99%80-node-js%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B3%A0%EA%B0%9D-%EA%B4%80%EB%A6%AC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%B0%9C",
@@ -57426,7 +57535,8 @@
 			"NodeJS",
 			"ReactJS"
 		],
-		"rank": 2541.0
+		"rank": 2541.0,
+		"courseTime": ""
 	},
 	"위클리 비타알고 시즌1 코딩테스트 초급부터 중급까지": {
 		"url": "https://edu.goorm.io/lecture/11220/%EC%9C%84%ED%81%B4%EB%A6%AC-%EB%B9%84%ED%83%80%EC%95%8C%EA%B3%A0-%EC%8B%9C%EC%A6%8C1-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%B4%88%EA%B8%89%EB%B6%80%ED%84%B0-%EC%A4%91%EA%B8%89%EA%B9%8C%EC%A7%80",
@@ -57442,7 +57552,8 @@
 		"stacks": [
 			"algorithm"
 		],
-		"rank": 112.0
+		"rank": 112.0,
+		"courseTime": ""
 	},
 	"SW로 달리는 미래 자동차 만들기": {
 		"url": "https://edu.goorm.io/lecture/10671/sw%EB%A1%9C-%EB%8B%AC%EB%A6%AC%EB%8A%94-%EB%AF%B8%EB%9E%98-%EC%9E%90%EB%8F%99%EC%B0%A8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57458,7 +57569,8 @@
 		"stacks": [
 			"SW"
 		],
-		"rank": 2135.0
+		"rank": 2135.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 루비 기초": {
 		"url": "https://edu.goorm.io/lecture/2011/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-%EB%A3%A8%EB%B9%84-%EA%B8%B0%EC%B4%88",
@@ -57474,7 +57586,8 @@
 		"stacks": [
 			"Ruby"
 		],
-		"rank": 863.0
+		"rank": 863.0,
+		"courseTime": ""
 	},
 	"생활코딩 - 리눅스(Linux)": {
 		"url": "https://edu.goorm.io/lecture/12984/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EB%A6%AC%EB%88%85%EC%8A%A4-linux",
@@ -57490,7 +57603,8 @@
 		"stacks": [
 			"Linux"
 		],
-		"rank": 2807.0
+		"rank": 2807.0,
+		"courseTime": ""
 	},
 	"[온라인 SW 아카데미] 유니티로 배우는 게임 프로그래밍 기초": {
 		"url": "https://edu.goorm.io/lecture/22342/%EC%98%A8%EB%9D%BC%EC%9D%B8-sw-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%9C%A0%EB%8B%88%ED%8B%B0%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EA%B2%8C%EC%9E%84-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EC%B4%88",
@@ -57506,7 +57620,8 @@
 		"stacks": [
 			"Unity"
 		],
-		"rank": 568.0
+		"rank": 568.0,
+		"courseTime": ""
 	},
 	"[Pandas] 팬더스 데이터분석 기초 실습": {
 		"url": "https://edu.goorm.io/lecture/3999/pandas-%ED%8C%AC%EB%8D%94%EC%8A%A4-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D-%EA%B8%B0%EC%B4%88-%EC%8B%A4%EC%8A%B5",
@@ -57522,7 +57637,8 @@
 		"stacks": [
 			"Pandas"
 		],
-		"rank": 968.0
+		"rank": 968.0,
+		"courseTime": ""
 	},
 	"[따라하며 배우는 노드&리액트] 유튜브 사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/17853/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%85%B8%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57538,7 +57654,8 @@
 		"stacks": [
 			"ReactJS"
 		],
-		"rank": 789.0
+		"rank": 789.0,
+		"courseTime": ""
 	},
 	"[웹퍼블리싱 실습] 반응형 사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/16942/%EC%9B%B9%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1-%EC%8B%A4%EC%8A%B5-%EB%B0%98%EC%9D%91%ED%98%95-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57554,7 +57671,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 363.0
+		"rank": 363.0,
+		"courseTime": ""
 	},
 	"[저자 직강] Do it! HTML/CSS/JS 웹 표준의 정석": {
 		"url": "https://edu.goorm.io/lecture/26571/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-html-css-js-%EC%9B%B9-%ED%91%9C%EC%A4%80%EC%9D%98-%EC%A0%95%EC%84%9D",
@@ -57570,7 +57688,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 1297.0
+		"rank": 1297.0,
+		"courseTime": ""
 	},
 	"나도 AWS에 서버 구축해보자🐶": {
 		"url": "https://edu.goorm.io/lecture/17834/%EB%82%98%EB%8F%84-aws%EC%97%90-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%ED%95%B4%EB%B3%B4%EC%9E%90",
@@ -57586,7 +57705,8 @@
 		"stacks": [
 			"AWS"
 		],
-		"rank": 2956.0
+		"rank": 2956.0,
+		"courseTime": ""
 	},
 	"안드로이드 앱 개발 강의 - 기초편": {
 		"url": "https://edu.goorm.io/lecture/3523/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EA%B0%95%EC%9D%98-%EA%B8%B0%EC%B4%88%ED%8E%B8",
@@ -57602,7 +57722,8 @@
 		"stacks": [
 			"Android"
 		],
-		"rank": 2005.0
+		"rank": 2005.0,
+		"courseTime": ""
 	},
 	"[저자 직강] Do it! Node.js 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/12534/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-node-js-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -57618,7 +57739,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 302.0
+		"rank": 302.0,
+		"courseTime": ""
 	},
 	"김왼손의 유기농냠냠파이썬": {
 		"url": "https://edu.goorm.io/lecture/3524/%EA%B9%80%EC%99%BC%EC%86%90%EC%9D%98-%EC%9C%A0%EA%B8%B0%EB%86%8D%EB%83%A0%EB%83%A0%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -57634,7 +57756,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 460.0
+		"rank": 460.0,
+		"courseTime": ""
 	},
 	"초보자를 위한 장고 Django 뿌시기🔥": {
 		"url": "https://edu.goorm.io/lecture/16377/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9E%A5%EA%B3%A0-django-%EB%BF%8C%EC%8B%9C%EA%B8%B0",
@@ -57650,7 +57773,8 @@
 		"stacks": [
 			"Django"
 		],
-		"rank": 671.0
+		"rank": 671.0,
+		"courseTime": ""
 	},
 	"웹 게임을 만들며 배우는 React(리액트)": {
 		"url": "https://edu.goorm.io/lecture/14562/%EC%9B%B9-%EA%B2%8C%EC%9E%84%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-react-%EB%A6%AC%EC%95%A1%ED%8A%B8",
@@ -57668,7 +57792,8 @@
 			"ReactJS",
 			"Java"
 		],
-		"rank": 2310.0
+		"rank": 2310.0,
+		"courseTime": ""
 	},
 	"한 눈에 보는 타입스크립트": {
 		"url": "https://edu.goorm.io/lecture/22106/%ED%95%9C-%EB%88%88%EC%97%90-%EB%B3%B4%EB%8A%94-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8",
@@ -57684,7 +57809,8 @@
 		"stacks": [
 			"Typescript"
 		],
-		"rank": 715.0
+		"rank": 715.0,
+		"courseTime": ""
 	},
 	"안경잡이개발자가 알려주는 텐서플로우&머신러닝": {
 		"url": "https://edu.goorm.io/lecture/11408/%EC%95%88%EA%B2%BD%EC%9E%A1%EC%9D%B4%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D",
@@ -57701,7 +57827,8 @@
 			"Python",
 			"Tensorflow"
 		],
-		"rank": 2054.0
+		"rank": 2054.0,
+		"courseTime": ""
 	},
 	"Vue.js로 시작하는 SPA 개발": {
 		"url": "https://edu.goorm.io/lecture/13020/vue-js%EB%A1%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-spa-%EA%B0%9C%EB%B0%9C",
@@ -57717,7 +57844,8 @@
 		"stacks": [
 			"VueJS"
 		],
-		"rank": 1029.0
+		"rank": 1029.0,
+		"courseTime": ""
 	},
 	"가위바위보 게임을 만들며 맛보는 파이썬3": {
 		"url": "https://edu.goorm.io/lecture/24499/%EA%B0%80%EC%9C%84%EB%B0%94%EC%9C%84%EB%B3%B4-%EA%B2%8C%EC%9E%84%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A9%B0-%EB%A7%9B%EB%B3%B4%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC3",
@@ -57733,7 +57861,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 928.0
+		"rank": 928.0,
+		"courseTime": ""
 	},
 	"위클리 비타알고 시즌2 처음 시작하는 코딩테스트": {
 		"url": "https://edu.goorm.io/lecture/15551/%EC%9C%84%ED%81%B4%EB%A6%AC-%EB%B9%84%ED%83%80%EC%95%8C%EA%B3%A0-%EC%8B%9C%EC%A6%8C2-%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8",
@@ -57749,7 +57878,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 54.0
+		"rank": 54.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: Node.js": {
 		"url": "https://edu.goorm.io/lecture/13049/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-node-js",
@@ -57768,7 +57898,8 @@
 			"HTML/CSS",
 			"Java"
 		],
-		"rank": 2796.0
+		"rank": 2796.0,
+		"courseTime": ""
 	},
 	"머신러닝/딥러닝 실전 입문": {
 		"url": "https://edu.goorm.io/lecture/4111/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%8B%A4%EC%A0%84-%EC%9E%85%EB%AC%B8",
@@ -57784,7 +57915,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 602.0
+		"rank": 602.0,
+		"courseTime": ""
 	},
 	"[무작정 풀스택] 플러터와 장고로 1시간 만에 퀴즈앱/서버 만들기": {
 		"url": "https://edu.goorm.io/lecture/20021/%EB%AC%B4%EC%9E%91%EC%A0%95-%ED%92%80%EC%8A%A4%ED%83%9D-%ED%94%8C%EB%9F%AC%ED%84%B0%EC%99%80-%EC%9E%A5%EA%B3%A0%EB%A1%9C-1%EC%8B%9C%EA%B0%84-%EB%A7%8C%EC%97%90-%ED%80%B4%EC%A6%88%EC%95%B1-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57801,7 +57933,8 @@
 			"Django",
 			"Flutter"
 		],
-		"rank": 3232.0
+		"rank": 3232.0,
+		"courseTime": ""
 	},
 	"[저자 직강 바로 실행] Do it! HTML5 + CSS3 웹 표준의 정석": {
 		"url": "https://edu.goorm.io/lecture/12565/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-%EB%B0%94%EB%A1%9C-%EC%8B%A4%ED%96%89-do-it-html5-css3-%EC%9B%B9-%ED%91%9C%EC%A4%80%EC%9D%98-%EC%A0%95%EC%84%9D",
@@ -57818,7 +57951,8 @@
 			"Microsoft-Teams",
 			"HTML/CSS"
 		],
-		"rank": 3264.0
+		"rank": 3264.0,
+		"courseTime": ""
 	},
 	"시선을 사로잡는 웹 - 초급 + 중급": {
 		"url": "https://edu.goorm.io/lecture/16783/%EC%8B%9C%EC%84%A0%EC%9D%84-%EC%82%AC%EB%A1%9C%EC%9E%A1%EB%8A%94-%EC%9B%B9-%EC%B4%88%EA%B8%89-%EC%A4%91%EA%B8%89",
@@ -57834,7 +57968,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 614.0
+		"rank": 614.0,
+		"courseTime": ""
 	},
 	"[PYCON2017 시리즈] 머신러닝을 위한 기초 수학 살펴보기": {
 		"url": "https://edu.goorm.io/lecture/1489/pycon2017-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%EA%B8%B0%EC%B4%88-%EC%88%98%ED%95%99-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0",
@@ -57850,7 +57985,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3101.0
+		"rank": 3101.0,
+		"courseTime": ""
 	},
 	"디스코드 자바스크립트 튜토리얼 - 이전버전": {
 		"url": "https://edu.goorm.io/lecture/20853/%EB%94%94%EC%8A%A4%EC%BD%94%EB%93%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-%EC%9D%B4%EC%A0%84%EB%B2%84%EC%A0%84",
@@ -57868,7 +58004,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 1589.0
+		"rank": 1589.0,
+		"courseTime": ""
 	},
 	"구름IDE를 이용하여 초고속으로 개인 웹 사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/4543/%EA%B5%AC%EB%A6%84ide%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%B4%88%EA%B3%A0%EC%86%8D%EC%9C%BC%EB%A1%9C-%EA%B0%9C%EC%9D%B8-%EC%9B%B9-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -57884,7 +58021,8 @@
 		"stacks": [
 			"Bootstrap"
 		],
-		"rank": 338.0
+		"rank": 338.0,
+		"courseTime": ""
 	},
 	"모두를 위한 딥러닝 - 기본적인 머신러닝과 딥러닝": {
 		"url": "https://edu.goorm.io/lecture/3979/%EB%AA%A8%EB%91%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EA%B3%BC-%EB%94%A5%EB%9F%AC%EB%8B%9D",
@@ -57900,7 +58038,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 318.0
+		"rank": 318.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Node.js: 쿠키와 인증": {
 		"url": "https://edu.goorm.io/lecture/14641/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-node-js-%EC%BF%A0%ED%82%A4%EC%99%80-%EC%9D%B8%EC%A6%9D",
@@ -57916,7 +58055,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 3141.0
+		"rank": 3141.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - JAVA 객체 지향 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/16910/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-java-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -57932,7 +58072,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 382.0
+		"rank": 382.0,
+		"courseTime": ""
 	},
 	"엔트리 프로그래밍 - 기초부터 게임 만들기까지!": {
 		"url": "https://edu.goorm.io/lecture/1361/%EC%97%94%ED%8A%B8%EB%A6%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0%EA%B9%8C%EC%A7%80",
@@ -57948,7 +58089,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2201.0
+		"rank": 2201.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - WEB3: 익스프레스(Express)": {
 		"url": "https://edu.goorm.io/lecture/3846/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web3-%EC%9D%B5%EC%8A%A4%ED%94%84%EB%A0%88%EC%8A%A4-express",
@@ -57964,7 +58106,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 2032.0
+		"rank": 2032.0,
+		"courseTime": ""
 	},
 	"야곰의 스위프트 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/1141/%EC%95%BC%EA%B3%B0%EC%9D%98-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -57981,7 +58124,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 203.0
+		"rank": 203.0,
+		"courseTime": ""
 	},
 	"가볍게 시작하는 C언어, 라이트 C": {
 		"url": "https://edu.goorm.io/lecture/25515/%EA%B0%80%EB%B3%8D%EA%B2%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-c%EC%96%B8%EC%96%B4-%EB%9D%BC%EC%9D%B4%ED%8A%B8-c",
@@ -57997,7 +58141,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 2791.0
+		"rank": 2791.0,
+		"courseTime": ""
 	},
 	"코린아, 코딩하자! with 파이썬": {
 		"url": "https://edu.goorm.io/lecture/21975/%EC%BD%94%EB%A6%B0%EC%95%84-%EC%BD%94%EB%94%A9%ED%95%98%EC%9E%90-with-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -58013,7 +58158,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3118.0
+		"rank": 3118.0,
+		"courseTime": ""
 	},
 	"딥러닝 이론 및 파이썬 실습": {
 		"url": "https://edu.goorm.io/lecture/20671/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%9D%B4%EB%A1%A0-%EB%B0%8F-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8B%A4%EC%8A%B5",
@@ -58029,7 +58175,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3039.0
+		"rank": 3039.0,
+		"courseTime": ""
 	},
 	"스프링부트 나만의 블로그 만들기": {
 		"url": "https://edu.goorm.io/lecture/24605/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -58045,7 +58192,8 @@
 		"stacks": [
 			"SpringBoot"
 		],
-		"rank": 784.0
+		"rank": 784.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 - 시즌1": {
 		"url": "https://edu.goorm.io/lecture/970/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-%EC%8B%9C%EC%A6%8C1",
@@ -58061,7 +58209,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2429.0
+		"rank": 2429.0,
+		"courseTime": ""
 	},
 	"ELK 스택(ElasticSearch, Logstash, Kibana)으로 데이터 분석": {
 		"url": "https://edu.goorm.io/lecture/4013/elk-%EC%8A%A4%ED%83%9D-elasticsearch-logstash-kibana-%EC%9C%BC%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D",
@@ -58078,7 +58227,8 @@
 			"ElasticSearch",
 			"Kibana"
 		],
-		"rank": 1534.0
+		"rank": 1534.0,
+		"courseTime": ""
 	},
 	"[온라인 SW 아카데미] 너도 할 수 있어! AI 만들기": {
 		"url": "https://edu.goorm.io/lecture/22325/%EC%98%A8%EB%9D%BC%EC%9D%B8-sw-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EB%84%88%EB%8F%84-%ED%95%A0-%EC%88%98-%EC%9E%88%EC%96%B4-ai-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -58094,7 +58244,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 335.0
+		"rank": 335.0,
+		"courseTime": ""
 	},
 	"Node.js 서버 개발": {
 		"url": "https://edu.goorm.io/lecture/3534/node-js-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C",
@@ -58112,7 +58263,8 @@
 			"NodeJS",
 			"Java"
 		],
-		"rank": 2312.0
+		"rank": 2312.0,
+		"courseTime": ""
 	},
 	"생활코딩 - 리액트 (React)": {
 		"url": "https://edu.goorm.io/lecture/12949/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EB%A6%AC%EC%95%A1%ED%8A%B8-react",
@@ -58128,7 +58280,8 @@
 		"stacks": [
 			"ReactJS"
 		],
-		"rank": 1116.0
+		"rank": 1116.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: DNS & HTTP": {
 		"url": "https://edu.goorm.io/lecture/13089/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-dns-http",
@@ -58144,7 +58297,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 1041.0
+		"rank": 1041.0,
+		"courseTime": ""
 	},
 	"COS PRO 1급 기출문제 - C++": {
 		"url": "https://edu.goorm.io/lecture/17300/cos-pro-1%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-c",
@@ -58160,7 +58314,8 @@
 		"stacks": [
 			"C++"
 		],
-		"rank": 2848.0
+		"rank": 2848.0,
+		"courseTime": ""
 	},
 	"현직 개발자가 알려주는 안드로이드 코틀린 앱 제작": {
 		"url": "https://edu.goorm.io/lecture/23399/%ED%98%84%EC%A7%81-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%95%B1-%EC%A0%9C%EC%9E%91",
@@ -58176,7 +58331,8 @@
 		"stacks": [
 			"Kotlin"
 		],
-		"rank": 150.0
+		"rank": 150.0,
+		"courseTime": ""
 	},
 	"[저자 직강] Do it! 딥러닝 입문": {
 		"url": "https://edu.goorm.io/lecture/21177/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-do-it-%EB%94%A5%EB%9F%AC%EB%8B%9D-%EC%9E%85%EB%AC%B8",
@@ -58192,7 +58348,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2743.0
+		"rank": 2743.0,
+		"courseTime": ""
 	},
 	"생활코딩 - DATABASE2: lowdb": {
 		"url": "https://edu.goorm.io/lecture/10846/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-database2-lowdb",
@@ -58208,7 +58365,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2552.0
+		"rank": 2552.0,
+		"courseTime": ""
 	},
 	"김왼손의 파이썬 예제 뽀개기": {
 		"url": "https://edu.goorm.io/lecture/11205/%EA%B9%80%EC%99%BC%EC%86%90%EC%9D%98-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%98%88%EC%A0%9C-%EB%BD%80%EA%B0%9C%EA%B8%B0",
@@ -58224,7 +58382,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 133.0
+		"rank": 133.0,
+		"courseTime": ""
 	},
 	"제1회 구름코드챌린지(GCC) 기출 문제": {
 		"url": "https://edu.goorm.io/lecture/790/%EC%A0%9C1%ED%9A%8C-%EA%B5%AC%EB%A6%84%EC%BD%94%EB%93%9C%EC%B1%8C%EB%A6%B0%EC%A7%80-gcc-%EA%B8%B0%EC%B6%9C-%EB%AC%B8%EC%A0%9C",
@@ -58240,7 +58399,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3242.0
+		"rank": 3242.0,
+		"courseTime": ""
 	},
 	"쉽게 배우는 라라벨 기초": {
 		"url": "https://edu.goorm.io/lecture/18957/%EC%89%BD%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%9D%BC%EB%9D%BC%EB%B2%A8-%EA%B8%B0%EC%B4%88",
@@ -58256,7 +58416,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 624.0
+		"rank": 624.0,
+		"courseTime": ""
 	},
 	"[따라하며 배우는 노드&리액트] 챗봇 사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/20020/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%85%B8%EB%93%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%B1%97%EB%B4%87-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -58272,7 +58433,8 @@
 		"stacks": [
 			"ReactJS"
 		],
-		"rank": 3360.0
+		"rank": 3360.0,
+		"courseTime": ""
 	},
 	"COS PRO 2급 기출문제 - Java": {
 		"url": "https://edu.goorm.io/lecture/17167/cos-pro-2%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-java",
@@ -58288,7 +58450,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3036.0
+		"rank": 3036.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: OAuth 2.0": {
 		"url": "https://edu.goorm.io/lecture/13047/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-oauth-2-0",
@@ -58304,7 +58467,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2555.0
+		"rank": 2555.0,
+		"courseTime": ""
 	},
 	"스프링부트 개념정리": {
 		"url": "https://edu.goorm.io/lecture/24604/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC",
@@ -58320,7 +58484,8 @@
 		"stacks": [
 			"SpringBoot"
 		],
-		"rank": 596.0
+		"rank": 596.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB7: Login with Google On Passport (Google Login)": {
 		"url": "https://edu.goorm.io/lecture/14675/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web7-login-with-google-on-passport-google-login",
@@ -58336,7 +58501,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2554.0
+		"rank": 2554.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB4: Express Session & Auth (세션과 인증)": {
 		"url": "https://edu.goorm.io/lecture/14642/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web4-express-session-auth-%EC%84%B8%EC%85%98%EA%B3%BC-%EC%9D%B8%EC%A6%9D",
@@ -58352,7 +58518,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 221.0
+		"rank": 221.0,
+		"courseTime": ""
 	},
 	"안경잡이개발자가 알려주는 자바 기초 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/10727/%EC%95%88%EA%B2%BD%EC%9E%A1%EC%9D%B4%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EC%9E%90%EB%B0%94-%EA%B8%B0%EC%B4%88-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -58368,7 +58535,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 2988.0
+		"rank": 2988.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB6: Multi User on Passport (다중 사용자)": {
 		"url": "https://edu.goorm.io/lecture/14644/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web6-multi-user-on-passport-%EB%8B%A4%EC%A4%91-%EC%82%AC%EC%9A%A9%EC%9E%90",
@@ -58384,7 +58552,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2556.0
+		"rank": 2556.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB5: Express Passport.js": {
 		"url": "https://edu.goorm.io/lecture/14643/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web5-express-passport-js",
@@ -58400,7 +58569,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 3244.0
+		"rank": 3244.0,
+		"courseTime": ""
 	},
 	"생활코딩 - 네트워크 개념 잡기 (도메인, 네임서버, HTTPS)": {
 		"url": "https://edu.goorm.io/lecture/12973/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B0%9C%EB%85%90-%EC%9E%A1%EA%B8%B0-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84%EC%84%9C%EB%B2%84-https",
@@ -58416,7 +58586,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 142.0
+		"rank": 142.0,
+		"courseTime": ""
 	},
 	"모의 해킹으로 배우는 ARP 스푸핑 해킹 기법": {
 		"url": "https://edu.goorm.io/lecture/11409/%EB%AA%A8%EC%9D%98-%ED%95%B4%ED%82%B9%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-arp-%EC%8A%A4%ED%91%B8%ED%95%91-%ED%95%B4%ED%82%B9-%EA%B8%B0%EB%B2%95",
@@ -58432,7 +58603,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 56.0
+		"rank": 56.0,
+		"courseTime": ""
 	},
 	"김버그의 UI 개발 부트캠프 - 경력같은 신입으로 레벨업": {
 		"url": "https://edu.goorm.io/lecture/25681/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-ui-%EA%B0%9C%EB%B0%9C-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84-%EA%B2%BD%EB%A0%A5%EA%B0%99%EC%9D%80-%EC%8B%A0%EC%9E%85%EC%9C%BC%EB%A1%9C-%EB%A0%88%EB%B2%A8%EC%97%85",
@@ -58448,7 +58620,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 466.0
+		"rank": 466.0,
+		"courseTime": ""
 	},
 	"2022 30분 요약 강좌 시즌 1 HTML, CSS, JS, Python, Bootstrap, Linux": {
 		"url": "https://edu.goorm.io/lecture/16385/2022-30%EB%B6%84-%EC%9A%94%EC%95%BD-%EA%B0%95%EC%A2%8C-%EC%8B%9C%EC%A6%8C-1-html-css-js-python-bootstrap-linux",
@@ -58467,7 +58640,8 @@
 			"Linux",
 			"Bootstrap"
 		],
-		"rank": 435.0
+		"rank": 435.0,
+		"courseTime": ""
 	},
 	"따라하면서 배우는 리눅스 고급": {
 		"url": "https://edu.goorm.io/lecture/18950/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B3%A0%EA%B8%89",
@@ -58483,7 +58657,8 @@
 		"stacks": [
 			"Linux"
 		],
-		"rank": 2409.0
+		"rank": 2409.0,
+		"courseTime": ""
 	},
 	"[저자 직강 바로 실행] Do it! 자바스크립트 + 제이쿼리 입문": {
 		"url": "https://edu.goorm.io/lecture/12563/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-%EB%B0%94%EB%A1%9C-%EC%8B%A4%ED%96%89-do-it-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%A0%9C%EC%9D%B4%EC%BF%BC%EB%A6%AC-%EC%9E%85%EB%AC%B8",
@@ -58501,7 +58676,8 @@
 			"jQuery",
 			"Java"
 		],
-		"rank": 1802.0
+		"rank": 1802.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: JavaScript": {
 		"url": "https://edu.goorm.io/lecture/12906/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-javascript",
@@ -58518,7 +58694,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 2734.0
+		"rank": 2734.0,
+		"courseTime": ""
 	},
 	"[2017 NIA SW교안 공유 공모전] C언어, 스크래치를 통해 알아보자": {
 		"url": "https://edu.goorm.io/lecture/1647/2017-nia-sw%EA%B5%90%EC%95%88-%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EB%AA%A8%EC%A0%84-c%EC%96%B8%EC%96%B4-%EC%8A%A4%ED%81%AC%EB%9E%98%EC%B9%98%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90",
@@ -58534,7 +58711,8 @@
 		"stacks": [
 			"C"
 		],
-		"rank": 2829.0
+		"rank": 2829.0,
+		"courseTime": ""
 	},
 	"파이콘 2018 영코더 with 바울랩": {
 		"url": "https://edu.goorm.io/lecture/3990/%ED%8C%8C%EC%9D%B4%EC%BD%98-2018-%EC%98%81%EC%BD%94%EB%8D%94-with-%EB%B0%94%EC%9A%B8%EB%9E%A9",
@@ -58550,7 +58728,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 533.0
+		"rank": 533.0,
+		"courseTime": ""
 	},
 	"딥러닝 강좌할껀데, 실습만 합니다": {
 		"url": "https://edu.goorm.io/lecture/19373/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%95%EC%A2%8C%ED%95%A0%EA%BB%80%EB%8D%B0-%EC%8B%A4%EC%8A%B5%EB%A7%8C-%ED%95%A9%EB%8B%88%EB%8B%A4",
@@ -58566,7 +58745,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3121.0
+		"rank": 3121.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 - 시즌4": {
 		"url": "https://edu.goorm.io/lecture/1193/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-%EC%8B%9C%EC%A6%8C4",
@@ -58582,7 +58762,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2826.0
+		"rank": 2826.0,
+		"courseTime": ""
 	},
 	"현직 개발자가 알려주는 자바 기초 문법": {
 		"url": "https://edu.goorm.io/lecture/23398/%ED%98%84%EC%A7%81-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EC%9E%90%EB%B0%94-%EA%B8%B0%EC%B4%88-%EB%AC%B8%EB%B2%95",
@@ -58598,7 +58779,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 587.0
+		"rank": 587.0,
+		"courseTime": ""
 	},
 	"생활코딩 - DATABASE2: MySQL": {
 		"url": "https://edu.goorm.io/lecture/10845/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-database2-mysql",
@@ -58614,7 +58796,8 @@
 		"stacks": [
 			"MySQL"
 		],
-		"rank": 2657.0
+		"rank": 2657.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Python 입문": {
 		"url": "https://edu.goorm.io/lecture/28708/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-python-%EC%9E%85%EB%AC%B8",
@@ -58630,7 +58813,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2878.0
+		"rank": 2878.0,
+		"courseTime": ""
 	},
 	"[PYCON2017 시리즈] 처음부터 알아보는 웹 크롤러": {
 		"url": "https://edu.goorm.io/lecture/1487/pycon2017-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EC%B2%98%EC%9D%8C%EB%B6%80%ED%84%B0-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%9F%AC",
@@ -58646,7 +58830,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 125.0
+		"rank": 125.0,
+		"courseTime": ""
 	},
 	"쉽게 배우는 Vue.js 2 기초": {
 		"url": "https://edu.goorm.io/lecture/18958/%EC%89%BD%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-vue-js-2-%EA%B8%B0%EC%B4%88",
@@ -58662,7 +58847,8 @@
 		"stacks": [
 			"VueJS"
 		],
-		"rank": 1269.0
+		"rank": 1269.0,
+		"courseTime": ""
 	},
 	"파이썬 웹 스크래핑, 제가 가진 모든 비법을 알려드리겠습니다.": {
 		"url": "https://edu.goorm.io/lecture/24961/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9B%B9-%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91-%EC%A0%9C%EA%B0%80-%EA%B0%80%EC%A7%84-%EB%AA%A8%EB%93%A0-%EB%B9%84%EB%B2%95%EC%9D%84-%EC%95%8C%EB%A0%A4%EB%93%9C%EB%A6%AC%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4",
@@ -58679,7 +58865,8 @@
 			"Python",
 			"HTML/CSS"
 		],
-		"rank": 994.0
+		"rank": 994.0,
+		"courseTime": ""
 	},
 	"센치한 개발자의 자바 기초": {
 		"url": "https://edu.goorm.io/lecture/15170/%EC%84%BC%EC%B9%98%ED%95%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%9E%90%EB%B0%94-%EA%B8%B0%EC%B4%88",
@@ -58695,7 +58882,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3140.0
+		"rank": 3140.0,
+		"courseTime": ""
 	},
 	"센치한 개발자의 안드로이드 스튜디오 기초": {
 		"url": "https://edu.goorm.io/lecture/15171/%EC%84%BC%EC%B9%98%ED%95%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EA%B8%B0%EC%B4%88",
@@ -58711,7 +58899,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 76.0
+		"rank": 76.0,
+		"courseTime": ""
 	},
 	"[저자 직강 바로 실행] Do it! 웹 프로그래밍을 위한 자바스크립트 기본 편": {
 		"url": "https://edu.goorm.io/lecture/12915/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-%EB%B0%94%EB%A1%9C-%EC%8B%A4%ED%96%89-do-it-%EC%9B%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B8%B0%EB%B3%B8-%ED%8E%B8",
@@ -58730,7 +58919,8 @@
 			"HTML/CSS",
 			"Java"
 		],
-		"rank": 2313.0
+		"rank": 2313.0,
+		"courseTime": ""
 	},
 	"무료 파이썬 활용편2 - GUI 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/21780/%EB%AC%B4%EB%A3%8C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%99%9C%EC%9A%A9%ED%8E%B82-gui-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -58746,7 +58936,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 622.0
+		"rank": 622.0,
+		"courseTime": ""
 	},
 	"영화 예매 사이트 만들기: 디자인편": {
 		"url": "https://edu.goorm.io/lecture/16948/%EC%98%81%ED%99%94-%EC%98%88%EB%A7%A4-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8E%B8",
@@ -58762,7 +58953,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 575.0
+		"rank": 575.0,
+		"courseTime": ""
 	},
 	"코딩셰프의 Flutter 순한맛": {
 		"url": "https://edu.goorm.io/lecture/21167/%EC%BD%94%EB%94%A9%EC%85%B0%ED%94%84%EC%9D%98-flutter-%EC%88%9C%ED%95%9C%EB%A7%9B",
@@ -58778,7 +58970,8 @@
 		"stacks": [
 			"Flutter"
 		],
-		"rank": 1492.0
+		"rank": 1492.0,
+		"courseTime": ""
 	},
 	"센치한 개발자의 swift: ios app 만들기": {
 		"url": "https://edu.goorm.io/lecture/15173/%EC%84%BC%EC%B9%98%ED%95%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-swift-ios-app-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -58795,7 +58988,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 2934.0
+		"rank": 2934.0,
+		"courseTime": ""
 	},
 	"파이썬 개발자를 위한 go언어 기초": {
 		"url": "https://edu.goorm.io/lecture/25552/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-go%EC%96%B8%EC%96%B4-%EA%B8%B0%EC%B4%88",
@@ -58811,7 +59005,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3243.0
+		"rank": 3243.0,
+		"courseTime": ""
 	},
 	"생활코딩 - DATABASE1": {
 		"url": "https://edu.goorm.io/lecture/10844/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-database1",
@@ -58827,7 +59022,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 446.0
+		"rank": 446.0,
+		"courseTime": ""
 	},
 	"IT보안을 위한 와이어샤크 패킷 분석": {
 		"url": "https://edu.goorm.io/lecture/15125/it%EB%B3%B4%EC%95%88%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%99%80%EC%9D%B4%EC%96%B4%EC%83%A4%ED%81%AC-%ED%8C%A8%ED%82%B7-%EB%B6%84%EC%84%9D",
@@ -58843,7 +59039,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 220.0
+		"rank": 220.0,
+		"courseTime": ""
 	},
 	"웹 서비스 해킹을 위한 버프스위트 완벽 활용 가이드": {
 		"url": "https://edu.goorm.io/lecture/15535/%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%95%B4%ED%82%B9%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B2%84%ED%94%84%EC%8A%A4%EC%9C%84%ED%8A%B8-%EC%99%84%EB%B2%BD-%ED%99%9C%EC%9A%A9-%EA%B0%80%EC%9D%B4%EB%93%9C",
@@ -58859,7 +59056,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 75.0
+		"rank": 75.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - JAVA method": {
 		"url": "https://edu.goorm.io/lecture/16909/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-java-method",
@@ -58875,7 +59073,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 808.0
+		"rank": 808.0,
+		"courseTime": ""
 	},
 	"텐서플로2로 배우는 딥러닝": {
 		"url": "https://edu.goorm.io/lecture/20687/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C2%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D",
@@ -58891,7 +59090,8 @@
 		"stacks": [
 			"Tensorflow"
 		],
-		"rank": 2568.0
+		"rank": 2568.0,
+		"courseTime": ""
 	},
 	"[저자직강] Hello Coding 한입에 쏙 파이썬: 크리에이터 김왼손의 쉽고 빠른 파이썬 강의": {
 		"url": "https://edu.goorm.io/lecture/3856/%EC%A0%80%EC%9E%90%EC%A7%81%EA%B0%95-hello-coding-%ED%95%9C%EC%9E%85%EC%97%90-%EC%8F%99-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%ED%84%B0-%EA%B9%80%EC%99%BC%EC%86%90%EC%9D%98-%EC%89%BD%EA%B3%A0-%EB%B9%A0%EB%A5%B8-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B0%95%EC%9D%98",
@@ -58907,7 +59107,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2465.0
+		"rank": 2465.0,
+		"courseTime": ""
 	},
 	"자바로 이해하는 블록체인 이론과 실습": {
 		"url": "https://edu.goorm.io/lecture/11527/%EC%9E%90%EB%B0%94%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9D%B4%EB%A1%A0%EA%B3%BC-%EC%8B%A4%EC%8A%B5",
@@ -58923,7 +59124,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 588.0
+		"rank": 588.0,
+		"courseTime": ""
 	},
 	"생활코딩 - SQL JOIN": {
 		"url": "https://edu.goorm.io/lecture/14441/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-sql-join",
@@ -58939,7 +59141,8 @@
 		"stacks": [
 			"SQL"
 		],
-		"rank": 733.0
+		"rank": 733.0,
+		"courseTime": ""
 	},
 	"누구나 블로그 개발 할 수 있다! React 기반 Gatsby로 기술 블로그 개발하기": {
 		"url": "https://edu.goorm.io/lecture/25881/%EB%88%84%EA%B5%AC%EB%82%98-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C-%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4-react-%EA%B8%B0%EB%B0%98-gatsby%EB%A1%9C-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0",
@@ -58957,7 +59160,8 @@
 			"ReactJS",
 			"Typescript"
 		],
-		"rank": 212.5
+		"rank": 212.5,
+		"courseTime": ""
 	},
 	"홍드로이드의 수익창출 앱 개발": {
 		"url": "https://edu.goorm.io/lecture/18156/%ED%99%8D%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9D%98-%EC%88%98%EC%9D%B5%EC%B0%BD%EC%B6%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C",
@@ -58973,7 +59177,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 226.0
+		"rank": 226.0,
+		"courseTime": ""
 	},
 	"COS PRO 2급 기출문제 - C++": {
 		"url": "https://edu.goorm.io/lecture/17165/cos-pro-2%EA%B8%89-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C-c",
@@ -58989,7 +59194,8 @@
 		"stacks": [
 			"C++"
 		],
-		"rank": 3334.0
+		"rank": 3334.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - WEB2: PHP": {
 		"url": "https://edu.goorm.io/lecture/13048/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-php",
@@ -59005,7 +59211,8 @@
 		"stacks": [
 			"PHP"
 		],
-		"rank": 2960.0
+		"rank": 2960.0,
+		"courseTime": ""
 	},
 	"다시 풀어보는 2016/2017 정보올림피아드 지역 대회 중등부 기출 문제": {
 		"url": "https://edu.goorm.io/lecture/3745/%EB%8B%A4%EC%8B%9C-%ED%92%80%EC%96%B4%EB%B3%B4%EB%8A%94-2016-2017-%EC%A0%95%EB%B3%B4%EC%98%AC%EB%A6%BC%ED%94%BC%EC%95%84%EB%93%9C-%EC%A7%80%EC%97%AD-%EB%8C%80%ED%9A%8C-%EC%A4%91%EB%93%B1%EB%B6%80-%EA%B8%B0%EC%B6%9C-%EB%AC%B8%EC%A0%9C",
@@ -59021,7 +59228,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2558.0
+		"rank": 2558.0,
+		"courseTime": ""
 	},
 	"[ Ruby Coin ] Rails로 쉽고 빠른 웹사이트 만들기": {
 		"url": "https://edu.goorm.io/lecture/1928/ruby-coin-rails%EB%A1%9C-%EC%89%BD%EA%B3%A0-%EB%B9%A0%EB%A5%B8-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -59038,7 +59246,8 @@
 			"Ruby",
 			"Ruby on Rails"
 		],
-		"rank": 2847.0
+		"rank": 2847.0,
+		"courseTime": ""
 	},
 	"데이터 시각화와 차트분석 기법": {
 		"url": "https://edu.goorm.io/lecture/15563/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94%EC%99%80-%EC%B0%A8%ED%8A%B8%EB%B6%84%EC%84%9D-%EA%B8%B0%EB%B2%95",
@@ -59054,7 +59263,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 207.0
+		"rank": 207.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - JAVA 제어문": {
 		"url": "https://edu.goorm.io/lecture/16908/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-java-%EC%A0%9C%EC%96%B4%EB%AC%B8",
@@ -59070,7 +59280,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 768.0
+		"rank": 768.0,
+		"courseTime": ""
 	},
 	"다시 풀어보는 2016/2017 정보올림피아드 지역 대회 고등부 기출 문제": {
 		"url": "https://edu.goorm.io/lecture/3744/%EB%8B%A4%EC%8B%9C-%ED%92%80%EC%96%B4%EB%B3%B4%EB%8A%94-2016-2017-%EC%A0%95%EB%B3%B4%EC%98%AC%EB%A6%BC%ED%94%BC%EC%95%84%EB%93%9C-%EC%A7%80%EC%97%AD-%EB%8C%80%ED%9A%8C-%EA%B3%A0%EB%93%B1%EB%B6%80-%EA%B8%B0%EC%B6%9C-%EB%AC%B8%EC%A0%9C",
@@ -59086,7 +59297,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3182.0
+		"rank": 3182.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Oracle Database": {
 		"url": "https://edu.goorm.io/lecture/15550/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-oracle-database",
@@ -59102,7 +59314,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 152.0
+		"rank": 152.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - WEB2: CSS": {
 		"url": "https://edu.goorm.io/lecture/13045/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-css",
@@ -59118,7 +59331,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 1485.0
+		"rank": 1485.0,
+		"courseTime": ""
 	},
 	"생활코딩 - 아마존 웹 서비스 (AWS)": {
 		"url": "https://edu.goorm.io/lecture/12947/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EC%95%84%EB%A7%88%EC%A1%B4-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-aws",
@@ -59134,7 +59348,8 @@
 		"stacks": [
 			"AWS"
 		],
-		"rank": 2874.0
+		"rank": 2874.0,
+		"courseTime": ""
 	},
 	"생활코딩 - 지옥에서 온 Git": {
 		"url": "https://edu.goorm.io/lecture/12948/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EC%A7%80%EC%98%A5%EC%97%90%EC%84%9C-%EC%98%A8-git",
@@ -59150,7 +59365,8 @@
 		"stacks": [
 			"Git"
 		],
-		"rank": 745.0
+		"rank": 745.0,
+		"courseTime": ""
 	},
 	"안드로이드 Firebase 강의": {
 		"url": "https://edu.goorm.io/lecture/3528/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-firebase-%EA%B0%95%EC%9D%98",
@@ -59166,7 +59382,8 @@
 		"stacks": [
 			"Google Firebase"
 		],
-		"rank": 3260.0
+		"rank": 3260.0,
+		"courseTime": ""
 	},
 	"SwiftUI 개념 익히기": {
 		"url": "https://edu.goorm.io/lecture/15378/swiftui-%EA%B0%9C%EB%85%90-%EC%9D%B5%ED%9E%88%EA%B8%B0",
@@ -59182,7 +59399,8 @@
 		"stacks": [
 			"Swift"
 		],
-		"rank": 378.0
+		"rank": 378.0,
+		"courseTime": ""
 	},
 	"친절한 통계학 feat. R": {
 		"url": "https://edu.goorm.io/lecture/20108/%EC%B9%9C%EC%A0%88%ED%95%9C-%ED%86%B5%EA%B3%84%ED%95%99-feat-r",
@@ -59198,7 +59416,8 @@
 		"stacks": [
 			"R"
 		],
-		"rank": 1574.0
+		"rank": 1574.0,
+		"courseTime": ""
 	},
 	"Git으로 시작하는 협업 및 오픈소스 프로젝트": {
 		"url": "https://edu.goorm.io/lecture/11528/git%EC%9C%BC%EB%A1%9C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%ED%98%91%EC%97%85-%EB%B0%8F-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
@@ -59214,7 +59433,8 @@
 		"stacks": [
 			"Git"
 		],
-		"rank": 631.0
+		"rank": 631.0,
+		"courseTime": ""
 	},
 	"[절대강좌! 유니티 2018] Zerodeg과 함께 공부해보기": {
 		"url": "https://edu.goorm.io/lecture/10107/%EC%A0%88%EB%8C%80%EA%B0%95%EC%A2%8C-%EC%9C%A0%EB%8B%88%ED%8B%B0-2018-zerodeg%EA%B3%BC-%ED%95%A8%EA%BB%98-%EA%B3%B5%EB%B6%80%ED%95%B4%EB%B3%B4%EA%B8%B0",
@@ -59230,7 +59450,8 @@
 		"stacks": [
 			"Unity"
 		],
-		"rank": 3130.0
+		"rank": 3130.0,
+		"courseTime": ""
 	},
 	"퇴근후 텐서플로: Basic": {
 		"url": "https://edu.goorm.io/lecture/28058/%ED%87%B4%EA%B7%BC%ED%9B%84-%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C-basic",
@@ -59246,7 +59467,8 @@
 		"stacks": [
 			"Tensorflow"
 		],
-		"rank": 430.0
+		"rank": 430.0,
+		"courseTime": ""
 	},
 	"정보처리산업기사 기출문제": {
 		"url": "https://edu.goorm.io/lecture/3755/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EC%82%B0%EC%97%85%EA%B8%B0%EC%82%AC-%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C",
@@ -59262,7 +59484,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2557.0
+		"rank": 2557.0,
+		"courseTime": ""
 	},
 	"파이썬으로 구현하는 CF 알고리즘": {
 		"url": "https://edu.goorm.io/lecture/25544/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%98%EB%8A%94-cf-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98",
@@ -59278,7 +59501,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 57.0
+		"rank": 57.0,
+		"courseTime": ""
 	},
 	"[온라인 SW 아카데미] 스마트폰 센서 제어를 위한 앱(app) 개발": {
 		"url": "https://edu.goorm.io/lecture/22344/%EC%98%A8%EB%9D%BC%EC%9D%B8-sw-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0-%EC%84%BC%EC%84%9C-%EC%A0%9C%EC%96%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%95%B1-app-%EA%B0%9C%EB%B0%9C",
@@ -59294,7 +59518,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 180.0
+		"rank": 180.0,
+		"courseTime": ""
 	},
 	"생활코딩 - 관계형 데이터 모델링": {
 		"url": "https://edu.goorm.io/lecture/14442/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-%EA%B4%80%EA%B3%84%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8%EB%A7%81",
@@ -59310,7 +59535,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 457.0
+		"rank": 457.0,
+		"courseTime": ""
 	},
 	"무작정 시작하는 안드로이드 개발": {
 		"url": "https://edu.goorm.io/lecture/12250/%EB%AC%B4%EC%9E%91%EC%A0%95-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EA%B0%9C%EB%B0%9C",
@@ -59326,7 +59552,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3150.0
+		"rank": 3150.0,
+		"courseTime": ""
 	},
 	"문법책 졸업하자! 만들면서 복습하는 JavaScript": {
 		"url": "https://edu.goorm.io/lecture/25046/%EB%AC%B8%EB%B2%95%EC%B1%85-%EC%A1%B8%EC%97%85%ED%95%98%EC%9E%90-%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%EB%B3%B5%EC%8A%B5%ED%95%98%EB%8A%94-javascript",
@@ -59343,7 +59570,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 769.0
+		"rank": 769.0,
+		"courseTime": ""
 	},
 	"실리콘밸리의 개발자": {
 		"url": "https://edu.goorm.io/lecture/1490/%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC%EC%9D%98-%EA%B0%9C%EB%B0%9C%EC%9E%90",
@@ -59359,7 +59587,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 919.0
+		"rank": 919.0,
+		"courseTime": ""
 	},
 	"스프링부트 시큐리티 특강": {
 		"url": "https://edu.goorm.io/lecture/24606/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0-%ED%8A%B9%EA%B0%95",
@@ -59375,7 +59604,8 @@
 		"stacks": [
 			"SpringBoot"
 		],
-		"rank": 461.0
+		"rank": 461.0,
+		"courseTime": ""
 	},
 	"HowlTalk - Android (Firebase)": {
 		"url": "https://edu.goorm.io/lecture/3533/howltalk-android-firebase",
@@ -59391,7 +59621,8 @@
 		"stacks": [
 			"Google Firebase"
 		],
-		"rank": 979.0
+		"rank": 979.0,
+		"courseTime": ""
 	},
 	"[PYCON2017 시리즈] 파이썬에서 보다 정확한 숫자 계산하기": {
 		"url": "https://edu.goorm.io/lecture/1488/pycon2017-%EC%8B%9C%EB%A6%AC%EC%A6%88-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%97%90%EC%84%9C-%EB%B3%B4%EB%8B%A4-%EC%A0%95%ED%99%95%ED%95%9C-%EC%88%AB%EC%9E%90-%EA%B3%84%EC%82%B0%ED%95%98%EA%B8%B0",
@@ -59407,7 +59638,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 706.0
+		"rank": 706.0,
+		"courseTime": ""
 	},
 	"처음 만난 리액트(React) v2": {
 		"url": "https://edu.goorm.io/lecture/31349/%EC%B2%98%EC%9D%8C-%EB%A7%8C%EB%82%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-react-v2",
@@ -59426,7 +59658,8 @@
 			"HTML/CSS",
 			"Java"
 		],
-		"rank": 3100.0
+		"rank": 3100.0,
+		"courseTime": ""
 	},
 	"[EduAtoZ] Python Cos Pro 1급 공개문제 풀이": {
 		"url": "https://edu.goorm.io/lecture/29705/eduatoz-python-cos-pro-1%EA%B8%89-%EA%B3%B5%EA%B0%9C%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4",
@@ -59442,7 +59675,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3126.0
+		"rank": 3126.0,
+		"courseTime": ""
 	},
 	"[30분 요약 시리즈 시즌2] Python 활용편": {
 		"url": "https://edu.goorm.io/lecture/20254/30%EB%B6%84-%EC%9A%94%EC%95%BD-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EC%8B%9C%EC%A6%8C2-python-%ED%99%9C%EC%9A%A9%ED%8E%B8",
@@ -59459,7 +59693,8 @@
 			"Django",
 			"Python"
 		],
-		"rank": 848.0
+		"rank": 848.0,
+		"courseTime": ""
 	},
 	"CentOS 7 설치부터 웹서버 구축까지": {
 		"url": "https://edu.goorm.io/lecture/25119/centos-7-%EC%84%A4%EC%B9%98%EB%B6%80%ED%84%B0-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%EA%B9%8C%EC%A7%80",
@@ -59475,7 +59710,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 628.0
+		"rank": 628.0,
+		"courseTime": ""
 	},
 	"Shiny 그리고 시각화 R Go! 하자!": {
 		"url": "https://edu.goorm.io/lecture/15875/shiny-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%8B%9C%EA%B0%81%ED%99%94-r-go-%ED%95%98%EC%9E%90",
@@ -59491,7 +59727,8 @@
 		"stacks": [
 			"R"
 		],
-		"rank": 2714.0
+		"rank": 2714.0,
+		"courseTime": ""
 	},
 	"코딩으로 한. 수. 배우다!": {
 		"url": "https://edu.goorm.io/lecture/10673/%EC%BD%94%EB%94%A9%EC%9C%BC%EB%A1%9C-%ED%95%9C-%EC%88%98-%EB%B0%B0%EC%9A%B0%EB%8B%A4",
@@ -59507,7 +59744,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 13.5
+		"rank": 13.5,
+		"courseTime": ""
 	},
 	"Node.js Firebase - Function": {
 		"url": "https://edu.goorm.io/lecture/3570/node-js-firebase-function",
@@ -59524,7 +59762,8 @@
 			"Google Firebase",
 			"NodeJS"
 		],
-		"rank": 158.0
+		"rank": 158.0,
+		"courseTime": ""
 	},
 	"DataScience와 AI의 개념": {
 		"url": "https://edu.goorm.io/lecture/18477/datascience%EC%99%80-ai%EC%9D%98-%EA%B0%9C%EB%85%90",
@@ -59540,7 +59779,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 48.0
+		"rank": 48.0,
+		"courseTime": ""
 	},
 	"코딩은 처음이라 with 자바": {
 		"url": "https://edu.goorm.io/lecture/30549/%EC%BD%94%EB%94%A9%EC%9D%80-%EC%B2%98%EC%9D%8C%EC%9D%B4%EB%9D%BC-with-%EC%9E%90%EB%B0%94",
@@ -59556,7 +59796,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3174.0
+		"rank": 3174.0,
+		"courseTime": ""
 	},
 	"컴퓨터 GUI 앱을 만들면서 tkinter 배우기": {
 		"url": "https://edu.goorm.io/lecture/28428/%EC%BB%B4%ED%93%A8%ED%84%B0-gui-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-tkinter-%EB%B0%B0%EC%9A%B0%EA%B8%B0",
@@ -59572,7 +59813,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 2898.0
+		"rank": 2898.0,
+		"courseTime": ""
 	},
 	"[바로실습] 생활코딩 - JavaScript Immutability": {
 		"url": "https://edu.goorm.io/lecture/14439/%EB%B0%94%EB%A1%9C%EC%8B%A4%EC%8A%B5-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-javascript-immutability",
@@ -59589,7 +59831,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3133.0
+		"rank": 3133.0,
+		"courseTime": ""
 	},
 	"[저자 직강 바로 실행] Do it! 프런트엔드 웹 디자인 입문": {
 		"url": "https://edu.goorm.io/lecture/12583/%EC%A0%80%EC%9E%90-%EC%A7%81%EA%B0%95-%EB%B0%94%EB%A1%9C-%EC%8B%A4%ED%96%89-do-it-%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%9E%85%EB%AC%B8",
@@ -59606,7 +59849,8 @@
 			"Microsoft-Teams",
 			"HTML/CSS"
 		],
-		"rank": 3132.0
+		"rank": 3132.0,
+		"courseTime": ""
 	},
 	"겜팔이의 안드로이드 세뇌교실: 인★그램 개발부터 배포까지": {
 		"url": "https://edu.goorm.io/lecture/13313/%EA%B2%9C%ED%8C%94%EC%9D%B4%EC%9D%98-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%84%B8%EB%87%8C%EA%B5%90%EC%8B%A4-%EC%9D%B8-%EA%B7%B8%EB%9E%A8-%EA%B0%9C%EB%B0%9C%EB%B6%80%ED%84%B0-%EB%B0%B0%ED%8F%AC%EA%B9%8C%EC%A7%80",
@@ -59622,7 +59866,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3181.0
+		"rank": 3181.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: Python": {
 		"url": "https://edu.goorm.io/lecture/13091/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-python",
@@ -59638,7 +59883,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3122.0
+		"rank": 3122.0,
+		"courseTime": ""
 	},
 	"왕초보를 위한 HTML&CSS 웹 개발 입문": {
 		"url": "https://edu.goorm.io/lecture/30092/%EC%99%95%EC%B4%88%EB%B3%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-html-css-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%EC%9E%85%EB%AC%B8",
@@ -59654,7 +59900,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 169.0
+		"rank": 169.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB3: Ajax": {
 		"url": "https://edu.goorm.io/lecture/14632/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web3-ajax",
@@ -59670,7 +59917,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 74.0
+		"rank": 74.0,
+		"courseTime": ""
 	},
 	"생산성 UP! R과 파이썬으로 하는 문서 자동화": {
 		"url": "https://edu.goorm.io/lecture/24475/%EC%83%9D%EC%82%B0%EC%84%B1-up-r%EA%B3%BC-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%AC%B8%EC%84%9C-%EC%9E%90%EB%8F%99%ED%99%94",
@@ -59686,7 +59934,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3124.0
+		"rank": 3124.0,
+		"courseTime": ""
 	},
 	"김버그의 HTML은 재밌다 - 기초부터 실무 레벨까지": {
 		"url": "https://edu.goorm.io/lecture/16396/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-html%EC%9D%80-%EC%9E%AC%EB%B0%8C%EB%8B%A4-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EC%8B%A4%EB%AC%B4-%EB%A0%88%EB%B2%A8%EA%B9%8C%EC%A7%80",
@@ -59702,7 +59951,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 420.0
+		"rank": 420.0,
+		"courseTime": ""
 	},
 	"아두이노 시뮬레이터 - 팅커캐드 서킷": {
 		"url": "https://edu.goorm.io/lecture/21770/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0-%ED%8C%85%EC%BB%A4%EC%BA%90%EB%93%9C-%EC%84%9C%ED%82%B7",
@@ -59718,7 +59968,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 1058.0
+		"rank": 1058.0,
+		"courseTime": ""
 	},
 	"쉽게 만드는 라라벨 뷰 채팅": {
 		"url": "https://edu.goorm.io/lecture/18959/%EC%89%BD%EA%B2%8C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%9D%BC%EB%9D%BC%EB%B2%A8-%EB%B7%B0-%EC%B1%84%ED%8C%85",
@@ -59734,7 +59985,8 @@
 		"stacks": [
 			"VueJS"
 		],
-		"rank": 393.0
+		"rank": 393.0,
+		"courseTime": ""
 	},
 	"이부일의 R릴레오 기초편": {
 		"url": "https://edu.goorm.io/lecture/21022/%EC%9D%B4%EB%B6%80%EC%9D%BC%EC%9D%98-r%EB%A6%B4%EB%A0%88%EC%98%A4-%EA%B8%B0%EC%B4%88%ED%8E%B8",
@@ -59750,7 +60002,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3179.0
+		"rank": 3179.0,
+		"courseTime": ""
 	},
 	"모의해킹 취업 준비하는데 알아두면 좋은 것": {
 		"url": "https://edu.goorm.io/lecture/25879/%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EC%B7%A8%EC%97%85-%EC%A4%80%EB%B9%84%ED%95%98%EB%8A%94%EB%8D%B0-%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EA%B2%83",
@@ -59766,7 +60019,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3178.0
+		"rank": 3178.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Source Tree로 Git 활용하기": {
 		"url": "https://edu.goorm.io/lecture/13062/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-source-tree%EB%A1%9C-git-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0",
@@ -59782,7 +60036,8 @@
 		"stacks": [
 			"Git"
 		],
-		"rank": 2041.0
+		"rank": 2041.0,
+		"courseTime": ""
 	},
 	"김버그의 CSS는 재밌다 - 기초부터 실무 레벨까지": {
 		"url": "https://edu.goorm.io/lecture/17829/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-css%EB%8A%94-%EC%9E%AC%EB%B0%8C%EB%8B%A4-%EA%B8%B0%EC%B4%88%EB%B6%80%ED%84%B0-%EC%8B%A4%EB%AC%B4-%EB%A0%88%EB%B2%A8%EA%B9%8C%EC%A7%80",
@@ -59798,7 +60053,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 431.0
+		"rank": 431.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Docker 입문": {
 		"url": "https://edu.goorm.io/lecture/28707/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-docker-%EC%9E%85%EB%AC%B8",
@@ -59814,7 +60070,8 @@
 		"stacks": [
 			"Docker"
 		],
-		"rank": 744.0
+		"rank": 744.0,
+		"courseTime": ""
 	},
 	"코알못에서 웹서비스 런칭까지: 온라인 제주 코딩 베이스캠프": {
 		"url": "https://edu.goorm.io/lecture/10983/%EC%BD%94%EC%95%8C%EB%AA%BB%EC%97%90%EC%84%9C-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%9F%B0%EC%B9%AD%EA%B9%8C%EC%A7%80-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%A0%9C%EC%A3%BC-%EC%BD%94%EB%94%A9-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%BA%A0%ED%94%84",
@@ -59830,7 +60087,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 59.0
+		"rank": 59.0,
+		"courseTime": ""
 	},
 	"IOS Firebase 강의": {
 		"url": "https://edu.goorm.io/lecture/3530/ios-firebase-%EA%B0%95%EC%9D%98",
@@ -59846,7 +60104,8 @@
 		"stacks": [
 			"Google Firebase"
 		],
-		"rank": 3032.0
+		"rank": 3032.0,
+		"courseTime": ""
 	},
 	"처음 시작하는 CSS&CSS3 Tutorial": {
 		"url": "https://edu.goorm.io/lecture/13207/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-css-css3-tutorial",
@@ -59862,7 +60121,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 32.0
+		"rank": 32.0,
+		"courseTime": ""
 	},
 	"실전! 웹사이트 제작 Step by Step Basic Course - 한국소비자원": {
 		"url": "https://edu.goorm.io/lecture/24580/%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91-step-by-step-basic-course-%ED%95%9C%EA%B5%AD%EC%86%8C%EB%B9%84%EC%9E%90%EC%9B%90",
@@ -59878,7 +60138,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 153.0
+		"rank": 153.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: Node.js - MySQL": {
 		"url": "https://edu.goorm.io/lecture/13087/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-node-js-mysql",
@@ -59895,7 +60156,8 @@
 			"MySQL",
 			"NodeJS"
 		],
-		"rank": 3163.0
+		"rank": 3163.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB3: Google Login": {
 		"url": "https://edu.goorm.io/lecture/14634/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web3-google-login",
@@ -59912,7 +60174,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 1803.0
+		"rank": 1803.0,
+		"courseTime": ""
 	},
 	"완벽 파이썬 크롤링 A to Z 풀패키지 부트캠프": {
 		"url": "https://edu.goorm.io/lecture/13243/%EC%99%84%EB%B2%BD-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%81%AC%EB%A1%A4%EB%A7%81-a-to-z-%ED%92%80%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84",
@@ -59928,7 +60191,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 155.0
+		"rank": 155.0,
+		"courseTime": ""
 	},
 	"신입 개발자로 살아남기 Lv1. 나만의 기술 블로그로 관리하는 개발자 커리어": {
 		"url": "https://edu.goorm.io/lecture/23072/%EC%8B%A0%EC%9E%85-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0-lv1-%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%BB%A4%EB%A6%AC%EC%96%B4",
@@ -59944,7 +60208,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 43.0
+		"rank": 43.0,
+		"courseTime": ""
 	},
 	"그림으로 배우는 자바, 객체지향!": {
 		"url": "https://edu.goorm.io/lecture/22108/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%9E%90%EB%B0%94-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5",
@@ -59960,7 +60225,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 705.0
+		"rank": 705.0,
+		"courseTime": ""
 	},
 	"한 눈에 끝내는 CSS/JS 애니메이션": {
 		"url": "https://edu.goorm.io/lecture/17509/%ED%95%9C-%EB%88%88%EC%97%90-%EB%81%9D%EB%82%B4%EB%8A%94-css-js-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98",
@@ -59976,7 +60242,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 478.0
+		"rank": 478.0,
+		"courseTime": ""
 	},
 	"[스낵코딩] 코딩술사": {
 		"url": "https://edu.goorm.io/lecture/6198/%EC%8A%A4%EB%82%B5%EC%BD%94%EB%94%A9-%EC%BD%94%EB%94%A9%EC%88%A0%EC%82%AC",
@@ -59992,7 +60259,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 77.0
+		"rank": 77.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB3: PHP & MySQL": {
 		"url": "https://edu.goorm.io/lecture/13086/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web3-php-and-mysql",
@@ -60009,7 +60277,8 @@
 			"MySQL",
 			"PHP"
 		],
-		"rank": 3164.0
+		"rank": 3164.0,
+		"courseTime": ""
 	},
 	"Vuetify Admin Template 만들기 - 기본편": {
 		"url": "https://edu.goorm.io/lecture/27955/vuetify-admin-template-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EA%B8%B0%EB%B3%B8%ED%8E%B8",
@@ -60025,7 +60294,8 @@
 		"stacks": [
 			"VueJS"
 		],
-		"rank": 21.0
+		"rank": 21.0,
+		"courseTime": ""
 	},
 	"그림으로 배우는 자바, 입문!": {
 		"url": "https://edu.goorm.io/lecture/22087/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%9E%90%EB%B0%94-%EC%9E%85%EB%AC%B8",
@@ -60041,7 +60311,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 2842.0
+		"rank": 2842.0,
+		"courseTime": ""
 	},
 	"2019 겜팔이의 노릇노릇 파이어베이스": {
 		"url": "https://edu.goorm.io/lecture/13306/2019-%EA%B2%9C%ED%8C%94%EC%9D%B4%EC%9D%98-%EB%85%B8%EB%A6%87%EB%85%B8%EB%A6%87-%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%8A%A4",
@@ -60057,7 +60328,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3184.0
+		"rank": 3184.0,
+		"courseTime": ""
 	},
 	"[2018 우수활용사례 수상작] 교과서와 함께 배우는 컴퓨팅 사고력": {
 		"url": "https://edu.goorm.io/lecture/10681/2018-%EC%9A%B0%EC%88%98%ED%99%9C%EC%9A%A9%EC%82%AC%EB%A1%80-%EC%88%98%EC%83%81%EC%9E%91-%EA%B5%90%EA%B3%BC%EC%84%9C%EC%99%80-%ED%95%A8%EA%BB%98-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%82%AC%EA%B3%A0%EB%A0%A5",
@@ -60073,7 +60345,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3191.0
+		"rank": 3191.0,
+		"courseTime": ""
 	},
 	"HowlTalk - IOS(Firebase)": {
 		"url": "https://edu.goorm.io/lecture/3532/howltalk-ios-firebase",
@@ -60089,7 +60362,8 @@
 		"stacks": [
 			"Google Firebase"
 		],
-		"rank": 3261.0
+		"rank": 3261.0,
+		"courseTime": ""
 	},
 	"생활코딩 - CodeIgniter": {
 		"url": "https://edu.goorm.io/lecture/13064/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-codeigniter",
@@ -60106,7 +60380,8 @@
 			"CodeIgniter",
 			"PHP"
 		],
-		"rank": 661.0
+		"rank": 661.0,
+		"courseTime": ""
 	},
 	"실전! 웹사이트 제작 Step by Step Basic Course - '돕다' 웹사이트": {
 		"url": "https://edu.goorm.io/lecture/24581/%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91-step-by-step-basic-course-%EB%8F%95%EB%8B%A4-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8",
@@ -60122,7 +60397,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 31.0
+		"rank": 31.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB2: Home Server": {
 		"url": "https://edu.goorm.io/lecture/13090/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web2-home-server",
@@ -60138,7 +60414,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2553.0
+		"rank": 2553.0,
+		"courseTime": ""
 	},
 	"생활코딩 - Atom Editor": {
 		"url": "https://edu.goorm.io/lecture/13044/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-atom-editor",
@@ -60154,7 +60431,8 @@
 		"stacks": [
 			"Github"
 		],
-		"rank": 3143.0
+		"rank": 3143.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 - 시즌3": {
 		"url": "https://edu.goorm.io/lecture/1271/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-%EC%8B%9C%EC%A6%8C3",
@@ -60170,7 +60448,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3035.0
+		"rank": 3035.0,
+		"courseTime": ""
 	},
 	"안드로이드를 위한 자바 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/21052/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9E%90%EB%B0%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -60186,7 +60465,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3319.0
+		"rank": 3319.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB3: Facebook Login": {
 		"url": "https://edu.goorm.io/lecture/14633/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web3-facebook-login",
@@ -60203,7 +60483,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3135.0
+		"rank": 3135.0,
+		"courseTime": ""
 	},
 	"코딩은 처음이라 with 웹 퍼블리싱": {
 		"url": "https://edu.goorm.io/lecture/32173/%EC%BD%94%EB%94%A9%EC%9D%80-%EC%B2%98%EC%9D%8C%EC%9D%B4%EB%9D%BC-with-%EC%9B%B9-%ED%8D%BC%EB%B8%94%EB%A6%AC%EC%8B%B1",
@@ -60219,7 +60500,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 1982.0
+		"rank": 1982.0,
+		"courseTime": ""
 	},
 	"그림으로 배우는 HTML-CSS, 입문!": {
 		"url": "https://edu.goorm.io/lecture/22109/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-html-css-%EC%9E%85%EB%AC%B8",
@@ -60235,7 +60517,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 479.0
+		"rank": 479.0,
+		"courseTime": ""
 	},
 	"생활코딩 - WEB7: Login with Facebook On Passport(Facebook Login)": {
 		"url": "https://edu.goorm.io/lecture/14674/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9-web7-login-with-facebook-on-passport-facebook-login",
@@ -60251,7 +60534,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3180.0
+		"rank": 3180.0,
+		"courseTime": ""
 	},
 	"HAL, CubeMX, TrueSTUDIO를 이용한 STM32F4 따라하기 무료 강좌": {
 		"url": "https://edu.goorm.io/lecture/25454/hal-cubemx-truestudio%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-stm32f4-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0-%EB%AC%B4%EB%A3%8C-%EA%B0%95%EC%A2%8C",
@@ -60267,7 +60551,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 37.0
+		"rank": 37.0,
+		"courseTime": ""
 	},
 	"[2018 디지털스쿨백팩] SW 아이디어 콘서트 수상작/출품작 갤러리": {
 		"url": "https://edu.goorm.io/lecture/10682/2018-%EB%94%94%EC%A7%80%ED%84%B8%EC%8A%A4%EC%BF%A8%EB%B0%B1%ED%8C%A9-sw-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EC%BD%98%EC%84%9C%ED%8A%B8-%EC%88%98%EC%83%81%EC%9E%91-%EC%B6%9C%ED%92%88%EC%9E%91-%EA%B0%A4%EB%9F%AC%EB%A6%AC",
@@ -60283,7 +60568,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3193.0
+		"rank": 3193.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 - 시즌2": {
 		"url": "https://edu.goorm.io/lecture/1239/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-%EC%8B%9C%EC%A6%8C2",
@@ -60299,7 +60585,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2968.0
+		"rank": 2968.0,
+		"courseTime": ""
 	},
 	"따라하며 배우는 데노(DENO)": {
 		"url": "https://edu.goorm.io/lecture/20663/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%8D%B0%EB%85%B8-deno",
@@ -60315,7 +60602,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 2931.0
+		"rank": 2931.0,
+		"courseTime": ""
 	},
 	"실전! 웹사이트 제작 Step by Step - 호텔 라한 Application Course": {
 		"url": "https://edu.goorm.io/lecture/26324/%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91-step-by-step-%ED%98%B8%ED%85%94-%EB%9D%BC%ED%95%9C-application-course",
@@ -60331,7 +60619,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3137.0
+		"rank": 3137.0,
+		"courseTime": ""
 	},
 	"우리가 함께 하는 파이썬 A.I. 체험": {
 		"url": "https://edu.goorm.io/lecture/33535/%EC%9A%B0%EB%A6%AC%EA%B0%80-%ED%95%A8%EA%BB%98-%ED%95%98%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC-a-i-%EC%B2%B4%ED%97%98",
@@ -60347,7 +60636,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 124.0
+		"rank": 124.0,
+		"courseTime": ""
 	},
 	"파이썬 개발자를 위한 Dart(다트) 강좌 기초": {
 		"url": "https://edu.goorm.io/lecture/32381/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-dart-%EB%8B%A4%ED%8A%B8-%EA%B0%95%EC%A2%8C-%EA%B8%B0%EC%B4%88",
@@ -60364,7 +60654,8 @@
 			"Dart",
 			"Python"
 		],
-		"rank": 3297.0
+		"rank": 3297.0,
+		"courseTime": ""
 	},
 	"이론부터 쉽게 배우는 IoT": {
 		"url": "https://edu.goorm.io/lecture/30745/%EC%9D%B4%EB%A1%A0%EB%B6%80%ED%84%B0-%EC%89%BD%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-iot",
@@ -60380,7 +60671,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2559.0
+		"rank": 2559.0,
+		"courseTime": ""
 	},
 	"[스낵코딩] 코딩더테이블": {
 		"url": "https://edu.goorm.io/lecture/5999/%EC%8A%A4%EB%82%B5%EC%BD%94%EB%94%A9-%EC%BD%94%EB%94%A9%EB%8D%94%ED%85%8C%EC%9D%B4%EB%B8%94",
@@ -60396,7 +60688,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3207.0
+		"rank": 3207.0,
+		"courseTime": ""
 	},
 	"Swift3 아이폰 앱 강의-초보": {
 		"url": "https://edu.goorm.io/lecture/3527/swift3-%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%95%B1-%EA%B0%95%EC%9D%98-%EC%B4%88%EB%B3%B4",
@@ -60413,7 +60706,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 2669.0
+		"rank": 2669.0,
+		"courseTime": ""
 	},
 	"레트로의 유니티 C# 프로그래밍 에센스": {
 		"url": "https://edu.goorm.io/lecture/11204/%EB%A0%88%ED%8A%B8%EB%A1%9C%EC%9D%98-%EC%9C%A0%EB%8B%88%ED%8B%B0-c-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%97%90%EC%84%BC%EC%8A%A4",
@@ -60431,7 +60725,8 @@
 			"Retrofit",
 			"Unity"
 		],
-		"rank": 30.0
+		"rank": 30.0,
+		"courseTime": ""
 	},
 	"모두를 위한 클라우드 컴퓨팅 입문": {
 		"url": "https://edu.goorm.io/lecture/18575/%EB%AA%A8%EB%91%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%9E%85%EB%AC%B8",
@@ -60447,7 +60742,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 490.0
+		"rank": 490.0,
+		"courseTime": ""
 	},
 	"코돈의 7주 완성 기초 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/16902/%EC%BD%94%EB%8F%88%EC%9D%98-7%EC%A3%BC-%EC%99%84%EC%84%B1-%EA%B8%B0%EC%B4%88-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -60464,7 +60760,8 @@
 			"Python",
 			"HTML/CSS"
 		],
-		"rank": 2748.0
+		"rank": 2748.0,
+		"courseTime": ""
 	},
 	"[따라하며 배우는 리액트&파이어베이스] 채팅 애플리케이션 만들기": {
 		"url": "https://edu.goorm.io/lecture/24672/%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B0-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B1%84%ED%8C%85-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -60481,7 +60778,8 @@
 			"ReactJS",
 			"Slack"
 		],
-		"rank": 3097.0
+		"rank": 3097.0,
+		"courseTime": ""
 	},
 	"제코베 Code Festival: Python 100제": {
 		"url": "https://edu.goorm.io/lecture/12206/%EC%A0%9C%EC%BD%94%EB%B2%A0-code-festival-python-100%EC%A0%9C",
@@ -60497,7 +60795,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3283.0
+		"rank": 3283.0,
+		"courseTime": ""
 	},
 	"[3D 유니티] 생존게임 만들기! - Advanced": {
 		"url": "https://edu.goorm.io/lecture/9970/3d-%EC%9C%A0%EB%8B%88%ED%8B%B0-%EC%83%9D%EC%A1%B4%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0-advanced",
@@ -60513,7 +60812,8 @@
 		"stacks": [
 			"Unity"
 		],
-		"rank": 3045.0
+		"rank": 3045.0,
+		"courseTime": ""
 	},
 	"작정하고 django! 핀터레스트 만들기": {
 		"url": "https://edu.goorm.io/lecture/25441/%EC%9E%91%EC%A0%95%ED%95%98%EA%B3%A0-django-%ED%95%80%ED%84%B0%EB%A0%88%EC%8A%A4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -60530,7 +60830,8 @@
 			"Django",
 			"Python"
 		],
-		"rank": 1373.0
+		"rank": 1373.0,
+		"courseTime": ""
 	},
 	"[re:COMMIT] 성장 : 개발자들의 평생 과제": {
 		"url": "https://edu.goorm.io/lecture/34063/re-commit-%EC%84%B1%EC%9E%A5-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%98-%ED%8F%89%EC%83%9D-%EA%B3%BC%EC%A0%9C",
@@ -60546,7 +60847,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3215.0
+		"rank": 3215.0,
+		"courseTime": ""
 	},
 	"React & TypeScript & GraphQL 로 버그없이 빠르게 개발하기!": {
 		"url": "https://edu.goorm.io/lecture/25571/react-typescript-graphql-%EB%A1%9C-%EB%B2%84%EA%B7%B8%EC%97%86%EC%9D%B4-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0",
@@ -60564,7 +60866,8 @@
 			"ReactJS",
 			"Typescript"
 		],
-		"rank": 3354.0
+		"rank": 3354.0,
+		"courseTime": ""
 	},
 	"라즈베리파이와의 첫만남, OS설치부터 화면 미러링까지!": {
 		"url": "https://edu.goorm.io/lecture/33457/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%EC%99%80%EC%9D%98-%EC%B2%AB%EB%A7%8C%EB%82%A8-os%EC%84%A4%EC%B9%98%EB%B6%80%ED%84%B0-%ED%99%94%EB%A9%B4-%EB%AF%B8%EB%9F%AC%EB%A7%81%EA%B9%8C%EC%A7%80",
@@ -60580,7 +60883,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2562.0
+		"rank": 2562.0,
+		"courseTime": ""
 	},
 	"실전!웹사이트제작 Step By Step! (클론코딩 : 포메인사이트제작 - 풀페이지)": {
 		"url": "https://edu.goorm.io/lecture/28100/%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%A0%9C%EC%9E%91-step-by-step-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-%ED%8F%AC%EB%A9%94%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%A0%9C%EC%9E%91-%ED%92%80%ED%8E%98%EC%9D%B4%EC%A7%80",
@@ -60596,7 +60900,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2894.0
+		"rank": 2894.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 3000 Part1": {
 		"url": "https://edu.goorm.io/lecture/24057/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-3000-part1",
@@ -60612,7 +60917,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 12.0
+		"rank": 12.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 3000": {
 		"url": "https://edu.goorm.io/lecture/23503/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-3000",
@@ -60628,7 +60934,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3185.0
+		"rank": 3185.0,
+		"courseTime": ""
 	},
 	"파이썬으로 만드는 라즈베리 파이 사물인터넷(IoT)프로젝트 - 기본편": {
 		"url": "https://edu.goorm.io/lecture/15186/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC-%ED%8C%8C%EC%9D%B4-%EC%82%AC%EB%AC%BC%EC%9D%B8%ED%84%B0%EB%84%B7-iot-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%B3%B8%ED%8E%B8",
@@ -60644,7 +60951,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3128.0
+		"rank": 3128.0,
+		"courseTime": ""
 	},
 	"딥러닝을 위한 파이썬 레벨1": {
 		"url": "https://edu.goorm.io/lecture/26037/%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A0%88%EB%B2%A81",
@@ -60660,7 +60968,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3301.0
+		"rank": 3301.0,
+		"courseTime": ""
 	},
 	"실전!웹사이트제작 Step By Step! (Basic 강좌 : 쌩초보 코스)": {
 		"url": "https://edu.goorm.io/lecture/28099/%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%A0%9C%EC%9E%91-step-by-step-basic-%EA%B0%95%EC%A2%8C-%EC%8C%A9%EC%B4%88%EB%B3%B4-%EC%BD%94%EC%8A%A4",
@@ -60676,7 +60985,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3186.5
+		"rank": 3186.5,
+		"courseTime": ""
 	},
 	"실전!웹사이트제작 Step By Step! (클론코딩 : crew a la Mode 사이트제작 - 반응형웹)": {
 		"url": "https://edu.goorm.io/lecture/28057/%EC%8B%A4%EC%A0%84-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%A0%9C%EC%9E%91-step-by-step-%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-crew-a-la-mode-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%A0%9C%EC%9E%91-%EB%B0%98%EC%9D%91%ED%98%95%EC%9B%B9",
@@ -60692,7 +61002,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 13.5
+		"rank": 13.5,
+		"courseTime": ""
 	},
 	"Oracle Database 11g PL/SQL Developer": {
 		"url": "https://edu.goorm.io/lecture/13563/oracle-database-11g-pl-sql-developer",
@@ -60708,7 +61019,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2560.5
+		"rank": 2560.5,
+		"courseTime": ""
 	},
 	"안드로이드 앱 개발로 배우는 자바 코딩 기초": {
 		"url": "https://edu.goorm.io/lecture/21383/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%9E%90%EB%B0%94-%EC%BD%94%EB%94%A9-%EA%B8%B0%EC%B4%88",
@@ -60724,7 +61036,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 29.0
+		"rank": 29.0,
+		"courseTime": ""
 	},
 	"실전 유형 코딩 테스트 모의고사 3000 Part2": {
 		"url": "https://edu.goorm.io/lecture/24058/%EC%8B%A4%EC%A0%84-%EC%9C%A0%ED%98%95-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC-3000-part2",
@@ -60740,7 +61053,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3138.0
+		"rank": 3138.0,
+		"courseTime": ""
 	},
 	"에센스만 담은 하울의 코틀린 안드로이드": {
 		"url": "https://edu.goorm.io/lecture/15335/%EC%97%90%EC%84%BC%EC%8A%A4%EB%A7%8C-%EB%8B%B4%EC%9D%80-%ED%95%98%EC%9A%B8%EC%9D%98-%EC%BD%94%ED%8B%80%EB%A6%B0-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C",
@@ -60756,7 +61070,8 @@
 		"stacks": [
 			"Kotlin"
 		],
-		"rank": 3279.0
+		"rank": 3279.0,
+		"courseTime": ""
 	},
 	"딥러닝을 위한 파이썬 레벨2": {
 		"url": "https://edu.goorm.io/lecture/26038/%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%A0%88%EB%B2%A82",
@@ -60772,7 +61087,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 24.0
+		"rank": 24.0,
+		"courseTime": ""
 	},
 	"xlsxwriter 튜토리얼로 배우는 Python 엑셀 프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/13038/xlsxwriter-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-python-%EC%97%91%EC%85%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -60788,7 +61104,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3308.5
+		"rank": 3308.5,
+		"courseTime": ""
 	},
 	"윈도우 악성코드(malware) 분석 입문 과정": {
 		"url": "https://edu.goorm.io/lecture/14068/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C-malware-%EB%B6%84%EC%84%9D-%EC%9E%85%EB%AC%B8-%EA%B3%BC%EC%A0%95",
@@ -60804,7 +61121,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3186.5
+		"rank": 3186.5,
+		"courseTime": ""
 	},
 	"처음 시작하는 Vue.js 웹프로그래밍": {
 		"url": "https://edu.goorm.io/lecture/14816/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-vue-js-%EC%9B%B9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D",
@@ -60820,7 +61138,8 @@
 		"stacks": [
 			"VueJS"
 		],
-		"rank": 3294.0
+		"rank": 3294.0,
+		"courseTime": ""
 	},
 	"[디지털 포렌식 시리즈1] 디지털 포렌식 (Digital Forensic) 전문가 과정": {
 		"url": "https://edu.goorm.io/lecture/15341/%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EC%8B%9C%EB%A6%AC%EC%A6%881-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-digital-forensic-%EC%A0%84%EB%AC%B8%EA%B0%80-%EA%B3%BC%EC%A0%95",
@@ -60836,7 +61155,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3201.5
+		"rank": 3201.5,
+		"courseTime": ""
 	},
 	"파이썬 스쿨 - 파이썬 프로그래밍을 이용한 업무 자동화": {
 		"url": "https://edu.goorm.io/lecture/15257/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8A%A4%EC%BF%A8-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%97%85%EB%AC%B4-%EC%9E%90%EB%8F%99%ED%99%94",
@@ -60852,7 +61172,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3127.0
+		"rank": 3127.0,
+		"courseTime": ""
 	},
 	"오픈 소스 도구를 활용한 웹 해킹 및 스노트 분석 - 침해대응": {
 		"url": "https://edu.goorm.io/lecture/13273/%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%8F%84%EA%B5%AC%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9B%B9-%ED%95%B4%ED%82%B9-%EB%B0%8F-%EC%8A%A4%EB%85%B8%ED%8A%B8-%EB%B6%84%EC%84%9D-%EC%B9%A8%ED%95%B4%EB%8C%80%EC%9D%91",
@@ -60868,7 +61189,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3201.5
+		"rank": 3201.5,
+		"courseTime": ""
 	},
 	"이것이 PL/SQL 이다!": {
 		"url": "https://edu.goorm.io/lecture/11000/%EC%9D%B4%EA%B2%83%EC%9D%B4-pl-sql-%EC%9D%B4%EB%8B%A4",
@@ -60884,7 +61206,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3328.0
+		"rank": 3328.0,
+		"courseTime": ""
 	},
 	"비타알고와 정보올림피아드 준비하기 with 모의고사": {
 		"url": "https://edu.goorm.io/lecture/22442/%EB%B9%84%ED%83%80%EC%95%8C%EA%B3%A0%EC%99%80-%EC%A0%95%EB%B3%B4%EC%98%AC%EB%A6%BC%ED%94%BC%EC%95%84%EB%93%9C-%EC%A4%80%EB%B9%84%ED%95%98%EA%B8%B0-with-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC",
@@ -60900,7 +61223,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3198.0
+		"rank": 3198.0,
+		"courseTime": ""
 	},
 	"파이썬을 이용한 데이터분석과 IT보안": {
 		"url": "https://edu.goorm.io/lecture/15574/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B3%BC-it%EB%B3%B4%EC%95%88",
@@ -60916,7 +61240,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3303.0
+		"rank": 3303.0,
+		"courseTime": ""
 	},
 	"수학으로부터 인류를 자유롭게 하라(기초대수학편)": {
 		"url": "https://edu.goorm.io/lecture/29926/%EC%88%98%ED%95%99%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%9D%B8%EB%A5%98%EB%A5%BC-%EC%9E%90%EC%9C%A0%EB%A1%AD%EA%B2%8C-%ED%95%98%EB%9D%BC-%EA%B8%B0%EC%B4%88%EB%8C%80%EC%88%98%ED%95%99%ED%8E%B8",
@@ -60932,7 +61257,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3290.0
+		"rank": 3290.0,
+		"courseTime": ""
 	},
 	"[디지털 포렌식 시리즈2] 디지털 포렌식 분석 자격증 2급 필기 대비": {
 		"url": "https://edu.goorm.io/lecture/12922/%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EC%8B%9C%EB%A6%AC%EC%A6%882-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EB%B6%84%EC%84%9D-%EC%9E%90%EA%B2%A9%EC%A6%9D-2%EA%B8%89-%ED%95%84%EA%B8%B0-%EB%8C%80%EB%B9%84",
@@ -60948,7 +61274,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3211.5
+		"rank": 3211.5,
+		"courseTime": ""
 	},
 	"[2020 NEW] 코틀린 기반 안드로이드 앱 개발 Part1 - Kotlin UI Programming": {
 		"url": "https://edu.goorm.io/lecture/20669/2020-new-%EC%BD%94%ED%8B%80%EB%A6%B0-%EA%B8%B0%EB%B0%98-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C-part1-kotlin-ui-programming",
@@ -60964,7 +61291,8 @@
 		"stacks": [
 			"Kotlin"
 		],
-		"rank": 18.0
+		"rank": 18.0,
+		"courseTime": ""
 	},
 	"빅데이터 제대로 배우기 - R 기초 문법과 데이터 전처리": {
 		"url": "https://edu.goorm.io/lecture/17133/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0-r-%EA%B8%B0%EC%B4%88-%EB%AC%B8%EB%B2%95%EA%B3%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%84%EC%B2%98%EB%A6%AC",
@@ -60980,7 +61308,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3201.5
+		"rank": 3201.5,
+		"courseTime": ""
 	},
 	"[Pytorch] 쉽고 빠르게 배우는 딥러닝": {
 		"url": "https://edu.goorm.io/lecture/17903/pytorch-%EC%89%BD%EA%B3%A0-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EB%94%A5%EB%9F%AC%EB%8B%9D",
@@ -60996,7 +61325,8 @@
 		"stacks": [
 			"Pytorch"
 		],
-		"rank": 3172.0
+		"rank": 3172.0,
+		"courseTime": ""
 	},
 	"시선을 사로잡는 웹 - 초급": {
 		"url": "https://edu.goorm.io/lecture/18923/%EC%8B%9C%EC%84%A0%EC%9D%84-%EC%82%AC%EB%A1%9C%EC%9E%A1%EB%8A%94-%EC%9B%B9-%EC%B4%88%EA%B8%89",
@@ -61012,7 +61342,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 3347.0
+		"rank": 3347.0,
+		"courseTime": ""
 	},
 	"Bootstrap 4 & 3 Framework Tutorial": {
 		"url": "https://edu.goorm.io/lecture/13039/bootstrap-4-3-framework-tutorial",
@@ -61028,7 +61359,8 @@
 		"stacks": [
 			"Bootstrap"
 		],
-		"rank": 3253.0
+		"rank": 3253.0,
+		"courseTime": ""
 	},
 	"MongoDB(몽고) 기초 다지기": {
 		"url": "https://edu.goorm.io/lecture/12879/mongodb-%EB%AA%BD%EA%B3%A0-%EA%B8%B0%EC%B4%88-%EB%8B%A4%EC%A7%80%EA%B8%B0",
@@ -61044,7 +61376,8 @@
 		"stacks": [
 			"MongoDB"
 		],
-		"rank": 3291.0
+		"rank": 3291.0,
+		"courseTime": ""
 	},
 	"Backpropagation과 야코비안 행렬": {
 		"url": "https://edu.goorm.io/lecture/28020/backpropagation%EA%B3%BC-%EC%95%BC%EC%BD%94%EB%B9%84%EC%95%88-%ED%96%89%EB%A0%AC",
@@ -61060,7 +61393,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3213.5
+		"rank": 3213.5,
+		"courseTime": ""
 	},
 	"파이썬 기반 판다스(Pandas)를 활용한 데이터 분석": {
 		"url": "https://edu.goorm.io/lecture/23731/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EB%B0%98-%ED%8C%90%EB%8B%A4%EC%8A%A4-pandas-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D",
@@ -61076,7 +61410,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3302.0
+		"rank": 3302.0,
+		"courseTime": ""
 	},
 	"데이터 시각화를 위한 파이썬": {
 		"url": "https://edu.goorm.io/lecture/24603/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -61092,7 +61427,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3306.0
+		"rank": 3306.0,
+		"courseTime": ""
 	},
 	"React로 가기 위한 첫 걸음, Vanilla JS 기초": {
 		"url": "https://edu.goorm.io/lecture/16304/react%EB%A1%9C-%EA%B0%80%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%B2%AB-%EA%B1%B8%EC%9D%8C-vanilla-js-%EA%B8%B0%EC%B4%88",
@@ -61110,7 +61446,8 @@
 			"ReactJS",
 			"Java"
 		],
-		"rank": 3315.0
+		"rank": 3315.0,
+		"courseTime": ""
 	},
 	"[Pytorch] 쉽고 빠르게 배우는 GAN": {
 		"url": "https://edu.goorm.io/lecture/19030/pytorch-%EC%89%BD%EA%B3%A0-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-gan",
@@ -61126,7 +61463,8 @@
 		"stacks": [
 			"Pytorch"
 		],
-		"rank": 3173.0
+		"rank": 3173.0,
+		"courseTime": ""
 	},
 	"[R] 머신러닝을 위한 통계학 기초": {
 		"url": "https://edu.goorm.io/lecture/21244/r-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%ED%86%B5%EA%B3%84%ED%95%99-%EA%B8%B0%EC%B4%88",
@@ -61142,7 +61480,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3183.0
+		"rank": 3183.0,
+		"courseTime": ""
 	},
 	"네트워크 패킷 분석 입문 및 악성코드 샘플 분석": {
 		"url": "https://edu.goorm.io/lecture/13438/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%8C%A8%ED%82%B7-%EB%B6%84%EC%84%9D-%EC%9E%85%EB%AC%B8-%EB%B0%8F-%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C-%EC%83%98%ED%94%8C-%EB%B6%84%EC%84%9D",
@@ -61158,7 +61497,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3207.0
+		"rank": 3207.0,
+		"courseTime": ""
 	},
 	"딥러닝 네트워크의 연산": {
 		"url": "https://edu.goorm.io/lecture/26039/%EB%94%A5%EB%9F%AC%EB%8B%9D-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%9D%98-%EC%97%B0%EC%82%B0",
@@ -61174,7 +61514,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3201.5
+		"rank": 3201.5,
+		"courseTime": ""
 	},
 	"[R] KOSPI/KOSDAQ 전 종목 데이터 수집 및 관리": {
 		"url": "https://edu.goorm.io/lecture/19043/r-kospi-kosdaq-%EC%A0%84-%EC%A2%85%EB%AA%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91-%EB%B0%8F-%EA%B4%80%EB%A6%AC",
@@ -61190,7 +61531,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 191.0
+		"rank": 191.0,
+		"courseTime": ""
 	},
 	"처음 시작하는 파이썬": {
 		"url": "https://edu.goorm.io/lecture/13351/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC",
@@ -61206,7 +61548,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3307.0
+		"rank": 3307.0,
+		"courseTime": ""
 	},
 	"[디지털 포렌식 시리즈3] 디지털 포렌식 전문가 2급 실기 과정": {
 		"url": "https://edu.goorm.io/lecture/12923/%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EC%8B%9C%EB%A6%AC%EC%A6%883-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EC%A0%84%EB%AC%B8%EA%B0%80-2%EA%B8%89-%EC%8B%A4%EA%B8%B0-%EA%B3%BC%EC%A0%95",
@@ -61222,7 +61565,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3211.5
+		"rank": 3211.5,
+		"courseTime": ""
 	},
 	"넘파이 마스터 클래스": {
 		"url": "https://edu.goorm.io/lecture/26505/%EB%84%98%ED%8C%8C%EC%9D%B4-%EB%A7%88%EC%8A%A4%ED%84%B0-%ED%81%B4%EB%9E%98%EC%8A%A4",
@@ -61238,7 +61582,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3364.0
+		"rank": 3364.0,
+		"courseTime": ""
 	},
 	"[2020 NEW] 코틀린 기반 안드로이드 앱 개발 Part3 - 데이터 관리와 네트워크": {
 		"url": "https://edu.goorm.io/lecture/23730/2020-new-%EC%BD%94%ED%8B%80%EB%A6%B0-%EA%B8%B0%EB%B0%98-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C-part3-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B4%80%EB%A6%AC%EC%99%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC",
@@ -61254,7 +61599,8 @@
 		"stacks": [
 			"Kotlin"
 		],
-		"rank": 3222.0
+		"rank": 3222.0,
+		"courseTime": ""
 	},
 	"[2020 NEW] 코틀린 기반 안드로이드 앱 개발 Part2 - 메뉴와 4대 구성요소": {
 		"url": "https://edu.goorm.io/lecture/23729/2020-new-%EC%BD%94%ED%8B%80%EB%A6%B0-%EA%B8%B0%EB%B0%98-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C-part2-%EB%A9%94%EB%89%B4%EC%99%80-4%EB%8C%80-%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C",
@@ -61270,7 +61616,8 @@
 		"stacks": [
 			"Kotlin"
 		],
-		"rank": 3280.0
+		"rank": 3280.0,
+		"courseTime": ""
 	},
 	"악성코드분석 중급과정 (유형별분석)": {
 		"url": "https://edu.goorm.io/lecture/14297/%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C%EB%B6%84%EC%84%9D-%EC%A4%91%EA%B8%89%EA%B3%BC%EC%A0%95-%EC%9C%A0%ED%98%95%EB%B3%84%EB%B6%84%EC%84%9D",
@@ -61286,7 +61633,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3191.0
+		"rank": 3191.0,
+		"courseTime": ""
 	},
 	"Google 공식 언어 Kotlin 프로그래밍 시작하기": {
 		"url": "https://edu.goorm.io/lecture/20670/google-%EA%B3%B5%EC%8B%9D-%EC%96%B8%EC%96%B4-kotlin-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0",
@@ -61302,7 +61650,8 @@
 		"stacks": [
 			"Kotlin"
 		],
-		"rank": 3278.0
+		"rank": 3278.0,
+		"courseTime": ""
 	},
 	"[Pytorch] 쉽고 빠르게 배우는 NLP": {
 		"url": "https://edu.goorm.io/lecture/19637/pytorch-%EC%89%BD%EA%B3%A0-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EB%B0%B0%EC%9A%B0%EB%8A%94-nlp",
@@ -61318,7 +61667,8 @@
 		"stacks": [
 			"Pytorch"
 		],
-		"rank": 3171.0
+		"rank": 3171.0,
+		"courseTime": ""
 	},
 	"메타스플로잇 활용 및 분석 완벽 가이드 (초중급)": {
 		"url": "https://edu.goorm.io/lecture/14369/%EB%A9%94%ED%83%80%EC%8A%A4%ED%94%8C%EB%A1%9C%EC%9E%87-%ED%99%9C%EC%9A%A9-%EB%B0%8F-%EB%B6%84%EC%84%9D-%EC%99%84%EB%B2%BD-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%B4%88%EC%A4%91%EA%B8%89",
@@ -61334,7 +61684,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3194.5
+		"rank": 3194.5,
+		"courseTime": ""
 	},
 	"Node.js 서버 프로그래밍 과정": {
 		"url": "https://edu.goorm.io/lecture/13564/node-js-%EC%84%9C%EB%B2%84-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B3%BC%EC%A0%95",
@@ -61350,7 +61701,8 @@
 		"stacks": [
 			"NodeJS"
 		],
-		"rank": 3327.0
+		"rank": 3327.0,
+		"courseTime": ""
 	},
 	"[디지털 포렌식 시리즈4] 챌린지로 알아보는 디지털포렌식(기초)": {
 		"url": "https://edu.goorm.io/lecture/15260/%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EC%8B%9C%EB%A6%AC%EC%A6%884-%EC%B1%8C%EB%A6%B0%EC%A7%80%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EB%94%94%EC%A7%80%ED%84%B8%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EA%B8%B0%EC%B4%88",
@@ -61366,7 +61718,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 15.0
+		"rank": 15.0,
+		"courseTime": ""
 	},
 	"해킹 대회를 위한 시스템 해킹 프로토스타 완벽 풀이집": {
 		"url": "https://edu.goorm.io/lecture/15126/%ED%95%B4%ED%82%B9-%EB%8C%80%ED%9A%8C%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%ED%95%B4%ED%82%B9-%ED%94%84%EB%A1%9C%ED%86%A0%EC%8A%A4%ED%83%80-%EC%99%84%EB%B2%BD-%ED%92%80%EC%9D%B4%EC%A7%91",
@@ -61382,7 +61735,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3196.5
+		"rank": 3196.5,
+		"courseTime": ""
 	},
 	"Mobile App UI/UX/GUI Design Tutorials(모바일 앱 UX/UI/GUI)": {
 		"url": "https://edu.goorm.io/lecture/13429/mobile-app-ui-ux-gui-design-tutorials-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%95%B1-ux-ui-gui",
@@ -61398,7 +61752,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2560.5
+		"rank": 2560.5,
+		"courseTime": ""
 	},
 	"유니티3D 실전 게임 개발 프로젝트 - 디펜스게임": {
 		"url": "https://edu.goorm.io/lecture/13356/%EC%9C%A0%EB%8B%88%ED%8B%B03d-%EC%8B%A4%EC%A0%84-%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%94%94%ED%8E%9C%EC%8A%A4%EA%B2%8C%EC%9E%84",
@@ -61414,7 +61769,8 @@
 		"stacks": [
 			"Unity"
 		],
-		"rank": 26.0
+		"rank": 26.0,
+		"courseTime": ""
 	},
 	"보안 전문가를 위한 파워쉘": {
 		"url": "https://edu.goorm.io/lecture/14982/%EB%B3%B4%EC%95%88-%EC%A0%84%EB%AC%B8%EA%B0%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9B%8C%EC%89%98",
@@ -61430,7 +61786,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 2991.0
+		"rank": 2991.0,
+		"courseTime": ""
 	},
 	"악성코드 분석을 위한 메모리 포렌식 (Memory Forensic)": {
 		"url": "https://edu.goorm.io/lecture/14550/%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C-%EB%B6%84%EC%84%9D%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%8F%AC%EB%A0%8C%EC%8B%9D-memory-forensic",
@@ -61446,7 +61803,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3196.5
+		"rank": 3196.5,
+		"courseTime": ""
 	},
 	"프리다(Frida)를 이용한 안드로이드 앱 모의해킹": {
 		"url": "https://edu.goorm.io/lecture/15377/%ED%94%84%EB%A6%AC%EB%8B%A4-frida-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%B1-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9",
@@ -61462,7 +61820,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3189.0
+		"rank": 3189.0,
+		"courseTime": ""
 	},
 	"[애플 공식 교재] 스위프트 퍼즐 1 - AD free": {
 		"url": "https://edu.goorm.io/lecture/24579/%EC%95%A0%ED%94%8C-%EA%B3%B5%EC%8B%9D-%EA%B5%90%EC%9E%AC-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%ED%8D%BC%EC%A6%90-1-ad-free",
@@ -61479,7 +61838,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 3293.0
+		"rank": 3293.0,
+		"courseTime": ""
 	},
 	"초보자를 위한 jQuery UI Pattern 제대로 배우기": {
 		"url": "https://edu.goorm.io/lecture/13256/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-jquery-ui-pattern-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0",
@@ -61495,7 +61855,8 @@
 		"stacks": [
 			"jQuery"
 		],
-		"rank": 3119.0
+		"rank": 3119.0,
+		"courseTime": ""
 	},
 	"실무 웹 제작 강의노트": {
 		"url": "https://edu.goorm.io/lecture/13343/%EC%8B%A4%EB%AC%B4-%EC%9B%B9-%EC%A0%9C%EC%9E%91-%EA%B0%95%EC%9D%98%EB%85%B8%ED%8A%B8",
@@ -61511,7 +61872,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3213.5
+		"rank": 3213.5,
+		"courseTime": ""
 	},
 	"비박스를 활용한 웹 모의해킹 완벽 실습": {
 		"url": "https://edu.goorm.io/lecture/13272/%EB%B9%84%EB%B0%95%EC%8A%A4%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9B%B9-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9-%EC%99%84%EB%B2%BD-%EC%8B%A4%EC%8A%B5",
@@ -61527,7 +61889,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3207.0
+		"rank": 3207.0,
+		"courseTime": ""
 	},
 	"처음 시작하는 JavaScript Programming": {
 		"url": "https://edu.goorm.io/lecture/13334/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-javascript-programming",
@@ -61544,7 +61907,8 @@
 			"Javascript",
 			"Java"
 		],
-		"rank": 3316.0
+		"rank": 3316.0,
+		"courseTime": ""
 	},
 	"Java 기반 Android 9.0 Pie App 개발 기본": {
 		"url": "https://edu.goorm.io/lecture/13082/java-%EA%B8%B0%EB%B0%98-android-9-0-pie-app-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EB%B3%B8",
@@ -61560,7 +61924,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3321.0
+		"rank": 3321.0,
+		"courseTime": ""
 	},
 	"인스타 좋아요를 컴퓨터가 눌러준다구요? - 파이썬 셀레니움 입문 강좌": {
 		"url": "https://edu.goorm.io/lecture/33411/%EC%9D%B8%EC%8A%A4%ED%83%80-%EC%A2%8B%EC%95%84%EC%9A%94%EB%A5%BC-%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B0%80-%EB%88%8C%EB%9F%AC%EC%A4%80%EB%8B%A4%EA%B5%AC%EC%9A%94-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80-%EC%9E%85%EB%AC%B8-%EA%B0%95%EC%A2%8C",
@@ -61577,7 +61942,8 @@
 			"Python",
 			"Selenium"
 		],
-		"rank": 3308.5
+		"rank": 3308.5,
+		"courseTime": ""
 	},
 	"[애플 공식 교재] 스위프트 퍼즐 2 - AD free": {
 		"url": "https://edu.goorm.io/lecture/24597/%EC%95%A0%ED%94%8C-%EA%B3%B5%EC%8B%9D-%EA%B5%90%EC%9E%AC-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%ED%8D%BC%EC%A6%90-2-ad-free",
@@ -61594,7 +61960,8 @@
 			"Swift",
 			"Thrift"
 		],
-		"rank": 3292.0
+		"rank": 3292.0,
+		"courseTime": ""
 	},
 	"메타스플로잇 활용 및 취약점 분석(고급과정)": {
 		"url": "https://edu.goorm.io/lecture/13437/%EB%A9%94%ED%83%80%EC%8A%A4%ED%94%8C%EB%A1%9C%EC%9E%87-%ED%99%9C%EC%9A%A9-%EB%B0%8F-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D-%EA%B3%A0%EA%B8%89%EA%B3%BC%EC%A0%95",
@@ -61610,7 +61977,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3207.0
+		"rank": 3207.0,
+		"courseTime": ""
 	},
 	"안드로이드 모바일 앱 모의해킹과 시큐어코딩": {
 		"url": "https://edu.goorm.io/lecture/13435/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%95%B1-%EB%AA%A8%EC%9D%98%ED%95%B4%ED%82%B9%EA%B3%BC-%EC%8B%9C%ED%81%90%EC%96%B4%EC%BD%94%EB%94%A9",
@@ -61626,7 +61994,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3194.5
+		"rank": 3194.5,
+		"courseTime": ""
 	},
 	"Java 기반 Android 9.0 Pie App 개발 고급": {
 		"url": "https://edu.goorm.io/lecture/13200/java-%EA%B8%B0%EB%B0%98-android-9-0-pie-app-%EA%B0%9C%EB%B0%9C-%EA%B3%A0%EA%B8%89",
@@ -61642,7 +62011,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3322.5
+		"rank": 3322.5,
+		"courseTime": ""
 	},
 	"수식 작성을 위한 레이텍(LaTeX) 튜토리얼": {
 		"url": "https://edu.goorm.io/lecture/30570/%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%A0%88%EC%9D%B4%ED%85%8D-latex-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC",
@@ -61658,7 +62028,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3207.0
+		"rank": 3207.0,
+		"courseTime": ""
 	},
 	"ESXi 가상 인프라 구축과 보안 솔루션을 활용한 이상징후 탐지 모니터링": {
 		"url": "https://edu.goorm.io/lecture/26302/esxi-%EA%B0%80%EC%83%81-%EC%9D%B8%ED%94%84%EB%9D%BC-%EA%B5%AC%EC%B6%95%EA%B3%BC-%EB%B3%B4%EC%95%88-%EC%86%94%EB%A3%A8%EC%85%98%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9D%B4%EC%83%81%EC%A7%95%ED%9B%84-%ED%83%90%EC%A7%80-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81",
@@ -61674,7 +62045,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3191.0
+		"rank": 3191.0,
+		"courseTime": ""
 	},
 	"파이썬으로 하는 데이터 분석 - 시각화 제대로 배우기": {
 		"url": "https://edu.goorm.io/lecture/23405/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EC%8B%9C%EA%B0%81%ED%99%94-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0",
@@ -61690,7 +62062,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3305.0
+		"rank": 3305.0,
+		"courseTime": ""
 	},
 	"윈도우즈 애플리케이션 취약점 분석 입문부터 활용까지": {
 		"url": "https://edu.goorm.io/lecture/13436/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%A6%88-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%B7%A8%EC%95%BD%EC%A0%90-%EB%B6%84%EC%84%9D-%EC%9E%85%EB%AC%B8%EB%B6%80%ED%84%B0-%ED%99%9C%EC%9A%A9%EA%B9%8C%EC%A7%80",
@@ -61706,7 +62079,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3210.0
+		"rank": 3210.0,
+		"courseTime": ""
 	},
 	"Java 기반 Android 9.0 Pie App 개발 심화": {
 		"url": "https://edu.goorm.io/lecture/13112/java-%EA%B8%B0%EB%B0%98-android-9-0-pie-app-%EA%B0%9C%EB%B0%9C-%EC%8B%AC%ED%99%94",
@@ -61722,7 +62096,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3322.5
+		"rank": 3322.5,
+		"courseTime": ""
 	},
 	"파이썬으로 하는 데이터 분석 - Pandas 제대로 배우기": {
 		"url": "https://edu.goorm.io/lecture/23732/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%95%98%EB%8A%94-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-pandas-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0",
@@ -61738,7 +62113,8 @@
 		"stacks": [
 			"Python"
 		],
-		"rank": 3304.0
+		"rank": 3304.0,
+		"courseTime": ""
 	},
 	"Bootstrap을 활용한 반응형 웹페이지 만들기": {
 		"url": "https://edu.goorm.io/lecture/16303/bootstrap%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -61754,7 +62130,8 @@
 		"stacks": [
 			"Bootstrap"
 		],
-		"rank": 3252.0
+		"rank": 3252.0,
+		"courseTime": ""
 	},
 	"처음 시작하는 jQuery Programming": {
 		"url": "https://edu.goorm.io/lecture/13363/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-jquery-programming",
@@ -61770,7 +62147,8 @@
 		"stacks": [
 			"jQuery"
 		],
-		"rank": 3300.0
+		"rank": 3300.0,
+		"courseTime": ""
 	},
 	"Start Google Angular.js": {
 		"url": "https://edu.goorm.io/lecture/13019/start-google-angular-js",
@@ -61786,7 +62164,8 @@
 		"stacks": [
 			"Angular"
 		],
-		"rank": 3329.0
+		"rank": 3329.0,
+		"courseTime": ""
 	},
 	"디지털 리터러시": {
 		"url": "https://edu.goorm.io/lecture/34123/%EB%94%94%EC%A7%80%ED%84%B8-%EB%A6%AC%ED%84%B0%EB%9F%AC%EC%8B%9C",
@@ -61802,7 +62181,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3217.5
+		"rank": 3217.5,
+		"courseTime": ""
 	},
 	"[ 부트스트랩 5 ] 빠르고 스마트하게 웹사이트 만들기 | 입문용": {
 		"url": "https://edu.goorm.io/lecture/33782/%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9-5-%EB%B9%A0%EB%A5%B4%EA%B3%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%95%98%EA%B2%8C-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9E%85%EB%AC%B8%EC%9A%A9",
@@ -61818,7 +62198,8 @@
 		"stacks": [
 			"Bootstrap"
 		],
-		"rank": 3254.0
+		"rank": 3254.0,
+		"courseTime": ""
 	},
 	"2022 빅데이터 분석기사(필기)": {
 		"url": "https://edu.goorm.io/lecture/30616/2022-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC-%ED%95%84%EA%B8%B0",
@@ -61834,7 +62215,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3201.5
+		"rank": 3201.5,
+		"courseTime": ""
 	},
 	"처음 시작하는 HTML&HTML5 Tutorial": {
 		"url": "https://edu.goorm.io/lecture/13354/%EC%B2%98%EC%9D%8C-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-html-html5-tutorial",
@@ -61850,7 +62232,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 3326.0
+		"rank": 3326.0,
+		"courseTime": ""
 	},
 	"일본어로 배우는 Java 입문": {
 		"url": "https://edu.goorm.io/lecture/20397/%EC%9D%BC%EB%B3%B8%EC%96%B4%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-java-%EC%9E%85%EB%AC%B8",
@@ -61866,7 +62249,8 @@
 		"stacks": [
 			"Java"
 		],
-		"rank": 3320.0
+		"rank": 3320.0,
+		"courseTime": ""
 	},
 	"Azure 가상 컴퓨터 - 초급": {
 		"url": "https://edu.goorm.io/lecture/19762/azure-%EA%B0%80%EC%83%81-%EC%BB%B4%ED%93%A8%ED%84%B0-%EC%B4%88%EA%B8%89",
@@ -61882,7 +62266,8 @@
 		"stacks": [
 			"Azure DevOps"
 		],
-		"rank": 3251.0
+		"rank": 3251.0,
+		"courseTime": ""
 	},
 	"HTML5와 웹표준 제대로 배우기": {
 		"url": "https://edu.goorm.io/lecture/13350/html5%EC%99%80-%EC%9B%B9%ED%91%9C%EC%A4%80-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0",
@@ -61898,7 +62283,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 3324.0
+		"rank": 3324.0,
+		"courseTime": ""
 	},
 	"HTML5 Canvas 2D 제대로 배우기": {
 		"url": "https://edu.goorm.io/lecture/13337/html5-canvas-2d-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EA%B8%B0",
@@ -61914,7 +62300,8 @@
 		"stacks": [
 			"HTML/CSS"
 		],
-		"rank": 3325.0
+		"rank": 3325.0,
+		"courseTime": ""
 	},
 	"Wix(윅스)로 간단하게 홈페이지 만들기": {
 		"url": "https://edu.goorm.io/lecture/13342/wix-%EC%9C%85%EC%8A%A4-%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -61930,7 +62317,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3217.5
+		"rank": 3217.5,
+		"courseTime": ""
 	},
 	"대회 문제 풀이로 이해하는 디스크 포렌식 분석": {
 		"url": "https://edu.goorm.io/lecture/13018/%EB%8C%80%ED%9A%8C-%EB%AC%B8%EC%A0%9C-%ED%92%80%EC%9D%B4%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-%EB%94%94%EC%8A%A4%ED%81%AC-%ED%8F%AC%EB%A0%8C%EC%8B%9D-%EB%B6%84%EC%84%9D",
@@ -61946,7 +62334,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3216.0
+		"rank": 3216.0,
+		"courseTime": ""
 	},
 	"레나(Lena)를 활용한 윈도우 리버싱 완벽 이해": {
 		"url": "https://edu.goorm.io/lecture/12847/%EB%A0%88%EB%82%98-lena-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9C%88%EB%8F%84%EC%9A%B0-%EB%A6%AC%EB%B2%84%EC%8B%B1-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4",
@@ -61962,7 +62351,8 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 3201.5
+		"rank": 3201.5,
+		"courseTime": ""
 	},
 	"[AZ-900 Certificate] Azure Basic": {
 		"url": "https://edu.goorm.io/lecture/18531/az-900-certificate-azure-basic",
@@ -61978,7 +62368,8 @@
 		"stacks": [
 			"Azure DevOps"
 		],
-		"rank": 395.0
+		"rank": 395.0,
+		"courseTime": ""
 	},
 	"5일 만에 200만원 버는 웹과 앱 만들기": {
 		"url": "https://edu.goorm.io/lecture/20213/5%EC%9D%BC-%EB%A7%8C%EC%97%90-200%EB%A7%8C%EC%9B%90-%EB%B2%84%EB%8A%94-%EC%9B%B9%EA%B3%BC-%EC%95%B1-%EB%A7%8C%EB%93%A4%EA%B8%B0",
@@ -61994,6 +62385,7 @@
 		"stacks": [
 			"Programming"
 		],
-		"rank": 173.0
+		"rank": 173.0,
+		"courseTime": ""
 	}
 }
