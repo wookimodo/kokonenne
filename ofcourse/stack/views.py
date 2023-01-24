@@ -15,6 +15,15 @@ class StackDetail(DetailView):
     model = Stack
     template_name = 'stack/stack_detail.html'
 
+def search(request):
+    stacks = Stack.objects.all()
+    search = request.GET.get('search','')
+    if search:
+        stack_list = stacks.filter(name__icontains=search).distinct()
+        return render(request, 'stack/stack_search.html', {'stack':stack_list, 'search':search})
+    else:
+        return render(request,  'stack/stack_search.html')
+
     # def get_context_data(self, **kwargs):
     #     context = super(StackDetail, self).get_context_data()
     #     st =Stack.objects.filter(id=2).prefetch_related('company_set')[0]
