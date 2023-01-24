@@ -10,17 +10,45 @@ def index(request):
     stack_list = Stack.objects.all()
     return render(request, 'index.html', {'stack_list': stack_list})
 
-class Courselist(ListView):
-    model = Course
-    paginate_by = 300
-    template_name ='course/list.html'
-    ordering ='rank'
+# class Courselist(ListView):
+#     model = Course
+#     paginate_by = 100
+#     template_name ='course/list.html'
+#     ordering ='rank'
 
-    # ListView를 사용할땐 get_context_data를 안해도 됨. 자동으로 해줌.
-    def get_context_data(self, **kwargs):
-        context = super(Courselist, self).get_context_data()
-        context['stack'] = Stack.objects.all()
-        return context
+#     # ListView를 사용할땐 get_context_data를 안해도 됨. 자동으로 해줌.
+#     def get_context_data(self, **kwargs):
+#         context = super(Courselist, self).get_context_data()
+#         context['stack'] = Stack.objects.all()
+
+#         return context
+
+def course(request):
+    course_list = Course.objects.all()
+    stack = Stack.objects.all()
+    context = {
+        'course_list':course_list,
+        'stack':stack
+    }
+    sort = request.GET.get('sort','') #url의 쿼리스트링을 가져온다. 없는 경우 공백을 리턴한다
+
+    if sort == 'review':
+        context['course_list'] = Course.objects.all().order_by('-review_cnt')[:100]
+        return render(request, 'course/list.html', context)
+    elif sort == 'recommend':
+        context['course_list'] = Course.objects.all().order_by('-recommend')[:100]
+        return render(request, 'course/list.html', context)
+    elif sort == 'score':
+        context['course_list'] = Course.objects.all().order_by('-score')[:100]
+        return render(request, 'course/list.html', context)
+    else:
+        course_list = Course.objects.all().order_by('rank')
+        paginator = Paginator(course_list, 100)
+        page = request.GET.get('page', '')
+        course = paginator.get_page(page)
+        context['course_list'] = course
+        return render(request, 'course/list.html', context)
+
 
 # search FBV형
 def search(request):
@@ -59,4 +87,5 @@ def filter(request):
         filter_list = course_list.filter(course_query)
         stack = stack_list.filter(stack_query)
 
-    return render(request, 'course/course_filter.html',{'course':filter_list, 'stack':stack})
+    return render(request, 'course/course_filter.html',{'course':filter_list, 'stack':stack,'stack_list':stack_list})
+

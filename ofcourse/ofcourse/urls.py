@@ -25,9 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # path('list/', list),
-    path('course/', include('course.urls')),
-    # search 
-    path('search/', views.search, name='search'),
+    path('course/', views.course, name='course'),
 
     # company
     path('company/', include('company.urls')),

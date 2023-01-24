@@ -1,21 +1,17 @@
-.filterDiv {
-  float: left;
-  text-align: center;
-  margin: 2px;
+/* .filterDiv {
   display: none;
-}
+} */ 
 
-.show {
+/* .show {
   display: block;
 }
 
 .container {
-  margin-top: 20px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* Style the buttons */
-.btn {
+/* .btn {
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -30,4 +26,4 @@
 .btn.active {
   background-color: #666;
   color: white;
-}
+} */
