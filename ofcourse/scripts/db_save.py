@@ -44,7 +44,7 @@ def run():
         headline = data[i]['headline']
         level = data[i]['level']
         score = data[i]['score']
-        courseTime = data[i]['courseTime']
+        course_time = data[i]['courseTime']
         student_cnt = data[i]['student']
         recommend = data[i]['recommend']
         review_cnt = data[i]['reviewCnt']
@@ -58,7 +58,7 @@ def run():
             headline=headline,
             level=level,
             score=score,
-            courseTime=courseTime,
+            course_time=course_time,
             student_cnt=student_cnt,
             recommend=recommend,
             review_cnt=review_cnt,
