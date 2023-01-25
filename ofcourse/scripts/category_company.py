@@ -24,10 +24,11 @@ a = sorted(a)
 
 for i in company:
     for k,v in a:
-        if i == v:
-            company[i]['category'] = k
-toJson(company,"최종 domestic_company")
-print("json 저장 완료")
+        if i != v:
+            print(i)
+            # company[i]['category'] = k
+# toJson(company,"최종 domestic_company")
+# print("json 저장 완료")
         
 
 
