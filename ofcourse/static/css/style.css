@@ -52,14 +52,13 @@ body a {
 }
 
 .filterDiv {
-  float: left;
   text-align: center;
   margin: 2px;
   display: none;
 }
 
 .show {
-  display: block;
+  display: inline-block;
 }
 
 header {
@@ -283,6 +282,7 @@ footer p {
   color: var(--main-color);
   font-size: inherit;
   position: relative;
+  margin: 0 0.2rem;
 }
 .list-page .point::after {
   content: "";
@@ -463,6 +463,7 @@ footer p {
 .content > .list-area > ul {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 .content > .list-area .list-card {
   width: calc(25% - 1.2rem);

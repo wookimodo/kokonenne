@@ -37,49 +37,39 @@
             </div>
         </form>
     </div>
-
-    <div class="search-area">
-        <!-- 검색 결과 표시 -->
-        {% for s in stack %}<h2><span class="point"># {{s.name}} </span></h2>{% endfor %}
-        <a href="/course/"><i class="fa-solid fa-circle-xmark fa-2x"></i></a>
-        <!-- 삭제 버튼을 누르고 재검색 할 때 -->
-        <div class="hide">
+    
+    <div class="content">
+        <div id="myBtnContainer">
+            <button class="btn" onclick="filterSelection('all')" id="start"> Show all</button>
+            <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
+            <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
+            <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
+            <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
+            <button class="btn" onclick="filterSelection('언어')"> 언어</button>
+            <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
+            <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
         </div>
-    </div>
-
-    <div class="content col-2">
-        <aside>
-            <div id="myBtnContainer">
-                <button class="btn" onclick="filterSelection('all')" id="start"> Show all</button>
-                <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
-                <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
-                <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
-                <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
-                <button class="btn" onclick="filterSelection('언어')"> 언어</button>
-                <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
-                <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
-            </div>
-            <form action="{% url 'filter' %}" class="form-inline my-2 my-md-0" method="get">
-                <div class="skill-info-area">
-                    <div class="container">
-                        {% for s in stack_list %}
-                        {% if s.course_stack_set.exists %}
-                        <div class="filterDiv {{s.assort}}">
-                            <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
-                                name="s" , value="{{s.name}}">
-                            <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
-                        </div>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
+        <form action="{% url 'filter' %}" class="form-inline my-2 my-md-0" method="get">
+            <div class="skill-info-area">
+                <div class="container">
+                    {% for s in stack_list %}
+                    {% if s.course_stack_set.exists %}
+                    <span class="filterDiv {{s.assort}}">
+                        <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
+                            name="s" , value="{{s.name}}">
+                        <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
+                    </span>
+                    {% endif %}
+                    {% endfor %}
                 </div>
-                <button type="submit" class="btn btn-warning">검색</button>
-            </form>
-        </aside>
+            </div>
+            <button type="submit" class="btn btn-warning">검색</button>
+        </form>
         <main class="list-area">
+            <h3 class="search-result-area">검색하신 {% for s in stack %}<span class="text-highlight"># {{s.name}}</span>{% endfor %} 강의 정보입니다.</h3>
             <ul>
                 {% for c in course %}
-                <li class="list-card filterDiv {% for s in c.stack.iterator %}{{s.assort}}{% endfor %}">
+                <li class="list-card"> {# {% for s in c.stack.iterator %}{{s.assort}}{% endfor %} #}
                     <a href="{{c.url}}">
                         <div class="img-box">
                             <img src="{{ c.img_url }}" alt="강의 예시 이미지">

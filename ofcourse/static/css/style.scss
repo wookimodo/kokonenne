@@ -56,14 +56,14 @@ body {
 }
 
 .filterDiv {
-    float: left;
+    // float: left;
     text-align: center;
     margin: 2px;
     display: none;
 }
 
 .show {
-    display: block;
+    display: inline-block;
 }
 
 header {
@@ -313,6 +313,7 @@ footer {
         // background-color: var(--main-color2);
         // padding: 0 6px;
         position: relative;
+        margin: 0 .2rem;
         
         &::after {
             content: '';
@@ -528,6 +529,7 @@ footer {
         > ul {
             display: flex;
             flex-wrap: wrap;
+            width: 100%;
         }
 
         .list-card {
