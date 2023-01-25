@@ -11,7 +11,7 @@ class Course(models.Model):
     headline = models.TextField(default='')
     level = models.CharField(max_length=10,default='')
     score = models.FloatField(default=0, null=True)
-    courseTime = models.CharField(max_length=50,default='')
+    course_time = models.CharField(max_length=50,default='')
     student_cnt = models.IntegerField(default=0, null=True)
     recommend = models.IntegerField(default=0,null=True)
     review_cnt = models.IntegerField(default=0,null=True)
