@@ -92,8 +92,10 @@ def run():
         logo = domestic_company[i]['logo']
         stack_info = domestic_company[i]['stack_info']
         category = domestic_company[i]['category']
+        company_link = domestic_company[i]['company_link']
+        company_recruit_link = domestic_company[i]['company_recruit_link']
 
-        Company(name=name, logo=logo, stack_info=stack_info, category=category).save()
+        Company(name=name, logo=logo, stack_info=stack_info, category=category, company_link=company_link, company_recruit_link=company_recruit_link ).save()
     
     # 해외기업
     for i in foreign_company:

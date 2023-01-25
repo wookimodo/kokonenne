@@ -1,7 +1,9 @@
 {
 	"네이버": {
 		"logo": "https://static.codenary.co.kr/company-logo/1246.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 72개 기술 스택",
+		"company_link": "https://www.naver.com",
+		"company_recruit_link": "https://recruit.navercorp.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -358,15 +360,15 @@
 					"Slack",
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
-			]
-		},
-		"category": "종합 기업",
-		"company_link": "https://www.naver.com",
-		"company_recruit_link": "https://recruit.navercorp.com/"
+			],
+			"9번 카테고리": null
+		}
 	},
 	"카카오": {
 		"logo": "https://static.codenary.co.kr/company-logo/1376.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 11개 언어 / 82개 기술 스택",
+		"company_link": "https://www.kakaocorp.com",
+		"company_recruit_link": "https://careers.kakao.com/jobs",		
 		"stacks": {
 			"언어": [
 				[
@@ -766,14 +768,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "종합 기업",
-		"company_link": "https://www.kakaocorp.com",
-		"company_recruit_link": "https://careers.kakao.com/jobs"
+		}
 	},
 	"라인": {
 		"logo": "https://static.codenary.co.kr/company-logo/324.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 11개 언어 / 72개 기술 스택",
+		"company_link": "https://line.me/ko",
+		"company_recruit_link": "https://careers.linecorp.com/ko/jobs",
 		"stacks": {
 			"언어": [
 				[
@@ -1129,14 +1130,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://line.me/ko",
-		"company_recruit_link": "https://careers.linecorp.com/ko/jobs"
+		}
 	},
 	"쿠팡": {
 		"logo": "https://static.codenary.co.kr/company-logo/53.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 12개 언어 / 52개 기술 스택",
+		"company_link": "https://www.coupang.com",
+		"company_recruit_link": "https://www.coupang.jobs/kr/jobs/",
 		"stacks": {
 			"언어": [
 				[
@@ -1424,14 +1424,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.coupang.com",
-		"company_recruit_link": "https://www.coupang.jobs/kr/jobs/"
+		}
 	},
 	"우아한형제들": {
 		"logo": "https://static.codenary.co.kr/company-logo/102.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 73개 기술 스택",
+		"company_link": "https://www.woowahan.com",
+		"company_recruit_link": "https://career.woowahan.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -1627,7 +1626,7 @@
 					"https://static.codenary.co.kr/framework_logo/redis.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -1779,14 +1778,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "푸드테크 기업",
-		"company_link": "https://www.woowahan.com",
-		"company_recruit_link": "https://career.woowahan.com/"
+		}
 	},
 	"당근마켓": {
 		"logo": "https://static.codenary.co.kr/company-logo/2826.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 47개 기술 스택",
+		"company_link": "https://www.daangn.com",
+		"company_recruit_link": "https://team.daangn.com/jobs/",
 		"stacks": {
 			"언어": [
 				[
@@ -2041,14 +2039,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.daangn.com",
-		"company_recruit_link": "https://team.daangn.com/jobs/"
+		}
 	},
 	"비바리퍼블리카": {
 		"logo": "https://static.codenary.co.kr/company-logo/113.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 69개 기술 스택",
+		"company_link": "https://toss.im",
+		"company_recruit_link": "https://toss.im/career/jobs",
 		"stacks": {
 			"언어": [
 				[
@@ -2224,7 +2221,7 @@
 					"https://static.codenary.co.kr/framework_logo/influxdb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -2388,14 +2385,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://toss.im",
-		"company_recruit_link": "https://toss.im/career/jobs"
+		}
 	},
 	"야놀자": {
 		"logo": "https://static.codenary.co.kr/company-logo/4924.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 59개 기술 스택",
+		"company_link": "https://www.yanolja.com",
+		"company_recruit_link": "https://careers.yanolja.co/go/yanolja/586944/",
 		"stacks": {
 			"언어": [
 				[
@@ -2683,14 +2679,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.yanolja.com",
-		"company_recruit_link": "https://careers.yanolja.co/go/yanolja/586944/"
+		}
 	},
 	"카카오페이": {
 		"logo": "https://static.codenary.co.kr/company-logo/1529.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 53개 기술 스택",
+		"company_link": "https://www.kakaopay.com",
+		"company_recruit_link": "https://kakaopay.recruiter.co.kr/app/jobnotice/list",
 		"stacks": {
 			"언어": [
 				[
@@ -2982,14 +2977,13 @@
 					"https://static.codenary.co.kr/framework_logo/kakaotalk.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.kakaopay.com",
-		"company_recruit_link": "https://kakaopay.recruiter.co.kr/app/jobnotice/list"
+		}
 	},
 	"카카오뱅크": {
 		"logo": "https://static.codenary.co.kr/company-logo/593.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 51개 기술 스택",
+		"company_link": "https://www.kakaobank.com",
+		"company_recruit_link": "https://kakaobank.recruiter.co.kr/app/jobnotice/list",
 		"stacks": {
 			"언어": [
 				[
@@ -3257,14 +3251,13 @@
 					"https://static.codenary.co.kr/framework_logo/agit.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.kakaobank.com",
-		"company_recruit_link": "https://kakaobank.recruiter.co.kr/app/jobnotice/list"
+		}
 	},
 	"하이퍼커넥트": {
 		"logo": "https://static.codenary.co.kr/company-logo/136.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 11개 언어 / 65개 기술 스택",
+		"company_link": "https://www.hyperconnect.com",
+		"company_recruit_link": "https://career.hyperconnect.com/jobs/",
 		"stacks": {
 			"언어": [
 				[
@@ -3584,14 +3577,13 @@
 					"https://static.codenary.co.kr/framework_logo/trello.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.hyperconnect.com",
-		"company_recruit_link": "https://career.hyperconnect.com/jobs/"
+		}
 	},
 	"원티드랩": {
 		"logo": "https://static.codenary.co.kr/company-logo/79.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 36개 기술 스택",
+		"company_link": "https://www.wanted.co.kr",
+		"company_recruit_link": "https://www.wanted.co.kr/company/79",
 		"stacks": {
 			"언어": [
 				[
@@ -3790,14 +3782,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "직장 기업",
-		"company_link": "https://www.wanted.co.kr",
-		"company_recruit_link": "https://www.wanted.co.kr/company/79"
+		}
 	},
 	"쏘카": {
 		"logo": "https://static.codenary.co.kr/company-logo/38.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 50개 기술 스택",
+		"company_link": "https://www.socar.kr",
+		"company_recruit_link": "https://socarcorp.notion.site/d458b6b77a2243fb873d1ac800c321f7",
 		"stacks": {
 			"언어": [
 				[
@@ -4073,14 +4064,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://www.socar.kr",
-		"company_recruit_link": "https://socarcorp.notion.site/d458b6b77a2243fb873d1ac800c321f7"
+		}
 	},
 	"플렉스": {
 		"logo": "https://static.codenary.co.kr/company-logo/12567.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 37개 기술 스택",
+		"company_link": "https://flex.team",
+		"company_recruit_link": "https://recruiting.flex.team/",
 		"stacks": {
 			"언어": [
 				[
@@ -4262,14 +4252,13 @@
 			],
 			"협업툴": [],
 			"9번 카테고리": null
-		},
-		"category": "직장 기업",
-		"company_link": "https://flex.team",
-		"company_recruit_link": "https://recruiting.flex.team/"
+		}
 	},
 	"에이블리": {
 		"logo": "https://static.codenary.co.kr/company-logo/1209.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 46개 기술 스택",
+		"company_link": "https://a-bly.com",
+		"company_recruit_link": "https://ablycareer.com/recruit/",
 		"stacks": {
 			"언어": [
 				[
@@ -4521,14 +4510,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "패션 기업",
-		"company_link": "https://a-bly.com",
-		"company_recruit_link": "https://ablycareer.com/recruit/"
+		}
 	},
 	"직방": {
 		"logo": "https://static.codenary.co.kr/company-logo/80.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 61개 기술 스택",
+		"company_link": "https://www.zigbang.com",
+		"company_recruit_link": "https://career.zigbang.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -4848,14 +4836,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "부동산/인테리어 기업",
-		"company_link": "https://www.zigbang.com",
-		"company_recruit_link": "https://career.zigbang.com/"
+		}
 	},
 	"11번가": {
 		"logo": "https://static.codenary.co.kr/company-logo/5774.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 54개 기술 스택",
+		"company_link": "https://www.11st.co.kr/main?ref=codenary",
+		"company_recruit_link": "https://careers.11stcorp.com/home",
 		"stacks": {
 			"언어": [
 				[
@@ -5138,14 +5125,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.11st.co.kr/main?ref=codenary",
-		"company_recruit_link": "https://careers.11stcorp.com/home"
+		}
 	},
 	"카카오스타일": {
 		"logo": "https://static.codenary.co.kr/company-logo/506.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 60개 기술 스택",
+		"company_link": "https://kakaostyle.com",
+		"company_recruit_link": "https://career.kakaostyle.com/jobs",
 		"stacks": {
 			"언어": [
 				[
@@ -5457,14 +5443,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "패션 기업",
-		"company_link": "https://kakaostyle.com",
-		"company_recruit_link": "https://career.kakaostyle.com/jobs"
+		}
 	},
 	"마켓컬리": {
 		"logo": "https://static.codenary.co.kr/company-logo/426.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 54개 기술 스택",
+		"company_link": "https://www.kurly.com",
+		"company_recruit_link": "https://marketkurly.recruiter.co.kr/appsite/company/index",
 		"stacks": {
 			"언어": [
 				[
@@ -5747,14 +5732,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "푸드테크 기업",
-		"company_link": "https://www.kurly.com",
-		"company_recruit_link": "https://marketkurly.recruiter.co.kr/appsite/company/index"
+		}
 	},
 	"뱅크샐러드": {
 		"logo": "https://static.codenary.co.kr/company-logo/63.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 46개 기술 스택",
+		"company_link": "https://www.banksalad.com",
+		"company_recruit_link": "https://career.banksalad.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -6006,14 +5990,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.banksalad.com",
-		"company_recruit_link": "https://career.banksalad.com/"
+		}
 	},
 	"SK플래닛": {
 		"logo": "https://static.codenary.co.kr/company-logo/857.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 12개 언어 / 90개 기술 스택",
+		"company_link": "https://www.skplanet.com",
+		"company_recruit_link": "https://careers.skplanet.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -6217,7 +6200,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsdynamodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -6429,14 +6412,13 @@
 					"https://static.codenary.co.kr/framework_logo/microsoftteams.png"
 				]
 			]
-		},
-		"category": "종합 기업",
-		"company_link": "https://www.skplanet.com",
-		"company_recruit_link": "https://careers.skplanet.com/"
+		}
 	},
 	"두나무": {
 		"logo": "https://static.codenary.co.kr/company-logo/384.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 30개 기술 스택",
+		"company_link": "https://dunamu.com",
+		"company_recruit_link": "https://dunamu.com/views/05_job_ko.html",
 		"stacks": {
 			"언어": [
 				[
@@ -6628,14 +6610,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://dunamu.com",
-		"company_recruit_link": "https://dunamu.com/views/05_job_ko.html"
+		}
 	},
 	"카카오엔터프라이즈": {
 		"logo": "https://static.codenary.co.kr/company-logo/10537.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 12개 언어 / 42개 기술 스택",
+		"company_link": "https://www.kakaoenterprise.com",
+		"company_recruit_link": "https://careers.kakaoenterprise.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -6882,14 +6863,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "직장 기업",
-		"company_link": "https://www.kakaoenterprise.com",
-		"company_recruit_link": "https://careers.kakaoenterprise.com/"
+		}
 	},
 	"뤼이드": {
 		"logo": "https://static.codenary.co.kr/company-logo/341.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 41개 기술 스택",
+		"company_link": "https://riiid.co/kr",
+		"company_recruit_link": "https://riiid.com/en/career",
 		"stacks": {
 			"언어": [
 				[
@@ -7113,14 +7093,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "https://riiid.co/kr",
-		"company_recruit_link": "https://riiid.com/en/career"
+		}
 	},
 	"네이버웹툰": {
 		"logo": "https://static.codenary.co.kr/company-logo/1674.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 34개 기술 스택",
+		"company_link": "https://webtoonscorp.com",
+		"company_recruit_link": "https://recruit.webtoonscorp.com/webtoon/ko/joinUs",
 		"stacks": {
 			"언어": [
 				[
@@ -7319,14 +7298,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://webtoonscorp.com",
-		"company_recruit_link": "https://recruit.webtoonscorp.com/webtoon/ko/joinUs"
+		}
 	},
 	"데브시스터즈": {
 		"logo": "https://static.codenary.co.kr/company-logo/117.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 36개 기술 스택",
+		"company_link": "https://www.devsisters.com",
+		"company_recruit_link": "https://careers.devsisters.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -7545,14 +7523,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.devsisters.com",
-		"company_recruit_link": "https://careers.devsisters.com/"
+		}
 	},
 	"위대한상상": {
 		"logo": "https://static.codenary.co.kr/company-logo/35.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 11개 언어 / 45개 기술 스택",
+		"company_link": "https://www.yogiyo.co.kr",
+		"company_recruit_link": "https://techrecruiting.wesang.com/join-us.do",
 		"stacks": {
 			"언어": [
 				[
@@ -7704,7 +7681,7 @@
 					"https://static.codenary.co.kr/framework_logo/memcached.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -7808,14 +7785,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "푸드테크 기업",
-		"company_link": "https://www.yogiyo.co.kr",
-		"company_recruit_link": "https://techrecruiting.wesang.com/join-us.do"
+		}
 	},
 	"카카오모빌리티": {
 		"logo": "https://static.codenary.co.kr/company-logo/1682.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 11개 언어 / 36개 기술 스택",
+		"company_link": "https://www.kakaomobility.com",
+		"company_recruit_link": "https://kakaomobility.wehire.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -8031,14 +8007,13 @@
 					"https://static.codenary.co.kr/framework_logo/agit.png"
 				]
 			]
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://www.kakaomobility.com",
-		"company_recruit_link": "https://kakaomobility.wehire.kr/"
+		}
 	},
 	"위메프": {
 		"logo": "https://static.codenary.co.kr/company-logo/1362.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 32개 기술 스택",
+		"company_link": "https://front.wemakeprice.com",
+		"company_recruit_link": "https://recruit.wemakeprice.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -8222,14 +8197,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://front.wemakeprice.com",
-		"company_recruit_link": "https://recruit.wemakeprice.com/"
+		}
 	},
 	"무신사": {
 		"logo": "https://static.codenary.co.kr/company-logo/4248.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 55개 기술 스택",
+		"company_link": "https://www.musinsa.com",
+		"company_recruit_link": "https://newsroom.musinsa.com/tech-recruit/apply",
 		"stacks": {
 			"언어": [
 				[
@@ -8517,14 +8491,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "패션 기업",
-		"company_link": "https://www.musinsa.com",
-		"company_recruit_link": "https://newsroom.musinsa.com/tech-recruit/apply"
+		}
 	},
 	"슈퍼브에이아이": {
 		"logo": "https://static.codenary.co.kr/company-logo/3643.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 32개 기술 스택",
+		"company_link": "https://www.superb-ai.com",
+		"company_recruit_link": "https://www.notion.so/Superb-AI-Careers-937056c8cee94156b001eb680d0eab33",
 		"stacks": {
 			"언어": [
 				[
@@ -8694,14 +8667,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.superb-ai.com",
-		"company_recruit_link": "https://www.notion.so/Superb-AI-Careers-937056c8cee94156b001eb680d0eab33"
+		}
 	},
 	"와디즈": {
 		"logo": "https://static.codenary.co.kr/company-logo/645.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 24개 기술 스택",
+		"company_link": "https://www.wadiz.kr",
+		"company_recruit_link": "https://www.job.wadiz.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -8840,14 +8812,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.wadiz.kr",
-		"company_recruit_link": "https://www.job.wadiz.kr/"
+		}
 	},
 	"버킷플레이스": {
 		"logo": "https://static.codenary.co.kr/company-logo/179.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 52개 기술 스택",
+		"company_link": "https://ohou.se",
+		"company_recruit_link": "https://www.bucketplace.co.kr/recruit/",
 		"stacks": {
 			"언어": [
 				[
@@ -9123,14 +9094,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "부동산/인테리어 기업",
-		"company_link": "https://ohou.se",
-		"company_recruit_link": "https://www.bucketplace.co.kr/recruit/"
+		}
 	},
 	"리디": {
 		"logo": "https://static.codenary.co.kr/company-logo/5.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 28개 기술 스택",
+		"company_link": "https://ridibooks.com",
+		"company_recruit_link": "https://www.ridicorp.com/career/",
 		"stacks": {
 			"언어": [
 				[
@@ -9226,7 +9196,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsdynamodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -9309,14 +9279,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://ridibooks.com",
-		"company_recruit_link": "https://www.ridicorp.com/career/"
+		}
 	},
 	"티몬": {
 		"logo": "https://static.codenary.co.kr/company-logo/408.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 25개 기술 스택",
+		"company_link": "https://www.tmon.co.kr",
+		"company_recruit_link": "https://corp.tmon.co.kr/recruit/qualification",
 		"stacks": {
 			"언어": [
 				[
@@ -9410,7 +9379,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -9478,14 +9447,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.tmon.co.kr",
-		"company_recruit_link": "https://corp.tmon.co.kr/recruit/qualification"
+		}
 	},
 	"왓챠": {
 		"logo": "https://static.codenary.co.kr/company-logo/29.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 27개 기술 스택",
+		"company_link": "https://watcha.com",
+		"company_recruit_link": "https://watcha.team/",
 		"stacks": {
 			"언어": [
 				[
@@ -9649,14 +9617,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://watcha.com",
-		"company_recruit_link": "https://watcha.team/"
+		}
 	},
 	"브랜디": {
 		"logo": "https://static.codenary.co.kr/company-logo/876.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 40개 기술 스택",
+		"company_link": "https://www.brandi.co.kr",
+		"company_recruit_link": "https://www.brandiinc.com/recruit/",
 		"stacks": {
 			"언어": [
 				[
@@ -9871,14 +9838,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "패션 기업",
-		"company_link": "https://www.brandi.co.kr",
-		"company_recruit_link": "https://www.brandiinc.com/recruit/"
+		}
 	},
 	"피플펀드컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/157.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 36개 기술 스택",
+		"company_link": "https://peoplefund.co.kr",
+		"company_recruit_link": "https://pf-recruit.oopy.io/developers",
 		"stacks": {
 			"언어": [
 				[
@@ -10078,14 +10044,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://peoplefund.co.kr",
-		"company_recruit_link": "https://pf-recruit.oopy.io/developers"
+		}
 	},
 	"버즈빌": {
 		"logo": "https://static.codenary.co.kr/company-logo/99.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 52개 기술 스택",
+		"company_link": "https://www.buzzvil.com",
+		"company_recruit_link": "https://www.buzzvil.com/ko/career/",
 		"stacks": {
 			"언어": [
 				[
@@ -10357,14 +10322,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.buzzvil.com",
-		"company_recruit_link": "https://www.buzzvil.com/ko/career/"
+		}
 	},
 	"에이비일팔공": {
 		"logo": "https://static.codenary.co.kr/company-logo/476.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 36개 기술 스택",
+		"company_link": "https://www.ab180.co",
+		"company_recruit_link": "https://recruit.ab180.co/",
 		"stacks": {
 			"언어": [
 				[
@@ -10564,14 +10528,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.ab180.co",
-		"company_recruit_link": "https://recruit.ab180.co/"
+		}
 	},
 	"마이리얼트립": {
 		"logo": "https://static.codenary.co.kr/company-logo/15.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 43개 기술 스택",
+		"company_link": "https://www.myrealtrip.com",
+		"company_recruit_link": "https://career.myrealtrip.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -10790,14 +10753,13 @@
 				]
 			],
 			"협업툴": []
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.myrealtrip.com",
-		"company_recruit_link": "https://career.myrealtrip.com/"
+		}
 	},
 	"그린랩스": {
 		"logo": "https://static.codenary.co.kr/company-logo/11250.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 32개 기술 스택",
+		"company_link": "https://greenlabs.co.kr",
+		"company_recruit_link": "https://greenlabs.co.kr/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4/",
 		"stacks": {
 			"언어": [
 				[
@@ -10995,14 +10957,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://greenlabs.co.kr",
-		"company_recruit_link": "https://greenlabs.co.kr/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4/%EC%B1%84%EC%9A%A9%EC%A0%95%EB%B3%B4/"
+		}
 	},
 	"비브로스": {
 		"logo": "https://static.codenary.co.kr/company-logo/1213.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 18개 기술 스택",
+		"company_link": "https://bbros.co.kr",
+		"company_recruit_link": "https://bbros.co.kr/career",
 		"stacks": {
 			"언어": [
 				[
@@ -11125,14 +11086,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://bbros.co.kr",
-		"company_recruit_link": "https://bbros.co.kr/career"
+		}
 	},
 	"아이디어스": {
 		"logo": "https://static.codenary.co.kr/company-logo/282.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 32개 기술 스택",
+		"company_link": "https://www.idus.com",
+		"company_recruit_link": "https://team.idus.com/join-idus",
 		"stacks": {
 			"언어": [
 				[
@@ -11332,14 +11292,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.idus.com",
-		"company_recruit_link": "https://team.idus.com/join-idus"
+		}
 	},
 	"스노우": {
 		"logo": "https://static.codenary.co.kr/company-logo/550.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 30개 기술 스택",
+		"company_link": "https://www.snowcorp.com/ko",
+		"company_recruit_link": "https://recruit.snowcorp.com/snow/recruitMain",
 		"stacks": {
 			"언어": [
 				[
@@ -11526,14 +11485,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.snowcorp.com/ko",
-		"company_recruit_link": "https://recruit.snowcorp.com/snow/recruitMain"
+		}
 	},
 	"42dot": {
 		"logo": "https://static.codenary.co.kr/company-logo/8794.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 25개 기술 스택",
+		"company_link": "https://42dot.ai",
+		"company_recruit_link": "https://42dot.ai/career",
 		"stacks": {
 			"언어": [
 				[
@@ -11692,14 +11650,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://42dot.ai",
-		"company_recruit_link": "https://42dot.ai/career"
+		}
 	},
 	"카카오엔터테인먼트": {
 		"logo": "https://static.codenary.co.kr/company-logo/187.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 35개 기술 스택",
+		"company_link": "https://www.kakaoent.com",
+		"company_recruit_link": "https://kakaoent.recruiter.co.kr/appsite/company/index",
 		"stacks": {
 			"언어": [
 				[
@@ -11791,7 +11748,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -11906,14 +11863,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.kakaoent.com",
-		"company_recruit_link": "https://kakaoent.recruiter.co.kr/appsite/company/index"
+		}
 	},
 	"채널코퍼레이션": {
 		"logo": "https://static.codenary.co.kr/company-logo/8.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 26개 기술 스택",
+		"company_link": "https://channel.io/ko?ref=codenary",
+		"company_recruit_link": "https://channel.io/ko/jobs",
 		"stacks": {
 			"언어": [
 				[
@@ -12081,14 +12037,13 @@
 					"https://static.codenary.co.kr/framework_logo/asana.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://channel.io/ko?ref=codenary",
-		"company_recruit_link": "https://channel.io/ko/jobs"
+		}
 	},
 	"미스터블루": {
 		"logo": "https://static.codenary.co.kr/company-logo/17771.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 34개 기술 스택",
+		"company_link": "https://www.mrblue.com",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -12288,14 +12243,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.mrblue.com",
-		"company_recruit_link": []
+		}
 	},
 	"스켈터랩스": {
 		"logo": "https://static.codenary.co.kr/company-logo/131.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 17개 기술 스택",
+		"company_link": "https://www.skelterlabs.com/ko",
+		"company_recruit_link": "https://www.notion.so/skelterlabsinc/71edafe219b0432da0b1959f622c9f1a",
 		"stacks": {
 			"언어": [
 				[
@@ -12363,7 +12317,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -12422,14 +12376,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.skelterlabs.com/ko",
-		"company_recruit_link": "https://www.notion.so/skelterlabsinc/71edafe219b0432da0b1959f622c9f1a"
+		}
 	},
 	"모두싸인": {
 		"logo": "https://static.codenary.co.kr/company-logo/1776.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 32개 기술 스택",
+		"company_link": "https://www.modusign.co.kr",
+		"company_recruit_link": "https://modusign.notion.site/modusign/cb0e1c9b73f84159bb9b3a1f32ebe5cb",
 		"stacks": {
 			"언어": [
 				[
@@ -12604,14 +12557,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "직장 기업",
-		"company_link": "https://www.modusign.co.kr",
-		"company_recruit_link": "https://modusign.notion.site/modusign/cb0e1c9b73f84159bb9b3a1f32ebe5cb"
+		}
 	},
 	"에이아이트릭스": {
 		"logo": "https://static.codenary.co.kr/company-logo/3716.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 23개 기술 스택",
+		"company_link": "https://www.aitrics.com",
+		"company_recruit_link": "https://www.aitrics.com/career",
 		"stacks": {
 			"언어": [
 				[
@@ -12750,14 +12702,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.aitrics.com",
-		"company_recruit_link": "https://www.aitrics.com/career"
+		}
 	},
 	"디셈버앤컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/1800.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 29개 기술 스택",
+		"company_link": "https://www.dco.com",
+		"company_recruit_link": "https://www.dco.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -12845,7 +12796,7 @@
 					"https://static.codenary.co.kr/framework_logo/rocksdb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -12928,14 +12879,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.dco.com",
-		"company_recruit_link": "https://www.dco.com/"
+		}
 	},
 	"바로고": {
 		"logo": "https://static.codenary.co.kr/company-logo/436.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 41개 기술 스택",
+		"company_link": "https://www.barogo.com",
+		"company_recruit_link": "https://www.barogo.com/recruit",
 		"stacks": {
 			"언어": [
 				[
@@ -13151,14 +13101,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://www.barogo.com",
-		"company_recruit_link": "https://www.barogo.com/recruit"
+		}
 	},
 	"자비스앤빌런즈": {
 		"logo": "https://static.codenary.co.kr/company-logo/403.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 28개 기술 스택",
+		"company_link": "https://www.3o3.co.kr",
+		"company_recruit_link": "https://team.3o3.co.kr/jobs/",
 		"stacks": {
 			"언어": [
 				[
@@ -13334,14 +13283,13 @@
 					"https://static.codenary.co.kr/framework_logo/trello.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.3o3.co.kr",
-		"company_recruit_link": "https://team.3o3.co.kr/jobs/"
+		}
 	},
 	"버드뷰": {
 		"logo": "https://static.codenary.co.kr/company-logo/216.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 29개 기술 스택",
+		"company_link": "https://www.birdview.kr",
+		"company_recruit_link": "https://www.hwahae.co.kr/career",
 		"stacks": {
 			"언어": [
 				[
@@ -13445,7 +13393,7 @@
 					"https://static.codenary.co.kr/framework_logo/redis.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -13528,14 +13476,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://www.birdview.kr",
-		"company_recruit_link": "https://www.hwahae.co.kr/career"
+		}
 	},
 	"모노리스": {
 		"logo": "https://static.codenary.co.kr/company-logo/3260.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 29개 기술 스택",
+		"company_link": "https://www.monolith.co.kr",
+		"company_recruit_link": "https://monolithcorp.notion.site/We-Are-Hiring-03f18203b1f94f0f9cf424e758a747b8",
 		"stacks": {
 			"언어": [
 				[
@@ -13707,14 +13654,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.monolith.co.kr",
-		"company_recruit_link": "https://monolithcorp.notion.site/We-Are-Hiring-03f18203b1f94f0f9cf424e758a747b8"
+		}
 	},
 	"매스프레소": {
 		"logo": "https://static.codenary.co.kr/company-logo/1628.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 36개 기술 스택",
+		"company_link": "https://mathpresso.com/ko?ref=codenary",
+		"company_recruit_link": "https://team.mathpresso.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -13922,14 +13868,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "https://mathpresso.com/ko?ref=codenary",
-		"company_recruit_link": "https://team.mathpresso.com/"
+		}
 	},
 	"식스샵": {
 		"logo": "https://static.codenary.co.kr/company-logo/808.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 29개 기술 스택",
+		"company_link": "https://www.sixshop.com",
+		"company_recruit_link": "https://team.sixshop.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -14095,14 +14040,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.sixshop.com",
-		"company_recruit_link": "https://team.sixshop.com/"
+		}
 	},
 	"크몽": {
 		"logo": "https://static.codenary.co.kr/company-logo/2051.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 15개 기술 스택",
+		"company_link": "https://kmong.com",
+		"company_recruit_link": "https://www.kmongcorp.com/career/",
 		"stacks": {
 			"언어": [
 				[
@@ -14212,14 +14156,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://kmong.com",
-		"company_recruit_link": "https://www.kmongcorp.com/career/"
+		}
 	},
 	"오피지지": {
 		"logo": "https://static.codenary.co.kr/company-logo/178.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 26개 기술 스택",
+		"company_link": "https://www.op.gg",
+		"company_recruit_link": "https://www.opgg.team/",
 		"stacks": {
 			"언어": [
 				[
@@ -14377,14 +14320,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.op.gg",
-		"company_recruit_link": "https://www.opgg.team/"
+		}
 	},
 	"여기어때컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/137.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 38개 기술 스택",
+		"company_link": "https://www.gccompany.co.kr",
+		"company_recruit_link": "https://www.wanted.co.kr/company/137",
 		"stacks": {
 			"언어": [
 				[
@@ -14596,14 +14538,13 @@
 					"https://static.codenary.co.kr/framework_logo/monday.png"
 				]
 			]
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.gccompany.co.kr",
-		"company_recruit_link": "https://www.wanted.co.kr/company/137"
+		}
 	},
 	"플리토": {
 		"logo": "https://static.codenary.co.kr/company-logo/468.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 25개 기술 스택",
+		"company_link": "https://www.flitto.com",
+		"company_recruit_link": "https://flitto.recruiter.co.kr/app/jobnotice/list",
 		"stacks": {
 			"언어": [
 				[
@@ -14755,14 +14696,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.flitto.com",
-		"company_recruit_link": "https://flitto.recruiter.co.kr/app/jobnotice/list"
+		}
 	},
 	"카닥": {
 		"logo": "https://static.codenary.co.kr/company-logo/6.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 23개 기술 스택",
+		"company_link": "https://www.cardoc.co.kr",
+		"company_recruit_link": "https://career.cardoc.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -14917,14 +14857,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://www.cardoc.co.kr",
-		"company_recruit_link": "https://career.cardoc.co.kr/"
+		}
 	},
 	"메쉬코리아": {
 		"logo": "https://static.codenary.co.kr/company-logo/676.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 27개 기술 스택",
+		"company_link": "https://meshkorea.net",
+		"company_recruit_link": "https://meshkorea.net/kr/career/",
 		"stacks": {
 			"언어": [
 				[
@@ -15092,14 +15031,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://meshkorea.net",
-		"company_recruit_link": "https://meshkorea.net/kr/career/"
+		}
 	},
 	"하나투어": {
 		"logo": "https://static.codenary.co.kr/company-logo/13639.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 55개 기술 스택",
+		"company_link": "https://www.hanatour.com",
+		"company_recruit_link": "http://www.hanatourcompany.com/kor/recruit/recruit.asp",
 		"stacks": {
 			"언어": [
 				[
@@ -15209,7 +15147,7 @@
 					"https://static.codenary.co.kr/framework_logo/couchbase.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -15378,14 +15316,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.hanatour.com",
-		"company_recruit_link": "http://www.hanatourcompany.com/kor/recruit/recruit.asp"
+		}
 	},
 	"트렌비": {
 		"logo": "https://static.codenary.co.kr/company-logo/6019.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 28개 기술 스택",
+		"company_link": "https://www.trenbe.com",
+		"company_recruit_link": "https://trenbe.notion.site/tren-be-8471fc922cd14bc288bf8d0ef590f105",
 		"stacks": {
 			"언어": [
 				[
@@ -15560,14 +15497,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.trenbe.com",
-		"company_recruit_link": "https://trenbe.notion.site/tren-be-8471fc922cd14bc288bf8d0ef590f105"
+		}
 	},
 	"중고나라": {
 		"logo": "https://static.codenary.co.kr/company-logo/4857.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 59개 기술 스택",
+		"company_link": "https://www.joongna.com",
+		"company_recruit_link": "https://jn-careers.notion.site/jn-careers/a8e42e34cdfa4999817c85b078151e2d",
 		"stacks": {
 			"언어": [
 				[
@@ -15731,7 +15667,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -15867,14 +15803,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.joongna.com",
-		"company_recruit_link": "https://jn-careers.notion.site/jn-careers/a8e42e34cdfa4999817c85b078151e2d"
+		}
 	},
 	"차이코퍼레이션": {
 		"logo": "https://static.codenary.co.kr/company-logo/13126.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 31개 기술 스택",
+		"company_link": "https://chai.finance",
+		"company_recruit_link": "https://www.notion.so/CHAI-02dce9357de84050a67fd78e96cbec65",
 		"stacks": {
 			"언어": [
 				[
@@ -16070,14 +16005,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://chai.finance",
-		"company_recruit_link": "https://www.notion.so/CHAI-02dce9357de84050a67fd78e96cbec65"
+		}
 	},
 	"브이씨앤씨": {
 		"logo": "https://static.codenary.co.kr/company-logo/1053.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 41개 기술 스택",
+		"company_link": "https://between.us",
+		"company_recruit_link": "https://tadacareer.vcnc.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -16301,14 +16235,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://between.us",
-		"company_recruit_link": "https://tadacareer.vcnc.co.kr/"
+		}
 	},
 	"클래스101": {
 		"logo": "https://static.codenary.co.kr/company-logo/3257.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 26개 기술 스택",
+		"company_link": "https://class101.net",
+		"company_recruit_link": "https://jobs.class101.net/",
 		"stacks": {
 			"언어": [
 				[
@@ -16388,7 +16321,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -16468,14 +16401,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "https://class101.net",
-		"company_recruit_link": "https://jobs.class101.net/"
+		}
 	},
 	"파운트": {
 		"logo": "https://static.codenary.co.kr/company-logo/3542.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 24개 기술 스택",
+		"company_link": "https://fount.co",
+		"company_recruit_link": "https://fount.co/career",
 		"stacks": {
 			"언어": [
 				[
@@ -16567,7 +16499,7 @@
 					"https://static.codenary.co.kr/framework_logo/redis.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -16626,14 +16558,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://fount.co",
-		"company_recruit_link": "https://fount.co/career"
+		}
 	},
 	"힐링페이퍼": {
 		"logo": "https://static.codenary.co.kr/company-logo/1343.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 18개 기술 스택",
+		"company_link": "https://about.gangnamunni.com",
+		"company_recruit_link": "https://healingpapercareer.notion.site/1acdb5ca78954d989cbdbfb14750677c",
 		"stacks": {
 			"언어": [
 				[
@@ -16760,14 +16691,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://about.gangnamunni.com",
-		"company_recruit_link": "https://healingpapercareer.notion.site/1acdb5ca78954d989cbdbfb14750677c"
+		}
 	},
 	"번개장터": {
 		"logo": "https://static.codenary.co.kr/company-logo/90.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 46개 기술 스택",
+		"company_link": "https://bgzt.co.kr",
+		"company_recruit_link": "https://team.bgzt.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -17015,14 +16945,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://bgzt.co.kr",
-		"company_recruit_link": "https://team.bgzt.co.kr/"
+		}
 	},
 	"스푼": {
 		"logo": "https://static.codenary.co.kr/company-logo/1810.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 19개 기술 스택",
+		"company_link": "https://www.spooncast.net/kr?ref=codenary",
+		"company_recruit_link": "https://medium.com/spoontech",
 		"stacks": {
 			"언어": [
 				[
@@ -17152,14 +17081,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.spooncast.net/kr?ref=codenary",
-		"company_recruit_link": "https://medium.com/spoontech"
+		}
 	},
 	"딜리셔스": {
 		"logo": "https://static.codenary.co.kr/company-logo/3059.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 10개 언어 / 47개 기술 스택",
+		"company_link": "https://www.dealicious.kr",
+		"company_recruit_link": "https://www.notion.so/dealirecruit/e8747fb16efe4f1ba7747e7f96f9d373",
 		"stacks": {
 			"언어": [
 				[
@@ -17414,14 +17342,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "패션 기업",
-		"company_link": "https://www.dealicious.kr",
-		"company_recruit_link": "https://www.notion.so/dealirecruit/e8747fb16efe4f1ba7747e7f96f9d373"
+		}
 	},
 	"숨고": {
 		"logo": "https://static.codenary.co.kr/company-logo/2902.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 37개 기술 스택",
+		"company_link": "https://soomgo.com",
+		"company_recruit_link": "https://soomgo.recruitee.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -17549,7 +17476,7 @@
 					"https://static.codenary.co.kr/framework_logo/mongodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -17637,14 +17564,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://soomgo.com",
-		"company_recruit_link": "https://soomgo.recruitee.com/"
+		}
 	},
 	"드라마앤컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/307.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 39개 기술 스택",
+		"company_link": "https://dramancompany.com",
+		"company_recruit_link": "https://hello.remember.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -17860,14 +17786,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "직장 기업",
-		"company_link": "https://dramancompany.com",
-		"company_recruit_link": "https://hello.remember.co.kr/"
+		}
 	},
 	"다노": {
 		"logo": "https://static.codenary.co.kr/company-logo/57.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 20개 기술 스택",
+		"company_link": "https://mydano.net",
+		"company_recruit_link": "https://corp.dano.me/recruit",
 		"stacks": {
 			"언어": [
 				[
@@ -18006,14 +17931,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://mydano.net",
-		"company_recruit_link": "https://corp.dano.me/recruit"
+		}
 	},
 	"에이모": {
 		"logo": "https://static.codenary.co.kr/company-logo/316.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 24개 기술 스택",
+		"company_link": "https://aimmo.co.kr",
+		"company_recruit_link": "https://aimmo.wehire.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -18152,14 +18076,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://aimmo.co.kr",
-		"company_recruit_link": "https://aimmo.wehire.kr/"
+		}
 	},
 	"워시스왓": {
 		"logo": "https://static.codenary.co.kr/company-logo/700.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 27개 기술 스택",
+		"company_link": "https://www.getwashswat.com",
+		"company_recruit_link": "https://www.getwashswat.com/career_office",
 		"stacks": {
 			"언어": [
 				[
@@ -18319,14 +18242,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.getwashswat.com",
-		"company_recruit_link": "https://www.getwashswat.com/career_office"
+		}
 	},
 	"옴니어스": {
 		"logo": "https://static.codenary.co.kr/company-logo/958.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 25개 기술 스택",
+		"company_link": "https://www.omnious.com/ko-kr",
+		"company_recruit_link": "https://recruit.omnious.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -18466,14 +18388,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.omnious.com/ko-kr",
-		"company_recruit_link": "https://recruit.omnious.com/"
+		}
 	},
 	"아그레아블": {
 		"logo": "https://static.codenary.co.kr/company-logo/2016.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 16개 기술 스택",
+		"company_link": "https://agreable.com",
+		"company_recruit_link": "https://wingeat.notion.site/c6c3ea403e95491f80d0280e44dda4aa",
 		"stacks": {
 			"언어": [
 				[
@@ -18574,14 +18495,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://agreable.com",
-		"company_recruit_link": "https://wingeat.notion.site/c6c3ea403e95491f80d0280e44dda4aa"
+		}
 	},
 	"아드리엘": {
 		"logo": "https://static.codenary.co.kr/company-logo/4169.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 22개 기술 스택",
+		"company_link": "https://www.adriel.com/ko?ref=codenary",
+		"company_recruit_link": "https://team.adriel.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -18713,14 +18633,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.adriel.com/ko?ref=codenary",
-		"company_recruit_link": "https://team.adriel.com/"
+		}
 	},
 	"의식주컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/8953.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 16개 기술 스택",
+		"company_link": "https://www.laundrygo.com",
+		"company_recruit_link": "https://laundrygo.notion.site/9f5551911e174f75993cf7ec50ca249b",
 		"stacks": {
 			"언어": [
 				[
@@ -18800,7 +18719,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -18851,14 +18770,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.laundrygo.com",
-		"company_recruit_link": "https://laundrygo.notion.site/9f5551911e174f75993cf7ec50ca249b"
+		}
 	},
 	"팀스파르타": {
 		"logo": "https://static.codenary.co.kr/company-logo/11982.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 2개 언어 / 35개 기술 스택",
+		"company_link": "https://spartacodingclub.kr",
+		"company_recruit_link": "https://teamsparta-careers.oopy.io/",
 		"stacks": {
 			"언어": [
 				[
@@ -19034,14 +18952,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "https://spartacodingclub.kr",
-		"company_recruit_link": "https://teamsparta-careers.oopy.io/"
+		}
 	},
 	"티웨이브": {
 		"logo": "https://static.codenary.co.kr/company-logo/14580.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 21개 기술 스택",
+		"company_link": "https://www.iminfintech.co.kr",
+		"company_recruit_link": "https://www.wanted.co.kr/company/14580",
 		"stacks": {
 			"언어": [
 				[
@@ -19172,14 +19089,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.iminfintech.co.kr",
-		"company_recruit_link": "https://www.wanted.co.kr/company/14580"
+		}
 	},
 	"차봇모빌리티": {
 		"logo": "https://static.codenary.co.kr/company-logo/16085.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 27개 기술 스택",
+		"company_link": "https://www.chabot.co.kr",
+		"company_recruit_link": "https://chabot-recruit.oopy.io/",
 		"stacks": {
 			"언어": [
 				[
@@ -19343,14 +19259,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://www.chabot.co.kr",
-		"company_recruit_link": "https://chabot-recruit.oopy.io/"
+		}
 	},
 	"업라이즈": {
 		"logo": "https://static.codenary.co.kr/company-logo/20062.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 46개 기술 스택",
+		"company_link": "https://www.heybit.io",
+		"company_recruit_link": "https://www.uprise.so/",
 		"stacks": {
 			"언어": [
 				[
@@ -19606,14 +19521,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.heybit.io",
-		"company_recruit_link": "https://www.uprise.so/"
+		}
 	},
 	"두들린": {
 		"logo": "https://static.codenary.co.kr/company-logo/21541.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 2개 언어 / 23개 기술 스택",
+		"company_link": "https://www.greetinghr.com",
+		"company_recruit_link": "https://doodlin.career.greetinghr.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -19744,14 +19658,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "직장 기업",
-		"company_link": "https://www.greetinghr.com",
-		"company_recruit_link": "https://doodlin.career.greetinghr.com/"
+		}
 	},
 	"레몬베이스": {
 		"logo": "https://static.codenary.co.kr/company-logo/25099.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 19개 기술 스택",
+		"company_link": "https://lemonbase.com",
+		"company_recruit_link": "https://www.lemonbase.team/",
 		"stacks": {
 			"언어": [
 				[
@@ -19811,7 +19724,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -19879,14 +19792,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "직장 기업",
-		"company_link": "https://lemonbase.com",
-		"company_recruit_link": "https://www.lemonbase.team/"
+		}
 	},
 	"핀다": {
 		"logo": "https://static.codenary.co.kr/company-logo/413.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 33개 기술 스택",
+		"company_link": "https://finda.co.kr",
+		"company_recruit_link": "https://www.finda.co.kr/careers",
 		"stacks": {
 			"언어": [
 				[
@@ -20074,14 +19986,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://finda.co.kr",
-		"company_recruit_link": "https://www.finda.co.kr/careers"
+		}
 	},
 	"토스랩": {
 		"logo": "https://static.codenary.co.kr/company-logo/64.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 24개 기술 스택",
+		"company_link": "https://www.jandi.com",
+		"company_recruit_link": "https://www.notion.so/JANDI-1a6fcca35c2d46d2b7bfe422bd337869",
 		"stacks": {
 			"언어": [
 				[
@@ -20224,14 +20135,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "직장 기업",
-		"company_link": "https://www.jandi.com",
-		"company_recruit_link": "https://www.notion.so/JANDI-1a6fcca35c2d46d2b7bfe422bd337869"
+		}
 	},
 	"스포카": {
 		"logo": "https://static.codenary.co.kr/company-logo/75.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 24개 기술 스택",
+		"company_link": "https://www.spoqa.com",
+		"company_recruit_link": "https://recruit.spoqa.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -20386,14 +20296,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.spoqa.com",
-		"company_recruit_link": "https://recruit.spoqa.com/"
+		}
 	},
 	"엔라이즈": {
 		"logo": "https://static.codenary.co.kr/company-logo/5005.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 31개 기술 스택",
+		"company_link": "https://www.quat.life",
+		"company_recruit_link": "https://nrise.net/",
 		"stacks": {
 			"언어": [
 				[
@@ -20585,14 +20494,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://www.quat.life",
-		"company_recruit_link": "https://nrise.net/"
+		}
 	},
 	"베이글코드": {
 		"logo": "https://static.codenary.co.kr/company-logo/36.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 37개 기술 스택",
+		"company_link": "https://www.bagelcode.com",
+		"company_recruit_link": "https://bagelcode.recruiter.co.kr/app/jobnotice/list",
 		"stacks": {
 			"언어": [
 				[
@@ -20796,14 +20704,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.bagelcode.com",
-		"company_recruit_link": "https://bagelcode.recruiter.co.kr/app/jobnotice/list"
+		}
 	},
 	"프립": {
 		"logo": "https://static.codenary.co.kr/company-logo/138.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 33개 기술 스택",
+		"company_link": "https://www.frip.co.kr",
+		"company_recruit_link": "https://careers.frip.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -20990,14 +20897,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.frip.co.kr",
-		"company_recruit_link": "https://careers.frip.co.kr/"
+		}
 	},
 	"마이셀럽스": {
 		"logo": "https://static.codenary.co.kr/company-logo/614.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 22개 기술 스택",
+		"company_link": "https://www.mycelebs.ai",
+		"company_recruit_link": "https://www.notion.so/3a3a01b339844dcf8f1e4dbfac3fd81d",
 		"stacks": {
 			"언어": [
 				[
@@ -21127,14 +21033,13 @@
 			],
 			"협업툴": [],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.mycelebs.ai",
-		"company_recruit_link": "https://www.notion.so/3a3a01b339844dcf8f1e4dbfac3fd81d"
+		}
 	},
 	"디스콰이엇": {
 		"logo": "https://static.codenary.co.kr/company-logo/100003.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 1개 언어 / 10개 기술 스택",
+		"company_link": "https://disquiet.io",
+		"company_recruit_link": "https://www.disquiet.tech/post/join-disquiet",
 		"stacks": {
 			"언어": [
 				[
@@ -21207,14 +21112,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://disquiet.io",
-		"company_recruit_link": "https://www.disquiet.tech/post/join-disquiet"
+		}
 	},
 	"엔라이튼": {
 		"logo": "https://static.codenary.co.kr/company-logo/1025.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 29개 기술 스택",
+		"company_link": "https://enlighten.kr",
+		"company_recruit_link": "https://recruit.enlighten.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -21362,7 +21266,7 @@
 					"https://static.codenary.co.kr/framework_logo/kubernetes.png"
 				],
 				[
-					"Google Cloud",
+					"Google Cloud Build",
 					"https://static.codenary.co.kr/framework_logo/googlecodebuild.png"
 				],
 				[
@@ -21397,14 +21301,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://enlighten.kr",
-		"company_recruit_link": "https://recruit.enlighten.kr/"
+		}
 	},
 	"드림어스컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/4411.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 25개 기술 스택",
+		"company_link": "https://www.dreamuscompany.com",
+		"company_recruit_link": "https://recruit.dreamuscompany.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -21558,14 +21461,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://www.dreamuscompany.com",
-		"company_recruit_link": "https://recruit.dreamuscompany.com/"
+		}
 	},
 	"더기프팅컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/12411.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 24개 기술 스택",
+		"company_link": "https://shop.inthewear.com/products?ref=codenary",
+		"company_recruit_link": "https://www.notion.so/365-a0c5d042dcf54516bc7de34610cf5232",
 		"stacks": {
 			"언어": [
 				[
@@ -21712,14 +21614,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://shop.inthewear.com/products?ref=codenary",
-		"company_recruit_link": "https://www.notion.so/365-a0c5d042dcf54516bc7de34610cf5232"
+		}
 	},
 	"클래스팅": {
 		"logo": "https://static.codenary.co.kr/company-logo/733.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 20개 기술 스택",
+		"company_link": "https://www.classting.com",
+		"company_recruit_link": "https://careers.classting.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -21838,14 +21739,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "https://www.classting.com",
-		"company_recruit_link": "https://careers.classting.com/"
+		}
 	},
 	"큐피스트": {
 		"logo": "https://static.codenary.co.kr/company-logo/1251.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 24개 기술 스택",
+		"company_link": "http://www.glam.am",
+		"company_recruit_link": "https://cupist.notion.site/300057bdb9fc46078d1f2aaf49bb2ab6",
 		"stacks": {
 			"언어": [
 				[
@@ -22000,14 +21900,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "http://www.glam.am",
-		"company_recruit_link": "https://cupist.notion.site/300057bdb9fc46078d1f2aaf49bb2ab6"
+		}
 	},
 	"라포랩스": {
 		"logo": "https://static.codenary.co.kr/company-logo/14509.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 35개 기술 스택",
+		"company_link": "http://queen-it.com",
+		"company_recruit_link": "https://www.rapportlabs.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -22198,14 +22097,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "http://queen-it.com",
-		"company_recruit_link": "https://www.rapportlabs.kr/"
+		}
 	},
 	"뮤직카우": {
 		"logo": "https://static.codenary.co.kr/company-logo/1965.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 16개 기술 스택",
+		"company_link": "https://www.musicow.com",
+		"company_recruit_link": "https://www.musicow.com/about/careers",
 		"stacks": {
 			"언어": [
 				[
@@ -22312,14 +22210,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://www.musicow.com",
-		"company_recruit_link": "https://www.musicow.com/about/careers"
+		}
 	},
 	"퍼블리": {
 		"logo": "https://static.codenary.co.kr/company-logo/166.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 11개 기술 스택",
+		"company_link": "https://publy.co",
+		"company_recruit_link": "https://www.notion.so/56eaf8f111af4fbbbcf283661cbdb256",
 		"stacks": {
 			"언어": [
 				[
@@ -22412,14 +22309,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://publy.co",
-		"company_recruit_link": "https://www.notion.so/56eaf8f111af4fbbbcf283661cbdb256"
+		}
 	},
 	"렌딧": {
 		"logo": "https://static.codenary.co.kr/company-logo/406.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 18개 기술 스택",
+		"company_link": "https://loan.lendit.co.kr",
+		"company_recruit_link": "https://careers.lendit.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -22545,14 +22441,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://loan.lendit.co.kr",
-		"company_recruit_link": "https://careers.lendit.co.kr/"
+		}
 	},
 	"미소": {
 		"logo": "https://static.codenary.co.kr/company-logo/459.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 29개 기술 스택",
+		"company_link": "https://miso.kr",
+		"company_recruit_link": "https://miso.kr/career/",
 		"stacks": {
 			"언어": [
 				[
@@ -22720,14 +22615,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://miso.kr",
-		"company_recruit_link": "https://miso.kr/career/"
+		}
 	},
 	"크리에이트립": {
 		"logo": "https://static.codenary.co.kr/company-logo/1581.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 23개 기술 스택",
+		"company_link": "https://www.creatrip.co.kr",
+		"company_recruit_link": "https://career.creatrip.team/",
 		"stacks": {
 			"언어": [
 				[
@@ -22811,7 +22705,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -22859,14 +22753,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.creatrip.co.kr",
-		"company_recruit_link": "https://career.creatrip.team/"
+		}
 	},
 	"발란": {
 		"logo": "https://static.codenary.co.kr/company-logo/2096.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 13개 기술 스택",
+		"company_link": "https://balaan.co.kr/shop/main/index.php?ref=codenary",
+		"company_recruit_link": "https://soapy-painter-778.notion.site/cd70730982474647863bbd6f304b7a61",
 		"stacks": {
 			"언어": [
 				[
@@ -22936,7 +22829,7 @@
 					"https://static.codenary.co.kr/framework_logo/elasticsearch.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -22976,14 +22869,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://balaan.co.kr/shop/main/index.php?ref=codenary",
-		"company_recruit_link": "https://soapy-painter-778.notion.site/cd70730982474647863bbd6f304b7a61"
+		}
 	},
 	"자란다": {
 		"logo": "https://static.codenary.co.kr/company-logo/2512.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 17개 기술 스택",
+		"company_link": "https://jaranda.kr",
+		"company_recruit_link": "https://team.jaranda.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -23101,14 +22993,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "교육 기업",
-		"company_link": "https://jaranda.kr",
-		"company_recruit_link": "https://team.jaranda.kr/"
+		}
 	},
 	"샤플": {
 		"logo": "https://static.codenary.co.kr/company-logo/7375.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 19개 기술 스택",
+		"company_link": "https://www.shoplworks.com",
+		"company_recruit_link": "https://shoplworks.notion.site/shoplworks/a294457680c64b748ff9ec38de447376",
 		"stacks": {
 			"언어": [
 				[
@@ -23237,14 +23128,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.shoplworks.com",
-		"company_recruit_link": "https://shoplworks.notion.site/shoplworks/a294457680c64b748ff9ec38de447376"
+		}
 	},
 	"튜링": {
 		"logo": "https://static.codenary.co.kr/company-logo/10835.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 24개 기술 스택",
+		"company_link": "https://www.teamturing.com",
+		"company_recruit_link": "https://www.notion.so/Join-Us-4885251d36784a60ab517dd4660d6a7a",
 		"stacks": {
 			"언어": [
 				[
@@ -23392,14 +23282,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.teamturing.com",
-		"company_recruit_link": "https://www.notion.so/Join-Us-4885251d36784a60ab517dd4660d6a7a"
+		}
 	},
 	"닥터나우": {
 		"logo": "https://static.codenary.co.kr/company-logo/13808.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 15개 기술 스택",
+		"company_link": "https://drnow.co.kr",
+		"company_recruit_link": "https://www.notion.so/NOW-973860e2775a4fb5b7fd7099bf877e9e",
 		"stacks": {
 			"언어": [
 				[
@@ -23506,14 +23395,13 @@
 					"https://static.codenary.co.kr/framework_logo/trello.png"
 				]
 			]
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://drnow.co.kr",
-		"company_recruit_link": "https://www.notion.so/NOW-973860e2775a4fb5b7fd7099bf877e9e"
+		}
 	},
 	"페이히어": {
 		"logo": "https://static.codenary.co.kr/company-logo/16017.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 19개 기술 스택",
+		"company_link": "https://payhere.in",
+		"company_recruit_link": "https://www.payhere.team/",
 		"stacks": {
 			"언어": [
 				[
@@ -23644,14 +23532,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://payhere.in",
-		"company_recruit_link": "https://www.payhere.team/"
+		}
 	},
 	"더블유클럽": {
 		"logo": "https://static.codenary.co.kr/company-logo/23165.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 2개 언어 / 23개 기술 스택",
+		"company_link": "https://wclub.co.kr",
+		"company_recruit_link": "https://wclub.co.kr/career",
 		"stacks": {
 			"언어": [
 				[
@@ -23783,14 +23670,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://wclub.co.kr",
-		"company_recruit_link": "https://wclub.co.kr/career"
+		}
 	},
 	"맘편한세상": {
 		"logo": "https://static.codenary.co.kr/company-logo/7062.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 18개 기술 스택",
+		"company_link": "https://www.mom-sitter.com",
+		"company_recruit_link": "https://www.mfort.co.kr/",
 		"stacks": {
 			"언어": [
 				[
@@ -23862,7 +23748,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -23914,14 +23800,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.mom-sitter.com",
-		"company_recruit_link": "https://www.mfort.co.kr/"
+		}
 	},
 	"엠큐닉": {
 		"logo": "https://static.codenary.co.kr/company-logo/100001.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 9개 언어 / 42개 기술 스택",
+		"company_link": "https://www.mqnic.com",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -24053,7 +23938,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsdynamodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -24157,14 +24042,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.mqnic.com",
-		"company_recruit_link": []
+		}
 	},
 	"클라썸": {
 		"logo": "https://static.codenary.co.kr/company-logo/9416.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 18개 기술 스택",
+		"company_link": "https://classum.com/ko",
+		"company_recruit_link": "https://classum.notion.site/CLASSUM-7ee2543f7ea94acdbb2da5763ecda119",
 		"stacks": {
 			"언어": [
 				[
@@ -24280,14 +24164,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "https://classum.com/ko",
-		"company_recruit_link": "https://classum.notion.site/CLASSUM-7ee2543f7ea94acdbb2da5763ecda119"
+		}
 	},
 	"쿼타랩": {
 		"logo": "https://static.codenary.co.kr/company-logo/15863.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 27개 기술 스택",
+		"company_link": "https://quotabook.com/ko?ref=codenary",
+		"company_recruit_link": "https://careers.quotabook.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -24446,14 +24329,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://quotabook.com/ko?ref=codenary",
-		"company_recruit_link": "https://careers.quotabook.com/"
+		}
 	},
 	"네오사피엔스": {
 		"logo": "https://static.codenary.co.kr/company-logo/4666.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 28개 기술 스택",
+		"company_link": "https://neosapience.com",
+		"company_recruit_link": "https://www.notion.so/9e4a3036a8884d4589bdfab004d0ee2c",
 		"stacks": {
 			"언어": [
 				[
@@ -24609,14 +24491,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://neosapience.com",
-		"company_recruit_link": "https://www.notion.so/9e4a3036a8884d4589bdfab004d0ee2c"
+		}
 	},
 	"짠컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/20407.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 11개 기술 스택",
+		"company_link": "https://jjaann.co.kr",
+		"company_recruit_link": "https://jjaanncompany.notion.site/JJAANN-Careers-aaf8c18a5e0e495b8aae748bacc2bde9",
 		"stacks": {
 			"언어": [
 				[
@@ -24676,7 +24557,7 @@
 					"https://static.codenary.co.kr/framework_logo/postgresql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -24703,14 +24584,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://jjaann.co.kr",
-		"company_recruit_link": "https://jjaanncompany.notion.site/JJAANN-Careers-aaf8c18a5e0e495b8aae748bacc2bde9"
+		}
 	},
 	"모두의회계": {
 		"logo": "https://static.codenary.co.kr/company-logo/7913.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 12개 기술 스택",
+		"company_link": "https://moneypin.biz",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -24803,14 +24683,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://moneypin.biz",
-		"company_recruit_link": []
+		}
 	},
 	"메이아이": {
 		"logo": "https://static.codenary.co.kr/company-logo/11127.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 24개 기술 스택",
+		"company_link": "https://may-i.io",
+		"company_recruit_link": "https://recruit-may-i.oopy.io/",
 		"stacks": {
 			"언어": [
 				[
@@ -24957,14 +24836,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://may-i.io",
-		"company_recruit_link": "https://recruit-may-i.oopy.io/"
+		}
 	},
 	"팀오투": {
 		"logo": "https://static.codenary.co.kr/company-logo/4386.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 24개 기술 스택",
+		"company_link": "https://teamo2.kr",
+		"company_recruit_link": "https://www.wanted.co.kr/company/4386",
 		"stacks": {
 			"언어": [
 				[
@@ -25054,7 +24932,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -25111,14 +24989,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://teamo2.kr",
-		"company_recruit_link": "https://www.wanted.co.kr/company/4386"
+		}
 	},
 	"마이지놈박스": {
 		"logo": "https://static.codenary.co.kr/company-logo/34035.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 22개 기술 스택",
+		"company_link": "https://mgbx.io",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -25264,14 +25141,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://mgbx.io",
-		"company_recruit_link": []
+		}
 	},
 	"위플래닛": {
 		"logo": "https://static.codenary.co.kr/company-logo/100005.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 23개 기술 스택",
+		"company_link": "http://wepla.net",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -25411,14 +25287,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "교육 기업",
-		"company_link": "http://wepla.net",
-		"company_recruit_link": []
+		}
 	},
 	"크로커스": {
 		"logo": "https://static.codenary.co.kr/company-logo/5072.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 15개 기술 스택",
+		"company_link": "https://crocus.ai",
+		"company_recruit_link": "https://www.wanted.co.kr/company/5072",
 		"stacks": {
 			"언어": [
 				[
@@ -25524,14 +25399,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://crocus.ai",
-		"company_recruit_link": "https://www.wanted.co.kr/company/5072"
+		}
 	},
 	"유니크굿컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/9637.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 5개 언어 / 18개 기술 스택",
+		"company_link": "https://uniquegood.biz",
+		"company_recruit_link": "https://rwd.to/recruit",
 		"stacks": {
 			"언어": [
 				[
@@ -25650,14 +25524,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "여행 기업",
-		"company_link": "https://uniquegood.biz",
-		"company_recruit_link": "https://rwd.to/recruit"
+		}
 	},
 	"볼드나인": {
 		"logo": "https://static.codenary.co.kr/company-logo/12621.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 2개 언어 / 12개 기술 스택",
+		"company_link": "https://www.bold-9.com",
+		"company_recruit_link": "https://www.wanted.co.kr/company/12621",
 		"stacks": {
 			"언어": [
 				[
@@ -25739,14 +25612,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://www.bold-9.com",
-		"company_recruit_link": "https://www.wanted.co.kr/company/12621"
+		}
 	},
 	"아테나스랩": {
 		"logo": "https://static.codenary.co.kr/company-logo/21347.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 13개 기술 스택",
+		"company_link": "https://www.athenaslab.com",
+		"company_recruit_link": "https://www.athenaslab.com/d81b3ca9-ddfd-46e1-876c-6d1b6edd4d4b",
 		"stacks": {
 			"언어": [
 				[
@@ -25845,14 +25717,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "교육 기업",
-		"company_link": "https://www.athenaslab.com",
-		"company_recruit_link": "https://www.athenaslab.com/d81b3ca9-ddfd-46e1-876c-6d1b6edd4d4b"
+		}
 	},
 	"메타몰프": {
 		"logo": "https://static.codenary.co.kr/company-logo/100007.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 21개 기술 스택",
+		"company_link": "https://metamorp.cc",
+		"company_recruit_link": "https://www.rocketpunch.com/companies/metamorp/jobs",
 		"stacks": {
 			"언어": [
 				[
@@ -25980,14 +25851,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://metamorp.cc",
-		"company_recruit_link": "https://www.rocketpunch.com/companies/metamorp/jobs"
+		}
 	},
 	"모토브": {
 		"logo": "https://static.codenary.co.kr/company-logo/4997.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 36개 기술 스택",
+		"company_link": "https://www.motov.co.kr",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -26083,7 +25953,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -26191,14 +26061,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.motov.co.kr",
-		"company_recruit_link": []
+		}
 	},
 	"바바그라운드": {
 		"logo": "https://static.codenary.co.kr/company-logo/100006.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 10개 기술 스택",
+		"company_link": "https://nonunbub.com",
+		"company_recruit_link": "https://nonunbub.notion.site/fdd9a11df3184a6ca3c9e43da6b4b379",
 		"stacks": {
 			"언어": [
 				[
@@ -26242,7 +26111,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -26289,14 +26158,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "여행 기업",
-		"company_link": "https://nonunbub.com",
-		"company_recruit_link": "https://nonunbub.notion.site/fdd9a11df3184a6ca3c9e43da6b4b379"
+		}
 	},
 	"커리어데이": {
 		"logo": "https://static.codenary.co.kr/company-logo/100010.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 26개 기술 스택",
+		"company_link": "https://careerday.jobs",
+		"company_recruit_link": "https://cream-leader-a13.notion.site/7417ed4380bd45e0902b1628316022ee",
 		"stacks": {
 			"언어": [
 				[
@@ -26444,14 +26312,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "직장 기업",
-		"company_link": "https://careerday.jobs",
-		"company_recruit_link": "https://cream-leader-a13.notion.site/7417ed4380bd45e0902b1628316022ee"
+		}
 	},
 	"스프링클라우드": {
 		"logo": "https://static.codenary.co.kr/company-logo/11265.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 27개 기술 스택",
+		"company_link": "http://www.aspringcloud.com",
+		"company_recruit_link": "https://aspringcloud.imweb.me/recuit",
 		"stacks": {
 			"언어": [
 				[
@@ -26599,14 +26466,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "모빌리티 기업",
-		"company_link": "http://www.aspringcloud.com",
-		"company_recruit_link": "https://aspringcloud.imweb.me/recuit"
+		}
 	},
 	"온다": {
 		"logo": "https://static.codenary.co.kr/company-logo/1584.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 27개 기술 스택",
+		"company_link": "https://www.onda.me",
+		"company_recruit_link": "https://together.onda.me/",
 		"stacks": {
 			"언어": [
 				[
@@ -26761,14 +26627,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.onda.me",
-		"company_recruit_link": "https://together.onda.me/"
+		}
 	},
 	"아이엠랩": {
 		"logo": "https://static.codenary.co.kr/company-logo/2039.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 13개 기술 스택",
+		"company_link": "https://imlabworld.com",
+		"company_recruit_link": "https://www.notion.so/I-M-LAB-8c54be12c6ab474e85344f75843b66df",
 		"stacks": {
 			"언어": [
 				[
@@ -26856,7 +26721,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -26878,14 +26743,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://imlabworld.com",
-		"company_recruit_link": "https://www.notion.so/I-M-LAB-8c54be12c6ab474e85344f75843b66df"
+		}
 	},
 	"펫트너": {
 		"logo": "https://static.codenary.co.kr/company-logo/31103.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 6개 기술 스택",
+		"company_link": "https://petner.kr/health?ref=codenary",
+		"company_recruit_link": "https://petner.notion.site/84e5d0254f7f43a7b9a72627cf8ffc2b",
 		"stacks": {
 			"언어": [
 				[
@@ -26946,14 +26810,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://petner.kr/health?ref=codenary",
-		"company_recruit_link": "https://petner.notion.site/84e5d0254f7f43a7b9a72627cf8ffc2b"
+		}
 	},
 	"핏펫": {
 		"logo": "https://static.codenary.co.kr/company-logo/1877.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 21개 기술 스택",
+		"company_link": "https://fitpet.co.kr",
+		"company_recruit_link": "https://fitpet.co.kr/development",
 		"stacks": {
 			"언어": [
 				[
@@ -27091,14 +26954,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://fitpet.co.kr",
-		"company_recruit_link": "https://fitpet.co.kr/development"
+		}
 	},
 	"엔터플": {
 		"logo": "https://static.codenary.co.kr/company-logo/8487.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 37개 기술 스택",
+		"company_link": "https://synctree101.com",
+		"company_recruit_link": "https://blog.naver.com/nntuple/222845557179",
 		"stacks": {
 			"언어": [
 				[
@@ -27289,14 +27151,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://synctree101.com",
-		"company_recruit_link": "https://blog.naver.com/nntuple/222845557179"
+		}
 	},
 	"아트웍스코리아": {
 		"logo": "https://static.codenary.co.kr/company-logo/3835.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 15개 기술 스택",
+		"company_link": "https://www.funshop.co.kr",
+		"company_recruit_link": "https://www.funshop.co.kr/home/recruit",
 		"stacks": {
 			"언어": [
 				[
@@ -27411,14 +27272,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.funshop.co.kr",
-		"company_recruit_link": "https://www.funshop.co.kr/home/recruit"
+		}
 	},
 	"마켓디자이너스": {
 		"logo": "https://static.codenary.co.kr/company-logo/1661.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 25개 기술 스택",
+		"company_link": "https://marketdesigners.com",
+		"company_recruit_link": "https://marketdesigners.com/recruitMain",
 		"stacks": {
 			"언어": [
 				[
@@ -27574,14 +27434,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://marketdesigners.com",
-		"company_recruit_link": "https://marketdesigners.com/recruitMain"
+		}
 	},
 	"매드업": {
 		"logo": "https://static.codenary.co.kr/company-logo/332.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 21개 기술 스택",
+		"company_link": "https://www.madup.com",
+		"company_recruit_link": "https://recruit.madup.com/about",
 		"stacks": {
 			"언어": [
 				[
@@ -27712,14 +27571,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "인공지능 기업",
-		"company_link": "https://www.madup.com",
-		"company_recruit_link": "https://recruit.madup.com/about"
+		}
 	},
 	"천명앤컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/22730.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 25개 기술 스택",
+		"company_link": "https://chunmyung.com",
+		"company_recruit_link": "https://amazing-sedum-0cf.notion.site/Development-730404a4cc1d4f919beca88df147593b",
 		"stacks": {
 			"언어": [
 				[
@@ -27863,14 +27721,13 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://chunmyung.com",
-		"company_recruit_link": "https://amazing-sedum-0cf.notion.site/Development-730404a4cc1d4f919beca88df147593b"
+		}
 	},
 	"짐싸": {
 		"logo": "https://static.codenary.co.kr/company-logo/1916.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 16개 기술 스택",
+		"company_link": "https://www.zimssa.com",
+		"company_recruit_link": "https://www.notion.so/76f64c26cb5046b888480517ed785a6f",
 		"stacks": {
 			"언어": [
 				[
@@ -27940,7 +27797,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -27984,14 +27841,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.zimssa.com",
-		"company_recruit_link": "https://www.notion.so/76f64c26cb5046b888480517ed785a6f"
+		}
 	},
 	"지바이크": {
 		"logo": "https://static.codenary.co.kr/company-logo/1989.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 30개 기술 스택",
+		"company_link": "https://gbike.io",
+		"company_recruit_link": "https://www.wanted.co.kr/company/1989",
 		"stacks": {
 			"언어": [
 				[
@@ -28170,14 +28026,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "모빌리티 기업",
-		"company_link": "https://gbike.io",
-		"company_recruit_link": "https://www.wanted.co.kr/company/1989"
+		}
 	},
 	"스테이폴리오": {
 		"logo": "https://static.codenary.co.kr/company-logo/13710.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 18개 기술 스택",
+		"company_link": "https://www.stayfolio.com",
+		"company_recruit_link": "https://stayfolio.kr/career",
 		"stacks": {
 			"언어": [
 				[
@@ -28303,14 +28158,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "여행 기업",
-		"company_link": "https://www.stayfolio.com",
-		"company_recruit_link": "https://stayfolio.kr/career"
+		}
 	},
 	"온더룩": {
 		"logo": "https://static.codenary.co.kr/company-logo/17486.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 18개 기술 스택",
+		"company_link": "https://onthelook.co.kr",
+		"company_recruit_link": "https://www.wanted.co.kr/company/17486",
 		"stacks": {
 			"언어": [
 				[
@@ -28421,14 +28275,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "패션 기업",
-		"company_link": "https://onthelook.co.kr",
-		"company_recruit_link": "https://www.wanted.co.kr/company/17486"
+		}
 	},
 	"파이퍼블릭": {
 		"logo": "https://static.codenary.co.kr/company-logo/13741.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 2개 언어 / 15개 기술 스택",
+		"company_link": "https://realbuy.io",
+		"company_recruit_link": "https://www.wanted.co.kr/company/13741",
 		"stacks": {
 			"언어": [
 				[
@@ -28527,14 +28380,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "금융/보험 기업",
-		"company_link": "https://realbuy.io",
-		"company_recruit_link": "https://www.wanted.co.kr/company/13741"
+		}
 	},
 	"매쓰팡": {
 		"logo": "https://static.codenary.co.kr/company-logo/100014.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 1개 언어 / 18개 기술 스택",
+		"company_link": "https://www.mathpang.com",
+		"company_recruit_link": "https://blog.mathpang.com/join-us/",
 		"stacks": {
 			"언어": [
 				[
@@ -28644,14 +28496,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "교육 기업",
-		"company_link": "https://www.mathpang.com",
-		"company_recruit_link": "https://blog.mathpang.com/join-us/"
+		}
 	},
 	"라이너": {
 		"logo": "https://static.codenary.co.kr/company-logo/1235.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 7개 언어 / 26개 기술 스택",
+		"company_link": "https://getliner.com",
+		"company_recruit_link": "https://liner.oopy.io/",
 		"stacks": {
 			"언어": [
 				[
@@ -28727,7 +28578,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -28810,14 +28661,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "소셜/컨텐츠 기업",
-		"company_link": "https://getliner.com",
-		"company_recruit_link": "https://liner.oopy.io/"
+		}
 	},
 	"아키드로우": {
 		"logo": "https://static.codenary.co.kr/company-logo/2077.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 26개 기술 스택",
+		"company_link": "https://www.archisketch.com", 
+		"company_recruit_link": "https://www.notion.so/archisketch/Hello-Archisketch-c0a6ed2afd8e4ccaae6054b37e78051a",
 		"stacks": {
 			"언어": [
 				[
@@ -28972,14 +28822,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "부동산/인테리어 기업",
-		"company_link": "https://www.archisketch.com",
-		"company_recruit_link": "https://www.notion.so/archisketch/Hello-Archisketch-c0a6ed2afd8e4ccaae6054b37e78051a"
+		}
 	},
 	"빌리버": {
 		"logo": "https://static.codenary.co.kr/company-logo/25928.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 19개 기술 스택",
+		"company_link": "https://www.riseenm.com", 
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -29101,14 +28950,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.riseenm.com",
-		"company_recruit_link": []
+		}
 	},
 	"매스어답션": {
 		"logo": "https://static.codenary.co.kr/company-logo/26114.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 23개 기술 스택",
+		"company_link": "https://mass-adoption.com", 
+		"company_recruit_link": "https://mass-adoption.com/",
 		"stacks": {
 			"언어": [
 				[
@@ -29243,14 +29091,13 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://mass-adoption.com",
-		"company_recruit_link": "https://mass-adoption.com/"
+		}
 	},
 	"실비아헬스": {
 		"logo": "https://static.codenary.co.kr/company-logo/32100.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 22개 기술 스택",
+		"company_link": "https://silvia.io", 
+		"company_recruit_link": "https://hr.silvia.io/",
 		"stacks": {
 			"언어": [
 				[
@@ -29390,14 +29237,13 @@
 					"https://static.codenary.co.kr/framework_logo/notion.png"
 				]
 			]
-		},
-		"category": "헬스케어 기업",
-		"company_link": "https://silvia.io",
-		"company_recruit_link": "https://hr.silvia.io/"
+		}
 	},
 	"셀메이트": {
 		"logo": "https://static.codenary.co.kr/company-logo/5893.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 8개 언어 / 14개 기술 스택",
+		"company_link": "https://www.sellmate.co.kr", 
+		"company_recruit_link": "https://www.sellmate.co.kr/company/recruit",
 		"stacks": {
 			"언어": [
 				[
@@ -29467,7 +29313,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -29515,14 +29361,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "이커머스 기업",
-		"company_link": "https://www.sellmate.co.kr",
-		"company_recruit_link": "https://www.sellmate.co.kr/company/recruit"
+		}
 	},
 	"바로온": {
 		"logo": "https://static.codenary.co.kr/company-logo/27842.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 13개 기술 스택",
+		"company_link": "https://baro-on.com", 
+		"company_recruit_link": "https://www.wanted.co.kr/company/27842",
 		"stacks": {
 			"언어": [
 				[
@@ -29613,14 +29458,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://baro-on.com",
-		"company_recruit_link": "https://www.wanted.co.kr/company/27842"
+		}
 	},
 	"오피앤": {
 		"logo": "https://static.codenary.co.kr/company-logo/100011.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 4개 언어 / 22개 기술 스택",
+		"company_link": "https://opndoctor.com",
+		"company_recruit_link": "https://www.notion.so/opndoctor/d213474b136f49929745c256c7fcb98f",
 		"stacks": {
 			"언어": [
 				[
@@ -29760,14 +29604,13 @@
 					"https://static.codenary.co.kr/framework_logo/confluence.png"
 				]
 			]
-		},
-		"category": "부동산/인테리어 기업",
-		"company_link": "https://opndoctor.com",
-		"company_recruit_link": "https://www.notion.so/opndoctor/d213474b136f49929745c256c7fcb98f"
+		}
 	},
 	"웍스메이트": {
 		"logo": "https://static.codenary.co.kr/company-logo/100012.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 17개 기술 스택",
+		"company_link": "https://www.worksmate.co.kr",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -29874,14 +29717,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.worksmate.co.kr",
-		"company_recruit_link": []
+		}
 	},
 	"째깍악어": {
 		"logo": "https://static.codenary.co.kr/company-logo/100015.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 6개 언어 / 8개 기술 스택",
+		"company_link": "https://www.tictoccroc.com",
+		"company_recruit_link": "https://www.tictoccroc.com/web/company/recruit.php",
 		"stacks": {
 			"언어": [
 				[
@@ -29971,14 +29813,13 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		},
-		"category": "교육 기업",
-		"company_link": "https://www.tictoccroc.com",
-		"company_recruit_link": "https://www.tictoccroc.com/web/company/recruit.php"
+		}
 	},
 	"아이오크롭스": {
 		"logo": "https://static.codenary.co.kr/company-logo/11129.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 3개 언어 / 16개 기술 스택",
+		"company_link": "https://www.iocrops.com",
+		"company_recruit_link": "https://iocrops.notion.site/ioCrops-144a23188c474b69b204e53ecad34370",
 		"stacks": {
 			"언어": [
 				[
@@ -30032,7 +29873,7 @@
 					"https://static.codenary.co.kr/framework_logo/elasticsearch.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -30085,14 +29926,13 @@
 				]
 			],
 			"9번 카테고리": null
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.iocrops.com",
-		"company_recruit_link": "https://iocrops.notion.site/ioCrops-144a23188c474b69b204e53ecad34370"
+		}
 	},
 	"엔코위더스": {
 		"logo": "https://static.codenary.co.kr/company-logo/19386.png",
-		"stack_info": "국내기업",
+		"stack_info": "총 2개 언어 / 13개 기술 스택",
+		"company_link": "https://www.enkor.kr",
+		"company_recruit_link": [],
 		"stacks": {
 			"언어": [
 				[
@@ -30179,9 +30019,6 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		},
-		"category": "기타 기업",
-		"company_link": "https://www.enkor.kr",
-		"company_recruit_link": []
+		}
 	}
 }
