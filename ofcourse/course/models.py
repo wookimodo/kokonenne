@@ -46,6 +46,7 @@ class Company(models.Model):
     logo = models.URLField(max_length=100,default='')
     stack_info = models.CharField(max_length=100,default='')
     stack = models.ManyToManyField("Stack",through='Company_Stack')
+    category = models.CharField(max_length=30,null=True)
 
     class Meta:
         db_table = 'Company'

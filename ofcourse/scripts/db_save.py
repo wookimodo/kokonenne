@@ -12,7 +12,7 @@ data = json.loads(f.read())
 f = open(f'json/스택별.json', encoding='UTF-8')
 data2 = json.loads(f.read()) 
 # company data
-f = open(f'json/codenary.json', encoding='UTF-8')
+f = open(f'json/최종 company.json', encoding='UTF-8')
 data3 = json.loads(f.read()) 
 
 # stack_dict data
@@ -24,7 +24,7 @@ f = open(f'json/foreign_company.json', encoding='UTF-8')
 foreign_company = json.loads(f.read())
 
 # 국내기업
-f = open(f'json/domestic_company.json', encoding='UTF-8')
+f = open(f'json/최종 domestic_company.json', encoding='UTF-8')
 domestic_company = json.loads(f.read())
 
 # 제이슨 파일로 저장
@@ -91,8 +91,9 @@ def run():
         name = i
         logo = domestic_company[i]['logo']
         stack_info = domestic_company[i]['stack_info']
+        category = domestic_company[i]['category']
 
-        Company(name=name, logo=logo, stack_info=stack_info).save()
+        Company(name=name, logo=logo, stack_info=stack_info, category=category).save()
     
     # 해외기업
     for i in foreign_company:
