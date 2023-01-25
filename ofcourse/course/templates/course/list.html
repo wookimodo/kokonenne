@@ -33,7 +33,7 @@
     </div>
 
     <div class="search-area">
-        
+
         <form action="{% url 'search' %}" method="GET">
             {% csrf_token %}
             <div class="search-bar">
@@ -45,32 +45,36 @@
 
     <div class="content col-2">
         <aside>
-            <div id="myBtnContainer">
-                <button class="btn" onclick="filterSelection('all')"> Show all</button>
-                <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
-                <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
-                <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
-                <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
-                <button class="btn" onclick="filterSelection('언어')"> 언어</button>
-                <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
-                <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
-            </div>
-            <form action="{% url 'filter' %}" class="form-inline my-2 my-md-0" method="get">
-                <div class="skill-info-area">
-                    <div class="container">
-                        {% for s in stack %}
-                        {% if s.course_stack_set.exists %}
-                        <div class="filterDiv {{s.assort}}">
-                            <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
-                                    name="s" , value="{{s.name}}">
-                            <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
-                        </div>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
+            <div class="filter-area">
+                <div class="btn-wrap">
+                    <button class="btn" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
+                    <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
+                    <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
+                    <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
+                    <button class="btn" onclick="filterSelection('언어')"> 언어</button>
+                    <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
+                    <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
                 </div>
-                <button type="submit" class="btn btn-warning">검색</button>
-            </form>
+                <form action="{% url 'filter' %}" method="get">
+                    <div class="skill-info-area">
+                        <div class="container">
+                            {% for s in stack %}
+                            {% if s.course_stack_set.exists %}
+                            <span class="filterDiv {{s.assort}}">
+                                <i class="skill-logo" style="background-image: url('{{ s.logo }}');"></i>
+                                <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}"
+                                    autocomplete="off" name="s" , value="{{s.name}}">
+                                <label class="btn btn-outline-primary"
+                                    for="btncheck{{forloop.counter}}">{{s.name}}</label>
+                            </span>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <button type="submit" class="search-btn">검색</button>
+                </form>
+            </div>
         </aside>
         <main class="list-area">
             <ul>
@@ -82,7 +86,7 @@
                         </div>
                     </a>
                     <div class="info-box">
-                        <h3><a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }} 
+                        <h3><a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }}
                                 {% for s in c.stack.iterator %}
                                 <span class="point">{{s.name}}</span>
                                 {% endfor %}

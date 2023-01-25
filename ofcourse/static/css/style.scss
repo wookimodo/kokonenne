@@ -313,13 +313,13 @@ footer {
         // background-color: var(--main-color2);
         // padding: 0 6px;
         position: relative;
-        margin: 0 .2rem;
-        
+        margin: 0 0.2rem;
+
         &::after {
-            content: '';
+            content: "";
             display: block;
             position: absolute;
-            width: 100%;    
+            width: 100%;
             background-color: var(--main-color2);
             height: 100%;
             top: 0;
@@ -394,6 +394,60 @@ footer {
     margin: 30px auto 0;
     width: 80%;
 
+    .filter-area {
+        margin-bottom: 5rem;
+
+        .btn-wrap {
+            font-size: 1.6rem;
+
+            .btn {
+                all: unset;
+                border: 1px solid var(--bd-color);
+                background-color: var(--bg-color);
+                padding: 0.6rem 1.6rem;
+                border-radius: 0.4rem 0.4rem 0 0;
+            }
+        }
+
+        .skill-info-area {
+            border-radius: 0 0 1rem 1rem;
+
+            .filterDiv {
+                .skill-logo {
+                    display: inline-block;
+                    width: 2rem;
+                    height: 2rem;
+                    background-size: cover;
+                    vertical-align: middle;
+                }
+                input {
+                    display: none;
+
+                    &:checked + label {
+                        background-color: var(--main-color2);
+                        padding: 0 0.4rem;
+                    }
+                }
+                label {
+                    font-size: 1.6rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        .search-btn {
+            all: unset;
+            display: block;
+            margin: 2rem auto 0;
+            font-size: 1.6rem;
+            color: var(--bg-color);
+            background-color: var(--main-color);
+            padding: 1rem 4.4rem;
+            border-radius: 1rem;
+            font-weight: 600;
+        }
+    }
+
     .search-result-area {
         max-width: 1500px;
         margin: 0 auto;
@@ -424,6 +478,26 @@ footer {
         > main {
             width: 78%;
             padding: 0 10px;
+        }
+
+        .filter-area {
+            .btn-wrap {
+                font-size: 0;
+
+                .btn {
+                    font-size: 1.4rem;
+                    text-align: center;
+                    display: inline-block;
+                    width: calc(100% / 3 - 0.2rem);
+                    padding: 0.4rem 0;
+                    margin: 0;
+                    border-radius: 0.4rem;
+                }
+            }
+            .skill-info-area {
+                border-radius: 0.6rem;
+                margin-top: 2rem;
+            }
         }
     }
 
@@ -642,7 +716,7 @@ footer {
                     display: inline-block;
                     vertical-align: middle;
 
-                    > img {
+                    img {
                         width: 100%;
                     }
                 }
