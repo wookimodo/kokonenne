@@ -352,6 +352,51 @@ footer p {
   margin: 30px auto 0;
   width: 80%;
 }
+.content .filter-area {
+  margin-bottom: 5rem;
+}
+.content .filter-area .btn-wrap {
+  font-size: 1.6rem;
+}
+.content .filter-area .btn-wrap .btn {
+  all: unset;
+  border: 1px solid var(--bd-color);
+  background-color: var(--bg-color);
+  padding: 0.6rem 1.6rem;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+.content .filter-area .skill-info-area {
+  border-radius: 0 0 1rem 1rem;
+}
+.content .filter-area .skill-info-area .filterDiv .skill-logo {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  vertical-align: middle;
+}
+.content .filter-area .skill-info-area .filterDiv input {
+  display: none;
+}
+.content .filter-area .skill-info-area .filterDiv input:checked + label {
+  background-color: var(--main-color2);
+  padding: 0 0.4rem;
+}
+.content .filter-area .skill-info-area .filterDiv label {
+  font-size: 1.6rem;
+  margin-right: 1rem;
+}
+.content .filter-area .search-btn {
+  all: unset;
+  display: block;
+  margin: 2rem auto 0;
+  font-size: 1.6rem;
+  color: var(--bg-color);
+  background-color: var(--main-color);
+  padding: 1rem 4.4rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}
 .content .search-result-area {
   max-width: 1500px;
   margin: 0 auto;
@@ -380,6 +425,22 @@ footer p {
 .content.col-2 > main {
   width: 78%;
   padding: 0 10px;
+}
+.content.col-2 .filter-area .btn-wrap {
+  font-size: 0;
+}
+.content.col-2 .filter-area .btn-wrap .btn {
+  font-size: 1.4rem;
+  text-align: center;
+  display: inline-block;
+  width: calc(33.3333333333% - 0.2rem);
+  padding: 0.4rem 0;
+  margin: 0;
+  border-radius: 0.4rem;
+}
+.content.col-2 .filter-area .skill-info-area {
+  border-radius: 0.6rem;
+  margin-top: 2rem;
 }
 .content.view {
   margin-top: 10rem;
@@ -558,7 +619,7 @@ footer p {
   display: inline-block;
   vertical-align: middle;
 }
-.content > .list-area.skill .list-card .company-icon > img {
+.content > .list-area.skill .list-card .company-icon img {
   width: 100%;
 }
 .content > .list-area.skill .list-card .info-box {

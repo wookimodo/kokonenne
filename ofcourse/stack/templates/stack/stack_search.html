@@ -21,57 +21,67 @@
     <header>
         {% include 'partials/navbar.html' %}
     </header>
-    
+
+    <div class="title-area">
+        <h2 class="page-title">기업별 스택</h2>
+    </div>
+
     <div class="search-area">
-        <h1>기업별 검색</h1>
-        <br>
-        
-        <br /><br />
-
         <!-- 검색 폼 -->
-            <form action="{% url 'company:search' %}" method="GET">
-                {% csrf_token %}
-                <!-- 검색 -->
-                <div class="search-bar">
-                    <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
-                    <button type="submit" class="search-btn">검색</button>
-                </div>
-            </form>
-        </div>
-
-            {% if search %}
-            <h1 style="text-align:center">검색하신 <span class="point">{{ search }}</span> 관련 정보입니다.</h1>
-            <div class="content col-2" style="text-align:center">
-                <main class="list-area">
-                    <ul>
-                        <!-- search 정보 -->
-                            {% for c in stack %}
-                                <li class="list-card">
-                                    <a href="/stack/{{c.id}}/" target="_blank">
-                                        <div class="img-box">                                    
-                                        <img src="{{ c.logo }}" alt="스택 로고" style="width: 130px; height: 130px; margin: auto;">
-                                    </div>
-                                    </a>
-                                    <div class="info-box">
-                                        <h3>{{ c.name }}</h3>
-                                    </div>
-                                </li>
-                            {% endfor %}
-
-                           
-                    </ul>
-            {% else %}
-                <h1>검색창에 입력해주세요.</h1>
-                </main>
-            {% endif %}
+        <form action="{% url 'company:search' %}" method="GET">
+            {% csrf_token %}
+            <!-- 검색 -->
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
+                <button type="submit" class="search-btn">검색</button>
             </div>
+        </form>
+    </div>
+
+    {% if search %}
+    <div class="content">
+        <h3 class="search-result-area">검색하신 <span class="text-highlight">{{search}}</span>에 대한 정보입니다.</h3>
+        <main class="list-area skill">
+            <ul>
+                <!-- search 정보 -->
+                {% for c in stack %}
+                <li class="list-card">
+                    <div class="company-icon">
+                        <img src="{{ c.logo }}" alt="기업 로고">
+                    </div>
+                    <div class="info-box">
+                        <a href="{{c.id}}" style="text-decoration: none;">
+                            <h3>{{ c.name }}</h3>
+                        </a>
+                    </div>
+                    <p class="skill-info">
+                        유사 기술 스택 목록
+                    </p>
+                    <div class="skill-list">
+                        <ul>
+                            {% for rs in c.related_stack_set.iterator %}
+                            <li><a class="skill-icon" href="{{rs.related_stack_pk}}"><img src="{{ rs.related_stack_logo }}"
+                                        alt="아이콘"></a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+                {% endfor %}
 
 
-        <footer>
-            <p>
-                Copyright © 2023. Kokonenne All Rights Reserved.
-            </p>
-        </footer>
+            </ul>
+            {% else %}
+            <h1>검색창에 입력해주세요.</h1>
+        </main>
+        {% endif %}
+    </div>
+
+
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
 </body>
 
 </html>

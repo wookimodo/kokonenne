@@ -34,14 +34,16 @@
             </div>
         </form>
     </div>
-        <!-- 검색을 했을 때 -->
-        <div class="content">
+    <!-- 검색을 했을 때 -->
+    <div class="content">
         <main class="list-area skill">
             <ul>
                 {% for c in company_list %}
                 <li class="list-card">
                     <div class="company-icon">
-                        <img src="{{ c.logo }}" alt="강의 예시 이미지">
+                        <a href="{{c.id}}">
+                            <img src="{{ c.logo }}" alt="강의 예시 이미지">
+                        </a>
                     </div>
                     <div class="info-box">
                         <a href="{{c.id}}" style="text-decoration: none;">
@@ -64,7 +66,7 @@
                 {% endfor %}
             </ul>
         </main>
-        </div>
+    </div>
 
     <ul class="pagination">
 

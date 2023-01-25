@@ -23680,7 +23680,8 @@
 					"https://static.codenary.co.kr/framework_logo/slack.png"
 				]
 			]
-		}
+		},
+		"category": "기타 기업"
 	},
 	"엠큐닉": {
 		"logo": "https://static.codenary.co.kr/company-logo/100001.png",
@@ -24556,7 +24557,8 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		}
+		},
+		"category": "금융/보험 기업"
 	},
 	"메이아이": {
 		"logo": "https://static.codenary.co.kr/company-logo/11127.png",
@@ -25266,7 +25268,8 @@
 			],
 			"8번 카테고리": null,
 			"9번 카테고리": null
-		}
+		},
+		"category": "모빌리티 기업"
 	},
 	"유니크굿컴퍼니": {
 		"logo": "https://static.codenary.co.kr/company-logo/9637.png",
@@ -25476,7 +25479,8 @@
 				]
 			],
 			"9번 카테고리": null
-		}
+		},
+		"category": "모빌리티 기업"
 	},
 	"아테나스랩": {
 		"logo": "https://static.codenary.co.kr/company-logo/21347.png",
@@ -27123,7 +27127,8 @@
 				]
 			],
 			"9번 카테고리": null
-		}
+		},
+		"category": "이커머스 기업"
 	},
 	"마켓디자이너스": {
 		"logo": "https://static.codenary.co.kr/company-logo/1661.png",
@@ -27283,7 +27288,8 @@
 					"https://static.codenary.co.kr/framework_logo/jira.png"
 				]
 			]
-		}
+		},
+		"category": "이커머스 기업"
 	},
 	"매드업": {
 		"logo": "https://static.codenary.co.kr/company-logo/332.png",
@@ -28500,7 +28506,8 @@
 				]
 			],
 			"9번 카테고리": null
-		}
+		},
+		"category": "소셜/컨텐츠 기업"
 	},
 	"아키드로우": {
 		"logo": "https://static.codenary.co.kr/company-logo/2077.png",
@@ -29547,7 +29554,8 @@
 				]
 			],
 			"9번 카테고리": null
-		}
+		},
+		"category": "기타 기업"
 	},
 	"째깍악어": {
 		"logo": "https://static.codenary.co.kr/company-logo/100015.png",
