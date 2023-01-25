@@ -379,13 +379,13 @@
 	"C++": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/cplusplus.png",
-		"described": "정보 없음",
+		"described": "C언어와 조상을 공유하고 객체 지향 및 일반화 프로그래밍과 같은 멀티 패러다임을 지원하는 프로그래밍 언어이다. C언어의 문법과 기능을 대부분 사용할 수 있다.",
 		"related_stacks": []
 	},
 	"C#": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/csharp.png",
-		"described": "정보 없음",
+		"described": "C 언어를 토대로 오브젝트-C와 자바 2를 거쳐 C#이 처음 만들어졌다. C#은 마이크로소프트가 닷넷 프레임워크의 일부로 만든 객체지향 프로그래밍 언어이다.",
 		"related_stacks": []
 	},
 	"Cubrid": {
@@ -726,7 +726,7 @@
 	"Go": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/go.png",
-		"described": "정보 없음",
+		"described": "프로그램 생산성 향상을 목적으로 구글(Google)에서 개발한 범용 프로그래밍 언어.",
 		"related_stacks": []
 	},
 	"Go CD": {
@@ -952,13 +952,13 @@
 	"Java": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/java.png",
-		"described": "정보 없음",
+		"described": "미국의 선 마이크로시스템스사가 개발한 객체 지향 프로그래밍 언어.",
 		"related_stacks": []
 	},
 	"Javascript": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/javascript.png",
-		"described": "정보 없음",
+		"described": "웹 페이지에서 사용자로부터 특정 이벤트나 입력 값을 받아 동적인 처리를 목적으로 고안된 객체 기반의 스크립트 프로그래밍 언어.",
 		"related_stacks": []
 	},
 	"Jenkins": {
@@ -1021,7 +1021,7 @@
 	"Kakaotalk": {
 		"assort": "협업툴",
 		"logo": "https://static.codenary.co.kr/framework_logo/kakaotalk.png",
-		"described": "정보 없음",
+		"described": "스마트폰용 무료 통화 및 메신저 응용 프로그램으로, 2010년 3월에 출시되었으며, 2015년 기준 iOS, 안드로이드, 블랙베리, 윈도우폰 운영체제 및 PC(윈도우, MAC) 버전을 지원한다.",
 		"related_stacks": []
 	},
 	"KakaoWork": {
@@ -1306,7 +1306,7 @@
 	"MySQL": {
 		"assort": "데이터베이스",
 		"logo": "https://static.codenary.co.kr/framework_logo/mysql.png",
-		"described": "정보 없음",
+		"described": "표준 데이터베이스 질의 언어인 구조화 질의 언어(SQL: Structured Query Language)를 사용하는 공개 소스의 관계형 데이터베이스 관리 시스템(RDBMS).",
 		"related_stacks": [
 			"AWS AuroraDB",
 			"MariaDB",
@@ -1389,7 +1389,7 @@
 	"Notion": {
 		"assort": "협업툴",
 		"logo": "https://static.codenary.co.kr/framework_logo/notion.png",
-		"described": "정보 없음",
+		"described": "메모, 문서, 지식 정리, 프로젝트 관리, 데이터베이스, 공개 웹사이트 등의 기능을 하나의 서비스로 통합한 종합 어플리케이션이다.",
 		"related_stacks": [
 			"Gatsby",
 			"NuxtJS"
@@ -1407,7 +1407,7 @@
 	"Objective-C": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/objectivec.png",
-		"described": "정보 없음",
+		"described": "C 프로그래밍 언어에 스몰토크 스타일의 메시지 구문을 추가한 객체 지향 언어",
 		"related_stacks": []
 	},
 	"OpenEBS": {
@@ -1450,7 +1450,7 @@
 	"Perl": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/perl.png",
-		"described": "정보 없음",
+		"described": "practical extraction and report language의 약어. 웹 서버 애플리케이션을 작성하는 프로그래밍 언어로 펄(Perl)은 대화형 형태와 다른 CGI 프로그램의 슬루를 만드는 데 이용된다.",
 		"related_stacks": []
 	},
 	"Phoenix": {
@@ -1462,7 +1462,7 @@
 	"PHP": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/php.png",
-		"described": "정보 없음",
+		"described": "동적으로 html 데이터를 생성하여 동적 웹페이지를 제공하는 것을 주된 목적으로 하는 서버측 스크립트 언어이자 범용 프로그래밍 언어",
 		"related_stacks": []
 	},
 	"Playwright": {
@@ -1477,7 +1477,7 @@
 	"PostgreSQL": {
 		"assort": "데이터베이스",
 		"logo": "https://static.codenary.co.kr/framework_logo/postgresql.png",
-		"described": "정보 없음",
+		"described": "확장 가능성 및 표준 준수를 강조하는 객체-관계형 데이터베이스 관리 시스템(ORDBMS)의 하나이다.",
 		"related_stacks": [
 			"AWS AuroraDB",
 			"MariaDB",
@@ -1512,7 +1512,7 @@
 	"Python": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/python.png",
-		"described": "정보 없음",
+		"described": "다양한 플랫폼에서 사용이 가능한 객체 지향 기반 인터프리터 방식의 고급 프로그래밍 언어 중 하나.",
 		"related_stacks": []
 	},
 	"Pytorch": {
@@ -1527,7 +1527,7 @@
 	"R": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/r.png",
-		"described": "정보 없음",
+		"described": "통계 및 그래프 작업을 위한 인터프리터 프로그래밍 언어",
 		"related_stacks": []
 	},
 	"RabbitMQ": {
@@ -1715,7 +1715,7 @@
 	"Ruby": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/ruby.png",
-		"described": "정보 없음",
+		"described": "인터프리터 방식의 객체 지향 스크립트 언어. 스몰토크(Smalltalk)와 같은 순수 객체 지향 언어의 장점과 펄(Perl)의 텍스트 처리 능력, 오크(awk)의 정규 표현 특성이 잘 결합된 공개 소프트웨어",
 		"related_stacks": []
 	},
 	"Ruby on Rails": {
@@ -1740,7 +1740,7 @@
 	"Rust": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/rust.png",
-		"described": "정보 없음",
+		"described": "러스트 재단에서 개발되고 있는 메모리 안전성과 성능 및 편의성에 중점을 둔 프로그래밍 언어. 가비지 컬렉터 없이 메모리 안전성을 제공하는 대표적인 언어",
 		"related_stacks": []
 	},
 	"Saltstack": {
@@ -1788,7 +1788,7 @@
 	"Slack": {
 		"assort": "협업툴",
 		"logo": "https://static.codenary.co.kr/framework_logo/slack.png",
-		"described": "정보 없음",
+		"described": "Slack Technologies가 개발한 클라우드 컴퓨팅 기반 인스턴트 메신저 및 프로젝트 관리용 협업툴이다.",
 		"related_stacks": []
 	},
 	"SnapKit": {
@@ -1928,7 +1928,7 @@
 	"Telegram": {
 		"assort": "협업툴",
 		"logo": "https://static.codenary.co.kr/framework_logo/telegram.png",
-		"described": "정보 없음",
+		"described": "Telegram Messenger LLP사가 개발/운영 중인 오픈 소스 인터넷 모바일 메신저.",
 		"related_stacks": []
 	},
 	"Tensorflow": {
@@ -2010,7 +2010,7 @@
 	"Typescript": {
 		"assort": "언어",
 		"logo": "https://static.codenary.co.kr/framework_logo/typescript.png",
-		"described": "정보 없음",
+		"described": "웹 클라이언트와 서버 프로그램 개발에 모두 사용되는 오픈 소스 프로그래밍 언어.",
 		"related_stacks": []
 	},
 	"Unity": {
