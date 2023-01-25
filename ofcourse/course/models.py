@@ -47,6 +47,8 @@ class Company(models.Model):
     stack_info = models.CharField(max_length=100,default='')
     stack = models.ManyToManyField("Stack",through='Company_Stack')
     category = models.CharField(max_length=30,null=True)
+    company_link = models.URLField(max_length=300, default='')
+    company_recruit_link = models.URLField(max_length=300, default='')
 
     class Meta:
         db_table = 'Company'
