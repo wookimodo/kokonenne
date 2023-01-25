@@ -30,13 +30,13 @@
                     <img src="{{ company.logo }}" alt="skill icon">
                 </div>
                 <h3>{{ company.name }}</h3>
-                <p class="skill-category">종합</p>
+                <p class="skill-category">{{ company.category}}</p>
                 <ul class="skill-info">
                     <li>
-                        <a href="#">채용 페이지</a>
+                        <a href="{{ company.company_link }}" target="_blank">채용 페이지</a>
                     </li>
                     <li>
-                        <a href="#">웹사이트</a>
+                        <a href="{{ company.company_recruit_link }}" target="_blank">웹사이트</a>
                     </li>
                 </ul>
             </div>
@@ -48,7 +48,6 @@
                 <ul class="skill-list">
                     {% for s in company.stack.iterator %}
                     {% if s.assort == "언어" %}
-                    <p>{{ forloop.counter }}</p>
                     <li>
                         <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
