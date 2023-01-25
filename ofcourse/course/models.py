@@ -26,7 +26,7 @@ class Course(models.Model):
 class Stack(models.Model):  
     name = models.CharField(max_length=30,unique=True)
     logo = models.URLField(max_length=100, default='')
-    assort = models.URLField(max_length=15,default='')
+    assort = models.CharField(max_length=15,default='')
     described = models.TextField()
 
     class Meta:
