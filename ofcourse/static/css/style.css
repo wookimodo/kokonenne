@@ -706,6 +706,7 @@ footer p {
   box-shadow: rgba(8, 60, 130, 0.06) 0px 0px 0px 0.05rem, rgba(30, 34, 40, 0.04) 0rem 0rem 1.25rem;
   padding: 3rem 2.2rem;
   margin-top: 2rem;
+  min-height: 20rem;
 }
 .content > .view-area > .info-box > .skill-title {
   font-size: 1.8rem;
