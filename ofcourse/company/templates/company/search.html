@@ -46,7 +46,9 @@
                 {% for c in company %}
                 <li class="list-card">
                     <div class="company-icon">
-                        <img src="{{ c.logo }}" alt="기업 로고">
+                        <a href="/company/{{c.id}}">
+                            <img src="{{ c.logo }}" alt="기업 로고">
+                        </a>
                     </div>
                     <div class="info-box">
                         <a href="/company/{{c.id}}" style="text-decoration: none;">
@@ -62,7 +64,7 @@
                             <li><a class="skill-icon" href="/stack/{{stack.id}}"><img src="{{ stack.logo }}"
                                         alt="아이콘"></a></li>
                             {% endfor %}
-                            <li><a class="see-more" href="{{c.id}}" >더보기</a></li>
+                            <li><a class="see-more" href="{{c.id}}">더보기</a></li>
                         </ul>
                     </div>
                 </li>

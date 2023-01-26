@@ -47,10 +47,12 @@
                 {% for c in stack %}
                 <li class="list-card">
                     <div class="company-icon">
-                        <img src="{{ c.logo }}" alt="기업 로고">
+                        <a href="/stack/{{c.id}}">
+                            <img src="{{ c.logo }}" alt="기업 로고">
+                        </a>
                     </div>
                     <div class="info-box">
-                        <a href="{{c.id}}" style="text-decoration: none;">
+                        <a href="/stack/{{c.id}}" style="text-decoration: none;">
                             <h3>{{ c.name }}</h3>
                         </a>
                     </div>
@@ -60,8 +62,8 @@
                     <div class="skill-list">
                         <ul>
                             {% for rs in c.related_stack_set.iterator %}
-                            <li><a class="skill-icon" href="{{rs.related_stack_pk}}"><img src="{{ rs.related_stack_logo }}"
-                                        alt="아이콘"></a></li>
+                            <li><a class="skill-icon" href="{{rs.related_stack_pk}}"><img
+                                        src="{{ rs.related_stack_logo }}" alt="아이콘"></a></li>
                             {% endfor %}
                         </ul>
                     </div>

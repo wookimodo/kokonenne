@@ -765,9 +765,18 @@ footer p {
   height: 7rem;
   overflow: hidden;
   margin: 0 auto;
+  position: relative;
 }
 .content > .view-area > .info-box .skill-list > li .skill-icon > img {
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: var(--motion);
+}
+.content > .view-area > .info-box .skill-list > li .skill-icon > img:hover {
+  width: 110%;
 }
 .content > .view-area > .info-box .skill-list > li .skill-name {
   text-align: center;

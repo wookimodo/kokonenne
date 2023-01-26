@@ -37,16 +37,18 @@
             </div>
         </aside>
         <!-- 강의 목록 -->
-        <main class="view-area">
+        <main class="view-area list-area">
             <div class="info-box">
                 <h3 class="skill-title"> 연관 강의 BEST5 </h3>
-                <ul class="skill-list">
+                <ul class="course-list">
                     {% for cor in stack.course_set.iterator %}
-                    <li>
-                        <a href="{{cor.url}}">
-                            <i class="skill-icon"><img src="{{cor.img_url}}" alt="스킬 아이콘"></i>
-                            <p class="skill-name">{{cor.title}}</p>
-                        </a>
+                    <li class="list-card">
+                        <div class="img-box">
+                            <img src="{{cor.img_url}}" alt="강의 예시 이미지">
+                        </div>
+                        <div class="info-box">
+                            <h3><a href="{{cor.url}}">{{cor.title}}</a></h3>
+                        </div>
                     </li>
                     {% endfor %}
                 </ul>
