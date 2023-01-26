@@ -96,7 +96,13 @@
                                 {{ c.level }}</a></h3>
                         <p class="teacher">{{ c.teacher }}</p>
                         <p class="rate">{{ c.score }}</p>
-                        <p class="price">{{ c.price }}</p>
+                        {% if c.price == null %}
+                            <p class="price">🔗</p>
+                        {% elif c.price == 0 %}
+                            <p class="price">무료</p>
+                        {% else %}
+                            <p class="price">{{ c.price }}</p>
+                        {% endif %}
                     </div>
                 </li>
                 {% endfor %}
