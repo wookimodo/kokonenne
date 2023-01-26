@@ -65,9 +65,9 @@ def filter(request):
         company_query = Q()
         for i in s:
             compnay_company_queryquery = company_query | Q(category__iexact=i)
-        com = company_list.filter(company_query)
+        # com = company_list.filter(company_query)
 
 
 
-    return render(request, 'company/filter.html',{'company_list' : company_list, 'com' : com})
+    return render(request, 'company/filter.html',{'company_list' : company_list})
 

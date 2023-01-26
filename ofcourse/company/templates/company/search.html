@@ -23,6 +23,7 @@
     </header>
     <div class="title-area">
         <h2 class="page-title">기업별 스택</h2>
+        <h3>기업들이 무슨 기술 스택을 사용하는지 확인해봐~🤣</h3>
     </div>
     <div class="search-area">
         <!-- 검색 폼 -->
@@ -30,7 +31,7 @@
             {% csrf_token %}
             <!-- 검색 -->
             <div class="search-bar">
-                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
+                <input type="text" name="search" id="search-bar" placeholder="회사명을 입력해주세요 !">
                 <button type="submit" class="search-btn">검색</button>
             </div>
         </form>
@@ -69,11 +70,7 @@
                     </div>
                 </li>
                 {% endfor %}
-
-
             </ul>
-            {% else %}
-            <h1>검색창에 입력해주세요.</h1>
         </main>
         {% endif %}
     </div>
