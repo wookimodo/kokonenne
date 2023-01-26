@@ -44,10 +44,15 @@
                     {% for cor in stack.course_set.iterator %}
                     <li class="list-card">
                         <div class="img-box">
-                            <img src="{{cor.img_url}}" alt="강의 예시 이미지">
+                            <a href="{{cor.url}}">
+                                <img src="{{cor.img_url}}" alt="강의 예시 이미지">
+                            </a>
                         </div>
                         <div class="info-box">
                             <h3><a href="{{cor.url}}">{{cor.title}}</a></h3>
+                            <p class="teacher">{{cor.teacher}}</p>
+                            <p class="rate">{{cor.score}}</p>
+                            <p class="price">{{cor.price}}</p>
                         </div>
                     </li>
                     {% endfor %}

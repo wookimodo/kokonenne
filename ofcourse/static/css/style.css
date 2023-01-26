@@ -552,7 +552,7 @@ footer p {
   border-bottom: 1px solid var(--bd-color);
   position: relative;
 }
-.content > .list-area .list-card .img-box > img {
+.content > .list-area .list-card .img-box img {
   display: block;
   width: 100%;
   position: absolute;
@@ -561,7 +561,7 @@ footer p {
   transform: translate(-50%, -50%);
   transition: var(--motion);
 }
-.content > .list-area .list-card .img-box > img:hover {
+.content > .list-area .list-card .img-box img:hover {
   width: 110%;
 }
 .content > .list-area .list-card .info-box {
