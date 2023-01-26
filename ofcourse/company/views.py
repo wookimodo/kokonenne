@@ -58,17 +58,16 @@ def search(request):
 def filter(request):
     company_list = Company.objects.all()
 
-    f = request.GET.getlist('f')
+    s = request.GET.getlist('s')
+    ss = Q()
 
-    if f:
-        fs = fs.filter(category__iexact=f)
+    if s:
+        company_query = Q()
+        for i in s:
+            compnay_company_queryquery = company_query | Q(category__iexact=i)
+        com = company_list.filter(company_query)
 
 
-    return render(request, 'company/filter.html',{'company_list' : company_list, 'stack' : f})
 
-from django import template
-register = template.Library()
+    return render(request, 'company/filter.html',{'company_list' : company_list, 'com' : com})
 
-@register.filter
-def sub(value, arg):
-    return value - arg
