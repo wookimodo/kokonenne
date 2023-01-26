@@ -339,7 +339,7 @@ footer {
         text-align: center;
         border-bottom: 2px solid var(--main-color);
         font-size: 2.2rem;
-        width: 80%;
+        width: 40%;
 
         h2 {
             font-size: 2.2rem;
@@ -632,10 +632,20 @@ footer {
                 height: 0;
                 padding-bottom: 56.5%;
                 border-bottom: 1px solid var(--bd-color);
+                position: relative;
 
                 > img {
                     display: block;
                     width: 100%;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: var(--motion);
+
+                    &:hover {
+                        width: 110%;
+                    }
                 }
             }
 
@@ -715,9 +725,21 @@ footer {
                     overflow: hidden;
                     display: inline-block;
                     vertical-align: middle;
+                    position: relative;
+                    > a {
+                        img {
+                            width: 100%;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            transition: var(--motion);
+    
+                            &:hover {
+                                width: 110%;
+                            }
+                        }
 
-                    img {
-                        width: 100%;
                     }
                 }
 
@@ -771,11 +793,21 @@ footer {
                                 height: 4rem;
                                 overflow: hidden;
                                 border-radius: 0.5rem;
+                                position: relative;
 
                                 > img {
                                     -webkit-user-drag: none;
                                     display: block;
                                     width: 100%;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    transition: var(--motion);
+
+                                    &:hover {
+                                        width: 120%;
+                                    }
                                 }
                             }
 
@@ -861,6 +893,7 @@ footer {
                         font-weight: 400;
                         color: var(--font-color);
                         margin: 0.8rem 0 0;
+                        font-size: 1.2rem;
                     }
                 }
             }
