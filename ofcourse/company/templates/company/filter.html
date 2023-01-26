@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofcourse</title>
+    <!-- fontawesome css cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css cdn-->
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- global css -->
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <script src="{%static 'js/index.js'%}"></script>
+</head>
+
+<body class="list-page">
+    <header>
+        {% include 'partials/navbar.html' %}
+    </header>
+    <!-- <h1>Course Search</h1> -->
+    <div class="title-area">
+        <h2 class="page-title">검색 결과</h2>
+    </div>
+    <!-- 검색 폼 -->
+    <!-- 검색 -->
+    <div class="search-area">
+        <form action="{% url 'company:search' %}" method="GET">
+            {% csrf_token %}
+            <div class="search-bar">
+                <input type="text" name="search" id="search-bar">
+                <button type="submit" class="search-btn">검색</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="content">
+        <div class="filter-area">
+            <div class="btn-wrap">
+                <button class="btn" onclick="filterSelection('국내기업')"> 국내기업</button>
+                <button class="btn" onclick="filterSelection('외국기업')"> 외국기업</button>
+            </div>
+            <form action="{% url 'company:filter' %}" method="get">
+                <div class="skill-info-area">
+                    <div class="container">
+                        {% for s in company_list %}
+                        {% if s %}
+                        <span class="filterDiv {{s.stack_info}}">
+                            <i class="skill-logo" style="background-image: url('{{ s.logo }}');">
+                            </i>
+                            <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
+                            name="s" , value="{{s.name}}">
+                            <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
+                        </span>                        
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <button type="submit" class="search-btn">검색</button>
+            </form>
+        </div>
+        <main class="list-area">
+            <h3 class="search-result-area">검색하신 {% for s in company %} <span class="text-highlight"
+                    style="margin-right: .8rem;"># {{s.name}} </span> {% endfor %} 기업 정보입니다.</h3>
+            <ul>
+                {% for c in company %}
+                <li class="list-card"> {# {% for s in c.stack.iterator %}{{s.assort}}{% endfor %} #}
+                    <a href="{{c.id}}">
+                        <div class="img-box">
+                            <img src="{{ c.logo }}" alt="기업 로고 이미지">
+                        </div>
+                    </a>
+                    <div class="info-box">
+                        <h3><a href="{{c.id}}">{{c.name}}
+                        <p class="teacher">{{ c.stack_info }}</p>
+                        <p class="rate">{{ c.score }}</p>
+                        <p class="price">{{ c.price }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </main>
+    </div>
+    <footer>
+        <p>
+            Copyright © 2023. Kokonenne All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("start").click();
+    });
+</script>
+<script type="text/javascript" src="{%static 'js/list.js' %}"></script>
+
+</html>

@@ -30,13 +30,16 @@
                     <img src="{{ company.logo }}" alt="skill icon">
                 </div>
                 <h3>{{ company.name }}</h3>
+                <br>
+                <p class="skill-category">{{ company.stack_info}}</p>
+                <br>
                 <p class="skill-category">{{ company.category}}</p>
                 <ul class="skill-info">
                     <li>
-                        <a href="{{ company.company_link }}" target="_blank">채용 페이지</a>
+                        <a href="{{ company.company_link }}" target="_blank">웹 사이트</a>
                     </li>
                     <li>
-                        <a href="{{ company.company_recruit_link }}" target="_blank">웹사이트</a>
+                        <a href="{{ company.company_recruit_link }}" target="_blank">채용 페이지</a>
                     </li>
                 </ul>
             </div>
@@ -52,6 +55,7 @@
                         <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
+                            {{ s.paginator.counter}}
                         </a>
                     </li>
                     {% endif %}

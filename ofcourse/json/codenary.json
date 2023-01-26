@@ -1616,7 +1616,7 @@
 					"https://static.codenary.co.kr/framework_logo/redis.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -2207,7 +2207,7 @@
 					"https://static.codenary.co.kr/framework_logo/influxdb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -6158,7 +6158,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsdynamodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -7627,7 +7627,7 @@
 					"https://static.codenary.co.kr/framework_logo/memcached.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -9128,7 +9128,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsdynamodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -9309,7 +9309,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -11654,7 +11654,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -12217,7 +12217,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -12690,7 +12690,7 @@
 					"https://static.codenary.co.kr/framework_logo/rocksdb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -13281,7 +13281,7 @@
 					"https://static.codenary.co.kr/framework_logo/redis.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -15015,7 +15015,7 @@
 					"https://static.codenary.co.kr/framework_logo/couchbase.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -15531,7 +15531,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -16179,7 +16179,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -16355,7 +16355,7 @@
 					"https://static.codenary.co.kr/framework_logo/redis.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -17322,7 +17322,7 @@
 					"https://static.codenary.co.kr/framework_logo/mongodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -18549,7 +18549,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -19542,7 +19542,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -21066,7 +21066,7 @@
 					"https://static.codenary.co.kr/framework_logo/kubernetes.png"
 				],
 				[
-					"Google Cloud",
+					"Google Cloud Build",
 					"https://static.codenary.co.kr/framework_logo/googlecodebuild.png"
 				],
 				[
@@ -22485,7 +22485,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -22607,7 +22607,7 @@
 					"https://static.codenary.co.kr/framework_logo/elasticsearch.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -23512,7 +23512,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -23700,7 +23700,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsdynamodb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -24311,7 +24311,7 @@
 					"https://static.codenary.co.kr/framework_logo/postgresql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -24680,7 +24680,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -25685,7 +25685,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -25841,7 +25841,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -26443,7 +26443,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				]
 			],
@@ -27503,7 +27503,7 @@
 					"https://static.codenary.co.kr/framework_logo/awsauroradb.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -28272,7 +28272,7 @@
 			],
 			"데이터베이스": [
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -28997,7 +28997,7 @@
 					"https://static.codenary.co.kr/framework_logo/mysql.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[
@@ -29547,7 +29547,7 @@
 					"https://static.codenary.co.kr/framework_logo/elasticsearch.png"
 				],
 				[
-					"MariaDB",
+					"AWS MariaDB",
 					"https://static.codenary.co.kr/framework_logo/awsmariadb.png"
 				],
 				[

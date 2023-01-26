@@ -13,4 +13,7 @@ urlpatterns = [
     
     # company_search
     path('search/', views.search, name='search'),
+ 
+    # company_filter
+    path('filter/', views.filter, name='filter'),
 ]

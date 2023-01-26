@@ -52,4 +52,23 @@ def search(request):
     else:
         return render(request,  'company/search.html')
 
-    
+
+
+
+def filter(request):
+    company_list = Company.objects.all()
+
+    f = request.GET.getlist('f')
+
+    if f:
+        fs = fs.filter(category__iexact=f)
+
+
+    return render(request, 'company/filter.html',{'company_list' : company_list, 'stack' : f})
+
+from django import template
+register = template.Library()
+
+@register.filter
+def sub(value, arg):
+    return value - arg
