@@ -356,14 +356,39 @@ footer p {
   margin-bottom: 5rem;
 }
 .content .filter-area .btn-wrap {
-  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -0.8rem;
 }
-.content .filter-area .btn-wrap .btn {
+.content .filter-area .btn-wrap .btn-l-wrap {
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.content .filter-area .btn-wrap .btn-l-wrap .btn {
   all: unset;
   border: 1px solid var(--bd-color);
   background-color: var(--bg-color);
   padding: 0.6rem 1.6rem;
   border-radius: 0.4rem 0.4rem 0 0;
+}
+.content .filter-area .btn-wrap .btn-r-wrap {
+  display: inline-block;
+  font-size: 0;
+}
+.content .filter-area .btn-wrap .btn-r-wrap .title {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.content .filter-area .btn-wrap .btn-r-wrap .btn {
+  border: 1px solid var(--font-color3);
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-left: 0;
+}
+.content .filter-area .btn-wrap .btn-r-wrap .btn:nth-child(2) {
+  border-left: 1px solid var(--font-color3);
 }
 .content .filter-area .skill-info-area {
   border-radius: 0 0 1rem 1rem;

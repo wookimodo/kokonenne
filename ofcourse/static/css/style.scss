@@ -396,18 +396,49 @@ footer {
 
     .filter-area {
         margin-bottom: 5rem;
-
         .btn-wrap {
-            font-size: 1.6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: -.8rem;
 
-            .btn {
-                all: unset;
-                border: 1px solid var(--bd-color);
-                background-color: var(--bg-color);
-                padding: 0.6rem 1.6rem;
-                border-radius: 0.4rem 0.4rem 0 0;
+            .btn-l-wrap {
+                font-size: 1.6rem;
+                display: inline-block;
+    
+                .btn {
+                    all: unset;
+                    border: 1px solid var(--bd-color);
+                    background-color: var(--bg-color);
+                    padding: 0.6rem 1.6rem;
+                    border-radius: 0.4rem 0.4rem 0 0;
+                    // border-bottom: 0;
+                }
+            }
+    
+            .btn-r-wrap {
+                display: inline-block;
+                font-size: 0;
+                
+                .title {
+                    display: inline-block;
+                    margin-right: 1rem;
+                }
+
+                .btn {
+                    border: 1px solid var(--font-color3);
+                    padding: .4rem 1rem;
+                    text-decoration: none;
+                    display: inline-block;
+                    border-left: 0;
+
+                    &:nth-child(2) {
+                        border-left: 1px solid var(--font-color3);
+                    }
+                }
             }
         }
+
 
         .skill-info-area {
             border-radius: 0 0 1rem 1rem;

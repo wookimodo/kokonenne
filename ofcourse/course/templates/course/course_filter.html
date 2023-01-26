@@ -41,13 +41,22 @@
     <div class="content">
         <div class="filter-area">
             <div class="btn-wrap">
-                <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
-                <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
-                <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
-                <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
-                <button class="btn" onclick="filterSelection('언어')"  id="start"> 언어</button>
-                <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
-                <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
+                <div class="btn-l-wrap">
+                    <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
+                    <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
+                    <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
+                    <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
+                    <button class="btn" onclick="filterSelection('언어')" id="start"> 언어</button>
+                    <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
+                    <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
+                </div>
+                <div class="btn-r-wrap">
+                    <p class="title">필터 </p>
+                    <a class="btn" href="/course">기본</a>
+                    <a class="btn" href="?sort=review">리뷰많은순</a>
+                    <a class="btn" href="?sort=recommend">추천많은순</a>
+                    <a class="btn" href="?sort=score">평점순</a>
+                </div>
             </div>
             <form action="{% url 'filter' %}" method="get">
                 <div class="skill-info-area">

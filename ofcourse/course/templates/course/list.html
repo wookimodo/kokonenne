@@ -42,43 +42,47 @@
             </div>
         </form>
     </div>
-    
+
     <div class="content">
-      <div class="filter-area">
-        <select id="sort-select" onchange="location = this.value;" name="order">
-          <option class="sort-rank" value="/course">기본</option>
-          <option class="sort-review" value="?sort=review">리뷰많은순</option>
-          <option class="sort-recommend" value="?sort=recommend">추천많은순</option>
-          <option class="sort-score" value="?sort=score">평점순</option>
-        </select>
-        <div class="btn-wrap">
-            <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
-            <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
-            <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
-            <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
-            <button class="btn" onclick="filterSelection('언어')"  id="start"> 언어</button>
-            <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
-            <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
-        </div>
-        <form action="{% url 'filter' %}" method="get">
-            <div class="skill-info-area">
-                <div class="container">
-                    {% for s in stack %}
-                    {% if s.course_stack_set.exists %}
-                    <span class="filterDiv {{s.assort}}">
-                        <i class="skill-logo" style="background-image: url('{{ s.logo }}');">
-                        </i>
-                        <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
-                            name="s" , value="{{s.name}}">
-                        <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
-                    </span>
-                    {% endif %}
-                    {% endfor %}
+        <div class="filter-area">
+            <div class="btn-wrap">
+                <div class="btn-l-wrap">
+                    <button class="btn" onclick="filterSelection('프론트엔드')"> 프론트엔드</button>
+                    <button class="btn" onclick="filterSelection('백엔드')"> 백엔드</button>
+                    <button class="btn" onclick="filterSelection('데이터베이스')"> 데이터베이스</button>
+                    <button class="btn" onclick="filterSelection('데브옵스')"> 데브옵스</button>
+                    <button class="btn" onclick="filterSelection('언어')" id="start"> 언어</button>
+                    <button class="btn" onclick="filterSelection('테스팅툴')"> 테스팅툴</button>
+                    <button class="btn" onclick="filterSelection('협업툴')"> 협업툴</button>
+                </div>
+                <div class="btn-r-wrap">
+                    <p class="title">필터 </p>
+                    <a class="btn" href="/course">기본</a>
+                    <a class="btn" href="?sort=review">리뷰많은순</a>
+                    <a class="btn" href="?sort=recommend">추천많은순</a>
+                    <a class="btn" href="?sort=score">평점순</a>
                 </div>
             </div>
-            <button type="submit" class="search-btn">검색</button>
-        </form>
-    </div>
+
+            <form action="{% url 'filter' %}" method="get">
+                <div class="skill-info-area">
+                    <div class="container">
+                        {% for s in stack %}
+                        {% if s.course_stack_set.exists %}
+                        <span class="filterDiv {{s.assort}}">
+                            <i class="skill-logo" style="background-image: url('{{ s.logo }}');">
+                            </i>
+                            <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
+                                name="s" , value="{{s.name}}">
+                            <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
+                        </span>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <button type="submit" class="search-btn">검색</button>
+            </form>
+        </div>
         <main class="list-area">
             <ul>
                 {% for c in course_list %}
@@ -97,11 +101,11 @@
                         <p class="teacher">{{ c.teacher }}</p>
                         <p class="rate">{{ c.score }}</p>
                         {% if c.price == null %}
-                            <p class="price">🔗</p>
+                        <p class="price">🔗</p>
                         {% elif c.price == 0 %}
-                            <p class="price">무료</p>
+                        <p class="price">무료</p>
                         {% else %}
-                            <p class="price">{{ c.price }}</p>
+                        <p class="price">{{ c.price }}</p>
                         {% endif %}
                     </div>
                 </li>
@@ -171,9 +175,9 @@
 </body>
 
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-      document.getElementById("start").click();
-  });
+    document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("start").click();
+    });
 </script>
 
 </html>
