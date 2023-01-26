@@ -93,11 +93,15 @@
                         </div>
                     </a>
                     <div class="info-box">
-                        <h3><a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }}
-                                {% for s in c.stack.iterator %}
-                                <span class="point">{{s.name}}</span>
-                                {% endfor %}
-                                {{ c.level }}</a></h3>
+                        <h3>
+                            <a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }}</a>
+                        </h3>
+                        <div class="keywords">
+                            {% for s in c.stack.iterator %}
+                            <span class="point">{{s.name}}</span>
+                            {% endfor %} 
+                        </div>
+                        <p class="level">레벨 - {{ c.level }}</p>
                         <p class="teacher">{{ c.teacher }}</p>
                         <p class="rate">{{ c.score }}</p>
                         {% if c.price == null %}
