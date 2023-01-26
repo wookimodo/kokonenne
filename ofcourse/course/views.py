@@ -87,5 +87,6 @@ def filter(request):
         filter_list = course_list.filter(course_query)
         stack = stack_list.filter(stack_query)
 
+
     return render(request, 'course/course_filter.html',{'course':filter_list, 'stack':stack,'stack_list':stack_list})
 
