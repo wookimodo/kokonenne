@@ -21,6 +21,17 @@ def index(request):
 #         context = super(Courselist, self).get_context_data()
 #         context['stack'] = Stack.objects.all()
 
+#         sort = self.request.GET.get('sort','') #url의 쿼리스트링을 가져온다. 없는 경우 공백을 리턴한다
+
+#         if sort == 'review':
+#             context['course_list'] = Course.objects.all().order_by('-review')
+#         elif sort == 'recommend':
+#             context['course_list'] = Course.objects.all().order_by('-recommend')
+#         elif sort == 'score':
+#             context['course_list'] = Course.objects.all().order_by('-score')
+#         else:
+#             context['course_list'] = Course.objects.all().order_by('rank')
+
 #         return context
 
 def course(request):
