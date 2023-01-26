@@ -15,6 +15,15 @@ class StackDetail(DetailView):
     model = Stack
     template_name = 'stack/stack_detail.html'
 
+    def get_context_data(self, **kwargs):
+        context = super(StackDetail, self).get_context_data()
+        try:
+            context['course'] = Course_Stack.objects.filter(stack_id=self.object.id).order_by('course__rank')[:5]
+        except Exception as e:
+            context['course'] = None
+
+        return context
+
 def search(request):
     stacks = Stack.objects.all()
     search = request.GET.get('search','')

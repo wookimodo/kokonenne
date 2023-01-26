@@ -39,18 +39,24 @@
             <div class="info-box">
                 <h3 class="skill-title"> 연관 강의 BEST5 </h3>
                 <ul class="course-list">
-                    {% for cor in stack.course_set.iterator %}
+                    {% for cor in course %}
                     <li class="list-card">
                         <div class="img-box">
-                            <a href="{{cor.url}}">
-                                <img src="{{cor.img_url}}" alt="강의 예시 이미지">
+                            <a href="{{cor.course.url}}">
+                                <img src="{{cor.course.img_url}}" alt="강의 예시 이미지">
                             </a>
                         </div>
                         <div class="info-box">
-                            <h3><a href="{{cor.url}}">{{cor.title}}</a></h3>
-                            <p class="teacher">{{cor.teacher}}</p>
-                            <p class="rate">{{cor.score}}</p>
-                            <p class="price">{{cor.price}}</p>
+                            <h3><a href="{{cor.course.url}}">{{cor.course.title}}</a></h3>
+                            <p class="teacher">{{cor.course.teacher}}</p>
+                            <p class="rate">{{cor.course.score}}</p>
+                            {% if cor.course.price == null %}
+                            <p class="price">🔗</p>
+                            {% elif cor.course.price == 0 %}
+                            <p class="price">무료</p>
+                            {% else %}
+                            <p class="price">{{ cor.course.price }}</p>
+                            {% endif %}
                         </div>
                     </li>
                     {% endfor %}
