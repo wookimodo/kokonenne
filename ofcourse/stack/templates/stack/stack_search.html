@@ -23,16 +23,17 @@
     </header>
 
     <div class="title-area">
-        <h2 class="page-title">기술별 스택</h2>
+        <h2 class="page-title">스택별 기업</h2>
+        <h3>세상의 거진 모든 스택을 모았다!👀</h3>
     </div>
 
     <div class="search-area">
         <!-- 검색 폼 -->
-        <form action="{% url 'company:search' %}" method="GET">
+        <form action="{% url 'stack:search' %}" method="GET">
             {% csrf_token %}
             <!-- 검색 -->
             <div class="search-bar">
-                <input type="text" name="search" id="search-bar" placeholder="검색어를 입력해주세요!">
+                <input type="text" name="search" id="search-bar" placeholder="스택명을 입력해주세요 !">
                 <button type="submit" class="search-btn">검색</button>
             </div>
         </form>
@@ -48,7 +49,7 @@
                 <li class="list-card">
                     <div class="company-icon">
                         <a href="/stack/{{c.id}}">
-                            <img src="{{ c.logo }}" alt="기업 로고">
+                            <img src="{{ c.logo }}" alt="스택 로고">
                         </a>
                     </div>
                     <div class="info-box">
@@ -62,18 +63,15 @@
                     <div class="skill-list">
                         <ul>
                             {% for rs in c.related_stack_set.iterator %}
-                            <li><a class="skill-icon" href="{{rs.related_stack_pk}}"><img
+                            <li><a class="skill-icon" href="/stack/{{rs.related_stack_pk}}"><img
                                         src="{{ rs.related_stack_logo }}" alt="아이콘"></a></li>
                             {% endfor %}
                         </ul>
                     </div>
                 </li>
                 {% endfor %}
-
-
             </ul>
             {% else %}
-            <h1>검색창에 입력해주세요.</h1>
         </main>
         {% endif %}
     </div>

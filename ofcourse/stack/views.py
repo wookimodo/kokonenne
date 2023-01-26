@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.views.generic import ListView, DetailView
 from course.models import Stack, Related_Stack, Company, Course_Stack
 from django.shortcuts import get_object_or_404
+from django.db.models import Q
 
 # Create your views here.
 class StackList(ListView): 
@@ -28,7 +29,10 @@ def search(request):
     stacks = Stack.objects.all()
     search = request.GET.get('search','')
     if search:
-        stack_list = stacks.filter(name__icontains=search).distinct()
+        stack_list = stacks.filter(
+            Q(name__icontains=search) |
+            Q(stack_dict__search_word__icontains=search)
+        ).distinct()
         return render(request, 'stack/stack_search.html', {'stack':stack_list, 'search':search})
     else:
         return render(request,  'stack/stack_search.html')
