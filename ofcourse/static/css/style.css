@@ -305,7 +305,7 @@ footer p {
   text-align: center;
   border-bottom: 2px solid var(--main-color);
   font-size: 2.2rem;
-  width: 80%;
+  width: 40%;
 }
 .list-page .search-area h2 {
   font-size: 2.2rem;
@@ -550,10 +550,19 @@ footer p {
   height: 0;
   padding-bottom: 56.5%;
   border-bottom: 1px solid var(--bd-color);
+  position: relative;
 }
 .content > .list-area .list-card .img-box > img {
   display: block;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: var(--motion);
+}
+.content > .list-area .list-card .img-box > img:hover {
+  width: 110%;
 }
 .content > .list-area .list-card .info-box {
   padding: 0.2rem 2.2rem 1.8rem;
@@ -618,9 +627,18 @@ footer p {
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
 }
-.content > .list-area.skill .list-card .company-icon img {
+.content > .list-area.skill .list-card .company-icon > a img {
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: var(--motion);
+}
+.content > .list-area.skill .list-card .company-icon > a img:hover {
+  width: 110%;
 }
 .content > .list-area.skill .list-card .info-box {
   display: inline-block;
@@ -673,11 +691,20 @@ footer p {
   height: 4rem;
   overflow: hidden;
   border-radius: 0.5rem;
+  position: relative;
 }
 .content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img {
   -webkit-user-drag: none;
   display: block;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: var(--motion);
+}
+.content > .list-area.skill .list-card .skill-list ul li > .skill-icon > img:hover {
+  width: 120%;
 }
 .content > .list-area.skill .list-card .skill-list ul li .see-more {
   margin-left: 1.4rem;
@@ -747,4 +774,5 @@ footer p {
   font-weight: 400;
   color: var(--font-color);
   margin: 0.8rem 0 0;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */
