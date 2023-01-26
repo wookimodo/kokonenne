@@ -32,7 +32,7 @@
                 <h3>{{ company.name }}</h3>
                 <br>
                 <p class="skill-category">{{ company.stack_info}}</p>
-                {% if c.category %}
+                {% if company.category %}
                 <br>
                 <p class="skill-category">{{ company.category}}</p>
                 {% endif %}
@@ -46,7 +46,7 @@
                 </ul>
             </div>
         </aside>
-        <!-- 스택별 리스트 -->
+        <!-- 스택 카테고리별 리스트 -->
         <main class="view-area">
             <div class="info-box">
                 <h3 class="skill-title">언어</h3>
@@ -93,7 +93,6 @@
                     {% endfor %}
                 </ul>
             </div>
-            {% if company.stack.iterator.assort.exists %}
             <div class="info-box">
                 <h3 class="skill-title">모바일</h3>
                 <ul class="skill-list">
@@ -109,7 +108,6 @@
                     {% endfor %}
                 </ul>
             </div>
-            {% endif %}
             <div class="info-box">
                 <h3 class="skill-title">데브옵스</h3>
                 <ul class="skill-list">
@@ -171,10 +169,6 @@
                     {% endif %}
                     {% endfor %}
                 </ul>
-                <br>
-                <br>
-                <br>
-                <h5 class="skill-title">해당 사용 기술 스택이 없습니다.</h5>
             </div>
             <div class="info-box">
                 <h3 class="skill-title">협업툴</h3>
