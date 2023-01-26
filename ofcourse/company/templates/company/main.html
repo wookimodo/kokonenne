@@ -53,7 +53,10 @@
                         </a>
                     </div>
                     <p class="skill-info">
-                        {{ c.stack_info }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ c.category }}
+                        {{ c.stack_info }}
+                        {% if c.category %}
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ c.category }}
+                        {% endif %}
 
                     </p>
                     <div class="skill-list">
@@ -62,7 +65,7 @@
                             <li><a class="skill-icon" href="/stack/{{stack.id}}"><img src="{{ stack.logo }}"
                                         alt="아이콘"></a></li>
                             {% endfor %}
-                            <li><a class="see-more">더보기</a></li>
+                            <li><a class="see-more" href="{{c.id}}">자세히보기</a></li>
                         </ul>
                     </div>
                 </li>

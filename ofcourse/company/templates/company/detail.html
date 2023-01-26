@@ -32,8 +32,10 @@
                 <h3>{{ company.name }}</h3>
                 <br>
                 <p class="skill-category">{{ company.stack_info}}</p>
+                {% if c.category %}
                 <br>
                 <p class="skill-category">{{ company.category}}</p>
+                {% endif %}
                 <ul class="skill-info">
                     <li>
                         <a href="{{ company.company_link }}" target="_blank">웹 사이트</a>
@@ -55,7 +57,6 @@
                         <a href="/stack/{{ s.id }}">
                             <i class="skill-icon"><img src="{{ s.logo }}" alt="스킬 아이콘"></i>
                             <p class="skill-name">{{ s.name }}</p>
-                            {{ s.paginator.counter}}
                         </a>
                     </li>
                     {% endif %}
@@ -156,7 +157,6 @@
                 </ul>
             </div>
 
-
             <div class="info-box">
                 <h3 class="skill-title">테스팅툴</h3>
                 <ul class="skill-list">
@@ -171,6 +171,10 @@
                     {% endif %}
                     {% endfor %}
                 </ul>
+                <br>
+                <br>
+                <br>
+                <h5 class="skill-title">해당 사용 기술 스택이 없습니다.</h5>
             </div>
             <div class="info-box">
                 <h3 class="skill-title">협업툴</h3>
