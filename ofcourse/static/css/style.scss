@@ -815,6 +815,13 @@ footer {
                         margin: 0;
                         height: auto;
                         padding: 2rem 0;
+
+                        .sort {
+                            font-size: 1.4rem;
+                            vertical-align: middle;
+                            margin-left: 1rem;
+                            color: var(--font-color3);
+                        }
                     }
                 }
 
