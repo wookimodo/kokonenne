@@ -8,7 +8,7 @@ from django.core.paginator import Paginator
 # Create your views here.
 class CompanyList(ListView):
     model = Company
-    template_name = 'company/main.html'
+    template_name = 'company/company_list.html'
 
     ordering = 'pk'
 
@@ -24,7 +24,7 @@ class CompanyList(ListView):
 
 class Companydetail(DetailView):
     model = Company
-    template_name = 'company/detail.html'
+    template_name = 'company/company_detail.html'
 
     def get_context_data(self, **kwargs):
         context = super(Companydetail, self).get_context_data()
@@ -47,10 +47,10 @@ def search(request):
             Q(stack__name__iexact=search) |  # 스택 이름 검색
             Q(stack__stack_dict__search_word__iexact=search)  # 스택 사전에 있는 네임으로 검색   
         ).distinct()
-        return render(request, 'company/search.html', {'company':company_list, 'search':search})
+        return render(request, 'company/company_search.html', {'company':company_list, 'search':search})
 
     else:
-        return render(request,  'company/search.html')
+        return render(request,  'company/company_search.html')
 
 
 

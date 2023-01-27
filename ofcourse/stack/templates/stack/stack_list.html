@@ -54,8 +54,7 @@
                             <h3>{{ s.name }}</h3>
                         </a>
                     </div>
-                    <p class="skill-info">
-                    </p>
+                    <p class="skill-info">유사 기술 스택 목록&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ s.assort }}</p>
                     <div class="skill-list">
                         <ul>
                             {% for rs in s.related_stack_set.iterator %}
@@ -74,7 +73,7 @@
 
         <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
         {% if page_obj.has_previous %}
-        <a class="btn" href="/company/?page={{ page_obj.previous_page_number }}" tabindex="-1"><i
+        <a class="btn" href="/stack/?page={{ page_obj.previous_page_number }}" tabindex="-1"><i
                 class="fa-solid fa-angle-left"></i></a>
         {% else %}
         <!-- <li class="page-item disabled">
@@ -103,7 +102,7 @@
 
         {% if page_obj.has_next %}
         <!-- 이전페이지 객체가 있으면 [Next]버튼 활성화 -->
-        <a class="btn" href="/company/?page={{ page_obj.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>
+        <a class="btn" href="/stack/?page={{ page_obj.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>
         {% else %}
         <li class="page-item disabled"> <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
             <a class="btn disabled"><i class="fa-solid fa-angle-right"></i></a>

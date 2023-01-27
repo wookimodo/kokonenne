@@ -9,7 +9,7 @@ class StackList(ListView):
     model = Stack
     template_name = "stack/stack_list.html"
     ordering = 'pk'
-    paginate_by = 12
+    paginate_by = 15
 
 
 class StackDetail(DetailView):
