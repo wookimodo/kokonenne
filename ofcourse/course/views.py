@@ -4,8 +4,6 @@ from django.views.generic import ListView, FormView,View
 from .forms import CourseSearchForm
 from django.db.models import Q
 from django.core.paginator import Paginator
-from django.shortcuts import redirect
-from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
@@ -39,31 +37,29 @@ def index(request):
 def course(request):
     course_list = Course.objects.all()
     stack = Stack.objects.all()
-
     context = {
         'course_list':course_list,
-        'stack':stack,
+        'stack':stack
     }
     sort = request.GET.get('sort','') #url의 쿼리스트링을 가져온다. 없는 경우 공백을 리턴한다
 
     if sort == 'review':
-        context['course_list'] = course_list.order_by('-review_cnt')[:100]
-
+        context['course_list'] = Course.objects.all().order_by('-review_cnt')[:100]
+        return render(request, 'course/list.html', context)
     elif sort == 'recommend':
-        context['course_list'] = course_list.order_by('-recommend')[:100]
-
+        context['course_list'] = Course.objects.all().order_by('-recommend')[:100]
+        return render(request, 'course/list.html', context)
     elif sort == 'score':
-        context['course_list'] = course_list.order_by('-score')[:100]
-
+        context['course_list'] = Course.objects.all().order_by('-score')[:100]
+        return render(request, 'course/list.html', context)
     else:
-        course_list = course_list.order_by('rank')
-        paginator = Paginator(course_list, 50)
+        course_list = Course.objects.all().order_by('rank')
+        paginator = Paginator(course_list, 100)
         page = request.GET.get('page', '')
         course = paginator.get_page(page)
         context['course_list'] = course
         return render(request, 'course/list.html', context)
 
-    return render(request, 'course/list.html', context)
 
 # search FBV형
 def search(request):
@@ -90,43 +86,19 @@ def search(request):
 def filter(request):
     course_list = Course.objects.all().order_by('rank')
     stack_list = Stack.objects.all()
-    sort = request.GET.get('sort','')
-
-    try:
-        s = request.GET.getlist('s')
-        if s: # 체크박스에서 값이 넘어오면
-            course_query = Q()
-            stack_query = Q()
-            for i in s:
-                # or 조건을 주기 위함
-                course_query = course_query | Q(stack__name__iexact=i)
-                stack_query = stack_query | Q(name__iexact=i)
-            filter_list = course_list.filter(course_query)
-            stack = stack_list.filter(stack_query)
-
-        context = {
-            'course':filter_list, 
-            'stack':stack,
-            'stack_list':stack_list,
-        }
-
-    except Exception as e:
-        return HttpResponse(
-        "<script>alert('기술 스택을 선택해주세요!');location.href='/course';</script>")
-        
-    if sort == 'review':
-        filter_list = filter_list.order_by('-review_cnt')
-    elif sort == 'recommend':
-        filter_list = filter_list.order_by('-recommend')
-    elif sort == 'score':
-        filter_list = filter_list.order_by('-score')       
-    else:
-        filter_list = filter_list.order_by('rank')
-
-    return render(request, 'course/course_filter.html',context)
-
-
-
+    s = request.GET.getlist('s')
+    filter_list = None
+    stack = None
+    if s: # 체크박스에서 값이 넘어오면
+        course_query = Q()
+        stack_query = Q()
+        for i in s:
+            # or 조건을 주기 위함
+            course_query = course_query | Q(stack__name__iexact=i)
+            stack_query = stack_query | Q(name__iexact=i)
+        filter_list = course_list.filter(course_query)
+        stack = stack_list.filter(stack_query)
+    return render(request, 'course/course_filter.html',{'course':filter_list, 'stack':stack,'stack_list':stack_list})
 
 
 

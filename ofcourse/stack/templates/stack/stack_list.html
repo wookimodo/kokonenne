@@ -40,24 +40,9 @@
 
 
     <div class="content">
-        <div class="filter-area">
-            <div class="btn-wrap">
-                <div class="btn-r-wrap">
-                    <p class="title">필터 </p>
-                    <a class="btn" href="/stack">기본</a>
-                    <a class="btn" href="?filter=frontend">프론트엔드</a>
-                    <a class="btn" href="?filter=backend">백엔드</a>
-                    <a class="btn" href="?filter=database">데이터베이스</a>
-                    <a class="btn" href="?filter=DevOps">데브옵스</a>
-                    <a class="btn" href="?filter=data">데이터</a>
-                    <a class="btn" href="?filter=TestingTool">테스팅툴</a>
-                    <a class="btn" href="?filter=businessTool">협업툴</a>
-                </div>
-            </div>
-        </div>
         <main class="list-area skill">
             <ul>
-                {% for s in object_list %}
+                {% for s in stack_list %}
                 <li class="list-card">
                     <div class="company-icon">
                         <a href="{{s.id}}">
@@ -69,8 +54,7 @@
                             <h3>{{ s.name }}</h3>
                         </a>
                     </div>
-                    <p class="skill-info">
-                    </p>
+                    <p class="skill-info">유사 기술 스택 목록&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ s.assort }}</p>
                     <div class="skill-list">
                         <ul>
                             {% for rs in s.related_stack_set.iterator %}
@@ -84,7 +68,7 @@
             </ul>
         </main>
     </div>
-    {% if page != 'filter' %}
+
     <ul class="pagination">
 
         <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
@@ -125,7 +109,6 @@
         </li>
         {% endif %}
     </ul>
-    {% endif %}
 
 
     <footer>

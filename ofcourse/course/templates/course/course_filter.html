@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
     <!-- global css -->
     <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="{%static 'js/index.js'%}"></script>
+    <script type="text/javascript" src="{%static 'js/ready.js' %}"></script>
 </head>
 
 <body class="list-page">
@@ -52,10 +54,10 @@
                 </div>
                 <div class="btn-r-wrap">
                     <p class="title">필터 </p>
-                    <a class="btn" href="{{filter}}">기본</a>
-                    <a class="btn" href="{{filter}}?sort=review">리뷰많은순</a>
-                    <a class="btn" href="{{filter}}?sort=recommend">추천많은순</a>
-                    <a class="btn" href="{{filter}}?sort=score">평점순</a>
+                    <a class="btn" href="/course">기본</a>
+                    <a class="btn" href="?sort=review">리뷰많은순</a>
+                    <a class="btn" href="?sort=recommend">추천많은순</a>
+                    <a class="btn" href="?sort=score">평점순</a>
                 </div>
             </div>
             <form action="{% url 'filter' %}" method="get">
@@ -66,7 +68,7 @@
                         <span class="filterDiv {{s.assort}}">
                             <i class="skill-logo" style="background-image: url('{{ s.logo }}');">
                             </i>
-                            <input type="checkbox" class="btn-check" id="btncheck{{forloop.counter}}" autocomplete="off"
+                            <input type="checkbox" class="btn-check" onclick="ready()" id="btncheck{{forloop.counter}}" autocomplete="off"
                                 name="s" , value="{{s.name}}">
                             <label class="btn btn-outline-primary" for="btncheck{{forloop.counter}}">{{s.name}}</label>
                         </span>
@@ -90,7 +92,7 @@
                     </a>
                     <div class="info-box">
                         <h3>
-                            <a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }}</a>
+                            <a href="{{c.url}}" target="_blank">{{c.title|truncatechars:50 }}</a>
                         </h3>
                         <div class="keywords">
                             {% for s in c.stack.iterator %}
@@ -125,8 +127,6 @@
         document.getElementById("start").click();
     });
 </script>
-
 <script type="text/javascript" src="{%static 'js/list.js' %}"></script>
-
 
 </html>

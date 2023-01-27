@@ -37,12 +37,26 @@
                 <p class="skill-category">{{ company.category}}</p>
                 {% endif %}
                 <ul class="skill-info">
+                    {% if company.company_link %}
                     <li>
                         <a href="{{ company.company_link }}" target="_blank">웹 사이트</a>
                     </li>
+                    {% else %}
+                    <li>
+                        <a href="#">웹 사이트</a>
+                    </li>
+                    {% endif %}
+
+                    {% if company.company_recruit_link %}
                     <li>
                         <a href="{{ company.company_recruit_link }}" target="_blank">채용 페이지</a>
                     </li>
+                    {% else %}
+                    <li>
+                        <a href="#">채용 페이지</a>
+                    </li>
+                    {% endif %}
+                    
                 </ul>
             </div>
         </aside>
