@@ -1,4 +1,5 @@
 {% load static %}
+{% load humanize %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -56,7 +57,7 @@
                             {% elif cor.course.price == 0 %}
                             <p class="price">무료</p>
                             {% else %}
-                            <p class="price">{{ cor.course.price }}</p>
+                            <p class="price">{{ cor.course.price|intcomma }}</p>
                             {% endif %}
                         </div>
                     </li>
