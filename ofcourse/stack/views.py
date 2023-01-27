@@ -29,6 +29,9 @@ class StackList(ListView):
         elif filter == 'DevOps':
             context['object_list'] = Stack.objects.filter(assort__iexact = '데브옵스')
             context['page'] = 'filter'
+        elif filter == 'Language':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '언어')
+            context['page'] = 'filter'
         elif filter == 'data':
             context['object_list'] = Stack.objects.filter(assort__iexact = '데이터')
             context['page'] = 'filter'
