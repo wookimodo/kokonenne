@@ -17,22 +17,24 @@ def course(request):
         'course_list':course_list,
         'stack':stack
     }
+    
     sort = request.GET.get('sort','') #url의 쿼리스트링을 가져온다. 없는 경우 공백을 리턴한다
 
     if sort == 'review':
-        context['course_list'] = Course.objects.all().order_by('-review_cnt')[:100]
+        context['course_list'] = Course.objects.all().order_by('-review_cnt')
     elif sort == 'recommend':
-        context['course_list'] = Course.objects.all().order_by('-recommend')[:100]
+        context['course_list'] = Course.objects.all().order_by('-recommend')
     elif sort == 'score':
-        context['course_list'] = Course.objects.all().order_by('-score')[:100]
+        context['course_list'] = Course.objects.all().order_by('-score')
     elif sort == 'free':
         context['course_list'] = Course.objects.filter(price__iexact = 0)
     else:
-        course_list = Course.objects.all().order_by('rank')
-        paginator = Paginator(course_list, 100)
-        page = request.GET.get('page', '')
-        course = paginator.get_page(page)
-        context['course_list'] = course
+        context['course_list'] = Course.objects.all().order_by('rank')
+
+    paginator = Paginator(context['course_list'], 100)
+    page = request.GET.get('page', '')
+    course = paginator.get_page(page)
+    context['course_list'] = course
         
     return render(request, 'course/list.html', context)
 

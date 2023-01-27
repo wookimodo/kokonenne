@@ -122,61 +122,49 @@
                 {% endfor %}
 
                 <!-- Pagination-->
-
-                {% if is_paginated %}
-                <nav aria-label="Pagination">
-                    <hr class="my-0" />
-                    <ul class="pagination justify-content-center my-4">
-                        <!-- 이전 페이지로 돌아가기 -->
-                        {% if page_obj.has_previous %}
-                        <!-- 이전 페이지 객체가 있으면 [prev]버튼 활성화 -->
-                        <li class="page-item">
-                            <a class="page-link"
-                                href="{% url 'course:course' %}?page{{ page_obj.previous_page_number }}"
-                                tabindex="-1">Prev</a>
-                        </li>
-                        {% else %}
-                        <!-- 이전페이지 객체가 없으면 [prev]버튼 비활성화 -->
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" tabindex="-1">Prev</a>
-                        </li>
-                        {% endif %}
-                        <!-- 페이지를 번호로 출력하기 -->
-                        {% for page in page_obj.paginator.page_range %}
-                        <!-- 현재 선택한 페이지 번호는 비활성화 시킴 -->
-                        {% if page_obj.number == forloop.counter %}
-                        {% if page_number >= page_obj.number|add:-5 and page_number <= page_obj.number|add:5 %} <li
-                            class="page-item disabled" aria-current="page">
-                            <a class="page-link" style="background-color: #7eacf6;"
-                                href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
-                            </li>
-                            {% else %}
-                            <!-- 현재 선택한 페이지 번호는 활성화 시킴 -->
-                            <li class="page-item" aria-current="page">
-                                <a class="page-link" href="{{ request.path }}?page={{ forloop.counter }}">{{
-                                    forloop.counter}}</a>
-                            </li>
-                            {% endif %}
-                            {% endif %}
-                            {% endfor %}
-                            <!-- 다음 페이지로 가기 -->
-                            {% if page_obj.has_next %}
-                            <!-- 이전페이지 객체가 있으면 [next]버튼 활성화 -->
-                            <li class="page-item">
-                                <a class="page-link"
-                                    href="{% url 'course:course' %}?page={{ page_obj.next_page_number }}">Next</a>
-                            </li>
-                            {% else %}
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                            {% endif %}
-                    </ul>
-                </nav>
-                {% endif %}
             </ul>
         </main>
     </div>
+    <ul class="pagination">
+
+        <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
+        {% if course_list.has_previous %}
+        <a class="btn" href="/course/?page={{ page_obj.previous_page_number }}" tabindex="-1"><i
+                class="fa-solid fa-angle-left"></i></a>
+        {% else %}
+        <!-- <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">이전</a>
+            </li> -->
+        <a class="btn disabled" tabindex="-1"><i class="fa-solid fa-angle-left"></i></a>
+        {% endif %}
+
+
+        {# 페이지를 번호로 출력하기 #}
+        {% for page in course_list.paginator.page_range %} {# 전체 페이지수를 가져옴 #}
+        {# 현재 선택한 페이지 번호는 비활성화 시킴 #}
+        {% if course_list.number == forloop.counter %}
+        {# 위에 page_obj 대신 page 로도 되는지 테스트해보기 #}
+        <li>
+            {# 현재 선택한 페이지 번호는 활성화 시킴 #}
+            <a class="btn on" href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
+        </li>
+        {% else %}
+        {# 비활성화 시켜주는 class, 회색처리되서 클릭되지 않게함 #}
+        <li>
+            <a class="btn" href="{{ request.path }}?page={{ forloop.counter }}">{{ forloop.counter }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+
+        {% if course_list.has_next %}
+        <!-- 이전페이지 객체가 있으면 [Next]버튼 활성화 -->
+        <a class="btn" href="/course/?page={{ course_list.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>
+        {% else %}
+        <li class="page-item disabled"> <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
+            <a class="btn disabled"><i class="fa-solid fa-angle-right"></i></a>
+        </li>
+        {% endif %}
+    </ul>
     <footer>
         <p>
             Copyright © 2023. Kokonenne All Rights Reserved.
