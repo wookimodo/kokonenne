@@ -64,7 +64,7 @@ def search(request):
     if search:
         stack_list = stacks.filter(
             Q(name__icontains=search) |
-            Q(stack_dict__search_word__icontains=search)
+            Q(stack_dict__search_word__iexact=search)
         ).distinct()
         return render(request, 'stack/stack_search.html', {'stack':stack_list, 'search':search})
     else:
