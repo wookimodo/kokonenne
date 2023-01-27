@@ -25,7 +25,7 @@
     </header>
     <div class="title-area">
         <h2 class="page-title">스택별 기업</h2>
-        <h3>세상의 거진 모든 스택을 모았다!👀</h3>
+        <p class="detail-title">세상의 거진 모든 스택을 모았다! 👀</p>
     </div>
 
     <div class="search-area">
@@ -66,16 +66,20 @@
                     </div>
                     <div class="info-box">
                         <a href="{{s.id}}" style="text-decoration: none;">
-                            <h3>{{ s.name }}</h3>
+                            <h3>{{ s.name }}  {{s.assort}}</h3>
                         </a>
                     </div>
                     <p class="skill-info">
+                        연관 기술 스택
                     </p>
                     <div class="skill-list">
                         <ul>
                             {% for rs in s.related_stack_set.iterator %}
-                            <li><a class="skill-icon" href="{{rs.related_stack_pk}}"><img
-                                        src="{{ rs.related_stack_logo }}" alt="아이콘"></a></li>
+                            <li>
+                                <a class="skill-icon" href="{{rs.related_stack_pk}}">
+                                    <img src="{{ rs.related_stack_logo }}" alt="아이콘">
+                                </a>
+                            </li>
                             {% endfor %}
                         </ul>
                     </div>

@@ -181,8 +181,12 @@ footer p {
   width: 80%;
   margin: 0 auto;
 }
-.title-area h2 {
+.title-area .page-title {
   font-size: 2.6rem;
+  margin-bottom: 0;
+}
+.title-area .detail-title {
+  margin: 0;
 }
 
 .text-highlight {
@@ -281,19 +285,10 @@ footer p {
 .list-page .point {
   color: var(--main-color);
   font-size: inherit;
+  background-color: var(--main-color2);
+  padding: 0 6px;
   position: relative;
   margin: 0 0.2rem;
-}
-.list-page .point::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  background-color: var(--main-color2);
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 .list-page .page-title {
   margin-top: 100px;
@@ -602,7 +597,7 @@ footer p {
   -webkit-line-clamp: 2; /* 라인수 */
   -webkit-box-orient: vertical;
   word-wrap: break-word;
-  line-height: 1.8rem;
+  line-height: 1.2;
   height: 3.6rem; /* line-height 가 1.8rem 이고 2라인을 자르기 때문에 height는 1.8rem * 2 = 3.6rem */
   margin: 1rem 0 0;
 }
