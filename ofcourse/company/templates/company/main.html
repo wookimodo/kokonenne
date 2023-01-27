@@ -36,7 +36,7 @@
         </form>
     </div>
 
-     
+
     <!-- 검색을 했을 때 -->
     <div class="content">
         <main class="list-area skill">
@@ -110,7 +110,8 @@
         <!-- 이전페이지 객체가 있으면 [Next]버튼 활성화 -->
         <a class="btn" href="/company/?page={{ page_obj.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>
         {% else %}
-        <li class="page-item disabled"> <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
+        <li class="page-item disabled">
+            <!-- 여기 비활성화 안해주면 이상한데로 계속 감-->
             <a class="btn disabled"><i class="fa-solid fa-angle-right"></i></a>
         </li>
         {% endif %}

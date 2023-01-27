@@ -52,10 +52,10 @@
                 </div>
                 <div class="btn-r-wrap">
                     <p class="title">필터 </p>
-                    <a class="btn" href="/course">기본</a>
-                    <a class="btn" href="?sort=review">리뷰많은순</a>
-                    <a class="btn" href="?sort=recommend">추천많은순</a>
-                    <a class="btn" href="?sort=score">평점순</a>
+                    <a class="btn" href="{{filter}}">기본</a>
+                    <a class="btn" href="{{filter}}?sort=review">리뷰많은순</a>
+                    <a class="btn" href="{{filter}}?sort=recommend">추천많은순</a>
+                    <a class="btn" href="{{filter}}?sort=score">평점순</a>
                 </div>
             </div>
             <form action="{% url 'filter' %}" method="get">
@@ -90,7 +90,7 @@
                     </a>
                     <div class="info-box">
                         <h3>
-                            <a href="{{c.url}}" target="_blank">{{c.title|truncatechars:50 }}</a>
+                            <a href="{{c.url}}" target="_blank">{{c.title|truncatechars:20 }}</a>
                         </h3>
                         <div class="keywords">
                             {% for s in c.stack.iterator %}
@@ -125,6 +125,8 @@
         document.getElementById("start").click();
     });
 </script>
+
 <script type="text/javascript" src="{%static 'js/list.js' %}"></script>
+
 
 </html>
