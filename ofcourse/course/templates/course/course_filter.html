@@ -97,7 +97,9 @@
                         <p class="teacher">{{ c.teacher }}</p>
                         <p class="rate">{{ c.score }}</p>
                         {% if c.price == null %}
-                        <p class="price">🔗</p>
+                        <a href="{{c.url}}" style="text-decoration: none;"  target="_blank">
+                            <p class="price">🔗</p>
+                        </a>
                         {% elif c.price == 0 %}
                         <p class="price">무료</p>
                         {% else %}
