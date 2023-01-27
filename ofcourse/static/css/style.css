@@ -604,6 +604,7 @@ footer p {
   word-wrap: break-word;
   line-height: 1.8rem;
   height: 3.6rem; /* line-height 가 1.8rem 이고 2라인을 자르기 때문에 height는 1.8rem * 2 = 3.6rem */
+  margin: 1rem 0 0;
 }
 .content > .list-area .list-card .info-box h3 > a {
   all: inherit;
@@ -616,11 +617,30 @@ footer p {
   display: inline-block;
   margin-top: -0.4rem;
 }
+.content > .list-area .list-card .info-box .keywords {
+  margin-top: 0.4rem;
+}
+.content > .list-area .list-card .info-box .keywords .point {
+  padding: 0 0.8rem;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 600;
+}
+.content > .list-area .list-card .info-box .level {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  color: var(--font-color);
+  font-weight: 500;
+}
 .content > .list-area .list-card .info-box .teacher {
-  margin-top: -10px;
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin-top: 0.4rem;
 }
 .content > .list-area .list-card .info-box .rate {
-  margin-top: -15px;
+  margin: 1.4rem 0 0;
 }
 .content > .list-area .list-card .info-box .rate::before {
   content: "\f005";
@@ -629,6 +649,10 @@ footer p {
   margin-right: 3px;
   vertical-align: top;
   color: #ffcb30;
+}
+.content > .list-area .list-card .info-box .price {
+  line-height: 1;
+  margin: 0.4rem 0 0;
 }
 .content > .list-area .list-card .info-box .price::before {
   content: "₩";

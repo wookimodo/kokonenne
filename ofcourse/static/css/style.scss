@@ -695,6 +695,7 @@ footer {
                     word-wrap: break-word;
                     line-height: 1.8rem;
                     height: 3.6rem; /* line-height 가 1.8rem 이고 2라인을 자르기 때문에 height는 1.8rem * 2 = 3.6rem */
+                    margin: 1rem 0 0;
 
                     > a {
                         all: inherit;
@@ -708,13 +709,33 @@ footer {
                         }
                     }
                 }
+                .keywords {
+                    margin-top: 0.4rem;
+                    
+                    .point {
+                        padding: 0 .8rem;
+                        font-size: 1.4rem;
+                        margin: 0;
+                        font-weight: 600;
+                    }
+                }
+
+                .level {
+                    margin-top: .4rem;
+                    margin-bottom: 0;
+                    font-size: 1.4rem;
+                    color: var(--font-color);
+                    font-weight: 500;
+                }
 
                 .teacher {
-                    margin-top: -10px;
+                    margin: 0;
+                    font-size: 1.4rem;
+                    line-height: 1.2;
+                    margin-top: 0.4rem;
                 }
                 .rate {
-                    margin-top: -15px;
-
+                    margin: 1.4rem 0 0;
                     &::before {
                         content: "\f005";
                         font-family: var(--icon-font);
@@ -725,6 +746,9 @@ footer {
                     }
                 }
                 .price {
+                    line-height: 1;
+                    margin: .4rem 0 0;
+
                     &::before {
                         content: "₩";
                         margin-right: 3px;
