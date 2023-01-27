@@ -14,13 +14,57 @@ class CompanyList(ListView):
 
     paginate_by = 15
 
-    # def get_context_data(self, **kwargs):
-    #     context = super(CompanyList, self).get_context_data()
-    #     context['company_list'] = Company.objects.all()
-        
-    #     return context
+    def get_context_data(self, **kwargs):
+        context = super(CompanyList, self).get_context_data()
+        context['stack'] = Stack.objects.all()
 
-    
+        filter = self.request.GET.get('filter','') #url의 쿼리스트링을 가져온다. 없는 경우 공백을 리턴한다
+
+        if filter == 'foreign':
+            context['object_list'] = Company.objects.filter(stack_info__iexact = '외국기업')
+            context['page'] = 'filter'
+        elif filter == 'comprehensive':
+            context['object_list'] = Company.objects.filter(category__iexact = '종합 기업')
+            context['page'] = 'filter'
+        elif filter == 'social':
+            context['object_list'] = Company.objects.filter(category__iexact = '소셜/컨텐츠 기업')
+            context['page'] = 'filter'
+        elif filter == 'ecommerce':
+            context['object_list'] = Company.objects.filter(category__iexact = '이커머스 기업')
+            context['page'] = 'filter'
+        elif filter == 'trip':
+            context['object_list'] = Company.objects.filter(category__iexact = '여행 기업')
+            context['page'] = 'filter'
+        elif filter == 'finance':
+            context['object_list'] = Company.objects.filter(category__iexact = '금융/보험 기업')
+            context['page'] = 'filter'
+        elif filter == 'education':
+            context['object_list'] = Company.objects.filter(category__iexact = '교육 기업')
+            context['page'] = 'filter'
+        elif filter == 'mobility':
+            context['object_list'] = Company.objects.filter(category__iexact = '모빌리티 기업')
+            context['page'] = 'filter'
+        elif filter == 'foodtech':
+            context['object_list'] = Company.objects.filter(category__iexact = '푸드테크 기업')
+            context['page'] = 'filter'
+        elif filter == 'realestate':
+            context['object_list'] = Company.objects.filter(category__iexact = '부동산/인테리어 기업')
+            context['page'] = 'filter'
+        elif filter == 'healthcare':
+            context['object_list'] = Company.objects.filter(category__iexact = '헬스케어 기업')
+            context['page'] = 'filter'
+        elif filter == 'ai':
+            context['object_list'] = Company.objects.filter(category__iexact = '인공지능 기업')
+            context['page'] = 'filter'
+        elif filter == 'recruitment':
+            context['object_list'] = Company.objects.filter(category__iexact = '직장 기업')
+            context['page'] = 'filter'
+        elif filter == 'etc':
+            context['object_list'] = Company.objects.filter(category__iexact = '기타 기업')
+            context['page'] = 'filter'
+
+        return context
+
 
 class Companydetail(DetailView):
     model = Company
@@ -70,4 +114,3 @@ def filter(request):
 
 
     return render(request, 'company/filter.html',{'company_list' : company_list})
-

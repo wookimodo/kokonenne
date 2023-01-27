@@ -24,7 +24,7 @@
     </header>
     <div class="title-area">
         <h2 class="page-title">기업별 스택</h2>
-        <p class="detail-title">기업들이 무슨 기술 스택을 사용하는지 확인해봐~🤣</p>
+        <h3>기업들이 무슨 기술 스택을 사용하는지 확인해봐~🤣</h3>
     </div>
     <div class="search-area">
         <form action="{% url 'company:search' %}" method="GET">
@@ -36,11 +36,34 @@
         </form>
     </div>
 
+     
     <!-- 검색을 했을 때 -->
     <div class="content">
+        <div class="filter-area">
+            <div class="btn-wrap">
+                <div class="btn-r-wrap">
+                    <p class="title">필터 </p>
+                    <a class="btn" href="/company">기본</a>
+                    <a class="btn" href="?filter=foreign">외국기업</a>
+                    <a class="btn" href="?filter=comprehensive">종합</a>
+                    <a class="btn" href="?filter=social">소셜/컨텐츠</a>
+                    <a class="btn" href="?filter=ecommerce">이커머스</a>
+                    <a class="btn" href="?filter=trip">여행</a>
+                    <a class="btn" href="?filter=finance">금융/보험</a>
+                    <a class="btn" href="?filter=education">교육</a>
+                    <a class="btn" href="?filter=mobility">모빌리티</a>
+                    <a class="btn" href="?filter=foodtech">푸드테크</a>
+                    <a class="btn" href="?filter=realestate">부동산/인테리어</a>
+                    <a class="btn" href="?filter=healthcare">헬스케어</a>
+                    <a class="btn" href="?filter=ai">인공지능</a>
+                    <a class="btn" href="?filter=recruitment">채용</a>
+                    <a class="btn" href="?filter=etc">기타</a>
+                </div>
+            </div>
+        </div>
         <main class="list-area skill">
             <ul>
-                {% for c in company_list %}
+                {% for c in object_list %}
                 <li class="list-card">
                     <div class="company-icon">
                         <a href="{{c.id}}">
@@ -49,11 +72,15 @@
                     </div>
                     <div class="info-box">
                         <a href="{{c.id}}" style="text-decoration: none;">
-                            <h3>{{ c.name }} <span class="sort">{{c.category}}</span></h3>
+                            <h3>{{ c.name }}</h3>
                         </a>
                     </div>
                     <p class="skill-info">
                         {{ c.stack_info }}
+                        {% if c.category %}
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ c.category }}
+                        {% endif %}
+
                     </p>
                     <div class="skill-list">
                         <ul>
@@ -69,7 +96,7 @@
             </ul>
         </main>
     </div>
-
+    {% if page != 'filter' %}
     <ul class="pagination">
 
         <!-- 이전 페이지 객체가 있으면 '이전' 버튼 활성화 -->
@@ -111,7 +138,7 @@
         {% endif %}
 
     </ul>
-
+    {% endif %}
     <footer>
         <p>
             Copyright © 2023. Kokonenne All Rights Reserved.
