@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="header">
     <a href="/" style="text-decoration: none;">
         <h1>Of Course</h1>
     </a>
@@ -14,3 +14,9 @@
         </div>
     </nav>
 </div>
+
+<script>
+    const loginBtn = document.querySelector('#header .btn-wrap .btn')
+    console.log(loginBtn)
+    loginBtn.addEventListener('click', () =>{alert("준비중입니다")})
+</script>
