@@ -122,6 +122,10 @@ USE_TZ = False
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (BASE_DIR / 'static',)
 
+# debug = False # 일때, 배포모드일 떄 설정
+# STATIC_URL = 'static_/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static_')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
