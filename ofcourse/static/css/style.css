@@ -394,14 +394,19 @@ footer p {
   margin-right: 1rem;
 }
 .content .filter-area .btn-wrap .btn-r-wrap .btn {
-  border: 1px solid var(--font-color3);
+  border: 1px solid var(--bd-color);
   padding: 0.4rem 1rem;
   text-decoration: none;
   display: inline-block;
   border-left: 0;
+  background-color: var(--bg-color);
 }
 .content .filter-area .btn-wrap .btn-r-wrap .btn:nth-child(2) {
-  border-left: 1px solid var(--font-color3);
+  border-left: 1px solid var(--bd-color);
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+.content .filter-area .btn-wrap .btn-r-wrap .btn:last-child {
+  border-radius: 0 0.4rem 0.4rem 0;
 }
 .content .filter-area .skill-info-area {
   border-radius: 0 0 1rem 1rem;
