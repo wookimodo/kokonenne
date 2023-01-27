@@ -88,9 +88,15 @@ header {
         font-size: 1.8rem;
         color: var(--main-color);
         margin: 0;
+        width: 100px;
     }
 
     nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 100px);
+
         ul {
             display: flex;
             margin-left: 5rem;
@@ -104,6 +110,7 @@ header {
                     cursor: pointer;
                     text-decoration: none;
                     font-weight: 500;
+                    vertical-align: middle;
 
                     &:hover {
                         color: var(--main-color);
@@ -126,6 +133,20 @@ header {
                 &:first-child::after {
                     display: none;
                 }
+            }
+        }
+
+        .btn-wrap {
+            
+            .btn {
+                display: block;
+                color: var(--bg-color);
+                text-decoration: none;
+                padding: .6rem 2rem;
+                background-color: var(--main-color);
+                border-radius: 5rem;
+                font-weight: 600;
+                font-size: 1.6rem;
             }
         }
     }

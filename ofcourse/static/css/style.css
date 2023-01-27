@@ -82,6 +82,13 @@ header h1 {
   font-size: 1.8rem;
   color: var(--main-color);
   margin: 0;
+  width: 100px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 100px);
 }
 header nav ul {
   display: flex;
@@ -96,6 +103,7 @@ header nav ul li > a {
   cursor: pointer;
   text-decoration: none;
   font-weight: 500;
+  vertical-align: middle;
 }
 header nav ul li > a:hover {
   color: var(--main-color);
@@ -114,6 +122,16 @@ header nav ul li::after {
 }
 header nav ul li:first-child::after {
   display: none;
+}
+header nav .btn-wrap .btn {
+  display: block;
+  color: var(--bg-color);
+  text-decoration: none;
+  padding: 0.6rem 2rem;
+  background-color: var(--main-color);
+  border-radius: 5rem;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 footer {
