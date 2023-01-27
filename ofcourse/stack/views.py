@@ -8,8 +8,38 @@ from django.db.models import Q
 class StackList(ListView): 
     model = Stack
     template_name = "stack/stack_list.html"
-    ordering = 'pk'
-    paginate_by = 15
+    ordering = '?'
+    paginate_by = 12
+
+    def get_context_data(self, **kwargs):
+        context = super(StackList, self).get_context_data()
+        context['stack'] = Stack.objects.all()
+
+        filter = self.request.GET.get('filter','') #url의 쿼리스트링을 가져온다. 없는 경우 공백을 리턴한다
+
+        if filter == 'frontend':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '프론트엔드')
+            context['page'] = 'filter'
+        elif filter == 'backend':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '백엔드')
+            context['page'] = 'filter'
+        elif filter == 'database':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '데이터베이스')
+            context['page'] = 'filter'
+        elif filter == 'DevOps':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '데브옵스')
+            context['page'] = 'filter'
+        elif filter == 'data':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '데이터')
+            context['page'] = 'filter'
+        elif filter == 'TestingTool':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '테스팅툴')
+            context['page'] = 'filter'
+        elif filter == 'businessTool':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '협업툴')
+            context['page'] = 'filter'
+
+        return context
 
 
 class StackDetail(DetailView):
