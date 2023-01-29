@@ -385,6 +385,10 @@ footer p {
   padding: 0.6rem 1.6rem;
   border-radius: 0.4rem 0.4rem 0 0;
 }
+.content .filter-area .btn-wrap .btn-l-wrap .btn.on {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+}
 .content .filter-area .btn-wrap .btn-r-wrap {
   display: inline-block;
   font-size: 0;
@@ -400,6 +404,10 @@ footer p {
   display: inline-block;
   border-left: 0;
   background-color: var(--bg-color);
+}
+.content .filter-area .btn-wrap .btn-r-wrap .btn.on {
+  background-color: var(--main-color);
+  color: var(--bg-color);
 }
 .content .filter-area .btn-wrap .btn-r-wrap .btn:nth-child(2) {
   border-left: 1px solid var(--bd-color);
@@ -675,6 +683,9 @@ footer p {
 .content > .list-area .list-card .info-box .price::before {
   content: "₩";
   margin-right: 3px;
+}
+.content > .list-area.skill {
+  margin-top: -6rem;
 }
 .content > .list-area.skill .list-card {
   width: calc(33.3333333333% - 0.8rem);

@@ -439,6 +439,11 @@ footer {
                     padding: 0.6rem 1.6rem;
                     border-radius: 0.4rem 0.4rem 0 0;
                     // border-bottom: 0;
+
+                    &.on {
+                        background-color: var(--main-color);
+                        color: var(--bg-color);
+                    }
                 }
             }
 
@@ -458,6 +463,12 @@ footer {
                     display: inline-block;
                     border-left: 0;
                     background-color: var(--bg-color);
+
+
+                    &.on {
+                        background-color: var(--main-color);
+                        color: var(--bg-color);
+                    }
 
                     &:nth-child(2) {
                         border-left: 1px solid var(--bd-color);
@@ -788,6 +799,7 @@ footer {
         }
 
         &.skill {
+            margin-top: -6rem;
             .list-card {
                 &.type2 {
                     .skill-info {

@@ -1,4 +1,4 @@
-//* 가로 스크롤 구현
+// * 가로 스크롤 구현 =====================================
 console.log('index.js loaded')
 
 //* 요소, 사이즈
@@ -90,3 +90,18 @@ for (i = 0; i < lists.length; i++) {
     };
     bindEvents();
 }
+
+
+//* filter에 따른 버튼 css 추가 =====================================
+// 1. url에서 filter 값 가져오기
+let filter = window.location.search.split('=')[1]
+
+// 2. 필터에서 url filter 값과 동일한 필터 버튼을 찾기
+let filterBtns = document.querySelectorAll('.btn-r-wrap .btn')
+filterBtns.forEach(filterBtn => {
+    filterBtnName = filterBtn.href.split('=')[1]
+    // console.log(filterBtnName)
+    if (filter === filterBtnName){
+        filterBtn.classList.add('on')
+    }
+});
