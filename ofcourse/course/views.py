@@ -31,7 +31,7 @@ def course(request):
     else:
         context['course_list'] = Course.objects.all().order_by('rank')
 
-    paginator = Paginator(context['course_list'], 100)
+    paginator = Paginator(context['course_list'], 96)
     page = request.GET.get('page', '')
     course = paginator.get_page(page)
     context['course_list'] = course
@@ -54,7 +54,7 @@ def search(request):
         # print(search_list.query)
 
         # print(search_list[5].title)
-    paginator = Paginator(search_list, 10)
+    paginator = Paginator(search_list, 12)
     page = request.GET.get('page', '')
     course = paginator.get_page(page)
 
@@ -76,7 +76,14 @@ def filter(request):
             stack_query = stack_query | Q(name__iexact=i)
         filter_list = course_list.filter(course_query)
         stack = stack_list.filter(stack_query)
-    return render(request, 'course/course_filter.html',{'course':filter_list, 'stack':stack,'stack_list':stack_list})
+    
+    context = {
+        'course':filter_list, 
+        'stack':stack,
+        'stack_list':stack_list
+    }
+    
+    return render(request, 'course/course_filter.html', context)
 
 
 

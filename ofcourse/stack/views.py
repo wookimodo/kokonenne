@@ -41,6 +41,9 @@ class StackList(ListView):
         elif filter == 'businessTool':
             context['object_list'] = Stack.objects.filter(assort__iexact = '협업툴')
             context['page'] = 'filter'
+        elif filter == 'mobile':
+            context['object_list'] = Stack.objects.filter(assort__iexact = '모바일')
+            context['page'] = 'filter'
 
         return context
 
