@@ -636,7 +636,7 @@ footer p {
   all: inherit;
   margin: 0;
   cursor: pointer;
-  margin-top: -0.2rem;
+  margin-top: 0rem;
 }
 .content > .list-area .list-card .info-box h3 > a > .point {
   font-weight: inherit;
