@@ -47,7 +47,7 @@ body a {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -409,7 +409,7 @@ footer p {
   background-color: var(--main-color);
   color: var(--bg-color);
 }
-.content .filter-area .btn-wrap .btn-r-wrap .btn:nth-child(2) {
+.content .filter-area .btn-wrap .btn-r-wrap .btn:first-child {
   border-left: 1px solid var(--bd-color);
   border-radius: 0.4rem 0 0 0.4rem;
 }

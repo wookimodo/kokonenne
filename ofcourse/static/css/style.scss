@@ -51,7 +51,7 @@ body {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -470,7 +470,7 @@ footer {
                         color: var(--bg-color);
                     }
 
-                    &:nth-child(2) {
+                    &:first-child {
                         border-left: 1px solid var(--bd-color);
                         border-radius: .4rem 0 0 .4rem;
                     }

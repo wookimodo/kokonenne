@@ -1,7 +1,7 @@
 filterSelection("all");
 
 function filterSelection(c) {
-    var x, i, filterBtnList;
+    var x, i;
     x = document.getElementsByClassName("filterDiv");
 
     if (c == "all") c = "";
