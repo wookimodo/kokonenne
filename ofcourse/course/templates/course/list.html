@@ -110,7 +110,7 @@
                         </div>
                         <p class="level">레벨 - {{ c.level }}</p>
                         <p class="teacher">{{ c.teacher }}</p>
-                        <p class="rate">{{ c.score }}</p>
+                        <p class="rate">{{ c.score }}(리뷰긍정도 : {{c.sentiment}})</p>
                         {% if c.price == null %}
                         <a href="{{c.url}}" style="text-decoration: none;"  target="_blank">
                             <p class="price">🔗</p>
