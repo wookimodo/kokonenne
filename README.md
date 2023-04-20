@@ -6,8 +6,6 @@
   <br>
 </p>
 
-목차
-
 ## 프로젝트 소개
 
 <p align="justify">
@@ -22,10 +20,11 @@
          -  구인 기업들의 IT기술 스택별로 학습할 수 있는 정보 제공
   - 추천 알고리즘 : 개발 인터넷 강의들의 데이터를 분석하여 독자적인 추천 알고리즘 모델을 구축하여 인강을 랭킹순으로 추천하고자 함.
 </p>
+<br>
 
-<p align="center">
-GIF Images
-</p>
+## 배포 링크
+
+  - http://18.204.15.215:8000/
 
 <br>
 
@@ -40,34 +39,3 @@ GIF Images
   - Tools : Figma, GitHub, VSCode, Slack, Notion
 
 <br>
-
-## 구현 기능
-
-### 기능 1
-
-### 기능 2
-
-### 기능 3
-
-### 기능 4
-
-<br>
-
-## 배운 점 & 아쉬운 점
-
-<p align="justify">
-
-</p>
-
-<br>
-
-## 라이센스
-
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
-
-<!-- Stack Icon Refernces -->
-
-[js]: /images/stack/javascript.svg
-[ts]: /images/stack/typescript.svg
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
