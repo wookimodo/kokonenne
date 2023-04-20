@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="./ofcourse/static/img/sub.jpg">
+  <img src="./ofcourse/static/img/youha.jpg">
   <br>
 </p>
 
